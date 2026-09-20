@@ -1,0 +1,584 @@
+[
+  {
+    "qid": 30,
+    "ranking": [
+      {
+        "font": "HummingStd-M",
+        "mean": 0.18245712015777826
+      },
+      {
+        "font": "SkipStd-M",
+        "mean": 0.1947791049523013
+      },
+      {
+        "font": "SkipStd-B",
+        "mean": 0.22845027223229408
+      },
+      {
+        "font": "PShinMGoPr6N-Medium",
+        "mean": 0.3045481065554278
+      },
+      {
+        "font": "YWHeiTi-Light",
+        "mean": 0.33309861538665636
+      },
+      {
+        "font": "PShinMGoPr6N-Light",
+        "mean": 0.34393011406064034
+      },
+      {
+        "font": "PShinMGoPr6N-Bold",
+        "mean": 0.3800407014787197
+      },
+      {
+        "font": "FolkPro-Bold",
+        "mean": 0.4477510005235672
+      },
+      {
+        "font": "YWHeiTi-Bold",
+        "mean": 0.4938519506582192
+      },
+      {
+        "font": "RodinHappyPro-B",
+        "mean": 0.5002118455512183
+      },
+      {
+        "font": "RodinHappyPro-UB",
+        "mean": 0.5809114245431763
+      },
+      {
+        "font": "ManyoKoinLargeStd-B",
+        "mean": 0.5949488165123122
+      },
+      {
+        "font": "ComicMysteryStd-DB",
+        "mean": 0.637141730104174
+      },
+      {
+        "font": "RodinHappyPro-L",
+        "mean": 0.65530214458704
+      },
+      {
+        "font": "TakeStd-Medium",
+        "mean": 0.6629750068698611
+      },
+      {
+        "font": "ComicReggaeStd-B",
+        "mean": 0.6644274443387985
+      },
+      {
+        "font": "PAntiqueANpProN-Light",
+        "mean": 0.6664941193802016
+      },
+      {
+        "font": "PRyuminPr6N-Light",
+        "mean": 0.6883019890104022
+      },
+      {
+        "font": "PRyuminPr6N-Medium",
+        "mean": 0.6907325259276799
+      },
+      {
+        "font": "PRyuminPr6N-Bold",
+        "mean": 0.7043181593929019
+      },
+      {
+        "font": "PAntiqueANpProN-Medium",
+        "mean": 0.7273823693394661
+      },
+      {
+        "font": "PAntiqueANpProN-Bold",
+        "mean": 0.7976262388484818
+      },
+      {
+        "font": "PAntiqueANpProN-Ultra",
+        "mean": 0.8472202899200576
+      }
+    ]
+  },
+  {
+    "qid": 46,
+    "ranking": [
+      {
+        "font": "HummingStd-M",
+        "mean": 0.1674016761508855
+      },
+      {
+        "font": "SkipStd-B",
+        "mean": 0.19576571746305985
+      },
+      {
+        "font": "SkipStd-M",
+        "mean": 0.21052357418970627
+      },
+      {
+        "font": "FolkPro-Bold",
+        "mean": 0.3034210509874604
+      },
+      {
+        "font": "PShinMGoPr6N-Bold",
+        "mean": 0.3186404115774415
+      },
+      {
+        "font": "YWHeiTi-Bold",
+        "mean": 0.3285426727750085
+      },
+      {
+        "font": "PShinMGoPr6N-Medium",
+        "mean": 0.33365142006765713
+      },
+      {
+        "font": "YWHeiTi-Light",
+        "mean": 0.36438725075938483
+      },
+      {
+        "font": "RodinHappyPro-B",
+        "mean": 0.3862372569062493
+      },
+      {
+        "font": "PShinMGoPr6N-Light",
+        "mean": 0.4071211354299025
+      },
+      {
+        "font": "RodinHappyPro-UB",
+        "mean": 0.44811352681029926
+      },
+      {
+        "font": "PRyuminPr6N-Light",
+        "mean": 0.469589312645522
+      },
+      {
+        "font": "PRyuminPr6N-Medium",
+        "mean": 0.4726488766345111
+      },
+      {
+        "font": "PRyuminPr6N-Bold",
+        "mean": 0.4907039918682792
+      },
+      {
+        "font": "PAntiqueANpProN-Light",
+        "mean": 0.5109918537465009
+      },
+      {
+        "font": "PAntiqueANpProN-Medium",
+        "mean": 0.5144824223084883
+      },
+      {
+        "font": "TakeStd-Medium",
+        "mean": 0.5183972784064033
+      },
+      {
+        "font": "ManyoKoinLargeStd-B",
+        "mean": 0.5381375253200531
+      },
+      {
+        "font": "ComicMysteryStd-DB",
+        "mean": 0.5492808060212568
+      },
+      {
+        "font": "PAntiqueANpProN-Bold",
+        "mean": 0.5590439398180355
+      },
+      {
+        "font": "ComicReggaeStd-B",
+        "mean": 0.5807627751068636
+      },
+      {
+        "font": "PAntiqueANpProN-Ultra",
+        "mean": 0.5821754078973423
+      },
+      {
+        "font": "RodinHappyPro-L",
+        "mean": 0.5907783589579843
+      }
+    ]
+  },
+  {
+    "qid": 47,
+    "ranking": [
+      {
+        "font": "HummingStd-M",
+        "mean": 0.16666625998914242
+      },
+      {
+        "font": "SkipStd-B",
+        "mean": 0.17755677963473968
+      },
+      {
+        "font": "SkipStd-M",
+        "mean": 0.18025308581335203
+      },
+      {
+        "font": "YWHeiTi-Light",
+        "mean": 0.26436314306088854
+      },
+      {
+        "font": "PShinMGoPr6N-Medium",
+        "mean": 0.2832583726516792
+      },
+      {
+        "font": "PShinMGoPr6N-Bold",
+        "mean": 0.34277912388954845
+      },
+      {
+        "font": "PShinMGoPr6N-Light",
+        "mean": 0.3606293632515839
+      },
+      {
+        "font": "FolkPro-Bold",
+        "mean": 0.36099869278924807
+      },
+      {
+        "font": "RodinHappyPro-B",
+        "mean": 0.3641700494502272
+      },
+      {
+        "font": "YWHeiTi-Bold",
+        "mean": 0.40336963694010464
+      },
+      {
+        "font": "RodinHappyPro-UB",
+        "mean": 0.46994498105985777
+      },
+      {
+        "font": "RodinHappyPro-L",
+        "mean": 0.5054384789296559
+      },
+      {
+        "font": "ManyoKoinLargeStd-B",
+        "mean": 0.5416402795485088
+      },
+      {
+        "font": "TakeStd-Medium",
+        "mean": 0.554415621395622
+      },
+      {
+        "font": "PRyuminPr6N-Bold",
+        "mean": 0.5668383671769074
+      },
+      {
+        "font": "PRyuminPr6N-Medium",
+        "mean": 0.5678743533790112
+      },
+      {
+        "font": "PRyuminPr6N-Light",
+        "mean": 0.5760003307035991
+      },
+      {
+        "font": "PAntiqueANpProN-Light",
+        "mean": 0.5811754651367664
+      },
+      {
+        "font": "ComicMysteryStd-DB",
+        "mean": 0.5843477132064956
+      },
+      {
+        "font": "PAntiqueANpProN-Medium",
+        "mean": 0.623971917799541
+      },
+      {
+        "font": "ComicReggaeStd-B",
+        "mean": 0.6615619691354888
+      },
+      {
+        "font": "PAntiqueANpProN-Bold",
+        "mean": 0.6711711191705295
+      },
+      {
+        "font": "PAntiqueANpProN-Ultra",
+        "mean": 0.7190701136631625
+      }
+    ]
+  },
+  {
+    "qid": 106,
+    "ranking": [
+      {
+        "font": "FolkPro-Bold",
+        "mean": 0.2100108045020274
+      },
+      {
+        "font": "YWHeiTi-Light",
+        "mean": 0.29589084376181873
+      },
+      {
+        "font": "PShinMGoPr6N-Medium",
+        "mean": 0.3427323257284505
+      },
+      {
+        "font": "HummingStd-M",
+        "mean": 0.3465825015945094
+      },
+      {
+        "font": "SkipStd-B",
+        "mean": 0.37514908611774445
+      },
+      {
+        "font": "SkipStd-M",
+        "mean": 0.37849843555263113
+      },
+      {
+        "font": "PShinMGoPr6N-Bold",
+        "mean": 0.39611310458609034
+      },
+      {
+        "font": "PShinMGoPr6N-Light",
+        "mean": 0.3962506502866745
+      },
+      {
+        "font": "RodinHappyPro-B",
+        "mean": 0.4275384768843651
+      },
+      {
+        "font": "YWHeiTi-Bold",
+        "mean": 0.4340996135558401
+      },
+      {
+        "font": "PRyuminPr6N-Light",
+        "mean": 0.4527867596064295
+      },
+      {
+        "font": "PRyuminPr6N-Medium",
+        "mean": 0.49083398495401653
+      },
+      {
+        "font": "PAntiqueANpProN-Light",
+        "mean": 0.5021807397050517
+      },
+      {
+        "font": "PRyuminPr6N-Bold",
+        "mean": 0.5141931527427265
+      },
+      {
+        "font": "RodinHappyPro-UB",
+        "mean": 0.5381132970963206
+      },
+      {
+        "font": "ComicMysteryStd-DB",
+        "mean": 0.5599583296903542
+      },
+      {
+        "font": "ManyoKoinLargeStd-B",
+        "mean": 0.5728041625448635
+      },
+      {
+        "font": "RodinHappyPro-L",
+        "mean": 0.5779784752854279
+      },
+      {
+        "font": "PAntiqueANpProN-Medium",
+        "mean": 0.5802347904869488
+      },
+      {
+        "font": "TakeStd-Medium",
+        "mean": 0.5804674667971474
+      },
+      {
+        "font": "PAntiqueANpProN-Bold",
+        "mean": 0.6575661727360317
+      },
+      {
+        "font": "PAntiqueANpProN-Ultra",
+        "mean": 0.7267594869647708
+      },
+      {
+        "font": "ComicReggaeStd-B",
+        "mean": 0.7478235747132983
+      }
+    ]
+  },
+  {
+    "qid": 108,
+    "ranking": [
+      {
+        "font": "FolkPro-Bold",
+        "mean": 0.13060611970722674
+      },
+      {
+        "font": "YWHeiTi-Light",
+        "mean": 0.28047041669487954
+      },
+      {
+        "font": "PShinMGoPr6N-Medium",
+        "mean": 0.3071164425462484
+      },
+      {
+        "font": "SkipStd-B",
+        "mean": 0.3136428862810135
+      },
+      {
+        "font": "HummingStd-M",
+        "mean": 0.31658539846539496
+      },
+      {
+        "font": "SkipStd-M",
+        "mean": 0.3295998968183994
+      },
+      {
+        "font": "PShinMGoPr6N-Bold",
+        "mean": 0.34298487976193426
+      },
+      {
+        "font": "YWHeiTi-Bold",
+        "mean": 0.3501715883612633
+      },
+      {
+        "font": "PShinMGoPr6N-Light",
+        "mean": 0.40543632209300995
+      },
+      {
+        "font": "RodinHappyPro-B",
+        "mean": 0.4294542342424393
+      },
+      {
+        "font": "PAntiqueANpProN-Light",
+        "mean": 0.46531415581703184
+      },
+      {
+        "font": "PAntiqueANpProN-Medium",
+        "mean": 0.47097454965114594
+      },
+      {
+        "font": "PRyuminPr6N-Light",
+        "mean": 0.48049386143684386
+      },
+      {
+        "font": "TakeStd-Medium",
+        "mean": 0.48353195935487747
+      },
+      {
+        "font": "PRyuminPr6N-Medium",
+        "mean": 0.49897680580616
+      },
+      {
+        "font": "RodinHappyPro-UB",
+        "mean": 0.5196172162890434
+      },
+      {
+        "font": "PRyuminPr6N-Bold",
+        "mean": 0.5214146792888641
+      },
+      {
+        "font": "PAntiqueANpProN-Bold",
+        "mean": 0.5388339497148991
+      },
+      {
+        "font": "ComicReggaeStd-B",
+        "mean": 0.5512990266084671
+      },
+      {
+        "font": "ComicMysteryStd-DB",
+        "mean": 0.5554606214165687
+      },
+      {
+        "font": "RodinHappyPro-L",
+        "mean": 0.5653780214488506
+      },
+      {
+        "font": "PAntiqueANpProN-Ultra",
+        "mean": 0.5853880524635315
+      },
+      {
+        "font": "ManyoKoinLargeStd-B",
+        "mean": 0.5952609494328499
+      }
+    ]
+  },
+  {
+    "qid": 109,
+    "ranking": [
+      {
+        "font": "FolkPro-Bold",
+        "mean": 0.13293255226952688
+      },
+      {
+        "font": "HummingStd-M",
+        "mean": 0.26188297756016254
+      },
+      {
+        "font": "PShinMGoPr6N-Medium",
+        "mean": 0.27825947904161047
+      },
+      {
+        "font": "SkipStd-M",
+        "mean": 0.29248590181980816
+      },
+      {
+        "font": "PShinMGoPr6N-Bold",
+        "mean": 0.3041144236922264
+      },
+      {
+        "font": "SkipStd-B",
+        "mean": 0.315402550888913
+      },
+      {
+        "font": "YWHeiTi-Light",
+        "mean": 0.31937307651553837
+      },
+      {
+        "font": "PShinMGoPr6N-Light",
+        "mean": 0.3723027980221169
+      },
+      {
+        "font": "YWHeiTi-Bold",
+        "mean": 0.39175382043634144
+      },
+      {
+        "font": "PAntiqueANpProN-Light",
+        "mean": 0.4353449461715562
+      },
+      {
+        "font": "ManyoKoinLargeStd-B",
+        "mean": 0.4402285095836435
+      },
+      {
+        "font": "TakeStd-Medium",
+        "mean": 0.45550064902220455
+      },
+      {
+        "font": "PRyuminPr6N-Light",
+        "mean": 0.4652573194886957
+      },
+      {
+        "font": "RodinHappyPro-B",
+        "mean": 0.4684647891138281
+      },
+      {
+        "font": "PRyuminPr6N-Medium",
+        "mean": 0.46957473137548994
+      },
+      {
+        "font": "ComicMysteryStd-DB",
+        "mean": 0.4763692830290113
+      },
+      {
+        "font": "PRyuminPr6N-Bold",
+        "mean": 0.4773091460977282
+      },
+      {
+        "font": "PAntiqueANpProN-Medium",
+        "mean": 0.5067064171390874
+      },
+      {
+        "font": "ComicReggaeStd-B",
+        "mean": 0.5190918445587158
+      },
+      {
+        "font": "RodinHappyPro-UB",
+        "mean": 0.5765477184738431
+      },
+      {
+        "font": "PAntiqueANpProN-Bold",
+        "mean": 0.5798506747399058
+      },
+      {
+        "font": "PAntiqueANpProN-Ultra",
+        "mean": 0.6470932218113116
+      },
+      {
+        "font": "RodinHappyPro-L",
+        "mean": 0.6542194709181786
+      }
+    ]
+  }
+]

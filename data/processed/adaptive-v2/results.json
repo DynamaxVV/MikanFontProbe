@@ -1,0 +1,1748 @@
+[
+  {
+    "question_id": 118,
+    "coarse_label": "中圆",
+    "text_box": [
+      30,
+      43,
+      140,
+      312
+    ],
+    "ink_pixels": 3751,
+    "subregions": [
+      {
+        "roi": [
+          137,
+          0,
+          51,
+          253
+        ],
+        "text_box": [
+          144,
+          46,
+          26,
+          79
+        ],
+        "components": 9,
+        "ink_pixels": 500,
+        "seed_bbox": [
+          145,
+          42,
+          35,
+          113
+        ],
+        "grown_extent": [
+          44,
+          127
+        ],
+        "mask_file": "q118-line0-mask.png"
+      },
+      {
+        "roi": [
+          98,
+          0,
+          61,
+          350
+        ],
+        "text_box": [
+          109,
+          43,
+          46,
+          166
+        ],
+        "components": 20,
+        "ink_pixels": 1244,
+        "seed_bbox": [
+          106,
+          42,
+          45,
+          170
+        ],
+        "grown_extent": [
+          41,
+          211
+        ],
+        "mask_file": "q118-line1-mask.png"
+      },
+      {
+        "roi": [
+          54,
+          62,
+          65,
+          297
+        ],
+        "text_box": [
+          66,
+          163,
+          25,
+          166
+        ],
+        "components": 26,
+        "ink_pixels": 1036,
+        "seed_bbox": [
+          62,
+          160,
+          49,
+          187
+        ],
+        "grown_extent": [
+          161,
+          330
+        ],
+        "mask_file": "q118-line2-mask.png"
+      },
+      {
+        "roi": [
+          21,
+          81,
+          55,
+          278
+        ],
+        "text_box": [
+          30,
+          163,
+          43,
+          192
+        ],
+        "components": 20,
+        "ink_pixels": 1132,
+        "seed_bbox": [
+          29,
+          159,
+          39,
+          186
+        ],
+        "grown_extent": [
+          161,
+          357
+        ],
+        "mask_file": "q118-line3-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 115,
+    "coarse_label": "中圆",
+    "text_box": [
+      45,
+      76,
+      111,
+      404
+    ],
+    "ink_pixels": 3969,
+    "subregions": [
+      {
+        "roi": [
+          110,
+          0,
+          81,
+          418
+        ],
+        "text_box": [
+          120,
+          76,
+          36,
+          47
+        ],
+        "components": 12,
+        "ink_pixels": 414,
+        "seed_bbox": [
+          119,
+          78,
+          63,
+          166
+        ],
+        "grown_extent": [
+          74,
+          125
+        ],
+        "mask_file": "q115-line0-mask.png"
+      },
+      {
+        "roi": [
+          33,
+          0,
+          79,
+          520
+        ],
+        "text_box": [
+          45,
+          76,
+          50,
+          404
+        ],
+        "components": 33,
+        "ink_pixels": 3555,
+        "seed_bbox": [
+          42,
+          77,
+          61,
+          406
+        ],
+        "grown_extent": [
+          74,
+          482
+        ],
+        "mask_file": "q115-line1-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 100,
+    "coarse_label": "中圆",
+    "text_box": [
+      47,
+      130,
+      400,
+      608
+    ],
+    "ink_pixels": 16654,
+    "subregions": [
+      {
+        "roi": [
+          364,
+          0,
+          90,
+          780
+        ],
+        "text_box": [
+          382,
+          130,
+          65,
+          345
+        ],
+        "components": 55,
+        "ink_pixels": 3718,
+        "seed_bbox": [
+          374,
+          130,
+          70,
+          470
+        ],
+        "grown_extent": [
+          128,
+          475
+        ],
+        "mask_file": "q100-line0-mask.png"
+      },
+      {
+        "roi": [
+          233,
+          49,
+          106,
+          731
+        ],
+        "text_box": [
+          243,
+          250,
+          69,
+          488
+        ],
+        "components": 39,
+        "ink_pixels": 5357,
+        "seed_bbox": [
+          245,
+          245,
+          82,
+          490
+        ],
+        "grown_extent": [
+          248,
+          740
+        ],
+        "mask_file": "q100-line1-mask.png"
+      },
+      {
+        "roi": [
+          125,
+          49,
+          103,
+          731
+        ],
+        "text_box": [
+          136,
+          256,
+          88,
+          479
+        ],
+        "components": 46,
+        "ink_pixels": 5555,
+        "seed_bbox": [
+          137,
+          245,
+          79,
+          490
+        ],
+        "grown_extent": [
+          256,
+          735
+        ],
+        "mask_file": "q100-line2-mask.png"
+      },
+      {
+        "roi": [
+          32,
+          103,
+          93,
+          514
+        ],
+        "text_box": [
+          47,
+          245,
+          68,
+          208
+        ],
+        "components": 24,
+        "ink_pixels": 2024,
+        "seed_bbox": [
+          43,
+          245,
+          71,
+          230
+        ],
+        "grown_extent": [
+          243,
+          454
+        ],
+        "mask_file": "q100-line3-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 125,
+    "coarse_label": "中黑",
+    "text_box": [
+      25,
+      32,
+      94,
+      276
+    ],
+    "ink_pixels": 4187,
+    "subregions": [
+      {
+        "roi": [
+          91,
+          0,
+          61,
+          344
+        ],
+        "text_box": [
+          94,
+          34,
+          25,
+          274
+        ],
+        "components": 24,
+        "ink_pixels": 1975,
+        "seed_bbox": [
+          99,
+          32,
+          45,
+          275
+        ],
+        "grown_extent": [
+          32,
+          310
+        ],
+        "mask_file": "q125-line0-mask.png"
+      },
+      {
+        "roi": [
+          20,
+          0,
+          68,
+          344
+        ],
+        "text_box": [
+          25,
+          32,
+          59,
+          248
+        ],
+        "components": 37,
+        "ink_pixels": 2212,
+        "seed_bbox": [
+          28,
+          32,
+          52,
+          259
+        ],
+        "grown_extent": [
+          30,
+          282
+        ],
+        "mask_file": "q125-line1-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 76,
+    "coarse_label": "中黑",
+    "text_box": [
+      83,
+      59,
+      468,
+      536
+    ],
+    "ink_pixels": 17907,
+    "subregions": [
+      {
+        "roi": [
+          493,
+          0,
+          119,
+          608
+        ],
+        "text_box": [
+          504,
+          59,
+          47,
+          354
+        ],
+        "components": 21,
+        "ink_pixels": 3735,
+        "seed_bbox": [
+          507,
+          43,
+          91,
+          369
+        ],
+        "grown_extent": [
+          57,
+          415
+        ],
+        "mask_file": "q76-line0-mask.png"
+      },
+      {
+        "roi": [
+          408,
+          0,
+          96,
+          608
+        ],
+        "text_box": [
+          414,
+          65,
+          72,
+          246
+        ],
+        "components": 25,
+        "ink_pixels": 3236,
+        "seed_bbox": [
+          419,
+          43,
+          74,
+          337
+        ],
+        "grown_extent": [
+          64,
+          313
+        ],
+        "mask_file": "q76-line1-mask.png"
+      },
+      {
+        "roi": [
+          323,
+          0,
+          102,
+          608
+        ],
+        "text_box": [
+          372,
+          59,
+          48,
+          355
+        ],
+        "components": 37,
+        "ink_pixels": 3541,
+        "seed_bbox": [
+          335,
+          43,
+          78,
+          357
+        ],
+        "grown_extent": [
+          57,
+          416
+        ],
+        "mask_file": "q76-line2-mask.png"
+      },
+      {
+        "roi": [
+          217,
+          63,
+          85,
+          545
+        ],
+        "text_box": [
+          222,
+          297,
+          38,
+          146
+        ],
+        "components": 18,
+        "ink_pixels": 1221,
+        "seed_bbox": [
+          227,
+          193,
+          65,
+          314
+        ],
+        "grown_extent": [
+          295,
+          445
+        ],
+        "mask_file": "q76-line3-mask.png"
+      },
+      {
+        "roi": [
+          130,
+          32,
+          89,
+          576
+        ],
+        "text_box": [
+          149,
+          195,
+          46,
+          400
+        ],
+        "components": 44,
+        "ink_pixels": 3169,
+        "seed_bbox": [
+          140,
+          194,
+          69,
+          405
+        ],
+        "grown_extent": [
+          193,
+          597
+        ],
+        "mask_file": "q76-line4-mask.png"
+      },
+      {
+        "roi": [
+          58,
+          52,
+          85,
+          556
+        ],
+        "text_box": [
+          83,
+          197,
+          46,
+          348
+        ],
+        "components": 18,
+        "ink_pixels": 3029,
+        "seed_bbox": [
+          68,
+          194,
+          65,
+          354
+        ],
+        "grown_extent": [
+          195,
+          547
+        ],
+        "mask_file": "q76-line5-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 62,
+    "coarse_label": "中黑",
+    "text_box": [
+      30,
+      37,
+      85,
+      160
+    ],
+    "ink_pixels": 2347,
+    "subregions": [
+      {
+        "roi": [
+          86,
+          0,
+          63,
+          230
+        ],
+        "text_box": [
+          94,
+          38,
+          21,
+          112
+        ],
+        "components": 9,
+        "ink_pixels": 637,
+        "seed_bbox": [
+          94,
+          40,
+          47,
+          126
+        ],
+        "grown_extent": [
+          36,
+          152
+        ],
+        "mask_file": "q62-line0-mask.png"
+      },
+      {
+        "roi": [
+          50,
+          0,
+          59,
+          230
+        ],
+        "text_box": [
+          58,
+          38,
+          48,
+          113
+        ],
+        "components": 13,
+        "ink_pixels": 977,
+        "seed_bbox": [
+          58,
+          41,
+          43,
+          135
+        ],
+        "grown_extent": [
+          36,
+          153
+        ],
+        "mask_file": "q62-line1-mask.png"
+      },
+      {
+        "roi": [
+          16,
+          0,
+          69,
+          230
+        ],
+        "text_box": [
+          30,
+          37,
+          49,
+          160
+        ],
+        "components": 17,
+        "ink_pixels": 1656,
+        "seed_bbox": [
+          24,
+          41,
+          53,
+          154
+        ],
+        "grown_extent": [
+          35,
+          199
+        ],
+        "mask_file": "q62-line2-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 58,
+    "coarse_label": "粗黑",
+    "text_box": [
+      84,
+      50,
+      81,
+      219
+    ],
+    "ink_pixels": 4323,
+    "subregions": [
+      {
+        "roi": [
+          128,
+          0,
+          76,
+          336
+        ],
+        "text_box": [
+          131,
+          50,
+          34,
+          219
+        ],
+        "components": 21,
+        "ink_pixels": 1825,
+        "seed_bbox": [
+          137,
+          40,
+          58,
+          177
+        ],
+        "grown_extent": [
+          48,
+          271
+        ],
+        "mask_file": "q58-line0-mask.png"
+      },
+      {
+        "roi": [
+          70,
+          0,
+          80,
+          336
+        ],
+        "text_box": [
+          84,
+          50,
+          63,
+          219
+        ],
+        "components": 27,
+        "ink_pixels": 3003,
+        "seed_bbox": [
+          79,
+          40,
+          62,
+          222
+        ],
+        "grown_extent": [
+          48,
+          271
+        ],
+        "mask_file": "q58-line1-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 96,
+    "coarse_label": "粗黑",
+    "text_box": [
+      52,
+      94,
+      105,
+      371
+    ],
+    "ink_pixels": 6406,
+    "subregions": [
+      {
+        "roi": [
+          110,
+          0,
+          84,
+          510
+        ],
+        "text_box": [
+          113,
+          94,
+          44,
+          371
+        ],
+        "components": 54,
+        "ink_pixels": 3312,
+        "seed_bbox": [
+          120,
+          80,
+          64,
+          382
+        ],
+        "grown_extent": [
+          92,
+          467
+        ],
+        "mask_file": "q96-line0-mask.png"
+      },
+      {
+        "roi": [
+          38,
+          0,
+          86,
+          510
+        ],
+        "text_box": [
+          52,
+          99,
+          46,
+          269
+        ],
+        "components": 54,
+        "ink_pixels": 3094,
+        "seed_bbox": [
+          48,
+          90,
+          66,
+          270
+        ],
+        "grown_extent": [
+          99,
+          368
+        ],
+        "mask_file": "q96-line1-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 65,
+    "coarse_label": "粗黑",
+    "text_box": [
+      33,
+      26,
+      117,
+      316
+    ],
+    "ink_pixels": 3740,
+    "subregions": [
+      {
+        "roi": [
+          68,
+          0,
+          86,
+          376
+        ],
+        "text_box": [
+          71,
+          26,
+          79,
+          316
+        ],
+        "components": 26,
+        "ink_pixels": 2283,
+        "seed_bbox": [
+          78,
+          24,
+          66,
+          330
+        ],
+        "grown_extent": [
+          24,
+          344
+        ],
+        "mask_file": "q65-line0-mask.png"
+      },
+      {
+        "roi": [
+          4,
+          0,
+          84,
+          376
+        ],
+        "text_box": [
+          33,
+          26,
+          47,
+          234
+        ],
+        "components": 16,
+        "ink_pixels": 1465,
+        "seed_bbox": [
+          14,
+          47,
+          64,
+          228
+        ],
+        "grown_extent": [
+          24,
+          262
+        ],
+        "mask_file": "q65-line1-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 114,
+    "coarse_label": "细宋",
+    "text_box": [
+      121,
+      73,
+      69,
+      291
+    ],
+    "ink_pixels": 2421,
+    "subregions": [
+      {
+        "roi": [
+          107,
+          0,
+          104,
+          434
+        ],
+        "text_box": [
+          121,
+          73,
+          69,
+          291
+        ],
+        "components": 46,
+        "ink_pixels": 2421,
+        "seed_bbox": [
+          119,
+          72,
+          80,
+          294
+        ],
+        "grown_extent": [
+          71,
+          365
+        ],
+        "mask_file": "q114-line0-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 92,
+    "coarse_label": "细宋",
+    "text_box": [
+      39,
+      51,
+      120,
+      213
+    ],
+    "ink_pixels": 2598,
+    "subregions": [
+      {
+        "roi": [
+          122,
+          0,
+          70,
+          314
+        ],
+        "text_box": [
+          130,
+          51,
+          29,
+          166
+        ],
+        "components": 15,
+        "ink_pixels": 845,
+        "seed_bbox": [
+          130,
+          49,
+          54,
+          160
+        ],
+        "grown_extent": [
+          50,
+          219
+        ],
+        "mask_file": "q92-line0-mask.png"
+      },
+      {
+        "roi": [
+          78,
+          0,
+          69,
+          314
+        ],
+        "text_box": [
+          88,
+          53,
+          56,
+          198
+        ],
+        "components": 20,
+        "ink_pixels": 1007,
+        "seed_bbox": [
+          86,
+          49,
+          53,
+          165
+        ],
+        "grown_extent": [
+          51,
+          253
+        ],
+        "mask_file": "q92-line1-mask.png"
+      },
+      {
+        "roi": [
+          29,
+          0,
+          66,
+          314
+        ],
+        "text_box": [
+          39,
+          52,
+          31,
+          212
+        ],
+        "components": 23,
+        "ink_pixels": 943,
+        "seed_bbox": [
+          37,
+          49,
+          50,
+          210
+        ],
+        "grown_extent": [
+          51,
+          266
+        ],
+        "mask_file": "q92-line2-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 70,
+    "coarse_label": "细宋",
+    "text_box": [
+      99,
+      49,
+      381,
+      512
+    ],
+    "ink_pixels": 15165,
+    "subregions": [
+      {
+        "roi": [
+          436,
+          0,
+          75,
+          472
+        ],
+        "text_box": [
+          444,
+          50,
+          36,
+          239
+        ],
+        "components": 26,
+        "ink_pixels": 1823,
+        "seed_bbox": [
+          445,
+          79,
+          57,
+          244
+        ],
+        "grown_extent": [
+          48,
+          291
+        ],
+        "mask_file": "q70-line0-mask.png"
+      },
+      {
+        "roi": [
+          380,
+          0,
+          75,
+          473
+        ],
+        "text_box": [
+          391,
+          50,
+          38,
+          317
+        ],
+        "components": 23,
+        "ink_pixels": 2555,
+        "seed_bbox": [
+          389,
+          79,
+          57,
+          245
+        ],
+        "grown_extent": [
+          48,
+          369
+        ],
+        "mask_file": "q70-line1-mask.png"
+      },
+      {
+        "roi": [
+          324,
+          0,
+          76,
+          476
+        ],
+        "text_box": [
+          341,
+          51,
+          37,
+          317
+        ],
+        "components": 38,
+        "ink_pixels": 2200,
+        "seed_bbox": [
+          333,
+          79,
+          58,
+          244
+        ],
+        "grown_extent": [
+          49,
+          370
+        ],
+        "mask_file": "q70-line2-mask.png"
+      },
+      {
+        "roi": [
+          267,
+          0,
+          80,
+          494
+        ],
+        "text_box": [
+          274,
+          49,
+          57,
+          281
+        ],
+        "components": 26,
+        "ink_pixels": 2603,
+        "seed_bbox": [
+          276,
+          79,
+          62,
+          246
+        ],
+        "grown_extent": [
+          47,
+          331
+        ],
+        "mask_file": "q70-line3-mask.png"
+      },
+      {
+        "roi": [
+          174,
+          121,
+          78,
+          511
+        ],
+        "text_box": [
+          200,
+          244,
+          36,
+          317
+        ],
+        "components": 27,
+        "ink_pixels": 2470,
+        "seed_bbox": [
+          183,
+          241,
+          60,
+          284
+        ],
+        "grown_extent": [
+          242,
+          563
+        ],
+        "mask_file": "q70-line4-mask.png"
+      },
+      {
+        "roi": [
+          117,
+          117,
+          80,
+          515
+        ],
+        "text_box": [
+          121,
+          244,
+          66,
+          317
+        ],
+        "components": 32,
+        "ink_pixels": 2085,
+        "seed_bbox": [
+          126,
+          241,
+          62,
+          291
+        ],
+        "grown_extent": [
+          242,
+          563
+        ],
+        "mask_file": "q70-line5-mask.png"
+      },
+      {
+        "roi": [
+          67,
+          117,
+          80,
+          515
+        ],
+        "text_box": [
+          99,
+          243,
+          34,
+          314
+        ],
+        "components": 33,
+        "ink_pixels": 1562,
+        "seed_bbox": [
+          76,
+          241,
+          62,
+          289
+        ],
+        "grown_extent": [
+          241,
+          559
+        ],
+        "mask_file": "q70-line6-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 91,
+    "coarse_label": "细圆",
+    "text_box": [
+      34,
+      60,
+      144,
+      354
+    ],
+    "ink_pixels": 2635,
+    "subregions": [
+      {
+        "roi": [
+          137,
+          0,
+          61,
+          292
+        ],
+        "text_box": [
+          141,
+          60,
+          37,
+          75
+        ],
+        "components": 4,
+        "ink_pixels": 391,
+        "seed_bbox": [
+          145,
+          49,
+          45,
+          112
+        ],
+        "grown_extent": [
+          59,
+          137
+        ],
+        "mask_file": "q91-line0-mask.png"
+      },
+      {
+        "roi": [
+          87,
+          0,
+          66,
+          446
+        ],
+        "text_box": [
+          92,
+          143,
+          33,
+          154
+        ],
+        "components": 10,
+        "ink_pixels": 722,
+        "seed_bbox": [
+          95,
+          49,
+          50,
+          250
+        ],
+        "grown_extent": [
+          141,
+          299
+        ],
+        "mask_file": "q91-line1-mask.png"
+      },
+      {
+        "roi": [
+          29,
+          0,
+          71,
+          446
+        ],
+        "text_box": [
+          34,
+          65,
+          55,
+          349
+        ],
+        "components": 33,
+        "ink_pixels": 1522,
+        "seed_bbox": [
+          37,
+          49,
+          55,
+          363
+        ],
+        "grown_extent": [
+          64,
+          416
+        ],
+        "mask_file": "q91-line2-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 61,
+    "coarse_label": "细圆",
+    "text_box": [
+      60,
+      64,
+      150,
+      342
+    ],
+    "ink_pixels": 4048,
+    "subregions": [
+      {
+        "roi": [
+          132,
+          0,
+          81,
+          440
+        ],
+        "text_box": [
+          143,
+          64,
+          67,
+          172
+        ],
+        "components": 27,
+        "ink_pixels": 1263,
+        "seed_bbox": [
+          141,
+          53,
+          63,
+          188
+        ],
+        "grown_extent": [
+          62,
+          238
+        ],
+        "mask_file": "q61-line0-mask.png"
+      },
+      {
+        "roi": [
+          101,
+          177,
+          64,
+          295
+        ],
+        "text_box": [
+          104,
+          273,
+          55,
+          132
+        ],
+        "components": 28,
+        "ink_pixels": 1036,
+        "seed_bbox": [
+          109,
+          273,
+          48,
+          103
+        ],
+        "grown_extent": [
+          271,
+          406
+        ],
+        "mask_file": "q61-line1-mask.png"
+      },
+      {
+        "roi": [
+          72,
+          201,
+          65,
+          297
+        ],
+        "text_box": [
+          77,
+          274,
+          54,
+          132
+        ],
+        "components": 27,
+        "ink_pixels": 1483,
+        "seed_bbox": [
+          80,
+          299,
+          49,
+          104
+        ],
+        "grown_extent": [
+          274,
+          407
+        ],
+        "mask_file": "q61-line2-mask.png"
+      },
+      {
+        "roi": [
+          45,
+          219,
+          68,
+          279
+        ],
+        "text_box": [
+          60,
+          273,
+          49,
+          132
+        ],
+        "components": 16,
+        "ink_pixels": 965,
+        "seed_bbox": [
+          53,
+          323,
+          52,
+          124
+        ],
+        "grown_extent": [
+          271,
+          407
+        ],
+        "mask_file": "q61-line3-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 33,
+    "coarse_label": "细圆",
+    "text_box": [
+      59,
+      131,
+      167,
+      315
+    ],
+    "ink_pixels": 2482,
+    "subregions": [
+      {
+        "roi": [
+          170,
+          0,
+          61,
+          345
+        ],
+        "text_box": [
+          185,
+          131,
+          41,
+          94
+        ],
+        "components": 5,
+        "ink_pixels": 495,
+        "seed_bbox": [
+          178,
+          77,
+          45,
+          165
+        ],
+        "grown_extent": [
+          129,
+          227
+        ],
+        "mask_file": "q33-line0-mask.png"
+      },
+      {
+        "roi": [
+          118,
+          0,
+          68,
+          648
+        ],
+        "text_box": [
+          124,
+          131,
+          41,
+          296
+        ],
+        "components": 15,
+        "ink_pixels": 1508,
+        "seed_bbox": [
+          126,
+          77,
+          52,
+          370
+        ],
+        "grown_extent": [
+          129,
+          429
+        ],
+        "mask_file": "q33-line1-mask.png"
+      },
+      {
+        "roi": [
+          56,
+          0,
+          78,
+          648
+        ],
+        "text_box": [
+          59,
+          289,
+          66,
+          157
+        ],
+        "components": 32,
+        "ink_pixels": 479,
+        "seed_bbox": [
+          65,
+          77,
+          60,
+          493
+        ],
+        "grown_extent": [
+          287,
+          448
+        ],
+        "mask_file": "q33-line2-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 72,
+    "coarse_label": "粗宋",
+    "text_box": [
+      57,
+      45,
+      158,
+      306
+    ],
+    "ink_pixels": 10610,
+    "subregions": [
+      {
+        "roi": [
+          169,
+          0,
+          69,
+          398
+        ],
+        "text_box": [
+          172,
+          45,
+          43,
+          306
+        ],
+        "components": 37,
+        "ink_pixels": 4527,
+        "seed_bbox": [
+          177,
+          46,
+          53,
+          310
+        ],
+        "grown_extent": [
+          43,
+          353
+        ],
+        "mask_file": "q72-line0-mask.png"
+      },
+      {
+        "roi": [
+          109,
+          0,
+          75,
+          398
+        ],
+        "text_box": [
+          114,
+          45,
+          44,
+          173
+        ],
+        "components": 19,
+        "ink_pixels": 3383,
+        "seed_bbox": [
+          118,
+          46,
+          57,
+          230
+        ],
+        "grown_extent": [
+          43,
+          218
+        ],
+        "mask_file": "q72-line1-mask.png"
+      },
+      {
+        "roi": [
+          50,
+          0,
+          72,
+          398
+        ],
+        "text_box": [
+          57,
+          45,
+          43,
+          221
+        ],
+        "components": 16,
+        "ink_pixels": 2700,
+        "seed_bbox": [
+          58,
+          46,
+          56,
+          239
+        ],
+        "grown_extent": [
+          43,
+          268
+        ],
+        "mask_file": "q72-line2-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 27,
+    "coarse_label": "粗宋",
+    "text_box": [
+      132,
+      87,
+      488,
+      1171
+    ],
+    "ink_pixels": 70752,
+    "subregions": [
+      {
+        "roi": [
+          472,
+          0,
+          158,
+          949
+        ],
+        "text_box": [
+          480,
+          97,
+          140,
+          589
+        ],
+        "components": 63,
+        "ink_pixels": 18395,
+        "seed_bbox": [
+          488,
+          74,
+          126,
+          445
+        ],
+        "grown_extent": [
+          96,
+          688
+        ],
+        "mask_file": "q27-line0-mask.png"
+      },
+      {
+        "roi": [
+          303,
+          0,
+          166,
+          1319
+        ],
+        "text_box": [
+          310,
+          97,
+          148,
+          1161
+        ],
+        "components": 129,
+        "ink_pixels": 32660,
+        "seed_bbox": [
+          319,
+          75,
+          134,
+          956
+        ],
+        "grown_extent": [
+          95,
+          1260
+        ],
+        "mask_file": "q27-line1-mask.png"
+      },
+      {
+        "roi": [
+          117,
+          0,
+          175,
+          1319
+        ],
+        "text_box": [
+          132,
+          87,
+          155,
+          705
+        ],
+        "components": 58,
+        "ink_pixels": 19697,
+        "seed_bbox": [
+          133,
+          75,
+          143,
+          950
+        ],
+        "grown_extent": [
+          85,
+          792
+        ],
+        "mask_file": "q27-line2-mask.png"
+      }
+    ]
+  },
+  {
+    "question_id": 140,
+    "coarse_label": "粗宋",
+    "text_box": [
+      34,
+      43,
+      66,
+      215
+    ],
+    "ink_pixels": 2714,
+    "subregions": [
+      {
+        "roi": [
+          71,
+          0,
+          56,
+          291
+        ],
+        "text_box": [
+          74,
+          46,
+          26,
+          118
+        ],
+        "components": 9,
+        "ink_pixels": 999,
+        "seed_bbox": [
+          79,
+          27,
+          40,
+          240
+        ],
+        "grown_extent": [
+          44,
+          166
+        ],
+        "mask_file": "q140-line0-mask.png"
+      },
+      {
+        "roi": [
+          28,
+          0,
+          61,
+          291
+        ],
+        "text_box": [
+          34,
+          43,
+          49,
+          215
+        ],
+        "components": 13,
+        "ink_pixels": 1743,
+        "seed_bbox": [
+          36,
+          38,
+          45,
+          219
+        ],
+        "grown_extent": [
+          41,
+          259
+        ],
+        "mask_file": "q140-line1-mask.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "question_id": 125,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 5,
+    "v4": {
+      "text_coverage": 4,
+      "background_rejection": 5,
+      "box_tightness": 4
+    },
+    "notes": "右列末尾「り」（より）已在 overlay、mask 和 segments 中完整纳入；两列框紧，未混入气泡边界或插画。相对 v4，尾字漏检已修复。"
+  },
+  {
+    "question_id": 76,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 5,
+    "v4": {
+      "text_coverage": 4,
+      "background_rejection": 5,
+      "box_tightness": 4
+    },
+    "notes": "左侧气泡「この村で生活して」末尾「て」已被 mask、overlay 和 segments 纳入；六列均无明显漏字或气泡弧线混入。相对 v4 已修复列尾截断。"
+  },
+  {
+    "question_id": 91,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 5,
+    "v4": {
+      "text_coverage": 4,
+      "background_rejection": 5,
+      "box_tightness": 4
+    },
+    "notes": "中央列末尾「り」（しゃべったり）已完整出现在绿色 mask 和逐字 segments 中；右列、左列及标点也覆盖，未见气泡线混入。相对 v4 已修复末字漏检。"
+  },
+  {
+    "question_id": 140,
+    "text_coverage": 5,
+    "background_rejection": 3,
+    "box_tightness": 3,
+    "v4": {
+      "text_coverage": 5,
+      "background_rejection": 2,
+      "box_tightness": 2
+    },
+    "notes": "主右列末尾「は」已纳入 overlay、mask 和 segments；右上邻近气泡文字已排除，不再形成主列额外字符框。但右列右缘仍吸入一段斜向气泡边界，mask 中可见细长残留，segments 右下仍有对应的非文字框。因此背景排除和框紧度仅提升一级，尚未满分。"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "question_id": 100,
+    "text_coverage": 5,
+    "background_rejection": 2,
+    "bbox_quality": 1,
+    "notes": "All four main vertical text groups, including the small furigana, are retained in green. However, halftone/illustration texture at the lower right and small background strokes near the top are also retained. The red candidate box is the full crop, so it includes substantial nontext area and cannot isolate the lettering.",
+    "fix_suggestion": "Suppress low-density halftone and connected texture with local stroke-width/line-structure filtering; then form the bbox from text-like components grouped by vertical alignment instead of falling back to the full ROI. Keep small furigana only when it is close to a main text column."
+  },
+  {
+    "question_id": 139,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "bbox_quality": 4,
+    "notes": "The complete vertical phrase is retained with clean character shapes. Only a thin residual line near the lower-right panel edge appears in the mask/overlay. The red box is tightly aligned to the text column, with modest extra whitespace and some panel contour influence.",
+    "fix_suggestion": "Remove panel-border components by rejecting long thin components touching the crop boundary, then recompute the text bbox from the remaining character components."
+  },
+  {
+    "question_id": 136,
+    "text_coverage": 5,
+    "background_rejection": 3,
+    "bbox_quality": 3,
+    "notes": "The full bold vertical phrase and exclamation marks are retained. Green residuals also follow the upper decorative strokes and the irregular figure/bubble contour on the right. The box is reasonably narrow around the text but extends through those adjacent graphics and almost the full height.",
+    "fix_suggestion": "Use character-component grouping by consistent vertical text axis and reject slanted/curved components connected to the panel art. Trim the bbox to the grouped text components while preserving the exclamation marks."
+  },
+  {
+    "question_id": 140,
+    "text_coverage": 5,
+    "background_rejection": 2,
+    "bbox_quality": 2,
+    "notes": "Both main vertical text columns are retained essentially completely. The mask also keeps the speech-bubble boundary and fragments of neighboring artwork/text at the top, left, and right. The red box spans almost the entire crop, so it is broad relative to the actual lettering.",
+    "fix_suggestion": "Explicitly classify long continuous bubble borders as nontext and reject components touching the crop edges; cluster the two vertical text columns by stroke orientation before calculating a tighter bbox."
+  },
+  {
+    "question_id": 141,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "bbox_quality": 4,
+    "notes": "The complete speech text is retained, including the smaller characters. A small green patch and horizontal residue remain in the lower-left/lower edge area where the bubble overlaps background texture. The red box is close to the text region but includes that lower residue and some bubble whitespace.",
+    "fix_suggestion": "Filter short horizontal texture components below the text baseline and exclude components connected to the lower bubble/background edge; then tighten the box vertically to the text extents."
+  },
+  {
+    "question_id": 129,
+    "text_coverage": 5,
+    "background_rejection": 2,
+    "bbox_quality": 1,
+    "notes": "All visible printed text groups are retained, including the small reading marks. A large amount of nontext action-line art, speech-bubble contour, and character outline is also retained in green. The red box covers nearly the full crop and is dominated by illustration as well as text.",
+    "fix_suggestion": "Separate text from action graphics using vertical text-line grouping, stroke orientation, and component aspect/spacing features; reject diagonal burst lines and large contour components before computing the bbox."
+  },
+  {
+    "question_id": 110,
+    "text_coverage": 5,
+    "background_rejection": 1,
+    "bbox_quality": 1,
+    "notes": "The entire vertical speech text is retained, but nearly all surrounding halftone dots inside and around the bubble are also retained. The candidate red box is the full crop rather than a text-region box, making the evidence heavily contaminated by background texture.",
+    "fix_suggestion": "Apply connected-component size and density filtering to remove isolated halftone dots, with a minimum stroke-length/area threshold; detect the two aligned vertical text columns and derive the bbox only from their components."
+  },
+  {
+    "question_id": 25,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "bbox_quality": 3,
+    "notes": "All major vertical text groups and the adjacent furigana are retained cleanly. Only a few small green specks/edge strokes and the contour of the black object near the lower-right are false positives. The red box covers all text with useful margins but also includes substantial white space and that unrelated object.",
+    "fix_suggestion": "Remove tiny isolated specks and components attached to the lower-right object, then build a multi-column text union bbox from aligned character groups rather than one broad rectangle."
+  }
+]

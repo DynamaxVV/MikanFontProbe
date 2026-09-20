@@ -1,0 +1,15 @@
+[
+  {
+    "question_id": 65,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "The extended right-column box now includes the bottom の with modest surrounding margin; the left プレゼント box remains reasonably tight."
+    ],
+    "punctuation_issues": [],
+    "comparison_to_v2": "Compared with eval-priority-v2 q65 (4/5/3), the manually extended ROI restores the previously missed bottom の without reintroducing the lower-left hand/art false positive. Text coverage improves to 5 and box tightness to 4."
+  }
+]

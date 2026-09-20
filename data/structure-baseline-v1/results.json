@@ -1,0 +1,3631 @@
+{
+  "status": "development_only",
+  "correct": {
+    "binary": 6,
+    "structure": 7,
+    "hybrid": 7
+  },
+  "config": {
+    "orientation_bins": 8,
+    "cell_size": 16,
+    "structure_weights": [
+      0.75,
+      0.25
+    ],
+    "hybrid_weights": [
+      0.5,
+      0.5
+    ]
+  },
+  "questions": [
+    {
+      "qid": 115,
+      "expected": "圆体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.20608119716142823
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.2454974780796542
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.5709522234157601
+          }
+        ],
+        "structure": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.2102632198385269
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.25507313080299254
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.3313450180535471
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.21372049789253614
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.2565826431912475
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.4596417488870876
+          }
+        ]
+      },
+      "glyphs": [
+        {
+          "id": "q115-c0-g0",
+          "character": "な",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.2960046033428771,
+                "structure": 0.24147138901621729,
+                "hybrid": 0.2726120384837731
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3075931676859385,
+                "structure": 0.2746835668624,
+                "hybrid": 0.2911383672741692
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.2700284075039988,
+                "structure": 0.25098849012658014,
+                "hybrid": 0.26050844881528945
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.5781794169369865,
+                "structure": 0.36627244397093195,
+                "hybrid": 0.4774712243544837
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.6462740610027351,
+                "structure": 0.3964578314536042,
+                "hybrid": 0.5280883535562781
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.6106711399517482,
+                "structure": 0.3743213847789387,
+                "hybrid": 0.5074343226000009
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.4602569879161198,
+                "structure": 0.3505279698154238,
+                "hybrid": 0.4248574552256434
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.6011246610734755,
+                "structure": 0.375467169188768,
+                "hybrid": 0.497882437250986
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.5151905382070878,
+                "structure": 0.36054010648502105,
+                "hybrid": 0.4514904071321182
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.4323640218192293,
+                "structure": 0.3392660585762195,
+                "hybrid": 0.40817139769409444
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.352131238850134,
+                "structure": 0.325719565882352,
+                "hybrid": 0.3393018499146571
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.30040730338858623,
+                "structure": 0.2853208077351551,
+                "hybrid": 0.2928640555618707
+              }
+            }
+          ]
+        },
+        {
+          "id": "q115-c1-g2",
+          "character": "か",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.25666558192893674,
+                "structure": 0.1980500217395187,
+                "hybrid": 0.24921071659247818
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.20188793146648015,
+                "structure": 0.1878762840532312,
+                "hybrid": 0.20708064773008408
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.176267265789576,
+                "structure": 0.18360161786583853,
+                "hybrid": 0.18214415762412609
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.4556621284963691,
+                "structure": 0.2956198685016125,
+                "hybrid": 0.3938532437190524
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.5031022646832386,
+                "structure": 0.2797300066629763,
+                "hybrid": 0.40256051332257836
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.4920982372629713,
+                "structure": 0.29132911096540487,
+                "hybrid": 0.41380417513127
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.3906243518540863,
+                "structure": 0.2804593617700558,
+                "hybrid": 0.33554185681207105
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.4166072325074673,
+                "structure": 0.24603875083104432,
+                "hybrid": 0.33132299166925583
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.38258493428187235,
+                "structure": 0.24844427412827313,
+                "hybrid": 0.3229535857499039
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.39818794528252954,
+                "structure": 0.2924926992996669,
+                "hybrid": 0.34534032229109823
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2752628571843632,
+                "structure": 0.2498724208733457,
+                "hybrid": 0.2625676390288545
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.189039924187498,
+                "structure": 0.22144678363209244,
+                "hybrid": 0.21562450864267477
+              }
+            }
+          ]
+        },
+        {
+          "id": "q115-c1-g3",
+          "character": "り",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.2209301136141564,
+                "structure": 0.2422151090049296,
+                "hybrid": 0.23157261130954299
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.25348547068099647,
+                "structure": 0.23038813991327214,
+                "hybrid": 0.2577930654883449
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.1719479181907099,
+                "structure": 0.19619955152316193,
+                "hybrid": 0.19850888723819288
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.6790151248139249,
+                "structure": 0.33214274168809693,
+                "hybrid": 0.5076007785877265
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.7714613532441836,
+                "structure": 0.36469877850280596,
+                "hybrid": 0.5686149128810949
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.6944892363036614,
+                "structure": 0.3342569062377499,
+                "hybrid": 0.5143730712707056
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.5964568340195262,
+                "structure": 0.3114617170954066,
+                "hybrid": 0.46423530134417956
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.6240818747322823,
+                "structure": 0.32823462566914874,
+                "hybrid": 0.4761582502007155
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.6615425638649011,
+                "structure": 0.3284124234715302,
+                "hybrid": 0.49497749366821564
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.5542611332766707,
+                "structure": 0.3153874146598672,
+                "hybrid": 0.4418031574801832
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.29266749108725815,
+                "structure": 0.2566613110512368,
+                "hybrid": 0.2949385640870615
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.24704520666287838,
+                "structure": 0.25845180104173004,
+                "hybrid": 0.2612593653691972
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 91,
+      "expected": "圆体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PShinMGoPr6N-Light",
+            "group": "圆体",
+            "distance": 0.21958466447972294
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.367694714671845
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.4527903716313366
+          }
+        ],
+        "structure": [
+          {
+            "font": "PShinMGoPr6N-Light",
+            "group": "圆体",
+            "distance": 0.2546524179256413
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.26580860536387596
+          },
+          {
+            "font": "PRyuminPr6N-Light",
+            "group": "宋体",
+            "distance": 0.3248222987029075
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PShinMGoPr6N-Light",
+            "group": "圆体",
+            "distance": 0.23975756851264976
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.3236535405218071
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.3962004865208854
+          }
+        ]
+      },
+      "glyphs": [
+        {
+          "id": "q91-c1-g0",
+          "character": "し",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.274242127919456,
+                "structure": 0.2880225717724838,
+                "hybrid": 0.29002827947167664
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.1793983394395888,
+                "structure": 0.21620409053963557,
+                "hybrid": 0.19780121498961217
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.17413047261550477,
+                "structure": 0.2537935188090205,
+                "hybrid": 0.23059301949858713
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.2378600882927431,
+                "structure": 0.2852898614531415,
+                "hybrid": 0.2615749748729423
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.32509847012626936,
+                "structure": 0.2675624998385889,
+                "hybrid": 0.2963304849824291
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.24563941295028838,
+                "structure": 0.2623517950228687,
+                "hybrid": 0.25497867940425056
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.3344686908754357,
+                "structure": 0.3084374390134055,
+                "hybrid": 0.3214530649444206
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.30236508775752463,
+                "structure": 0.2900324930720477,
+                "hybrid": 0.3031791551962228
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.32722592807797174,
+                "structure": 0.3004057671814968,
+                "hybrid": 0.3163924944499217
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.3781825835710462,
+                "structure": 0.3266810777152689,
+                "hybrid": 0.35243183064315753
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.276271762588971,
+                "structure": 0.29823440999730505,
+                "hybrid": 0.2908404395396162
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.21796237859104214,
+                "structure": 0.21244888083035965,
+                "hybrid": 0.2152056297107009
+              }
+            }
+          ]
+        },
+        {
+          "id": "q91-c1-g1",
+          "character": "ち",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3671300080345634,
+                "structure": 0.3108065415807044,
+                "hybrid": 0.3389682748076339
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.20263253566965964,
+                "structure": 0.28065037639745105,
+                "hybrid": 0.24164145603355536
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.26802525501458224,
+                "structure": 0.2917196876633784,
+                "hybrid": 0.2798724713389803
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.47294990785086344,
+                "structure": 0.3690948106702525,
+                "hybrid": 0.43159715324513465
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.5607298612966325,
+                "structure": 0.3458824100419575,
+                "hybrid": 0.47059603766650415
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.5305819682665724,
+                "structure": 0.37604850281193425,
+                "hybrid": 0.46109497810865707
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.5577864361929525,
+                "structure": 0.39360539226026997,
+                "hybrid": 0.47758364400122066
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.6034113545161687,
+                "structure": 0.4076445980443056,
+                "hybrid": 0.5057064786589932
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.596135554204546,
+                "structure": 0.4334418602981617,
+                "hybrid": 0.5163844774983545
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.558192425967212,
+                "structure": 0.4021268691776323,
+                "hybrid": 0.4860453064934045
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.41560867033830545,
+                "structure": 0.3203410796757269,
+                "hybrid": 0.3739303561664301
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.28376705321047124,
+                "structure": 0.25271805494601435,
+                "hybrid": 0.2682425540782428
+              }
+            }
+          ]
+        },
+        {
+          "id": "q91-c2-g0",
+          "character": "で",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3809431079401231,
+                "structure": 0.3039584375834906,
+                "hybrid": 0.3563275571749565
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.2767231183299204,
+                "structure": 0.26710278683983735,
+                "hybrid": 0.2798300345147817
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.2996681743670466,
+                "structure": 0.2581970700637074,
+                "hybrid": 0.2799249194760798
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.6475611187504035,
+                "structure": 0.3432975441387548,
+                "hybrid": 0.4954293314445791
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.6391211218117548,
+                "structure": 0.3610219862281763,
+                "hybrid": 0.5000715540199656
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.6220693895867859,
+                "structure": 0.33892059844314326,
+                "hybrid": 0.4804949940149646
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.5408805100281485,
+                "structure": 0.3629949075178188,
+                "hybrid": 0.45193770877298367
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.5568463159350161,
+                "structure": 0.36002822629982195,
+                "hybrid": 0.46328495545886306
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.5447868925554673,
+                "structure": 0.3650222095829819,
+                "hybrid": 0.4568233433187313
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.548506179134537,
+                "structure": 0.3713551623638963,
+                "hybrid": 0.4599306707492167
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.5220070712869551,
+                "structure": 0.31623137363772347,
+                "hybrid": 0.44352129832443166
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.6013547122140217,
+                "structure": 0.33225888031525386,
+                "hybrid": 0.4875124377764777
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 100,
+      "expected": "圆体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.1537838250299728
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.16941236624275258
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.3491605641584095
+          }
+        ],
+        "structure": [
+          {
+            "font": "PShinMGoPr6N-Light",
+            "group": "圆体",
+            "distance": 0.13404827887043466
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.15468092754116217
+          },
+          {
+            "font": "PRyuminPr6N-Light",
+            "group": "宋体",
+            "distance": 0.26020819894141495
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PShinMGoPr6N-Light",
+            "group": "圆体",
+            "distance": 0.15322974523542182
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.17182142800472003
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.3219980922628237
+          }
+        ]
+      },
+      "glyphs": [
+        {
+          "id": "q100-c0-g0",
+          "character": "夜",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.21034808350815706,
+                "structure": 0.19924881217055426,
+                "hybrid": 0.22189446509793248
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.1923029419037219,
+                "structure": 0.14486228248451177,
+                "hybrid": 0.16858261219411685
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.15314108701336257,
+                "structure": 0.16764788366652228,
+                "hybrid": 0.16386119716731318
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.32480981336052916,
+                "structure": 0.2623218226319566,
+                "hybrid": 0.3060662794908299
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.3900542959100417,
+                "structure": 0.2784992554036293,
+                "hybrid": 0.3342767756568355
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.36251926923900907,
+                "structure": 0.3096330529396751,
+                "hybrid": 0.33912066082813674
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.23867900062729946,
+                "structure": 0.2558874340185391,
+                "hybrid": 0.25514095188356456
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.24819698121049316,
+                "structure": 0.21428561157574588,
+                "hybrid": 0.23486084943824093
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.18551749908800463,
+                "structure": 0.20397031437869445,
+                "hybrid": 0.19474390673334954
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2579605880992756,
+                "structure": 0.2645421605499053,
+                "hybrid": 0.2740227036543518
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.20688030725747014,
+                "structure": 0.20525288123740865,
+                "hybrid": 0.224385588947858
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.22508702442478234,
+                "structure": 0.1816070918286415,
+                "hybrid": 0.2227181718911802
+              }
+            }
+          ]
+        },
+        {
+          "id": "q100-c1-g2",
+          "character": "人",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.23067914855971774,
+                "structure": 0.12275791912908139,
+                "hybrid": 0.19186532627370081
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.12971848085156226,
+                "structure": 0.11591149695631235,
+                "hybrid": 0.1228149889039373
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.11993281164365356,
+                "structure": 0.12681884092921825,
+                "hybrid": 0.1233758262864359
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.23002121816509902,
+                "structure": 0.22181180804448053,
+                "hybrid": 0.25023842932464097
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.2432966997040294,
+                "structure": 0.1815137781857188,
+                "hybrid": 0.21243379585069694
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.19817053905890442,
+                "structure": 0.1915845493024153,
+                "hybrid": 0.20064331825154405
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2550824398762849,
+                "structure": 0.17360948492132627,
+                "hybrid": 0.22652247570596917
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.13673948324822302,
+                "structure": 0.14039926034344036,
+                "hybrid": 0.15730245244563892
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.15501866359695576,
+                "structure": 0.1285575044730874,
+                "hybrid": 0.15170840666321092
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.31840128762104797,
+                "structure": 0.18698859533078635,
+                "hybrid": 0.2540173368728687
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.25213934846361075,
+                "structure": 0.1675970292484858,
+                "hybrid": 0.22196655870755583
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.1273540298324361,
+                "structure": 0.14074796326778416,
+                "hybrid": 0.14400422612392982
+              }
+            }
+          ]
+        },
+        {
+          "id": "q100-c0-g2",
+          "character": "な",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.2587627405800282,
+                "structure": 0.18247416817018203,
+                "hybrid": 0.22643835044666077
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.16093440190622574,
+                "structure": 0.14137105717047982,
+                "hybrid": 0.16829163460821134
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.1882775764329022,
+                "structure": 0.1297907885199663,
+                "hybrid": 0.1757933962038504
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.4926506609496004,
+                "structure": 0.31063428580389474,
+                "hybrid": 0.40968956797300027
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.5676999843065836,
+                "structure": 0.32061156323489687,
+                "hybrid": 0.4811144240401478
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.511348111629055,
+                "structure": 0.31203548170093737,
+                "hybrid": 0.43418074520033795
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.4268068560712181,
+                "structure": 0.29284563366553334,
+                "hybrid": 0.3723856891274987
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.5281681669693938,
+                "structure": 0.2796733518706083,
+                "hybrid": 0.43306186670395425
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.456430116127334,
+                "structure": 0.27723673934502324,
+                "hybrid": 0.38517376323620245
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.4060448675556648,
+                "structure": 0.3132436511299262,
+                "hybrid": 0.36173339123851744
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.30543209602657173,
+                "structure": 0.24023428563052834,
+                "hybrid": 0.27283319082855007
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.1557960444710393,
+                "structure": 0.14168772752706082,
+                "hybrid": 0.14874188599905008
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 72,
+      "expected": "宋体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PAntiqueANpProN-Ultra",
+            "group": "黑体",
+            "distance": 0.15701707180797445
+          },
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.1662363797858677
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.2004068982082281
+          }
+        ],
+        "structure": [
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.21576105623205957
+          },
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.2504346263395378
+          },
+          {
+            "font": "PAntiqueANpProN-Ultra",
+            "group": "黑体",
+            "distance": 0.26670697110448277
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.21127769059330093
+          },
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.21196919580715148
+          },
+          {
+            "font": "PAntiqueANpProN-Ultra",
+            "group": "黑体",
+            "distance": 0.21848865553129646
+          }
+        ]
+      },
+      "glyphs": [
+        {
+          "id": "q72-c0-g0",
+          "character": "聖",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.17682380402871206,
+                "structure": 0.2327083718645352,
+                "hybrid": 0.20554641530258289
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.27814040880884383,
+                "structure": 0.253253059159888,
+                "hybrid": 0.26849744473671444
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.2015362716006399,
+                "structure": 0.22808379911448007,
+                "hybrid": 0.21657262409717465
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.18544393508710055,
+                "structure": 0.19219379454176116,
+                "hybrid": 0.1923909310451261
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.34346937700379915,
+                "structure": 0.22012325650854525,
+                "hybrid": 0.2892465383536187
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.24835833904958757,
+                "structure": 0.22436360085891774,
+                "hybrid": 0.23636096995425265
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.18858309513374785,
+                "structure": 0.22877070377632383,
+                "hybrid": 0.20867689945503584
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2997794083264958,
+                "structure": 0.23950808161735623,
+                "hybrid": 0.27403878462336917
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.20690220606500898,
+                "structure": 0.22254927797764348,
+                "hybrid": 0.22018311228538756
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.1700515479798244,
+                "structure": 0.23907165265672253,
+                "hybrid": 0.20725822591121254
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.18275744689948378,
+                "structure": 0.24080032785232153,
+                "hybrid": 0.21842035764439593
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.32938423963660796,
+                "structure": 0.2615313348799694,
+                "hybrid": 0.2992705895042441
+              }
+            }
+          ]
+        },
+        {
+          "id": "q72-c0-g1",
+          "character": "魔",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.1283075105935337,
+                "structure": 0.18560455080132032,
+                "hybrid": 0.16049846563061457
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.2760600786980846,
+                "structure": 0.23724503592779056,
+                "hybrid": 0.2765968091923399
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.16984058059241963,
+                "structure": 0.21007612252136587,
+                "hybrid": 0.2025357882782744
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.18869617706626457,
+                "structure": 0.19460501639758873,
+                "hybrid": 0.1976596706207026
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.320261923458763,
+                "structure": 0.20241284170925417,
+                "hybrid": 0.2751400699287738
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.23068581398461477,
+                "structure": 0.20091304605455007,
+                "hybrid": 0.22450433536174474
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.13322035752814904,
+                "structure": 0.20703135225909652,
+                "hybrid": 0.17505437183522846
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2934148569462708,
+                "structure": 0.23453125122473573,
+                "hybrid": 0.27816440709075735
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.18228069921915893,
+                "structure": 0.21731394964663275,
+                "hybrid": 0.20878279074624317
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.10430843310335276,
+                "structure": 0.2055172598631646,
+                "hybrid": 0.16631813324397235
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.14434751136976928,
+                "structure": 0.21621890855221634,
+                "hybrid": 0.18638928121823942
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.30758523473539545,
+                "structure": 0.23968958436855323,
+                "hybrid": 0.2931422707811743
+              }
+            }
+          ]
+        },
+        {
+          "id": "q72-c0-g2",
+          "character": "法",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.19357782473535734,
+                "structure": 0.3329909563527579,
+                "hybrid": 0.26986270648825705
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3705070445601055,
+                "structure": 0.43389098488040256,
+                "hybrid": 0.4034310539347333
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.23738391933426226,
+                "structure": 0.35741014501163637,
+                "hybrid": 0.3017371089151771
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.2270805824713192,
+                "structure": 0.2604843577568289,
+                "hybrid": 0.24378247011407406
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.37939561759071155,
+                "structure": 0.29772694057898874,
+                "hybrid": 0.3393278140965703
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.27632083826930504,
+                "structure": 0.28390781640472007,
+                "hybrid": 0.2801143273370126
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.20710769736048276,
+                "structure": 0.3744091581395321,
+                "hybrid": 0.2942006170966735
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.37016526425291296,
+                "structure": 0.4139746458443306,
+                "hybrid": 0.39711421842343764
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.24675924663811524,
+                "structure": 0.3863294036687485,
+                "hybrid": 0.3224101708809528
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.1966912343407462,
+                "structure": 0.3555320007935613,
+                "hybrid": 0.28188960743870445
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.19131322921483065,
+                "structure": 0.3452730298501507,
+                "hybrid": 0.27246351627668425
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.37093654923756064,
+                "structure": 0.3843505536132634,
+                "hybrid": 0.38598451736631934
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 114,
+      "expected": "宋体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.11762590210802844
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.22549561391144526
+          },
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.3054450136126588
+          }
+        ],
+        "structure": [
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.2533040229511559
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.2986304783425131
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.3306226198140465
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.18878868890043266
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.26282744558511123
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.32929387644764885
+          }
+        ]
+      },
+      "glyphs": [
+        {
+          "id": "q114-c0-g0",
+          "character": "椿",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.2445178688843757,
+                "structure": 0.3346703320342783,
+                "hybrid": 0.29209967388480995
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3100162115783354,
+                "structure": 0.3212490126666774,
+                "hybrid": 0.3166176717524133
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.24559528871974645,
+                "structure": 0.3090876776266922,
+                "hybrid": 0.2773414831732193
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.13298441176975678,
+                "structure": 0.2613842587310955,
+                "hybrid": 0.19869191609326678
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.23234311555137577,
+                "structure": 0.28610778863940955,
+                "hybrid": 0.25922545209539266
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.14804560648746398,
+                "structure": 0.27523683463292287,
+                "hybrid": 0.2116412205601934
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.25488069982236794,
+                "structure": 0.3262617144258639,
+                "hybrid": 0.293647957877038
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.32687528195057614,
+                "structure": 0.313750508583117,
+                "hybrid": 0.32255280005339393
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2617096726286464,
+                "structure": 0.2953071630254529,
+                "hybrid": 0.27978703398685156
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.27246229425006246,
+                "structure": 0.35608572426786056,
+                "hybrid": 0.31662424669525085
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.263357543697763,
+                "structure": 0.3443929944548055,
+                "hybrid": 0.30387526907628426
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.35591366488385845,
+                "structure": 0.32977386748786564,
+                "hybrid": 0.34284376618586204
+              }
+            }
+          ]
+        },
+        {
+          "id": "q114-c0-g1",
+          "character": "月",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.41197290161250244,
+                "structure": 0.420723812005028,
+                "hybrid": 0.41634835680876525
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.5663507840165527,
+                "structure": 0.4173366663834124,
+                "hybrid": 0.49184372519998254
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.44579850742504706,
+                "structure": 0.38390872923323827,
+                "hybrid": 0.4166423323921915
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.10707857563278791,
+                "structure": 0.2557646351210769,
+                "hybrid": 0.18166412025113154
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.257272688456508,
+                "structure": 0.27228729351785563,
+                "hybrid": 0.2681817678959332
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.14947540375609755,
+                "structure": 0.24509504657883385,
+                "hybrid": 0.20775094382572734
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.33747391055330517,
+                "structure": 0.3634444664015021,
+                "hybrid": 0.37700391513109766
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.36828476496777685,
+                "structure": 0.3564245446873921,
+                "hybrid": 0.3753148971906133
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.31593281702952686,
+                "structure": 0.3593986638692576,
+                "hybrid": 0.3382876690425749
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.37345186246703155,
+                "structure": 0.3891333556566038,
+                "hybrid": 0.4116809409114591
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.4230799912419565,
+                "structure": 0.44786244124292174,
+                "hybrid": 0.4429805381243781
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.535436298310459,
+                "structure": 0.4115047933655232,
+                "hybrid": 0.48732334168529484
+              }
+            }
+          ]
+        },
+        {
+          "id": "q114-c1-g2",
+          "character": "キ",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.25984427034109825,
+                "structure": 0.29596037900203953,
+                "hybrid": 0.29433662831764024
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3376208452543642,
+                "structure": 0.3186559362507531,
+                "hybrid": 0.34486275597362476
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.2628031457263941,
+                "structure": 0.2988714525822091,
+                "hybrid": 0.29389781377753577
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.1128147189215406,
+                "structure": 0.24276317500129524,
+                "hybrid": 0.18601003035689967
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.22036866879798475,
+                "structure": 0.2807375913703556,
+                "hybrid": 0.2558002493210546
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.12712426344395839,
+                "structure": 0.26714627409508085,
+                "hybrid": 0.19941675321731597
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.1423772203326332,
+                "structure": 0.24920984384128247,
+                "hybrid": 0.19579353208695782
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2099090746055681,
+                "structure": 0.27954663169254285,
+                "hybrid": 0.25452478806642304
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.0988443520761625,
+                "structure": 0.2411856081328287,
+                "hybrid": 0.17040763372590728
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.17929764683610583,
+                "structure": 0.2423386222485012,
+                "hybrid": 0.21590409314172387
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.19570798470153283,
+                "structure": 0.35193919272369667,
+                "hybrid": 0.2971498828043606
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2545254840922366,
+                "structure": 0.371590419807063,
+                "hybrid": 0.31566006657049406
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 92,
+      "expected": "宋体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.2331246400594561
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.29130369710870035
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.33243719782377396
+          }
+        ],
+        "structure": [
+          {
+            "font": "PAntiqueANpProN-Light",
+            "group": "黑体",
+            "distance": 0.23395156550041651
+          },
+          {
+            "font": "PRyuminPr6N-Medium",
+            "group": "宋体",
+            "distance": 0.24207749132674916
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.29268901063141667
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.24194403912799115
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.2832587700325529
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.31720918659400005
+          }
+        ]
+      },
+      "glyphs": [
+        {
+          "id": "q92-c0-g0",
+          "character": "今",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.39976791905561887,
+                "structure": 0.2785376826525398,
+                "hybrid": 0.3435601034632135
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3956435141939318,
+                "structure": 0.2869126793938188,
+                "hybrid": 0.34127809679387533
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.31313416222325413,
+                "structure": 0.25560960618108525,
+                "hybrid": 0.2912153804253592
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.29600184873858837,
+                "structure": 0.24433624250929842,
+                "hybrid": 0.2701690456239434
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.36012134106341764,
+                "structure": 0.24491557357677396,
+                "hybrid": 0.3031377116180206
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.3338704966659045,
+                "structure": 0.22248486298994208,
+                "hybrid": 0.2781776798279233
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.3394644061514594,
+                "structure": 0.2811156435751323,
+                "hybrid": 0.31098681628396785
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.24332303012002116,
+                "structure": 0.26864544271862567,
+                "hybrid": 0.25598423641932344
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2528697646359414,
+                "structure": 0.2652041068851353,
+                "hybrid": 0.2715913397699098
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.4029264947665589,
+                "structure": 0.3197763354880257,
+                "hybrid": 0.3774691302591844
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.3350687104829158,
+                "structure": 0.30307841616485487,
+                "hybrid": 0.3234811024583629
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.24157294645684865,
+                "structure": 0.28020423270225914,
+                "hybrid": 0.2631545695349267
+              }
+            }
+          ]
+        },
+        {
+          "id": "q92-c1-g0",
+          "character": "正",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.35749144243376557,
+                "structure": 0.2888648733824542,
+                "hybrid": 0.3231781579081099
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.327693419693986,
+                "structure": 0.20486376450351507,
+                "hybrid": 0.26627859209875054
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3308338779056725,
+                "structure": 0.22265564572539204,
+                "hybrid": 0.2836594010889256
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.39933839023423084,
+                "structure": 0.24434287276845845,
+                "hybrid": 0.3233496233276414
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.4846116963773966,
+                "structure": 0.20727384523450734,
+                "hybrid": 0.345942770805952
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.4302050352358533,
+                "structure": 0.2312349911905365,
+                "hybrid": 0.3307200132131949
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2851677571173933,
+                "structure": 0.27175288104933626,
+                "hybrid": 0.27846031908336477
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.33826677316257747,
+                "structure": 0.19219698017401338,
+                "hybrid": 0.2652318766682954
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2932791781611741,
+                "structure": 0.23503876762617504,
+                "hybrid": 0.26737246727367725
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.35842764632418933,
+                "structure": 0.3701739293071259,
+                "hybrid": 0.36441701192471054
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.4251473942270843,
+                "structure": 0.29282419684472644,
+                "hybrid": 0.35898579553590537
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.563967017366274,
+                "structure": 0.24641055581560728,
+                "hybrid": 0.4051887865909406
+              }
+            }
+          ]
+        },
+        {
+          "id": "q92-c2-g2",
+          "character": "ま",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3533143258297541,
+                "structure": 0.40002370360951445,
+                "hybrid": 0.3811314757195057
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.46502978801263084,
+                "structure": 0.4351896495936092,
+                "hybrid": 0.45354076344272637
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.35334355334239537,
+                "structure": 0.3998017799877728,
+                "hybrid": 0.37675277826771525
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.17857085235328188,
+                "structure": 0.27326726843974136,
+                "hybrid": 0.256257641146074
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.27128842344505866,
+                "structure": 0.29894988972885045,
+                "hybrid": 0.2966501148989557
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.18926780510192479,
+                "structure": 0.272512619799769,
+                "hybrid": 0.241063972010924
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.1948129060539577,
+                "structure": 0.26614798733686673,
+                "hybrid": 0.2374047075492135
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2541579983675836,
+                "structure": 0.2410122736086105,
+                "hybrid": 0.248328164710745
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.15322497738125274,
+                "structure": 0.22051164329952025,
+                "hybrid": 0.18686831034038648
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.23128106615780458,
+                "structure": 0.2547756375401634,
+                "hybrid": 0.2687494601736306
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.33275385374248095,
+                "structure": 0.3925342504294065,
+                "hybrid": 0.36805137280597877
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.32788689846344377,
+                "structure": 0.39511946482287214,
+                "hybrid": 0.361503181643158
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 125,
+      "expected": "黑体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.10649412320391449
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.14739663955802831
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.17620732385312418
+          }
+        ],
+        "structure": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.2579457813841787
+          },
+          {
+            "font": "PAntiqueANpProN-Bold",
+            "group": "黑体",
+            "distance": 0.26971587641896916
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.3284247355757232
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.19371802481132303
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.20648403006659158
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.2565410207252455
+          }
+        ]
+      },
+      "glyphs": [
+        {
+          "id": "q125-c0-g3",
+          "character": "約",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.1930714090340494,
+                "structure": 0.2037270089243751,
+                "hybrid": 0.20390240629620004
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.2614865313778211,
+                "structure": 0.227562445574986,
+                "hybrid": 0.24452448847640354
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.16178239894314678,
+                "structure": 0.20490171577860156,
+                "hybrid": 0.18868945693675193
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.20559403749436453,
+                "structure": 0.25984227782613023,
+                "hybrid": 0.2350790190337924
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.2959081521500342,
+                "structure": 0.2483000281743516,
+                "hybrid": 0.2721040901621929
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.2532733781439795,
+                "structure": 0.28084351748316566,
+                "hybrid": 0.2670584478135726
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.15586305549438675,
+                "structure": 0.23664654004111807,
+                "hybrid": 0.21024200974583118
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2487471221067011,
+                "structure": 0.23090023429255827,
+                "hybrid": 0.24689076017913786
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.12843895162122854,
+                "structure": 0.22763640101700067,
+                "hybrid": 0.18446741531525024
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.19828442844201816,
+                "structure": 0.2265397481665806,
+                "hybrid": 0.22026104766859883
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2108733565874356,
+                "structure": 0.2939050136308271,
+                "hybrid": 0.26201857351126967
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.3406489172336046,
+                "structure": 0.30827121869214164,
+                "hybrid": 0.3244600679628731
+              }
+            }
+          ]
+        },
+        {
+          "id": "q125-c0-g4",
+          "character": "束",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.10175845446134756,
+                "structure": 0.2790258792604005,
+                "hybrid": 0.20198364455069057
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3024258296562594,
+                "structure": 0.32092327742277904,
+                "hybrid": 0.315328327005965
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.11120595763536666,
+                "structure": 0.2679980506815893,
+                "hybrid": 0.18960200415847797
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.16417151931299545,
+                "structure": 0.3783544140179541,
+                "hybrid": 0.2714942605938978
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.3052912164645895,
+                "structure": 0.3844243946258608,
+                "hybrid": 0.3589022478507569
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.20130691380480453,
+                "structure": 0.3674463190442857,
+                "hybrid": 0.29433106850588286
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.09882798826678052,
+                "structure": 0.2583451667813218,
+                "hybrid": 0.182769145458606
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.23377192863933746,
+                "structure": 0.306633604273681,
+                "hybrid": 0.27779308874723263
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.07647565010993533,
+                "structure": 0.26101870973209784,
+                "hybrid": 0.17179010744793335
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.1562365534860802,
+                "structure": 0.28124023379654095,
+                "hybrid": 0.2255163729077443
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.12067000396257521,
+                "structure": 0.2488468632572697,
+                "hybrid": 0.18476442241315572
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2720402235534887,
+                "structure": 0.31078223950225137,
+                "hybrid": 0.3092757644700742
+              }
+            }
+          ]
+        },
+        {
+          "id": "q125-c1-g1",
+          "character": "め",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.15091021649476577,
+                "structure": 0.30846922771180213,
+                "hybrid": 0.2301197899509607
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.31416425026266037,
+                "structure": 0.3269624762743331,
+                "hybrid": 0.3226307064964352
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.16920156209557147,
+                "structure": 0.3009375776923452,
+                "hybrid": 0.24116062910454483
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.15885641475201254,
+                "structure": 0.34707751488308525,
+                "hybrid": 0.2630497825480462
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.2769522436958755,
+                "structure": 0.39356189764741323,
+                "hybrid": 0.33525707067164434
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.18761520856273506,
+                "structure": 0.3656111793747139,
+                "hybrid": 0.2812989421803107
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.12840768746477926,
+                "structure": 0.3141559224344677,
+                "hybrid": 0.2248526632927486
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2452726223321539,
+                "structure": 0.3390066162826168,
+                "hybrid": 0.2983915398610235
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.11456776788057962,
+                "structure": 0.3325527108901052,
+                "hybrid": 0.22489655167078548
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.14636849259001766,
+                "structure": 0.3196993961984337,
+                "hybrid": 0.23303394439422567
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.18525785671069359,
+                "structure": 0.3372648374527393,
+                "hybrid": 0.26182821960547537
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.31658983309645944,
+                "structure": 0.35352936814960145,
+                "hybrid": 0.33933810353369775
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 58,
+      "expected": "黑体",
+      "variants": {
+        "binary": [
+          {
+            "font": "YWHeiTi-Bold",
+            "group": "黑体",
+            "distance": 0.11836763836753876
+          },
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.13274923646876283
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.30735839975988016
+          }
+        ],
+        "structure": [
+          {
+            "font": "YWHeiTi-Bold",
+            "group": "黑体",
+            "distance": 0.25245718096688735
+          },
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.26318419685381095
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.37510503275845314
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "YWHeiTi-Bold",
+            "group": "黑体",
+            "distance": 0.18699665286836262
+          },
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.20060084120189703
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.34921479297862645
+          }
+        ]
+      },
+      "glyphs": [
+        {
+          "id": "q58-c0-g0",
+          "character": "あ",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.08510674972458204,
+                "structure": 0.2627242113858468,
+                "hybrid": 0.17609779785287938
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.29744376715588505,
+                "structure": 0.3033053592044268,
+                "hybrid": 0.31212377035227123
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.10969467387326676,
+                "structure": 0.2704061200731419,
+                "hybrid": 0.19035926731081157
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.28630682064537194,
+                "structure": 0.409547895963669,
+                "hybrid": 0.3506365540913131
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.40631682820561704,
+                "structure": 0.4136586760881713,
+                "hybrid": 0.4220765516886673
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.3233079259124647,
+                "structure": 0.42042935503574463,
+                "hybrid": 0.37449327497379714
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.23084822445064,
+                "structure": 0.37883418926704704,
+                "hybrid": 0.3056346980087013
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.42143921504135057,
+                "structure": 0.39367211276172515,
+                "hybrid": 0.418059729352837
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.3011102536874565,
+                "structure": 0.38771006771189476,
+                "hybrid": 0.35063015795983976
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.22131461616440895,
+                "structure": 0.3772440219562032,
+                "hybrid": 0.29931339331122103
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.10162559279181772,
+                "structure": 0.2560568846180955,
+                "hybrid": 0.1801183514825172
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2679937950284358,
+                "structure": 0.28443581801027706,
+                "hybrid": 0.28533711779820536
+              }
+            }
+          ]
+        },
+        {
+          "id": "q58-c0-g2",
+          "character": "が",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.1305739432712473,
+                "structure": 0.25664915059297866,
+                "hybrid": 0.19361154693211297
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.33636223877927274,
+                "structure": 0.3401398094110115,
+                "hybrid": 0.34805260794522963
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.19030315481525148,
+                "structure": 0.28884480563471504,
+                "hybrid": 0.24526872864299792
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.3627315080223034,
+                "structure": 0.3855531250899034,
+                "hybrid": 0.38102828566749
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.4692440158561793,
+                "structure": 0.39049771773443787,
+                "hybrid": 0.4307625930593708
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.39997786022414844,
+                "structure": 0.38113680183375054,
+                "hybrid": 0.3905573310289495
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2550232283116512,
+                "structure": 0.3421016283899349,
+                "hybrid": 0.3019173071559691
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.41713132976894735,
+                "structure": 0.342462511887759,
+                "hybrid": 0.38859561467813375
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2833653342445732,
+                "structure": 0.3463610377607204,
+                "hybrid": 0.31486318600264684
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.23621667151252182,
+                "structure": 0.33785072158745677,
+                "hybrid": 0.293314102233945
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.1527559548229713,
+                "structure": 0.2889481834544765,
+                "hybrid": 0.22432768596461194
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.3730302030378063,
+                "structure": 0.34756727608945365,
+                "hybrid": 0.36087176805564114
+              }
+            }
+          ]
+        },
+        {
+          "id": "q58-c1-g1",
+          "character": "た",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.1825670164104592,
+                "structure": 0.2701792285826074,
+                "hybrid": 0.23209317882069871
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3954607932057918,
+                "structure": 0.3234699017405447,
+                "hybrid": 0.38766323679104
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.2266187773376449,
+                "structure": 0.2949937184397876,
+                "hybrid": 0.26753874281479056
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.27303687061196524,
+                "structure": 0.3302140772217872,
+                "hybrid": 0.31597953917707633
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.44520736195652055,
+                "structure": 0.33138128569941183,
+                "hybrid": 0.4153981788862784
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.3164029857609421,
+                "structure": 0.34861689806580404,
+                "hybrid": 0.3391653275088534
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.14384484695899408,
+                "structure": 0.28995038381153704,
+                "hybrid": 0.22085617931754228
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.377420623234259,
+                "structure": 0.3393063262239724,
+                "hybrid": 0.37412912914739893
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.18452123031069614,
+                "structure": 0.31447997260626137,
+                "hybrid": 0.2600000341018409
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.13840495558780813,
+                "structure": 0.2935337779520899,
+                "hybrid": 0.21995473230594936
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.10072136748782726,
+                "structure": 0.21236647482809015,
+                "hybrid": 0.1565439211579587
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.3325616037654173,
+                "structure": 0.289444263757999,
+                "hybrid": 0.3110029337617082
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 96,
+      "expected": "黑体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.06859526144959226
+          },
+          {
+            "font": "YWHeiTi-Bold",
+            "group": "黑体",
+            "distance": 0.08535894246024696
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.2759439786413189
+          }
+        ],
+        "structure": [
+          {
+            "font": "YWHeiTi-Bold",
+            "group": "黑体",
+            "distance": 0.16082043151245431
+          },
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.1777348488414967
+          },
+          {
+            "font": "PRyuminPr6N-Light",
+            "group": "宋体",
+            "distance": 0.34450419106477587
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.12681652076274427
+          },
+          {
+            "font": "YWHeiTi-Bold",
+            "group": "黑体",
+            "distance": 0.12899310409821432
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.32719970005140336
+          }
+        ]
+      },
+      "glyphs": [
+        {
+          "id": "q96-c1-g0",
+          "character": "万",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.07404716062284489,
+                "structure": 0.18479188986206038,
+                "hybrid": 0.13218275353337683
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.34570005297813394,
+                "structure": 0.3204034554411197,
+                "hybrid": 0.33530121904413657
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.16538995980375973,
+                "structure": 0.2619981170173315,
+                "hybrid": 0.2176250948577223
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.2862197930823448,
+                "structure": 0.34622202020049575,
+                "hybrid": 0.34418824847017243
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.39036515368773156,
+                "structure": 0.32809483362282055,
+                "hybrid": 0.37585693261956454
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.3304957836944763,
+                "structure": 0.35953587909851414,
+                "hybrid": 0.3652205127682189
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.08024772445497924,
+                "structure": 0.18744893767031176,
+                "hybrid": 0.1338483310626455
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.3455967641207907,
+                "structure": 0.3222693317786835,
+                "hybrid": 0.3339330479497371
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.1486158150580294,
+                "structure": 0.235827095242397,
+                "hybrid": 0.20313957736729962
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.09990634433543247,
+                "structure": 0.21628150690716083,
+                "hybrid": 0.16797952099214067
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.07580862135634744,
+                "structure": 0.17601243680924808,
+                "hybrid": 0.12591052908279776
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.330493717650871,
+                "structure": 0.30469081211915333,
+                "hybrid": 0.3211719948685714
+              }
+            }
+          ]
+        },
+        {
+          "id": "q96-c1-g1",
+          "character": "里",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.0593742461055226,
+                "structure": 0.1492553213617354,
+                "hybrid": 0.10862738653972143
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3292566127124015,
+                "structure": 0.27962145412088724,
+                "hybrid": 0.30443903341664436
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.1445266152636365,
+                "structure": 0.2069787590267156,
+                "hybrid": 0.1797779799332226
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.2754983732885602,
+                "structure": 0.31872762106347396,
+                "hybrid": 0.29937582131538054
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.3690532123416768,
+                "structure": 0.3172541470702358,
+                "hybrid": 0.34694193101820625
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.3006413696975764,
+                "structure": 0.3190359999383622,
+                "hybrid": 0.3098386848179693
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.07485342235168391,
+                "structure": 0.1239030134307052,
+                "hybrid": 0.10008896455791406
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.28295719482844767,
+                "structure": 0.225304307256179,
+                "hybrid": 0.2609315715704507
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.14566115177386657,
+                "structure": 0.16818357463666828,
+                "hybrid": 0.16039164205235368
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.04751586185122739,
+                "structure": 0.08233029477947162,
+                "hybrid": 0.0649230783153495
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.0902989649292999,
+                "structure": 0.1215416558760419,
+                "hybrid": 0.11606712702205081
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.326214435982119,
+                "structure": 0.2484064031686375,
+                "hybrid": 0.2946242669182969
+              }
+            }
+          ]
+        },
+        {
+          "id": "q96-c0-g3",
+          "character": "に",
+          "scores": [
+            {
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.07236437762040929,
+                "structure": 0.19915733530069438,
+                "hybrid": 0.13963942221513456
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.3533634523750255,
+                "structure": 0.3158692948109708,
+                "hybrid": 0.3619275243549801
+              }
+            },
+            {
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "scores": {
+                "binary": 0.14226146686814867,
+                "structure": 0.2620249644618021,
+                "hybrid": 0.21264422958142315
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.2661137695530517,
+                "structure": 0.40244268730160215,
+                "hybrid": 0.3380350303686571
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.42142400729361934,
+                "structure": 0.3881635925012713,
+                "hybrid": 0.409527031333498
+              }
+            },
+            {
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "scores": {
+                "binary": 0.30379029493125653,
+                "structure": 0.3727671037613498,
+                "hybrid": 0.33827869934630317
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.2026517923676113,
+                "structure": 0.3996187379584562,
+                "hybrid": 0.3118718855963976
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.39575883751255386,
+                "structure": 0.4240747568067706,
+                "hybrid": 0.42129732952145127
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.24769995218915972,
+                "structure": 0.3907999745707642,
+                "hybrid": 0.3283055380159655
+              }
+            },
+            {
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.21278173446086757,
+                "structure": 0.3821523186841391,
+                "hybrid": 0.3061251532240954
+              }
+            },
+            {
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.08996924109509358,
+                "structure": 0.18490720185207302,
+                "hybrid": 0.14500165618979444
+              }
+            },
+            {
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "scores": {
+                "binary": 0.3606794773116594,
+                "structure": 0.299403144806217,
+                "hybrid": 0.3351190769190473
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

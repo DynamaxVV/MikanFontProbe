@@ -1,0 +1,2277 @@
+{
+  "status": "synthetic only; not proof on manga rasterization",
+  "cases": [
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 0,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        2.9432137824861706,
+        2.9432137824861706
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 0,
+      "pixels": 32,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.9242850433148937,
+        3.9242850433148937
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 0,
+      "pixels": 48,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        5.886427564972341,
+        5.886427564972341
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 0,
+      "pixels": 64,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        7.848570086629787,
+        7.848570086629787
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 0,
+      "pixels": 96,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        11.772855129944682,
+        11.772855129944682
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 15,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 15,
+      "pixels": 32,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 15,
+      "pixels": 48,
+      "states": [
+        "square"
+      ],
+      "native_widths": [
+        6.190308393422326
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 15,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 15,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 30,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 30,
+      "pixels": 32,
+      "states": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.4461388221153846,
+        3.4461388221153846,
+        3.3192608173076925
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 30,
+      "pixels": 48,
+      "states": [
+        "unknown"
+      ],
+      "native_widths": [
+        4.612511268028846
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 30,
+      "pixels": 64,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        8.798276796333584,
+        8.80953393360925
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 30,
+      "pixels": 96,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        13.11075749462007,
+        13.075226260122095
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 45,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        2.768505389873798,
+        2.768505389873798
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 45,
+      "pixels": 32,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.075007512019231,
+        3.075007512019231
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 45,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 45,
+      "pixels": 64,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        6.150015024038462,
+        6.150015024038462
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 45,
+      "pixels": 96,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        14.84678841971017,
+        14.851744691808742
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 60,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 60,
+      "pixels": 32,
+      "states": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.4461388221153846,
+        3.3192608173076925,
+        3.4461388221153846
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 60,
+      "pixels": 48,
+      "states": [
+        "unknown"
+      ],
+      "native_widths": [
+        4.612511268028846
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 60,
+      "pixels": 64,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        8.809905548396667,
+        8.798276796333582
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 60,
+      "pixels": 96,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        13.075898367249575,
+        13.116407430460166
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 90,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        2.9432137824861706,
+        2.9432137824861706
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 90,
+      "pixels": 32,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.9242850433148937,
+        3.9242850433148937
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 90,
+      "pixels": 48,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        5.886427564972341,
+        5.886427564972341
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 90,
+      "pixels": 64,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        7.848570086629787,
+        7.848570086629787
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 10,
+      "angle": 90,
+      "pixels": 96,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        11.772855129944682,
+        11.772855129944682
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 0,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.865583554376658,
+        3.865583554376658
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 0,
+      "pixels": 32,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        6.076923076923077,
+        6.076923076923077
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 0,
+      "pixels": 48,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        7.731167108753316,
+        7.731167108753316
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 0,
+      "pixels": 64,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        10.92361051138116,
+        10.923610511381163
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 0,
+      "pixels": 96,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        16.38541576707174,
+        16.385415767071745
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 15,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 15,
+      "pixels": 32,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 15,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 15,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 15,
+      "pixels": 96,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        16.562448824368992,
+        16.59437510347504
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 30,
+      "pixels": 24,
+      "states": [
+        "unknown"
+      ],
+      "native_widths": [
+        3.5041104830228367
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 30,
+      "pixels": 32,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.4461388221153846,
+        3.9346454326923075
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 30,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 30,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 30,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 45,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.5041104830228367,
+        3.6901526817908654,
+        3.5041104830228367,
+        3.6901526817908654
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 45,
+      "pixels": 32,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        4.983642578125,
+        4.983642578125
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 45,
+      "pixels": 48,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        10.188994040855995,
+        10.18469505215401
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 45,
+      "pixels": 64,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        13.516780988094464,
+        13.516780988094464
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 45,
+      "pixels": 96,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        20.30030225315331,
+        20.301568296534068
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 60,
+      "pixels": 24,
+      "states": [
+        "unknown"
+      ],
+      "native_widths": [
+        3.5041104830228367
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 60,
+      "pixels": 32,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.9346454326923075,
+        3.4461388221153846
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 60,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 60,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 60,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 90,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.865583554376658,
+        3.865583554376658
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 90,
+      "pixels": 32,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        6.076923076923077,
+        6.076923076923077
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 90,
+      "pixels": 48,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        7.731167108753316,
+        7.731167108753316
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 90,
+      "pixels": 64,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        10.923610511381163,
+        10.92361051138116
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 14,
+      "angle": 90,
+      "pixels": 96,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        16.385415767071745,
+        16.38541576707174
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 0,
+      "pixels": 24,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        5.943048387096774,
+        5.943048387096774
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 0,
+      "pixels": 32,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        7.924064516129032,
+        7.924064516129032
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 0,
+      "pixels": 48,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        11.886096774193549,
+        11.886096774193549
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 0,
+      "pixels": 64,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        14.616722408026757,
+        14.616722408026757
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 0,
+      "pixels": 96,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        22.848387096774193,
+        22.848387096774193
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 15,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 15,
+      "pixels": 32,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 15,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 15,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 15,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 30,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.779606745793269,
+        4.055814302884615
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 30,
+      "pixels": 32,
+      "states": [
+        "unknown"
+      ],
+      "native_widths": [
+        4.794273963341346
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 30,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 30,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 30,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 45,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        4.706958477313702,
+        4.383882962740385,
+        4.706958477313702,
+        4.383882962740385
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 45,
+      "pixels": 32,
+      "states": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        6.275944636418269,
+        5.845177283653846,
+        6.275944636418269,
+        5.845177283653846
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 45,
+      "pixels": 48,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        7.4754638671875,
+        7.4754638671875
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 45,
+      "pixels": 64,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        17.7910568117534,
+        17.78408812518397
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 45,
+      "pixels": 96,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        26.556766854774846,
+        26.55618809944959
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 60,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        4.055814302884615,
+        3.779606745793269
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 60,
+      "pixels": 32,
+      "states": [
+        "unknown"
+      ],
+      "native_widths": [
+        4.794273963341346
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 60,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 60,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 60,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 90,
+      "pixels": 24,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        5.943048387096774,
+        5.943048387096774
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 90,
+      "pixels": 32,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        7.924064516129032,
+        7.924064516129032
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 90,
+      "pixels": 48,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        11.886096774193549,
+        11.886096774193549
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 90,
+      "pixels": 64,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        14.616722408026757,
+        14.616722408026757
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "square",
+      "width": 20,
+      "angle": 90,
+      "pixels": 96,
+      "states": [
+        "square",
+        "square"
+      ],
+      "native_widths": [
+        22.848387096774193,
+        22.848387096774193
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 0,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.0033386389729673,
+        3.0033386389729673
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 0,
+      "pixels": 32,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        4.006880805761403,
+        4.006880805761403
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 0,
+      "pixels": 48,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        6.003033347249765,
+        6.003033347249765
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 0,
+      "pixels": 64,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        8.004044462999687,
+        8.004044462999687
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 0,
+      "pixels": 96,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        12.741044776119404,
+        12.741044776119404
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 15,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 15,
+      "pixels": 32,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 15,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 15,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 15,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 30,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 30,
+      "pixels": 32,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 30,
+      "pixels": 48,
+      "states": [
+        "rounded"
+      ],
+      "native_widths": [
+        7.380604893683931
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 30,
+      "pixels": 64,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        9.75928846153846,
+        9.75928846153846
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 30,
+      "pixels": 96,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        14.543895048253676,
+        14.544887297617363
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 45,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 45,
+      "pixels": 32,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        5.870366563983993,
+        5.870366563983993
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 45,
+      "pixels": 48,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        8.742885946992352,
+        8.743369179599618
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 45,
+      "pixels": 64,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        11.63962381125907,
+        11.63962381125907
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 45,
+      "pixels": 96,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        17.459435716888606,
+        17.459435716888606
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 60,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 60,
+      "pixels": 32,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 60,
+      "pixels": 48,
+      "states": [
+        "rounded"
+      ],
+      "native_widths": [
+        7.349586741383616
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 60,
+      "pixels": 64,
+      "states": [
+        "rounded"
+      ],
+      "native_widths": [
+        9.764547892011835
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 60,
+      "pixels": 96,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        14.54828883817795,
+        14.544711253375418
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 90,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.0015166736248826,
+        3.0015166736248826
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 90,
+      "pixels": 32,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        4.006880805761403,
+        4.006880805761403
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 90,
+      "pixels": 48,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        6.003033347249765,
+        6.003033347249765
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 90,
+      "pixels": 64,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        8.004044462999687,
+        8.004044462999687
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 10,
+      "angle": 90,
+      "pixels": 96,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        12.741044776119404,
+        12.741044776119404
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 0,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.9268336314847945,
+        3.9268336314847945
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 0,
+      "pixels": 32,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        6.159109311740891,
+        6.159109311740891
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 0,
+      "pixels": 48,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        7.846422182468695,
+        7.846422182468695
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 0,
+      "pixels": 64,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        11.048747763864043,
+        11.048747763864045
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 0,
+      "pixels": 96,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        16.471857072358272,
+        16.47185707235828
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 15,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 15,
+      "pixels": 32,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 15,
+      "pixels": 48,
+      "states": [
+        "rounded"
+      ],
+      "native_widths": [
+        8.804992807828464
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 15,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 15,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 30,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 30,
+      "pixels": 32,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 30,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 30,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 30,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 45,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 45,
+      "pixels": 32,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        7.51088441476314,
+        7.516269006672696
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 45,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 45,
+      "pixels": 64,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        14.843012212396978,
+        14.846393235223909
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 45,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 60,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 60,
+      "pixels": 32,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 60,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 60,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 60,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 90,
+      "pixels": 24,
+      "states": [
+        "unknown",
+        "unknown"
+      ],
+      "native_widths": [
+        3.925022361359571,
+        3.925022361359571
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 90,
+      "pixels": 32,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        6.15425101214575,
+        6.15425101214575
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 90,
+      "pixels": 48,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        7.846422182468695,
+        7.846422182468695
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 90,
+      "pixels": 64,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        11.048747763864045,
+        11.048747763864043
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 14,
+      "angle": 90,
+      "pixels": 96,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        16.47185707235828,
+        16.471857072358272
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 0,
+      "pixels": 24,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        5.079642857142858,
+        5.079642857142858
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 0,
+      "pixels": 32,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        7.041587748635804,
+        7.041587748635804
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 0,
+      "pixels": 48,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        11.074515050167223,
+        11.074515050167223
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 0,
+      "pixels": 64,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        14.131547262805842,
+        14.131547262805842
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 0,
+      "pixels": 96,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        21.001415243795105,
+        21.001415243795105
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 15,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 15,
+      "pixels": 32,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        7.618852702488493,
+        7.856817251862491
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 15,
+      "pixels": 48,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        11.484262783129264,
+        11.485699359058628
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 15,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 15,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 30,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 30,
+      "pixels": 32,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 30,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 30,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 30,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 45,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 45,
+      "pixels": 32,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 45,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 45,
+      "pixels": 64,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        18.99486224355653,
+        18.987609527923247
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 45,
+      "pixels": 96,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        28.41025445079443,
+        28.41025445079443
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 60,
+      "pixels": 24,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 60,
+      "pixels": 32,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 60,
+      "pixels": 48,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 60,
+      "pixels": 64,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 60,
+      "pixels": 96,
+      "states": [],
+      "native_widths": [],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 90,
+      "pixels": 24,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        5.079642857142858,
+        5.079642857142858
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 90,
+      "pixels": 32,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        7.041587748635804,
+        7.041587748635804
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 90,
+      "pixels": 48,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        11.074515050167223,
+        11.074515050167223
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 90,
+      "pixels": 64,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        14.131547262805842,
+        14.131547262805842
+      ],
+      "wrong": 0
+    },
+    {
+      "expected": "rounded",
+      "width": 20,
+      "angle": 90,
+      "pixels": 96,
+      "states": [
+        "rounded",
+        "rounded"
+      ],
+      "native_widths": [
+        21.001415243795105,
+        21.001415243795105
+      ],
+      "wrong": 0
+    }
+  ],
+  "wrong_hard_decisions": 0,
+  "known_features": 141,
+  "detected_features": 215,
+  "expected_free_caps": 360
+}

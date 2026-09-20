@@ -1,0 +1,4879 @@
+{
+  "status": "development_baseline_not_blind_accuracy",
+  "probabilities": false,
+  "opencv": "5.0.0",
+  "group_aggregation": "mean distance across characters for each font, then minimum per group",
+  "selected_questions": 9,
+  "top1_correct": 6,
+  "results": [
+    {
+      "qid": 115,
+      "expected_group": "圆体",
+      "group_ranking": [
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.261467
+        },
+        {
+          "font_id": "474631d57970d95e",
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "mean_distance": 0.319391
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.578741
+        }
+      ],
+      "font_ranking": [
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.261467
+        },
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.296485
+        },
+        {
+          "font_id": "b8146ac3455acead",
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "mean_distance": 0.315857
+        },
+        {
+          "font_id": "474631d57970d95e",
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "mean_distance": 0.319391
+        },
+        {
+          "font_id": "d25bc98335d4cf34",
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "mean_distance": 0.337728
+        },
+        {
+          "font_id": "c887a03d85afcce9",
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "mean_distance": 0.476025
+        },
+        {
+          "font_id": "e11969a03c87772e",
+          "font": "PAntiqueANpProN-Bold",
+          "group": "黑体",
+          "mean_distance": 0.491895
+        },
+        {
+          "font_id": "3af024455a62616f",
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "mean_distance": 0.515098
+        },
+        {
+          "font_id": "aaf07832a81e6684",
+          "font": "PAntiqueANpProN-Light",
+          "group": "黑体",
+          "mean_distance": 0.540084
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.578741
+        },
+        {
+          "font_id": "18a5e5f6ab602421",
+          "font": "PRyuminPr6N-Medium",
+          "group": "宋体",
+          "mean_distance": 0.603096
+        },
+        {
+          "font_id": "618ab66c2b739436",
+          "font": "PRyuminPr6N-Light",
+          "group": "宋体",
+          "mean_distance": 0.647234
+        }
+      ],
+      "glyphs": [
+        {
+          "id": "q115-c0-g0",
+          "character": "な",
+          "script": "kana",
+          "source_bbox": [
+            118,
+            74,
+            42,
+            53
+          ],
+          "source_file": "data/processed/typographic-v3/q115-c0-g0-source.png",
+          "source_sha256": "cbd69f731ca3612e0ceabd9cb1ee11924ece17887e1c474928f12b4819e339ce",
+          "ranking": [
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.41186,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.436186,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.445253,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.475627,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.488603,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.492198,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.501165,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.522087,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.579562,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.601545,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.6227,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.667138,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            }
+          ]
+        },
+        {
+          "id": "q115-c1-g2",
+          "character": "か",
+          "script": "kana",
+          "source_bbox": [
+            43,
+            173,
+            53,
+            56
+          ],
+          "source_file": "data/processed/typographic-v3/q115-c1-g2-source.png",
+          "source_sha256": "6848531713af5fb69df06eed3fb72d01350b30daf0b45fca2d144eb8959e7a0b",
+          "ranking": [
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.176267,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.18904,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.201888,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.256666,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.275263,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.382585,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.390624,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.398188,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.416607,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.455662,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.492098,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.503102,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            }
+          ]
+        },
+        {
+          "id": "q115-c1-g3",
+          "character": "り",
+          "script": "kana",
+          "source_bbox": [
+            43,
+            225,
+            53,
+            56
+          ],
+          "source_file": "data/processed/typographic-v3/q115-c1-g3-source.png",
+          "source_sha256": "c805ad87cd97d130c343a93ab7c630ce199c16f0400eb56c884484c8c18d64d5",
+          "ranking": [
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.171948,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.22093,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.247045,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.253485,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.292667,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.554261,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.596457,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.624082,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.661543,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.679015,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.694489,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.771461,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": -2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 91,
+      "expected_group": "圆体",
+      "group_ranking": [
+        {
+          "font_id": "b8146ac3455acead",
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "mean_distance": 0.238158
+        },
+        {
+          "font_id": "474631d57970d95e",
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "mean_distance": 0.366472
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.454044
+        }
+      ],
+      "font_ranking": [
+        {
+          "font_id": "b8146ac3455acead",
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "mean_distance": 0.238158
+        },
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.267003
+        },
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.354872
+        },
+        {
+          "font_id": "474631d57970d95e",
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "mean_distance": 0.366472
+        },
+        {
+          "font_id": "d25bc98335d4cf34",
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "mean_distance": 0.411438
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.454044
+        },
+        {
+          "font_id": "18a5e5f6ab602421",
+          "font": "PRyuminPr6N-Medium",
+          "group": "宋体",
+          "mean_distance": 0.471134
+        },
+        {
+          "font_id": "e11969a03c87772e",
+          "font": "PAntiqueANpProN-Bold",
+          "group": "黑体",
+          "mean_distance": 0.502042
+        },
+        {
+          "font_id": "aaf07832a81e6684",
+          "font": "PAntiqueANpProN-Light",
+          "group": "黑体",
+          "mean_distance": 0.512904
+        },
+        {
+          "font_id": "3af024455a62616f",
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "mean_distance": 0.513754
+        },
+        {
+          "font_id": "618ab66c2b739436",
+          "font": "PRyuminPr6N-Light",
+          "group": "宋体",
+          "mean_distance": 0.517273
+        },
+        {
+          "font_id": "c887a03d85afcce9",
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "mean_distance": 0.517976
+        }
+      ],
+      "glyphs": [
+        {
+          "id": "q91-c1-g0",
+          "character": "し",
+          "script": "kana",
+          "source_bbox": [
+            85,
+            58,
+            42,
+            41
+          ],
+          "source_file": "data/processed/typographic-v3/q91-c1-g0-source.png",
+          "source_sha256": "6728b1dd69b6252f5109ed7e43dc87670f3424581888374c668ff07bbb7c7353",
+          "ranking": [
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.17413,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.179398,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.217962,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.23786,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.245639,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.274242,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.276272,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.302365,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.325098,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.327226,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.334469,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.378183,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": "q91-c1-g1",
+          "character": "ち",
+          "script": "kana",
+          "source_bbox": [
+            85,
+            95,
+            42,
+            44
+          ],
+          "source_file": "data/processed/typographic-v3/q91-c1-g1-source.png",
+          "source_sha256": "a85646c0b5442089af347f126d1650efdaccd5a4a592a8f9d17f9b90f5caf6d6",
+          "ranking": [
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.211055,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.262887,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.269366,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.359983,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.407999,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.465968,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.524242,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.554037,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.557619,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.56454,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.611807,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.626747,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            }
+          ]
+        },
+        {
+          "id": "q91-c2-g0",
+          "character": "で",
+          "script": "kana",
+          "source_bbox": [
+            33,
+            63,
+            39,
+            37
+          ],
+          "source_file": "data/processed/typographic-v3/q91-c2-g0-source.png",
+          "source_sha256": "a1431ce8977910c0e0bd2fb9442e7aa803dc978728d0072fdd08cc4c7cd371aa",
+          "ranking": [
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.324021,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.363992,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.43039,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.550044,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.602228,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.609601,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.612088,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.617619,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.618127,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.643521,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.658303,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.662181,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 100,
+      "expected_group": "圆体",
+      "group_ranking": [
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.15521
+        },
+        {
+          "font_id": "474631d57970d95e",
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "mean_distance": 0.168559
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.351102
+        }
+      ],
+      "font_ranking": [
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.15521
+        },
+        {
+          "font_id": "b8146ac3455acead",
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "mean_distance": 0.161976
+        },
+        {
+          "font_id": "474631d57970d95e",
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "mean_distance": 0.168559
+        },
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.23505
+        },
+        {
+          "font_id": "d25bc98335d4cf34",
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "mean_distance": 0.256444
+        },
+        {
+          "font_id": "3af024455a62616f",
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "mean_distance": 0.266629
+        },
+        {
+          "font_id": "aaf07832a81e6684",
+          "font": "PAntiqueANpProN-Light",
+          "group": "黑体",
+          "mean_distance": 0.302887
+        },
+        {
+          "font_id": "e11969a03c87772e",
+          "font": "PAntiqueANpProN-Bold",
+          "group": "黑体",
+          "mean_distance": 0.308128
+        },
+        {
+          "font_id": "c887a03d85afcce9",
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "mean_distance": 0.329217
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.351102
+        },
+        {
+          "font_id": "18a5e5f6ab602421",
+          "font": "PRyuminPr6N-Medium",
+          "group": "宋体",
+          "mean_distance": 0.359199
+        },
+        {
+          "font_id": "618ab66c2b739436",
+          "font": "PRyuminPr6N-Light",
+          "group": "宋体",
+          "mean_distance": 0.402379
+        }
+      ],
+      "glyphs": [
+        {
+          "id": "q100-c0-g0",
+          "character": "夜",
+          "script": "kanji",
+          "source_bbox": [
+            380,
+            128,
+            68,
+            70
+          ],
+          "source_file": "data/processed/typographic-v3/q100-c0-g0-source.png",
+          "source_sha256": "25bbcb47add78fb399b209a9a1a797ac998d1ab423689235930f3992a3f8ee8f",
+          "ranking": [
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.155764,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.187579,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.1949,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.209859,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.213832,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.224062,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.241906,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.245391,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.261392,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.328094,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.366101,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.393555,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "q100-c1-g2",
+          "character": "人",
+          "script": "kanji",
+          "source_bbox": [
+            241,
+            379,
+            73,
+            77
+          ],
+          "source_file": "data/processed/typographic-v3/q100-c1-g2-source.png",
+          "source_sha256": "0eb840ef24eefb76e3286314232b5b015ea18123ceac2369f6663f674438c1c2",
+          "ranking": [
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.121588,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.125819,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.130092,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.1351,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.15588,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.200149,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.232555,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.232562,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.245883,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.25404,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.25567,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.320215,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": "q100-c0-g2",
+          "character": "な",
+          "script": "kana",
+          "source_bbox": [
+            380,
+            266,
+            68,
+            76
+          ],
+          "source_file": "data/processed/typographic-v3/q100-c0-g2-source.png",
+          "source_sha256": "2a2700d40d3d504e75d0af0ceb49adac8763a83995712bfa98395b8156c12ebc",
+          "ranking": [
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.155796,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.160934,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.188278,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.258763,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.305432,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.406045,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.426807,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.45643,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.492651,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.511348,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.528168,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.5677,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": -2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 72,
+      "expected_group": "宋体",
+      "group_ranking": [
+        {
+          "font_id": "c887a03d85afcce9",
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "mean_distance": 0.15632
+        },
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.166285
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.200797
+        }
+      ],
+      "font_ranking": [
+        {
+          "font_id": "c887a03d85afcce9",
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "mean_distance": 0.15632
+        },
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.166285
+        },
+        {
+          "font_id": "d25bc98335d4cf34",
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "mean_distance": 0.172948
+        },
+        {
+          "font_id": "e11969a03c87772e",
+          "font": "PAntiqueANpProN-Bold",
+          "group": "黑体",
+          "mean_distance": 0.173332
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.200797
+        },
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.205848
+        },
+        {
+          "font_id": "3af024455a62616f",
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "mean_distance": 0.212115
+        },
+        {
+          "font_id": "18a5e5f6ab602421",
+          "font": "PRyuminPr6N-Medium",
+          "group": "宋体",
+          "mean_distance": 0.250978
+        },
+        {
+          "font_id": "b8146ac3455acead",
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "mean_distance": 0.310778
+        },
+        {
+          "font_id": "aaf07832a81e6684",
+          "font": "PAntiqueANpProN-Light",
+          "group": "黑体",
+          "mean_distance": 0.322807
+        },
+        {
+          "font_id": "474631d57970d95e",
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "mean_distance": 0.336972
+        },
+        {
+          "font_id": "618ab66c2b739436",
+          "font": "PRyuminPr6N-Light",
+          "group": "宋体",
+          "mean_distance": 0.347217
+        }
+      ],
+      "glyphs": [
+        {
+          "id": "q72-c0-g0",
+          "character": "聖",
+          "script": "kanji",
+          "source_bbox": [
+            170,
+            43,
+            47,
+            48
+          ],
+          "source_file": "data/processed/typographic-v3/q72-c0-g0-source.png",
+          "source_sha256": "e023d4b9212e6dfcac4b40ebcae63dfd89b8b7b4c646d32ee80b55f521485e5e",
+          "ranking": [
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.172665,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.179408,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.184466,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.18451,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.190287,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.201814,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.206865,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.245722,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.276898,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.298763,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.329953,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.342079,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "q72-c0-g1",
+          "character": "魔",
+          "script": "kanji",
+          "source_bbox": [
+            170,
+            87,
+            47,
+            50
+          ],
+          "source_file": "data/processed/typographic-v3/q72-c0-g1-source.png",
+          "source_sha256": "66bdc65565d0b4976686e93d6a8ca76845744fafae03daba5d80fdcfb2b7b987",
+          "ranking": [
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.100188,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.123199,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.12647,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.143691,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.177058,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.183327,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.190466,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.230058,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.284638,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.298475,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.30973,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.319899,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "q72-c0-g2",
+          "character": "法",
+          "script": "kanji",
+          "source_bbox": [
+            170,
+            133,
+            47,
+            49
+          ],
+          "source_file": "data/processed/typographic-v3/q72-c0-g2-source.png",
+          "source_sha256": "3f14a1dce303be2a6ecf40268f831afad8ed83455ea761a7362fb02d3f471cb4",
+          "ranking": [
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.190688,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.192976,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.196106,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.20651,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.227415,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.238672,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.246154,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.277154,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.370797,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.371182,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.371232,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.379673,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": -2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 114,
+      "expected_group": "宋体",
+      "group_ranking": [
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.12808
+        },
+        {
+          "font_id": "3af024455a62616f",
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "mean_distance": 0.223584
+        },
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.308841
+        }
+      ],
+      "font_ranking": [
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.12808
+        },
+        {
+          "font_id": "18a5e5f6ab602421",
+          "font": "PRyuminPr6N-Medium",
+          "group": "宋体",
+          "mean_distance": 0.142451
+        },
+        {
+          "font_id": "3af024455a62616f",
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "mean_distance": 0.223584
+        },
+        {
+          "font_id": "618ab66c2b739436",
+          "font": "PRyuminPr6N-Light",
+          "group": "宋体",
+          "mean_distance": 0.239685
+        },
+        {
+          "font_id": "e11969a03c87772e",
+          "font": "PAntiqueANpProN-Bold",
+          "group": "黑体",
+          "mean_distance": 0.240896
+        },
+        {
+          "font_id": "c887a03d85afcce9",
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "mean_distance": 0.278592
+        },
+        {
+          "font_id": "d25bc98335d4cf34",
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "mean_distance": 0.292549
+        },
+        {
+          "font_id": "aaf07832a81e6684",
+          "font": "PAntiqueANpProN-Light",
+          "group": "黑体",
+          "mean_distance": 0.298702
+        },
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.308841
+        },
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.321738
+        },
+        {
+          "font_id": "474631d57970d95e",
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "mean_distance": 0.375571
+        },
+        {
+          "font_id": "b8146ac3455acead",
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "mean_distance": 0.411195
+        }
+      ],
+      "glyphs": [
+        {
+          "id": "q114-c0-g0",
+          "character": "椿",
+          "script": "kanji",
+          "source_bbox": [
+            159,
+            71,
+            33,
+            35
+          ],
+          "source_file": "data/processed/typographic-v3/q114-c0-g0-source.png",
+          "source_sha256": "35106d9382fd95232fa1527ea83546afba529db702431ba30af712b1b848add1",
+          "ranking": [
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.150753,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.164346,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.241415,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.242836,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.254705,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.255974,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.256613,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.25886,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.283026,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.317911,
+              "alignment": {
+                "scale": 1.0,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.329612,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.336752,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "q114-c0-g1",
+          "character": "月",
+          "script": "kanji",
+          "source_bbox": [
+            159,
+            102,
+            33,
+            37
+          ],
+          "source_file": "data/processed/typographic-v3/q114-c0-g1-source.png",
+          "source_sha256": "7b80d45bf325470fe56f7155a9739f45936a413c306608456b2185ddb224b0da",
+          "ranking": [
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.107079,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.149475,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.257273,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.315933,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.337474,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.368285,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.373452,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.411973,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.42308,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.445799,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.535436,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.566351,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 2,
+                "dy": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": "q114-c1-g2",
+          "character": "キ",
+          "script": "kana",
+          "source_bbox": [
+            119,
+            133,
+            31,
+            37
+          ],
+          "source_file": "data/processed/typographic-v3/q114-c1-g2-source.png",
+          "source_sha256": "35abe05524f8b02d26060e2bc509ccbf659e06650cafd9a7538b9eb87406f30e",
+          "ranking": [
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.098844,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.112815,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.127124,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.142377,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.179298,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.195708,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.209909,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.220369,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.254525,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.259844,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.262803,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.337621,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 2,
+                "dy": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 92,
+      "expected_group": "宋体",
+      "group_ranking": [
+        {
+          "font_id": "3af024455a62616f",
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "mean_distance": 0.234306
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.297103
+        },
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.32844
+        }
+      ],
+      "font_ranking": [
+        {
+          "font_id": "3af024455a62616f",
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "mean_distance": 0.234306
+        },
+        {
+          "font_id": "e11969a03c87772e",
+          "font": "PAntiqueANpProN-Bold",
+          "group": "黑体",
+          "mean_distance": 0.270381
+        },
+        {
+          "font_id": "aaf07832a81e6684",
+          "font": "PAntiqueANpProN-Light",
+          "group": "黑体",
+          "mean_distance": 0.278289
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.297103
+        },
+        {
+          "font_id": "c887a03d85afcce9",
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "mean_distance": 0.32569
+        },
+        {
+          "font_id": "18a5e5f6ab602421",
+          "font": "PRyuminPr6N-Medium",
+          "group": "宋体",
+          "mean_distance": 0.326293
+        },
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.32844
+        },
+        {
+          "font_id": "d25bc98335d4cf34",
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "mean_distance": 0.361849
+        },
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.364787
+        },
+        {
+          "font_id": "618ab66c2b739436",
+          "font": "PRyuminPr6N-Light",
+          "group": "宋体",
+          "mean_distance": 0.373496
+        },
+        {
+          "font_id": "474631d57970d95e",
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "mean_distance": 0.379752
+        },
+        {
+          "font_id": "b8146ac3455acead",
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "mean_distance": 0.395501
+        }
+      ],
+      "glyphs": [
+        {
+          "id": "q92-c0-g0",
+          "character": "今",
+          "script": "kanji",
+          "source_bbox": [
+            128,
+            49,
+            32,
+            36
+          ],
+          "source_file": "data/processed/typographic-v3/q92-c0-g0-source.png",
+          "source_sha256": "df0d067f3c3d93e414ce39f93395428b6dcd18575e199ba5b2075322ba7c3ae9",
+          "ranking": [
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.242443,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.247402,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.256415,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.301144,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.313399,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.327646,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.331162,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.359405,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.364589,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.383555,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.387362,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.393779,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": "q92-c1-g0",
+          "character": "正",
+          "script": "kanji",
+          "source_bbox": [
+            86,
+            51,
+            30,
+            36
+          ],
+          "source_file": "data/processed/typographic-v3/q92-c1-g0-source.png",
+          "source_sha256": "c21c6abadcef3d51d4b03ffd3316eb66e55a6c565e2dab2767024fdf30f3ccf9",
+          "ranking": [
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.285168,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.293279,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.327693,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.330834,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.338267,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.357491,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.358428,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.399338,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.425147,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.430205,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.484612,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.563967,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "q92-c2-g2",
+          "character": "ま",
+          "script": "kana",
+          "source_bbox": [
+            38,
+            114,
+            34,
+            38
+          ],
+          "source_file": "data/processed/typographic-v3/q92-c2-g2-source.png",
+          "source_sha256": "cf4b3f6a2b8cdb13770f6616c456b50358301206b0cb242f5c16bad2c27b895c",
+          "ranking": [
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.153225,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.178571,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.189268,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.194813,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.231281,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.254158,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.271288,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.327887,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.332754,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.353314,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.353344,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.46503,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 125,
+      "expected_group": "黑体",
+      "group_ranking": [
+        {
+          "font_id": "3af024455a62616f",
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "mean_distance": 0.10702
+        },
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.148111
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.176321
+        }
+      ],
+      "font_ranking": [
+        {
+          "font_id": "3af024455a62616f",
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "mean_distance": 0.10702
+        },
+        {
+          "font_id": "e11969a03c87772e",
+          "font": "PAntiqueANpProN-Bold",
+          "group": "黑体",
+          "mean_distance": 0.128149
+        },
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.148111
+        },
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.149026
+        },
+        {
+          "font_id": "c887a03d85afcce9",
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "mean_distance": 0.167469
+        },
+        {
+          "font_id": "d25bc98335d4cf34",
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "mean_distance": 0.172902
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.176321
+        },
+        {
+          "font_id": "18a5e5f6ab602421",
+          "font": "PRyuminPr6N-Medium",
+          "group": "宋体",
+          "mean_distance": 0.213702
+        },
+        {
+          "font_id": "aaf07832a81e6684",
+          "font": "PAntiqueANpProN-Light",
+          "group": "黑体",
+          "mean_distance": 0.242791
+        },
+        {
+          "font_id": "618ab66c2b739436",
+          "font": "PRyuminPr6N-Light",
+          "group": "宋体",
+          "mean_distance": 0.292398
+        },
+        {
+          "font_id": "b8146ac3455acead",
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "mean_distance": 0.29366
+        },
+        {
+          "font_id": "474631d57970d95e",
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "mean_distance": 0.31061
+        }
+      ],
+      "glyphs": [
+        {
+          "id": "q125-c0-g3",
+          "character": "約",
+          "script": "kanji",
+          "source_bbox": [
+            92,
+            112,
+            29,
+            32
+          ],
+          "source_file": "data/processed/typographic-v3/q125-c0-g3-source.png",
+          "source_sha256": "4968e6c1648a84335480c8c24080f933f41001006ca2053551ea1bcbeb919b02",
+          "ranking": [
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.128439,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.155863,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.161782,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.193071,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.198284,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.205594,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.210873,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.248747,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.253273,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.261487,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.295908,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.340649,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "q125-c0-g4",
+          "character": "束",
+          "script": "kanji",
+          "source_bbox": [
+            92,
+            140,
+            29,
+            33
+          ],
+          "source_file": "data/processed/typographic-v3/q125-c0-g4-source.png",
+          "source_sha256": "0124a3f7d802b4090bd5b45be2c27f3ae9f1974ccf0874807b390dfe7355582c",
+          "ranking": [
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.078054,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.100175,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.103096,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.113348,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.122574,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.157754,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.164512,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.200217,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.234354,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.274591,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.304335,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.305331,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "q125-c1-g1",
+          "character": "め",
+          "script": "kana",
+          "source_bbox": [
+            57,
+            57,
+            29,
+            32
+          ],
+          "source_file": "data/processed/typographic-v3/q125-c1-g1-source.png",
+          "source_sha256": "a1ee1759c3b5eedd2067b43626ca855ecd22196b50df6f4772f0ed81cc33366f",
+          "ranking": [
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.114568,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.128408,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.146368,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.15091,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.158856,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.169202,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.185258,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.187615,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.245273,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.276952,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.314164,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.31659,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 58,
+      "expected_group": "黑体",
+      "group_ranking": [
+        {
+          "font_id": "d25bc98335d4cf34",
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "mean_distance": 0.118388
+        },
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.133735
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.307183
+        }
+      ],
+      "font_ranking": [
+        {
+          "font_id": "d25bc98335d4cf34",
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "mean_distance": 0.118388
+        },
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.133735
+        },
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.175425
+        },
+        {
+          "font_id": "c887a03d85afcce9",
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "mean_distance": 0.19771
+        },
+        {
+          "font_id": "e11969a03c87772e",
+          "font": "PAntiqueANpProN-Bold",
+          "group": "黑体",
+          "mean_distance": 0.209372
+        },
+        {
+          "font_id": "3af024455a62616f",
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "mean_distance": 0.256115
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.307183
+        },
+        {
+          "font_id": "474631d57970d95e",
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "mean_distance": 0.325667
+        },
+        {
+          "font_id": "b8146ac3455acead",
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "mean_distance": 0.342797
+        },
+        {
+          "font_id": "18a5e5f6ab602421",
+          "font": "PRyuminPr6N-Medium",
+          "group": "宋体",
+          "mean_distance": 0.345964
+        },
+        {
+          "font_id": "aaf07832a81e6684",
+          "font": "PAntiqueANpProN-Light",
+          "group": "黑体",
+          "mean_distance": 0.405776
+        },
+        {
+          "font_id": "618ab66c2b739436",
+          "font": "PRyuminPr6N-Light",
+          "group": "宋体",
+          "mean_distance": 0.439877
+        }
+      ],
+      "glyphs": [
+        {
+          "id": "q58-c0-g0",
+          "character": "あ",
+          "script": "kana",
+          "source_bbox": [
+            129,
+            48,
+            38,
+            38
+          ],
+          "source_file": "data/processed/typographic-v3/q58-c0-g0-source.png",
+          "source_sha256": "469a20fd4280d4ac5a9f0dad5facd68cd1dc8b1609952b14abc34523c33fd7da",
+          "ranking": [
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.085985,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.102036,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.110814,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.220018,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.230138,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.269229,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.286357,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.29684,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.299897,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.321959,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.405204,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.420417,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "q58-c0-g2",
+          "character": "が",
+          "script": "kana",
+          "source_bbox": [
+            129,
+            120,
+            38,
+            42
+          ],
+          "source_file": "data/processed/typographic-v3/q58-c0-g2-source.png",
+          "source_sha256": "a7b02aa8355d87be06ab31e2b9605ac757026d7ff04847fb40da3b350f875feb",
+          "ranking": [
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.130574,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.152756,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.190303,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.236217,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.255023,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.283365,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.336362,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.362732,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.37303,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.399978,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.417131,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.469244,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "q58-c1-g1",
+          "character": "た",
+          "script": "kana",
+          "source_bbox": [
+            82,
+            82,
+            38,
+            42
+          ],
+          "source_file": "data/processed/typographic-v3/q58-c1-g1-source.png",
+          "source_sha256": "a9bbe5e3ec11b2ea23c105438de46f6090d686a93a886a524189e58716b8dbbb",
+          "ranking": [
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.100371,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.136894,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.142956,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.184646,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.185082,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.225157,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.27246,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.315955,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.334741,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.379779,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.395188,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 2,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.445182,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "qid": 96,
+      "expected_group": "黑体",
+      "group_ranking": [
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.093907
+        },
+        {
+          "font_id": "d25bc98335d4cf34",
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "mean_distance": 0.116818
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.279176
+        }
+      ],
+      "font_ranking": [
+        {
+          "font_id": "e680ba3d98a188a4",
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "mean_distance": 0.093907
+        },
+        {
+          "font_id": "d25bc98335d4cf34",
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "mean_distance": 0.116818
+        },
+        {
+          "font_id": "e11969a03c87772e",
+          "font": "PAntiqueANpProN-Bold",
+          "group": "黑体",
+          "mean_distance": 0.150019
+        },
+        {
+          "font_id": "c887a03d85afcce9",
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "mean_distance": 0.154606
+        },
+        {
+          "font_id": "a604062919104d47",
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "mean_distance": 0.173237
+        },
+        {
+          "font_id": "3af024455a62616f",
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "mean_distance": 0.208329
+        },
+        {
+          "font_id": "fa8128550eb71b48",
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "mean_distance": 0.279176
+        },
+        {
+          "font_id": "18a5e5f6ab602421",
+          "font": "PRyuminPr6N-Medium",
+          "group": "宋体",
+          "mean_distance": 0.320646
+        },
+        {
+          "font_id": "474631d57970d95e",
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "mean_distance": 0.348825
+        },
+        {
+          "font_id": "b8146ac3455acead",
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "mean_distance": 0.361035
+        },
+        {
+          "font_id": "aaf07832a81e6684",
+          "font": "PAntiqueANpProN-Light",
+          "group": "黑体",
+          "mean_distance": 0.366276
+        },
+        {
+          "font_id": "618ab66c2b739436",
+          "font": "PRyuminPr6N-Light",
+          "group": "宋体",
+          "mean_distance": 0.404029
+        }
+      ],
+      "glyphs": [
+        {
+          "id": "q96-c1-g0",
+          "character": "万",
+          "script": "kanji",
+          "source_bbox": [
+            50,
+            97,
+            50,
+            44
+          ],
+          "source_file": "data/processed/typographic-v3/q96-c1-g0-source.png",
+          "source_sha256": "f521f7421be6256abde53b693a39d1d4fc4e20c05e197b1ec601c671f62324c6",
+          "ranking": [
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.142878,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.163113,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.170203,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.189181,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.22547,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.240068,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.283639,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.335257,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.359114,
+              "alignment": {
+                "scale": 0.96,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.394616,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.400857,
+              "alignment": {
+                "scale": 0.96,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.402142,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "q96-c1-g1",
+          "character": "里",
+          "script": "kanji",
+          "source_bbox": [
+            50,
+            137,
+            50,
+            51
+          ],
+          "source_file": "data/processed/typographic-v3/q96-c1-g1-source.png",
+          "source_sha256": "aa623ea124548fe090902d54087abab28a73b852d58a02d71800a82b4ed8c3f1",
+          "ranking": [
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.061855,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.066478,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.08429,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.090282,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.13722,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.151978,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.287776,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.302213,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.322891,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.326683,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": -2
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.335127,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.388521,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": -2
+              }
+            }
+          ]
+        },
+        {
+          "id": "q96-c0-g3",
+          "character": "に",
+          "script": "kana",
+          "source_bbox": [
+            112,
+            230,
+            47,
+            52
+          ],
+          "source_file": "data/processed/typographic-v3/q96-c0-g3-source.png",
+          "source_sha256": "19123e20a2c77dbbe84522f892f9fff66d089d7663f6de293f9598792b3e60ba",
+          "ranking": [
+            {
+              "font_id": "e680ba3d98a188a4",
+              "font": "PShinMGoPr6N-Bold",
+              "group": "圆体",
+              "distance": 0.072364,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "d25bc98335d4cf34",
+              "font": "YWHeiTi-Bold",
+              "group": "黑体",
+              "distance": 0.089969,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "a604062919104d47",
+              "font": "PShinMGoPr6N-Medium",
+              "group": "圆体",
+              "distance": 0.142261,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "e11969a03c87772e",
+              "font": "PAntiqueANpProN-Bold",
+              "group": "黑体",
+              "distance": 0.202652,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "c887a03d85afcce9",
+              "font": "PAntiqueANpProN-Ultra",
+              "group": "黑体",
+              "distance": 0.212782,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "3af024455a62616f",
+              "font": "PAntiqueANpProN-Medium",
+              "group": "黑体",
+              "distance": 0.2477,
+              "alignment": {
+                "scale": 1.04,
+                "dx": -2,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "fa8128550eb71b48",
+              "font": "PRyuminPr6N-Bold",
+              "group": "宋体",
+              "distance": 0.266114,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "18a5e5f6ab602421",
+              "font": "PRyuminPr6N-Medium",
+              "group": "宋体",
+              "distance": 0.30379,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 2
+              }
+            },
+            {
+              "font_id": "b8146ac3455acead",
+              "font": "PShinMGoPr6N-Light",
+              "group": "圆体",
+              "distance": 0.353363,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "474631d57970d95e",
+              "font": "YWHeiTi-Light",
+              "group": "黑体",
+              "distance": 0.360679,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "aaf07832a81e6684",
+              "font": "PAntiqueANpProN-Light",
+              "group": "黑体",
+              "distance": 0.395759,
+              "alignment": {
+                "scale": 1.04,
+                "dx": 0,
+                "dy": 0
+              }
+            },
+            {
+              "font_id": "618ab66c2b739436",
+              "font": "PRyuminPr6N-Light",
+              "group": "宋体",
+              "distance": 0.421424,
+              "alignment": {
+                "scale": 1.0,
+                "dx": 0,
+                "dy": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

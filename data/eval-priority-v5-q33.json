@@ -1,0 +1,9 @@
+{
+  "question_id": 33,
+  "text_coverage": 5,
+  "background_rejection": 5,
+  "box_tightness": 4,
+  "low_score": false,
+  "v3_comparison": "Improved from v3: the expanded middle ROI now reaches the lower ったり characters. In v3 those lower glyphs remained visibly black in the overlay; in v5 they are present in the mask and covered in the overlay.",
+  "exact_failures": "No material glyph omission remains. The mask contains the three text columns and punctuation without visible speech-balloon border or artwork contamination. The remaining imperfection is geometric: the blue column boxes include modest empty vertical/side margins, although the orange character boxes are generally tight."
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "question_id": 110,
+    "coarse_label": "角明体",
+    "roi": [
+      0,
+      0,
+      310,
+      718
+    ],
+    "text_box": [
+      4,
+      6,
+      298,
+      707
+    ],
+    "components": 57,
+    "ink_pixels": 9447
+  },
+  {
+    "question_id": 140,
+    "coarse_label": "粗宋",
+    "roi": [
+      0,
+      0,
+      137,
+      291
+    ],
+    "text_box": [
+      4,
+      11,
+      129,
+      272
+    ],
+    "components": 32,
+    "ink_pixels": 3890
+  },
+  {
+    "question_id": 136,
+    "coarse_label": "雷盖/雷鬼体",
+    "roi": [
+      0,
+      0,
+      112,
+      331
+    ],
+    "text_box": [
+      30,
+      5,
+      73,
+      304
+    ],
+    "components": 27,
+    "ink_pixels": 2490
+  },
+  {
+    "question_id": 141,
+    "coarse_label": "少女",
+    "roi": [
+      0,
+      0,
+      130,
+      224
+    ],
+    "text_box": [
+      14,
+      32,
+      85,
+      188
+    ],
+    "components": 36,
+    "ink_pixels": 1622
+  }
+]

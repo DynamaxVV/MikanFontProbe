@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": 114,
+    "text_type": "printed",
+    "layout": "vertical",
+    "ocr_excerpt": "ステキだった",
+    "ocr_uncertain": false,
+    "lines": [
+      {
+        "bbox": [119, 72, 80, 294],
+        "text_excerpt": "ステキだった",
+        "uncertain": false
+      }
+    ],
+    "notes": "One thin, clean vertical printed column in the speech balloon; the name-like top text is not used for the excerpt."
+  },
+  {
+    "question_id": 92,
+    "text_type": "printed",
+    "layout": "vertical",
+    "ocr_excerpt": "今日も清く",
+    "ocr_uncertain": false,
+    "lines": [
+      {
+        "bbox": [130, 49, 54, 160],
+        "text_excerpt": "今日も清く",
+        "uncertain": false
+      },
+      {
+        "bbox": [86, 49, 53, 165],
+        "text_excerpt": "正しく美しく",
+        "uncertain": false
+      },
+      {
+        "bbox": [37, 49, 50, 210],
+        "text_excerpt": "学びましょう",
+        "uncertain": false
+      }
+    ],
+    "notes": "Three separate thin vertical printed columns; the punctuation after the left column is excluded from the excerpt box."
+  },
+  {
+    "question_id": 70,
+    "text_type": "printed",
+    "layout": "vertical",
+    "ocr_excerpt": "冒険者いわく",
+    "ocr_uncertain": false,
+    "lines": [
+      {
+        "bbox": [445, 79, 57, 244],
+        "text_excerpt": "冒険者いわく",
+        "uncertain": false
+      },
+      {
+        "bbox": [389, 79, 57, 245],
+        "text_excerpt": "どうやら別の森で",
+        "uncertain": false
+      },
+      {
+        "bbox": [333, 79, 58, 244],
+        "text_excerpt": "ゴブリンの集落を",
+        "uncertain": false
+      },
+      {
+        "bbox": [276, 79, 62, 246],
+        "text_excerpt": "襲撃したらしく",
+        "uncertain": false
+      },
+      {
+        "bbox": [183, 241, 60, 284],
+        "text_excerpt": "その打ち漏らした",
+        "uncertain": false
+      },
+      {
+        "bbox": [126, 241, 62, 291],
+        "text_excerpt": "ゴブリンなのでは",
+        "uncertain": false
+      },
+      {
+        "bbox": [76, 241, 62, 289],
+        "text_excerpt": "ということだった",
+        "uncertain": false
+      }
+    ],
+    "notes": "Two separate speech balloons, each with independent vertical columns; small furigana over ゴブリン is inside the relevant column area but not transcribed separately."
+  },
+  {
+    "question_id": 91,
+    "text_type": "stylized",
+    "layout": "vertical",
+    "ocr_excerpt": "しちゃったり",
+    "ocr_uncertain": false,
+    "lines": [
+      {
+        "bbox": [145, 49, 45, 112],
+        "text_excerpt": "とか",
+        "uncertain": false
+      },
+      {
+        "bbox": [95, 49, 50, 250],
+        "text_excerpt": "しちゃったり",
+        "uncertain": false
+      },
+      {
+        "bbox": [37, 49, 55, 363],
+        "text_excerpt": "できるってこと",
+        "uncertain": false
+      }
+    ],
+    "notes": "Very thin rounded manga lettering with a hand-drawn appearance, but it is printed rather than free handwriting."
+  },
+  {
+    "question_id": 61,
+    "text_type": "printed",
+    "layout": "vertical",
+    "ocr_excerpt": "可愛い",
+    "ocr_uncertain": false,
+    "lines": [
+      {
+        "bbox": [141, 53, 63, 188],
+        "text_excerpt": "持ってきたし",
+        "uncertain": false
+      },
+      {
+        "bbox": [109, 273, 48, 103],
+        "text_excerpt": "ちゃんと",
+        "uncertain": false
+      },
+      {
+        "bbox": [80, 299, 49, 104],
+        "text_excerpt": "可愛い",
+        "uncertain": false
+      },
+      {
+        "bbox": [53, 323, 52, 124],
+        "text_excerpt": "格好してきた",
+        "uncertain": false
+      }
+    ],
+    "notes": "One upper column and three staggered lower columns; small furigana beside the lower kanji is part of the print but not a separate main line."
+  },
+  {
+    "question_id": 33,
+    "text_type": "stylized",
+    "layout": "vertical",
+    "ocr_excerpt": "しちゃったり",
+    "ocr_uncertain": false,
+    "lines": [
+      {
+        "bbox": [178, 77, 45, 165],
+        "text_excerpt": "とか",
+        "uncertain": false
+      },
+      {
+        "bbox": [126, 77, 52, 370],
+        "text_excerpt": "しちゃったり",
+        "uncertain": false
+      },
+      {
+        "bbox": [65, 77, 60, 493],
+        "text_excerpt": "できるってこと",
+        "uncertain": false
+      }
+    ],
+    "notes": "Thin rounded printed columns in a speech balloon; the long left column also contains ellipsis and punctuation below the excerpt."
+  },
+  {
+    "question_id": 72,
+    "text_type": "printed",
+    "layout": "vertical",
+    "ocr_excerpt": "経験値を",
+    "ocr_uncertain": false,
+    "lines": [
+      {
+        "bbox": [177, 46, 53, 310],
+        "text_excerpt": "を使って",
+        "uncertain": false
+      },
+      {
+        "bbox": [118, 46, 57, 230],
+        "text_excerpt": "経験値を",
+        "uncertain": false
+      },
+      {
+        "bbox": [58, 46, 56, 239],
+        "text_excerpt": "貯めます",
+        "uncertain": false
+      }
+    ],
+    "notes": "Three bold, high-contrast vertical printed columns; the first kanji in the right column is not relied on for the excerpt."
+  },
+  {
+    "question_id": 27,
+    "text_type": "stylized",
+    "layout": "vertical",
+    "ocr_excerpt": "私にだけ",
+    "ocr_uncertain": true,
+    "lines": [
+      {
+        "bbox": [488, 74, 126, 445],
+        "text_excerpt": "私にだけ",
+        "uncertain": false
+      },
+      {
+        "bbox": [319, 75, 134, 956],
+        "text_excerpt": "見せるような",
+        "uncertain": true
+      },
+      {
+        "bbox": [133, 75, 143, 950],
+        "text_excerpt": "顔",
+        "uncertain": true
+      }
+    ],
+    "notes": "The requested q27.png is absent; evaluated the same-ID original q27.jpg. Heavy outlined/impact print is over dense vertical speed lines, so the middle and left readings are explicitly uncertain; the left column appears to contain a one-character 顔."
+  },
+  {
+    "question_id": 140,
+    "text_type": "printed",
+    "layout": "vertical",
+    "ocr_excerpt": "さんは",
+    "ocr_uncertain": false,
+    "lines": [
+      {
+        "bbox": [79, 27, 40, 240],
+        "text_excerpt": "さんは",
+        "uncertain": false
+      },
+      {
+        "bbox": [36, 38, 45, 219],
+        "text_excerpt": "ともかくとして",
+        "uncertain": false
+      }
+    ],
+    "notes": "Two clean bold vertical printed columns; the name prefix above さんは is visually ambiguous and intentionally omitted from the excerpt."
+  }
+]

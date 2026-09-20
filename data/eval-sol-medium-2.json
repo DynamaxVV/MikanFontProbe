@@ -1,0 +1,202 @@
+{
+  "review": "独立视觉复评｜优先批 2",
+  "method": "先仅看 manifest.json 指向的原图，按日文竖排从右至左盲读；再逐张对照 priority-v7 的 overlay、mask、segments；最后核对 priority-a/b 的逐列 text_excerpt 和 ocr_excerpt。excerpt 是片段，不代表完整 OCR 输出。",
+  "score_scale": "0-5，5 为最好；crop_scores 依次评估主文字覆盖、背景排除、分列/单字框。ocr_scores 的字符覆盖与列覆盖若无完整 OCR 输出则为 null；字符正确性仅对可见 excerpt 局部打分，不能当作整体准确率。",
+  "items": [
+    {
+      "question_id": 58,
+      "source": "data/priority-a.json",
+      "image_file": "data/images/q58.png",
+      "original_reading": {
+        "columns_right_to_left": ["ありがとう!!", "いただくわ!!"],
+        "notes": "两列均为气泡内规整粗体印刷字；末尾各有双感叹号。"
+      },
+      "annotation_comparison": {
+        "ocr_excerpt": "ありがとう",
+        "text_excerpts_right_to_left": ["ありがとう", "いただくわ"],
+        "confirmed_wrong_characters": [],
+        "not_transcribed_in_excerpts": ["右列末尾 !!", "左列末尾 !!"],
+        "whole_printed_columns_untranscribed": [],
+        "comment": "两个 excerpt 的正文均与原图一致；标点缺席属于片段范围限制，不能据此断言完整 OCR 漏检。"
+      },
+      "crop_scores": {
+        "main_text_coverage": 5,
+        "background_exclusion": 5,
+        "column_and_character_boxes": 3,
+        "evidence": "overlay 两列均落在文字上，mask 保留字形和末尾标点且基本避开气泡边线；segments 各列主要是整列长框，未逐字分开。"
+      },
+      "ocr_scores": {
+        "character_coverage": null,
+        "column_coverage": null,
+        "character_correctness_excerpt_only": 5,
+        "quantification_status": "完整 OCR 覆盖与准确率不具备量化条件；只可核验两列已给 excerpt 的字符。",
+        "local_annotated_column_presence_score": 5
+      },
+      "overall": "截取两列可靠，分字信息不足；已给字符片段正确，完整 OCR 情况未知。",
+      "confidence": "高"
+    },
+    {
+      "question_id": 96,
+      "source": "data/priority-a.json",
+      "image_file": "data/images/q96.png",
+      "original_reading": {
+        "columns_right_to_left": ["と…とにかくっ!!", "万里花さんを"],
+        "notes": "右列开头先有「と」和纵向停顿点，末尾有促音「っ」及双感叹号；停顿点的精确点数不强判。左列到「を」即画面可见文字，不能补后文。"
+      },
+      "annotation_comparison": {
+        "ocr_excerpt": "万里花さんを",
+        "text_excerpts_right_to_left": ["とにかく", "万里花さんを"],
+        "confirmed_wrong_characters": [],
+        "not_transcribed_in_excerpts": ["右列开头的第一个「と」与停顿点", "右列末尾的「っ!!」"],
+        "whole_printed_columns_untranscribed": [],
+        "comment": "右列 excerpt 是中段连续片段；左列 excerpt 与可见全文一致。"
+      },
+      "crop_scores": {
+        "main_text_coverage": 5,
+        "background_exclusion": 5,
+        "column_and_character_boxes": 3,
+        "evidence": "overlay/mask 包住两列及右列停顿、末尾标点，网点背景排除较好；segments 对右列有若干大块合并，左列基本用一个长框，单字定位不足。"
+      },
+      "ocr_scores": {
+        "character_coverage": null,
+        "column_coverage": null,
+        "character_correctness_excerpt_only": 5,
+        "quantification_status": "完整 OCR 覆盖与准确率不具备量化条件；可核验的两段 excerpt 字符正确。",
+        "local_annotated_column_presence_score": 5
+      },
+      "overall": "两列截取较完整；右列文本标注只给中段，不能把未写出的起止字符直接算作 OCR 错误。",
+      "confidence": "高；停顿点数量为中"
+    },
+    {
+      "question_id": 65,
+      "source": "data/priority-a.json",
+      "image_file": "data/images/q65.png",
+      "original_reading": {
+        "columns_right_to_left": ["朝加ちゃんへの", "プレゼント"],
+        "ruby": ["「朝加」旁的小注音目视为「あさか」；尺寸很小，逐假名置信度中等。"],
+        "notes": "右列最下方「の」贴近画面底边，但原图仍可辨认；白字带黑色外轮廓。"
+      },
+      "annotation_comparison": {
+        "ocr_excerpt": "プレゼント",
+        "text_excerpts_right_to_left": ["朝加ちゃんへの", "プレゼント"],
+        "confirmed_wrong_characters": [],
+        "not_transcribed_in_excerpts": ["右列专名旁的注音（目视「あさか」，有不确定性）"],
+        "whole_printed_columns_untranscribed": [],
+        "comment": "两列大字 excerpt 与原图相符；专名和注音需保留局部不确定性，注音未作为独立转录。"
+      },
+      "crop_scores": {
+        "main_text_coverage": 4,
+        "background_exclusion": 4,
+        "column_and_character_boxes": 2,
+        "evidence": "overlay 两列基本对位，但右列底部「の」在 mask 中明显残缺；小注音与大字混在同一框，segments 多为整列框，仅底字另框。黑色树影中仍有少量零碎前景。"
+      },
+      "ocr_scores": {
+        "character_coverage": null,
+        "column_coverage": null,
+        "character_correctness_excerpt_only": 5,
+        "quantification_status": "无完整 OCR 输出，覆盖率和总体准确率不具备量化条件；两列大字 excerpt 可局部核验。",
+        "local_annotated_column_presence_score": 5
+      },
+      "overall": "大字列位置可用，但底字及注音的像素/框质量偏弱；已给大字片段正确。",
+      "confidence": "中；专名注音与底字像素边界较难"
+    },
+    {
+      "question_id": 114,
+      "source": "data/priority-b.json",
+      "image_file": "data/images/q114.png",
+      "original_reading": {
+        "columns_right_to_left": ["椿月さん", "ステキだったなぁ…"],
+        "notes": "气泡内两列细体印刷字；左列结尾为「なぁ」和省略号，右列专名按可见字形记作「椿月」，无额外注音。"
+      },
+      "annotation_comparison": {
+        "ocr_excerpt": "ステキだった",
+        "text_excerpts_right_to_left": [null, "ステキだった"],
+        "confirmed_wrong_characters": [],
+        "not_transcribed_in_excerpts": ["右列整句/整列「椿月さん」", "左列末尾「なぁ…」"],
+        "whole_printed_columns_untranscribed": ["椿月さん"],
+        "comment": "唯一 line 的 excerpt 与左列前半段相符，但标注未给右列的 line；这是标注覆盖缺口，不足以证明 OCR 实际漏掉整列。"
+      },
+      "crop_scores": {
+        "main_text_coverage": 5,
+        "background_exclusion": 5,
+        "column_and_character_boxes": 2,
+        "evidence": "mask 留下气泡内两列，基本没有背景；overlay 只见一个横跨两列的大框，segments 左列逐字而右列姓名几字合成一个长框，分列/分字不一致。"
+      },
+      "ocr_scores": {
+        "character_coverage": null,
+        "column_coverage": null,
+        "character_correctness_excerpt_only": 5,
+        "quantification_status": "完整 OCR 输出缺席，总体覆盖与准确率不具备量化条件；仅左列前半段可验证。",
+        "local_annotated_column_presence_score": 2
+      },
+      "overall": "图像截取干净，但框把两列合并；文本标注完全未列出右列，需优先核查实际 OCR 结果。",
+      "confidence": "高"
+    },
+    {
+      "question_id": 92,
+      "source": "data/priority-b.json",
+      "image_file": "data/images/q92.png",
+      "original_reading": {
+        "columns_right_to_left": ["今日も清く", "正しく美しく", "学びましょう。"],
+        "notes": "三列竖排，左列末尾句号可见。"
+      },
+      "annotation_comparison": {
+        "ocr_excerpt": "今日も清く",
+        "text_excerpts_right_to_left": ["今日も清く", "正しく美しく", "学びましょう"],
+        "confirmed_wrong_characters": [],
+        "not_transcribed_in_excerpts": ["左列末尾句号「。」"],
+        "whole_printed_columns_untranscribed": [],
+        "comment": "三列正文 excerpt 均正确；末尾句号未转录。"
+      },
+      "crop_scores": {
+        "main_text_coverage": 4,
+        "background_exclusion": 3,
+        "column_and_character_boxes": 3,
+        "evidence": "overlay/mask 总体识别三列，但中列最后一个「く」落在框外；右上有沿气泡弧线的误检线，segments 还出现额外空框。左列句号在图中存在而 excerpt 未写。"
+      },
+      "ocr_scores": {
+        "character_coverage": null,
+        "column_coverage": null,
+        "character_correctness_excerpt_only": 5,
+        "quantification_status": "三列 excerpt 可局部核验，但完整 OCR 覆盖与准确率不具备量化条件。",
+        "local_annotated_column_presence_score": 5
+      },
+      "overall": "三列已标注正文正确；中列末字未入框，气泡边线造成误检，截取质量中等。",
+      "confidence": "高"
+    },
+    {
+      "question_id": 70,
+      "source": "data/priority-b.json",
+      "image_file": "data/images/q70.png",
+      "original_reading": {
+        "columns_right_to_left": ["冒険者いわく", "どうやら別の森で", "ゴブリンの集落を", "襲撃したらしく", "その打ち漏らした", "ゴブリンなのでは", "ということだった"],
+        "grouping": "前四列在上方气泡，后三列在左下气泡；各气泡内从右至左读。",
+        "ruby": ["上方「襲撃」旁有小注音「しゅうげき」", "下方「漏」旁有小注音「も」"],
+        "notes": "两处注音较小，以字形可见范围为准；下方三列末尾「た／は／た」在原图可见。"
+      },
+      "annotation_comparison": {
+        "ocr_excerpt": "冒険者いわく",
+        "text_excerpts_right_to_left": ["冒険者いわく", "どうやら別の森で", "ゴブリンの集落を", "襲撃したらしく", "その打ち漏らした", "ゴブリンなのでは", "ということだった"],
+        "confirmed_wrong_characters": [],
+        "not_transcribed_in_excerpts": ["「襲撃」旁注音「しゅうげき」", "「漏」旁注音「も」"],
+        "whole_printed_columns_untranscribed": [],
+        "comment": "七列大字 excerpt 都与原图相符；标注 notes 把注音位置说成ゴブリン旁，与图像不符，注音实际对应「襲撃」及「漏」。注音缺席不等于完整 OCR 漏检。"
+      },
+      "crop_scores": {
+        "main_text_coverage": 2,
+        "background_exclusion": 4,
+        "column_and_character_boxes": 3,
+        "evidence": "上方 overlay 框未覆盖「で」「を」的末端，左上「襲撃」顶部及注音也超出框；下方三列框均在末字之前结束，mask 将可见的末尾「た／は／た」截断。segments 虽有多个字框，仍漏末字且局部合并。背景大致排除。"
+      },
+      "ocr_scores": {
+        "character_coverage": null,
+        "column_coverage": null,
+        "character_correctness_excerpt_only": 5,
+        "quantification_status": "七列 excerpt 只允许局部字符核验；缺少完整 OCR 输出，不能量化整体字符/列覆盖或准确率。",
+        "local_annotated_column_presence_score": 5
+      },
+      "overall": "七列文本标注与原图的大字一致，但实际截取多处切掉列首/列尾；优先修复框范围后再评估 OCR。",
+      "confidence": "高；小注音逐字为中"
+    }
+  ]
+}

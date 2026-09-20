@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": 98,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "bbox_quality": 5,
+    "notes": "All three vertical Japanese text groups are fully highlighted, including the small punctuation/reading details. The green mask shows no meaningful spill into the surrounding halftone or panel border. The red box is closely fitted to the complete text union with only small margins.",
+    "fix_suggestion": "No major failure is visible; preserve this text-line grouping behavior. If tightening further, trim the small residual margin without risking the lowest characters.",
+    "comparison_note": "No corresponding eval-v2 entry; this is a v5-only sample. Visual result is a clean pass across all three criteria."
+  },
+  {
+    "question_id": 110,
+    "text_coverage": 5,
+    "background_rejection": 1,
+    "bbox_quality": 1,
+    "notes": "The complete vertical speech text is highlighted, but isolated green halftone dots remain throughout the white bubble and around its perimeter. The red box is effectively the full crop, so it includes the bubble border, dot field, and unrelated artwork.",
+    "fix_suggestion": "Reject isolated low-area halftone components and long bubble-boundary components before forming the text union. Derive the bbox from the two aligned vertical text columns rather than the full ROI.",
+    "comparison_note": "Compared with eval-v2 (5/1/1), the v5 result is visually unchanged: coverage remains complete, while halftone contamination and the full-crop box remain the main failures."
+  },
+  {
+    "question_id": 139,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "bbox_quality": 4,
+    "notes": "The full narrow vertical phrase, including the trailing ellipsis, is highlighted with clean character shapes. A few small green residual dots remain near the lower edge, and the red box has modest extra margin around the column.",
+    "fix_suggestion": "Remove tiny isolated components near the lower edge and recompute the box from character components after excluding the panel contour.",
+    "comparison_note": "Compared with eval-v2 (5/4/4), v5 is effectively unchanged: complete coverage and a tight box remain, with only minor lower-edge residue."
+  },
+  {
+    "question_id": 136,
+    "text_coverage": 5,
+    "background_rejection": 3,
+    "bbox_quality": 3,
+    "notes": "The entire bold vertical phrase and all exclamation marks are highlighted. Green spill follows the decorative strokes at the top and the curved figure/bubble contour on the right. The red box is reasonably narrow but still spans those adjacent graphics and nearly the full panel height.",
+    "fix_suggestion": "Cluster components by the common vertical text axis and reject slanted, curved, or boundary-connected components before computing the bbox; retain the exclamation marks as text components.",
+    "comparison_note": "Compared with eval-v2 (5/3/3), v5 is effectively unchanged: text coverage is complete, but adjacent decorative/figure contours still limit rejection and box tightness."
+  },
+  {
+    "question_id": 129,
+    "text_coverage": 5,
+    "background_rejection": 1,
+    "bbox_quality": 1,
+    "notes": "All visible printed text groups, including the small reading marks, are highlighted. However, large amounts of action-line art, character outlines, speech-bubble contours, and textured background are also green. The red box covers nearly the entire crop and is dominated by nontext content.",
+    "fix_suggestion": "Separate text by vertical-line alignment, stroke orientation, and component spacing; reject diagonal burst lines and large contour components before deriving the bbox.",
+    "comparison_note": "Compared with eval-v2 (5/2/1), v5 retains complete coverage but appears worse on background rejection (1 vs 2): the action-line and character-art spill is extensive, while bbox quality remains 1."
+  },
+  {
+    "question_id": 31,
+    "text_coverage": 5,
+    "background_rejection": 0,
+    "bbox_quality": 1,
+    "notes": "The visible text lines are highlighted, but the mask also traces most of the manga line art: hair, face, clothing, petals, and other contours across the page. The red box is the full image, providing no useful localization beyond containing all text.",
+    "fix_suggestion": "Use text-specific line orientation, repeated character spacing, and connected-component geometry to suppress illustration contours before any page-level bbox fallback is allowed.",
+    "comparison_note": "No corresponding eval-v2 entry; this is a v5-only sample. The dominant failure is catastrophic background acceptance despite complete text coverage."
+  },
+  {
+    "question_id": 100,
+    "text_coverage": 5,
+    "background_rejection": 3,
+    "bbox_quality": 3,
+    "notes": "All four main vertical text groups and the small furigana are highlighted. Most of the mask is clean, but green residue remains on the upper border/stroke and in the halftone or dark texture at the lower right. The red box contains the text but is still broad and includes substantial whitespace and texture.",
+    "fix_suggestion": "Reject long border-connected strokes and low-density halftone texture, then group the vertical text columns and furigana before calculating a union bbox.",
+    "comparison_note": "Compared with eval-v2 (5/2/1), v5 improves background rejection to 3 and bbox quality to 3: the text mask is cleaner and the box is no longer a full-crop fallback, but lower-right texture and excess margins remain."
+  },
+  {
+    "question_id": 140,
+    "text_coverage": 5,
+    "background_rejection": 2,
+    "bbox_quality": 2,
+    "notes": "Both main vertical text columns are highlighted essentially completely. The mask also follows the speech-bubble borders and includes fragments of neighboring text/art at the upper and side edges. The red box remains nearly the full crop and is much broader than the lettering.",
+    "fix_suggestion": "Reject long continuous bubble borders and edge-connected components, cluster the two vertical text columns by orientation, and calculate the bbox from those clusters only.",
+    "comparison_note": "Compared with eval-v2 (5/2/2), v5 is effectively unchanged: coverage is complete, but bubble-border spill and the broad near-full-crop box remain."
+  },
+  {
+    "question_id": 141,
+    "text_coverage": 5,
+    "background_rejection": 3,
+    "bbox_quality": 4,
+    "notes": "The complete speech text, including the smaller characters, is highlighted. A noticeable green patch and horizontal residue remain in the lower-left area where the bubble meets background texture. The red box is close to the text region but includes that residue and some bubble whitespace.",
+    "fix_suggestion": "Filter short horizontal texture components below the text baseline and exclude components connected to the lower bubble/background edge; then tighten the box vertically to the text extents.",
+    "comparison_note": "Compared with eval-v2 (5/4/4), v5 is slightly worse on background rejection (3 vs 4) because the lower-left residue is visibly larger; coverage and bbox quality remain 5 and 4 respectively."
+  },
+  {
+    "question_id": 25,
+    "text_coverage": 5,
+    "background_rejection": 3,
+    "bbox_quality": 3,
+    "notes": "All major vertical text groups and adjacent furigana are highlighted cleanly. The mask also accepts the large black object at the lower right and some surrounding edge/background structure. The red box contains the text but includes broad whitespace and the unrelated object.",
+    "fix_suggestion": "Reject components attached to the lower-right object and small edge artifacts, then build a multi-column text union bbox from aligned character groups.",
+    "comparison_note": "Compared with eval-v2 (5/4/3), v5 is slightly worse on background rejection (3 vs 4) because the lower-right object is accepted as mask content; bbox quality remains 3."
+  }
+]

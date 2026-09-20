@@ -1,0 +1,8 @@
+{
+  "timing": "Declared after source inventory, before any fresh font matching",
+  "reason": "q11 has fewer than seven distinct regular characters; retained, not replaced",
+  "primary_subset": "at least seven distinct usable Unicode characters in the reviewed pool",
+  "comparison": "quality_7 versus active_7, exactly seven queries per strategy in eligible samples",
+  "all_samples": "Report separately as at-most-budget descriptive results, including q11",
+  "no_score_based_exclusions": true
+}

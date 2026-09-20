@@ -1,0 +1,135 @@
+[
+  {
+    "question_id": 100,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "The four blue column boxes are now close to the actual vertical text; the rightmost box has only modest residual padding."
+    ],
+    "punctuation_issues": [],
+    "comparison_to_baseline": "Compared with eval-priority-a (5/3/2), the lower-right texture is removed from the mask and the rightmost box no longer falls into the illustration: background rejection and box tightness improve to 5 and 4."
+  },
+  {
+    "question_id": 58,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "Both boxes now follow the two text columns closely; there is only small whitespace around the column edges."
+    ],
+    "punctuation_issues": [
+      "Both double exclamation marks are retained."
+    ],
+    "comparison_to_baseline": "Compared with eval-priority-a (5/2/2), the top and bottom bubble-boundary strokes are removed and the oversized full-bubble boxes are replaced by tight column boxes: strong improvement to 5/4."
+  },
+  {
+    "question_id": 96,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "The two blue boxes are close to the glyph columns, with minor top/bottom margin but no large halftone region included."
+    ],
+    "punctuation_issues": [
+      "The ellipsis in と…とにかく and the final double exclamation marks are retained."
+    ],
+    "comparison_to_baseline": "Compared with eval-priority-a (5/2/2), the upper halftone and bubble-edge contamination is removed and both boxes tighten substantially: background rejection 5 and box tightness 4."
+  },
+  {
+    "question_id": 65,
+    "text_coverage": 4,
+    "background_rejection": 5,
+    "box_tightness": 3,
+    "missed_characters": [
+      "The bottom の in 朝加ちゃんへの is outside the right blue box and is not green in the mask/overlay."
+    ],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "The right-column box stops above the bottom の; the left プレゼント box is otherwise reasonably aligned."
+    ],
+    "punctuation_issues": [],
+    "comparison_to_baseline": "Compared with eval-priority-a (5/2/2), v2 removes the lower-left hand/art contamination and improves background rejection to 5, but text coverage drops to 4 because the bottom の is now visibly omitted; box tightness improves only to 3."
+  },
+  {
+    "question_id": 114,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 3,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "The single blue ROI covers both vertical columns and their gap, so it is not as tight as the orange character boxes, although it no longer reaches the bubble border."
+    ],
+    "punctuation_issues": [
+      "The trailing ellipsis is retained."
+    ],
+    "comparison_to_baseline": "Compared with eval-priority-b (5/3/2), v2 removes the top/bottom halftone and bubble-border noise and improves background rejection to 5 and box tightness to 3."
+  },
+  {
+    "question_id": 61,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "The upper two columns and lower text groups are separated into useful boxes; the lower small-character/furigana region still has slight overlap and extra whitespace."
+    ],
+    "punctuation_issues": [],
+    "comparison_to_baseline": "Compared with eval-priority-b (5/4/2), v2 preserves complete coverage, removes the isolated nontext residue, and materially improves the merged lower geometry: 5/4."
+  },
+  {
+    "question_id": 33,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "All three vertical columns now have complete boxes; the long left line has a little extra top/bottom margin and the middle box is slightly broad."
+    ],
+    "punctuation_issues": [
+      "The left-column ellipsis and final !? are retained."
+    ],
+    "comparison_to_baseline": "Compared with eval-priority-b (3/5/3), v2 restores the previously missing lower ったり in the middle column and retains the punctuation, improving text coverage to 5 and box tightness to 4 without adding art leakage."
+  },
+  {
+    "question_id": 72,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "The three main column boxes are close to the text; the right column's 使って tail is segmented into smaller boxes rather than one perfectly continuous column box."
+    ],
+    "punctuation_issues": [
+      "The comma-like mark and final exclamation mark in the left column are retained."
+    ],
+    "comparison_to_baseline": "Compared with eval-priority-b (5/3/3), v2 removes the lower-right artwork from the mask and tightens the columns, improving background rejection to 5 and box tightness to 4."
+  },
+  {
+    "question_id": 27,
+    "text_coverage": 4,
+    "background_rejection": 0,
+    "box_tightness": 1,
+    "missed_characters": [
+      "The lower が in the rightmost 私に…が column is outside its blue box and remains unmasked/black."
+    ],
+    "art_inclusions": [
+      "Dense vertical speed-line artwork is still extensively accepted across and around all three text columns; the central and left boxes contain large nontext regions."
+    ],
+    "box_line_issues": [
+      "The three blue column boxes are large and do not isolate glyphs from the speed lines; the right box also truncates the lower text."
+    ],
+    "punctuation_issues": [],
+    "comparison_to_baseline": "Compared with eval-priority-b (5/0/1), background rejection and box tightness remain failed at 0/1. Text coverage is conservatively reduced to 4 because the visible lower が is omitted; q27 is not a successful ROI result despite most large glyphs being present."
+  }
+]

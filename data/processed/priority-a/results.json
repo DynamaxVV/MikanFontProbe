@@ -1,0 +1,569 @@
+[
+  {
+    "question_id": 118,
+    "coarse_label": "中圆",
+    "roi": null,
+    "text_box": [
+      30,
+      43,
+      140,
+      312
+    ],
+    "components": 73,
+    "ink_pixels": 3899,
+    "subregions": [
+      {
+        "roi": [
+          135,
+          9,
+          55,
+          179
+        ],
+        "text_box": [
+          144,
+          46,
+          26,
+          79
+        ],
+        "components": 9,
+        "ink_pixels": 500
+      },
+      {
+        "roi": [
+          93,
+          0,
+          71,
+          272
+        ],
+        "text_box": [
+          109,
+          43,
+          52,
+          166
+        ],
+        "components": 23,
+        "ink_pixels": 1276
+      },
+      {
+        "roi": [
+          48,
+          104,
+          77,
+          255
+        ],
+        "text_box": [
+          66,
+          157,
+          53,
+          172
+        ],
+        "components": 22,
+        "ink_pixels": 1138
+      },
+      {
+        "roi": [
+          18,
+          104,
+          61,
+          255
+        ],
+        "text_box": [
+          30,
+          165,
+          44,
+          190
+        ],
+        "components": 19,
+        "ink_pixels": 1224
+      }
+    ]
+  },
+  {
+    "question_id": 115,
+    "coarse_label": "中圆",
+    "roi": null,
+    "text_box": [
+      28,
+      6,
+      131,
+      474
+    ],
+    "components": 47,
+    "ink_pixels": 5287,
+    "subregions": [
+      {
+        "roi": [
+          101,
+          29,
+          99,
+          264
+        ],
+        "text_box": [
+          110,
+          76,
+          49,
+          149
+        ],
+        "components": 13,
+        "ink_pixels": 1726
+      },
+      {
+        "roi": [
+          24,
+          0,
+          97,
+          520
+        ],
+        "text_box": [
+          28,
+          6,
+          67,
+          474
+        ],
+        "components": 34,
+        "ink_pixels": 3561
+      }
+    ]
+  },
+  {
+    "question_id": 100,
+    "coarse_label": "中圆",
+    "roi": null,
+    "text_box": [
+      47,
+      130,
+      413,
+      611
+    ],
+    "components": 162,
+    "ink_pixels": 17853,
+    "subregions": [
+      {
+        "roi": [
+          353,
+          0,
+          112,
+          752
+        ],
+        "text_box": [
+          382,
+          130,
+          78,
+          611
+        ],
+        "components": 49,
+        "ink_pixels": 4393
+      },
+      {
+        "roi": [
+          221,
+          151,
+          130,
+          629
+        ],
+        "text_box": [
+          229,
+          250,
+          83,
+          488
+        ],
+        "components": 37,
+        "ink_pixels": 5549
+      },
+      {
+        "roi": [
+          114,
+          148,
+          125,
+          632
+        ],
+        "text_box": [
+          136,
+          253,
+          100,
+          482
+        ],
+        "components": 53,
+        "ink_pixels": 5881
+      },
+      {
+        "roi": [
+          22,
+          187,
+          113,
+          496
+        ],
+        "text_box": [
+          47,
+          245,
+          68,
+          208
+        ],
+        "components": 23,
+        "ink_pixels": 2048
+      }
+    ]
+  },
+  {
+    "question_id": 125,
+    "coarse_label": "中黑",
+    "roi": null,
+    "text_box": [
+      25,
+      32,
+      94,
+      276
+    ],
+    "components": 61,
+    "ink_pixels": 4215,
+    "subregions": [
+      {
+        "roi": [
+          86,
+          0,
+          68,
+          344
+        ],
+        "text_box": [
+          94,
+          34,
+          25,
+          274
+        ],
+        "components": 24,
+        "ink_pixels": 1981
+      },
+      {
+        "roi": [
+          13,
+          0,
+          82,
+          344
+        ],
+        "text_box": [
+          25,
+          32,
+          59,
+          248
+        ],
+        "components": 37,
+        "ink_pixels": 2234
+      }
+    ]
+  },
+  {
+    "question_id": 76,
+    "coarse_label": "中黑",
+    "roi": null,
+    "text_box": [
+      83,
+      59,
+      468,
+      536
+    ],
+    "components": 172,
+    "ink_pixels": 19290,
+    "subregions": [
+      {
+        "roi": [
+          480,
+          0,
+          145,
+          589
+        ],
+        "text_box": [
+          504,
+          59,
+          47,
+          354
+        ],
+        "components": 15,
+        "ink_pixels": 4045
+      },
+      {
+        "roi": [
+          397,
+          0,
+          118,
+          539
+        ],
+        "text_box": [
+          401,
+          65,
+          85,
+          346
+        ],
+        "components": 38,
+        "ink_pixels": 3733
+      },
+      {
+        "roi": [
+          312,
+          0,
+          124,
+          571
+        ],
+        "text_box": [
+          372,
+          59,
+          48,
+          355
+        ],
+        "components": 37,
+        "ink_pixels": 3546
+      },
+      {
+        "roi": [
+          208,
+          99,
+          103,
+          502
+        ],
+        "text_box": [
+          214,
+          117,
+          46,
+          326
+        ],
+        "components": 20,
+        "ink_pixels": 2264
+      },
+      {
+        "roi": [
+          120,
+          91,
+          109,
+          517
+        ],
+        "text_box": [
+          149,
+          195,
+          46,
+          400
+        ],
+        "components": 44,
+        "ink_pixels": 3169
+      },
+      {
+        "roi": [
+          49,
+          88,
+          103,
+          520
+        ],
+        "text_box": [
+          83,
+          197,
+          46,
+          348
+        ],
+        "components": 18,
+        "ink_pixels": 3034
+      }
+    ]
+  },
+  {
+    "question_id": 62,
+    "coarse_label": "中黑",
+    "roi": null,
+    "text_box": [
+      30,
+      37,
+      85,
+      160
+    ],
+    "components": 48,
+    "ink_pixels": 2362,
+    "subregions": [
+      {
+        "roi": [
+          80,
+          3,
+          70,
+          200
+        ],
+        "text_box": [
+          83,
+          38,
+          32,
+          113
+        ],
+        "components": 12,
+        "ink_pixels": 673
+      },
+      {
+        "roi": [
+          46,
+          1,
+          67,
+          215
+        ],
+        "text_box": [
+          58,
+          38,
+          51,
+          113
+        ],
+        "components": 15,
+        "ink_pixels": 1082
+      },
+      {
+        "roi": [
+          9,
+          0,
+          83,
+          230
+        ],
+        "text_box": [
+          30,
+          37,
+          59,
+          160
+        ],
+        "components": 21,
+        "ink_pixels": 1708
+      }
+    ]
+  },
+  {
+    "question_id": 58,
+    "coarse_label": "粗黑",
+    "roi": null,
+    "text_box": [
+      64,
+      7,
+      101,
+      312
+    ],
+    "components": 53,
+    "ink_pixels": 4855,
+    "subregions": [
+      {
+        "roi": [
+          120,
+          0,
+          92,
+          283
+        ],
+        "text_box": [
+          130,
+          50,
+          35,
+          219
+        ],
+        "components": 20,
+        "ink_pixels": 2218
+      },
+      {
+        "roi": [
+          61,
+          0,
+          98,
+          336
+        ],
+        "text_box": [
+          64,
+          7,
+          92,
+          312
+        ],
+        "components": 33,
+        "ink_pixels": 3847
+      }
+    ]
+  },
+  {
+    "question_id": 96,
+    "coarse_label": "粗黑",
+    "roi": null,
+    "text_box": [
+      34,
+      3,
+      166,
+      462
+    ],
+    "components": 112,
+    "ink_pixels": 6759,
+    "subregions": [
+      {
+        "roi": [
+          101,
+          0,
+          102,
+          510
+        ],
+        "text_box": [
+          109,
+          3,
+          91,
+          462
+        ],
+        "components": 59,
+        "ink_pixels": 3576
+      },
+      {
+        "roi": [
+          29,
+          9,
+          104,
+          432
+        ],
+        "text_box": [
+          34,
+          12,
+          94,
+          358
+        ],
+        "components": 53,
+        "ink_pixels": 3699
+      }
+    ]
+  },
+  {
+    "question_id": 65,
+    "coarse_label": "粗黑",
+    "roi": null,
+    "text_box": [
+      7,
+      26,
+      151,
+      325
+    ],
+    "components": 45,
+    "ink_pixels": 4079,
+    "subregions": [
+      {
+        "roi": [
+          59,
+          0,
+          104,
+          376
+        ],
+        "text_box": [
+          62,
+          26,
+          96,
+          325
+        ],
+        "components": 29,
+        "ink_pixels": 2311
+      },
+      {
+        "roi": [
+          0,
+          0,
+          102,
+          364
+        ],
+        "text_box": [
+          7,
+          26,
+          73,
+          307
+        ],
+        "components": 16,
+        "ink_pixels": 1796
+      }
+    ]
+  }
+]

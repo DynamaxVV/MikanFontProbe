@@ -1,0 +1,56 @@
+{
+  "samples": [
+    {
+      "qid": 79,
+      "expected": "方新书",
+      "polarity": "dark",
+      "distinct_characters": 6,
+      "meets_seven_distinct": false,
+      "shortfall_reason": "单列正文屋根閉めまーす，仅6个不同可读常规字；长音线ー不计常规字，旁侧拟声及残字排除，保留固定题。",
+      "notes": ["按正文自上而下选屋、根、閉、め、ま、す；黑字，非白字。保留原图像素，不补字、不换题。"],
+      "columns": [
+        {"text": "屋根閉めま_す", "x_range": [74, 132], "y_edges": [127, 179, 231, 283, 335, 388, 440, 492]}
+      ]
+    },
+    {
+      "qid": 127,
+      "expected": "方新书",
+      "polarity": "dark",
+      "distinct_characters": 13,
+      "meets_seven_distinct": true,
+      "shortfall_reason": null,
+      "notes": ["正文右列ってどうしました？、左列息荒いですけど…；右列重复し、左列重复ど跳过，标点及图外残字排除，共13个不同字。首字是小写っ。黑字，非白字。"],
+      "columns": [
+        {"text": "ってどうしま_た", "x_range": [99, 130], "y_edges": [35, 64, 92, 121, 148, 177, 206, 234, 262]},
+        {"text": "息荒いですけ", "x_range": [62, 97], "y_edges": [35, 64, 93, 121, 149, 177, 205]}
+      ]
+    },
+    {
+      "qid": 128,
+      "expected": "方新书",
+      "polarity": "dark",
+      "distinct_characters": 14,
+      "meets_seven_distinct": true,
+      "shortfall_reason": null,
+      "notes": ["从右到左：ヒビキさん！／今どこですか!?／もう約束の時間…；按阅读顺序取前14个不同可读常规字，截止約，保留ビ及ど的浊点，标点和剩余正文排除。黑字，非白字。"],
+      "columns": [
+        {"text": "ヒビキさん", "x_range": [124, 157], "y_edges": [60, 88, 117, 145, 173, 201]},
+        {"text": "今どこですか", "x_range": [87, 123], "y_edges": [60, 89, 117, 145, 174, 202, 230]},
+        {"text": "もう約", "x_range": [24, 61], "y_edges": [126, 154, 183, 213]}
+      ]
+    },
+    {
+      "qid": 132,
+      "expected": "方新书",
+      "polarity": "dark",
+      "distinct_characters": 12,
+      "meets_seven_distinct": true,
+      "shortfall_reason": null,
+      "notes": ["正文右列スケッチしてた、左列んですよね!?；按阅读顺序选12个不同可读常规字，ッ为小写片假名。review纠正：た下方为框线，不是ら，已删除初标空格。标点、右侧小线条及框线排除。黑字，非白字。"],
+      "columns": [
+        {"text": "スケッチしてた", "x_range": [60, 94], "y_edges": [62, 89, 117, 144, 172, 201, 230, 257]},
+        {"text": "んですよね", "x_range": [24, 58], "y_edges": [61, 89, 116, 144, 172, 201]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "kind": "same_face_zero",
+    "char": "な",
+    "resolution": 32,
+    "face_a": 0,
+    "face_b": 0,
+    "distance": 0.0,
+    "status": "exact_bitmap",
+    "face_id_a": "c5c4498a3dfb5e6a",
+    "face_id_b": "c5c4498a3dfb5e6a",
+    "face_path_a": "font_sample/古印体/FOT-ManyoKoinLargeStd-B-2_副本.otf",
+    "face_path_b": "font_sample/古印体/FOT-ManyoKoinLargeStd-B-2_副本.otf"
+  },
+  {
+    "kind": "cross_family_low_distance",
+    "char": "リ",
+    "resolution": 16,
+    "face_a": 13,
+    "face_b": 15,
+    "family_a": "humming",
+    "family_b": "skip",
+    "distance": 0.08382904529571533,
+    "status": "low_distance",
+    "face_id_a": "1c6bad4cb7153485",
+    "face_id_b": "078cacc873dad7b0",
+    "face_path_a": "font_sample/轻吟体/FOT-HummingStd-M_副本.otf",
+    "face_path_b": "font_sample/雅士黑/FOT-SkipStd-M_副本.otf"
+  },
+  {
+    "kind": "cross_family_high_distance",
+    "char": "ヮ",
+    "resolution": 64,
+    "face_a": 7,
+    "face_b": 4,
+    "family_a": "RodinHappyPro-L",
+    "family_b": "ryumin",
+    "distance": 0.9989392161369324,
+    "status": "different",
+    "face_id_a": "cb6428ac09aa7f0d",
+    "face_id_b": "fa8128550eb71b48",
+    "face_path_a": "font_sample/少女体/FOT-RodinHappy Pro L_副本.otf",
+    "face_path_b": "font_sample/宋体/A P-OTF リュウミン Pr6N B-KL_副本.otf"
+  }
+]

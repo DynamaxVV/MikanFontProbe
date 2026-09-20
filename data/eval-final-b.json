@@ -1,0 +1,181 @@
+[
+  {
+    "question_id": "q113",
+    "text_coverage": 3,
+    "background_rejection": 5,
+    "line_and_char_quality": 3,
+    "low_score": false,
+    "exact_failures": "The upper characters in the right and center vertical columns are outside the red ROI and remain uncolored; the remaining columns are detected but split inconsistently.",
+    "realistic_algorithm_changes": [
+      "Complete vertical columns from connected components before estimating the ROI, then add a small top/bottom padding.",
+      "Suppress speech-balloon borders by rejecting long curved contours while retaining narrow vertical text strokes.",
+      "Use column-level grouping plus character-level boxes instead of selecting only the densest connected region."
+    ]
+  },
+  {
+    "question_id": "q110",
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "line_and_char_quality": 5,
+    "low_score": false,
+    "exact_failures": "No material failure observed; both vertical columns, punctuation, and per-character segments are covered cleanly.",
+    "realistic_algorithm_changes": [
+      "Keep the current scale-aware connected-component and vertical-column path as the baseline."
+    ]
+  },
+  {
+    "question_id": "q109",
+    "text_coverage": 4,
+    "background_rejection": 5,
+    "line_and_char_quality": 4,
+    "low_score": false,
+    "exact_failures": "The tops of the main columns are clipped by the red ROI, leaving parts of the first row black; tiny furigana components are fragmented more than the main glyphs.",
+    "realistic_algorithm_changes": [
+      "Expand the vertical ROI upward from the column projection rather than from the first accepted component.",
+      "Run a height-aware secondary pass for furigana with smaller minimum-area thresholds and light vertical closing.",
+      "Merge adjacent character boxes only within a detected column baseline."
+    ]
+  },
+  {
+    "question_id": "q104",
+    "text_coverage": 3,
+    "background_rejection": 5,
+    "line_and_char_quality": 3,
+    "low_score": false,
+    "exact_failures": "Thin anti-aliased strokes are frequently only partly green; several horizontal and curved portions of the light characters remain black. Segment boxes capture chunks of columns rather than consistently complete characters.",
+    "realistic_algorithm_changes": [
+      "Upsample before thresholding and use grayscale black-hat/adaptive thresholding for low-contrast thin strokes.",
+      "Apply a small stroke-preserving morphological close before connected-component extraction.",
+      "Use vertical-column projections to recover complete lines after component filtering instead of relying on area alone."
+    ]
+  },
+  {
+    "question_id": "q98",
+    "text_coverage": 4,
+    "background_rejection": 5,
+    "line_and_char_quality": 4,
+    "low_score": false,
+    "exact_failures": "The final bottom character in the left column is outside the red ROI and is not overlaid or segmented; the remaining white text on halftone is handled well.",
+    "realistic_algorithm_changes": [
+      "Extend each vertical column to its last projected text component before finalizing the ROI.",
+      "Keep polarity-aware white-on-dark extraction, with a small trailing-column recovery pass for edge characters."
+    ]
+  },
+  {
+    "question_id": "q93",
+    "text_coverage": 3,
+    "background_rejection": 5,
+    "line_and_char_quality": 4,
+    "low_score": false,
+    "exact_failures": "The top-right fragment is only partly covered, and the lower wave dash/exclamation marks fall below the red ROI and remain black.",
+    "realistic_algorithm_changes": [
+      "Use punctuation and wave-dash components as valid continuation evidence when extending a vertical line.",
+      "Add bottom padding based on the last column component rather than stopping at the last large glyph.",
+      "Keep small isolated marks only when they align with an established text column."
+    ]
+  },
+  {
+    "question_id": "q91",
+    "text_coverage": 3,
+    "background_rejection": 5,
+    "line_and_char_quality": 3,
+    "low_score": false,
+    "exact_failures": "The very thin left-column strokes are only intermittently overlaid; lower punctuation is segmented but much of the fine linework is under-detected.",
+    "realistic_algorithm_changes": [
+      "Use an upsampled black-hat or low-threshold grayscale pass dedicated to thin print.",
+      "Reconnect short aligned stroke fragments before character segmentation.",
+      "Reject the speech-bubble outline by curvature/length so the more permissive thin-text pass does not add border noise."
+    ]
+  },
+  {
+    "question_id": "q82",
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "line_and_char_quality": 5,
+    "low_score": false,
+    "exact_failures": "No material failure observed; the three bold vertical columns and punctuation are covered and segmented cleanly.",
+    "realistic_algorithm_changes": [
+      "Use this as a regression baseline for bold vertical print."
+    ]
+  },
+  {
+    "question_id": "q78",
+    "text_coverage": 4,
+    "background_rejection": 0,
+    "line_and_char_quality": 0,
+    "low_score": true,
+    "exact_failures": "The green mask floods the halftone inside the ROI, so background rejection fails. The bottom exclamation marks are outside the ROI, and segments.png contains no useful text boxes for the outlined glyphs.",
+    "realistic_algorithm_changes": [
+      "Do not use raw binarized fill for outlined text over screen tone; detect glyph contours/rings with edge maps and local contrast instead.",
+      "Estimate and suppress the halftone frequency/texture before text extraction, then retain closed high-contrast outline components.",
+      "Use stroke-width or contour-pair filtering to distinguish outlined glyphs from the repeated background dots.",
+      "Extend the text group to include the trailing exclamation marks below the main word block."
+    ]
+  },
+  {
+    "question_id": "q53",
+    "text_coverage": 2,
+    "background_rejection": 5,
+    "line_and_char_quality": 2,
+    "low_score": true,
+    "exact_failures": "The entire upper vertical phrase beginning with 貴方 is missed: overlay and segments start at 特別 and omit the separate upper column. The detected text is mostly one coarse region rather than robust character/line segmentation.",
+    "realistic_algorithm_changes": [
+      "Detect all vertical text columns from the full connected-component projection instead of selecting the lower/densest column.",
+      "Allow disconnected columns with unequal heights and preserve a small standalone bullet as non-text.",
+      "Use column-level grouping before character boxes so the upper phrase cannot be discarded as a separate component."
+    ]
+  },
+  {
+    "question_id": "q38",
+    "text_coverage": 3,
+    "background_rejection": 5,
+    "line_and_char_quality": 3,
+    "low_score": false,
+    "exact_failures": "The red ROI clips the tops of the thin columns and the bottom continuation near して; the large bold 死にたい column is recovered better than the surrounding fine text.",
+    "realistic_algorithm_changes": [
+      "Build the ROI from all aligned vertical columns, not from the large bold component, and add top/bottom continuation padding.",
+      "Run separate scale classes for the bold emphasis column and the thin neighboring columns.",
+      "Use column continuity to retain small ellipsis components and the final kana at the bottom."
+    ]
+  },
+  {
+    "question_id": "q31",
+    "text_coverage": 4,
+    "background_rejection": 5,
+    "line_and_char_quality": 4,
+    "low_score": false,
+    "exact_failures": "Full-page multi-line detection is mostly successful, but the final line is truncated after よ and misses the trailing うに、; segments also contain one stray horizontal false-positive box near the second lyric line.",
+    "realistic_algorithm_changes": [
+      "Use line projection and rightward completion so a detected horizontal lyric line continues through kana and punctuation with matching height/baseline.",
+      "Reject isolated boxes that lack text density or baseline support from neighboring characters.",
+      "Keep the full-page multi-line mode; it is materially better here than a single global text ROI."
+    ]
+  },
+  {
+    "question_id": "q29",
+    "text_coverage": 4,
+    "background_rejection": 1,
+    "line_and_char_quality": 2,
+    "low_score": true,
+    "exact_failures": "Most card lettering, including 薄い本, is detected, but hair contours, eye details, and other illustration strokes are overlaid green. segments.png contains large false boxes over the face and misses or fragments some small card/effect text.",
+    "realistic_algorithm_changes": [
+      "Filter candidates by text-like stroke width, local rectangularity, and repeated character spacing to reject long curved illustration contours.",
+      "Detect the card quadrilaterals and rectify each card before extracting its vertical text at a separate small-text scale.",
+      "Handle diagonal キラ effect text as a separate high-contrast/outline class rather than merging it with portrait line art.",
+      "Use local text density and component alignment to suppress eye and hair regions."
+    ]
+  },
+  {
+    "question_id": "q25",
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "line_and_char_quality": 4,
+    "low_score": false,
+    "exact_failures": "Main vertical columns and furigana are covered, but a small non-text artifact near the top tab is falsely detected; some segment boxes overlap or remain grouped at column level.",
+    "realistic_algorithm_changes": [
+      "Reject isolated components outside established text-column baselines and speech-bubble text bands.",
+      "Keep separate size classes for furigana and main glyphs, then merge only within the same vertical column.",
+      "Use overlap-aware box cleanup to avoid redundant column/character rectangles."
+    ]
+  }
+]

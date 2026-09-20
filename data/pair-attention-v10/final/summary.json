@@ -1,0 +1,539 @@
+{
+  "status": "development_regression_not_blind_or_calibrated",
+  "questions": 52,
+  "eligible_pairs": 61,
+  "pair_outcomes": {
+    "correct": 21,
+    "abstained": 38,
+    "wrong": 2
+  },
+  "per_class": {
+    "圆体": {
+      "correct": 4,
+      "abstained": 1,
+      "wrong": 1
+    },
+    "宋体": {
+      "abstained": 5
+    },
+    "黑体": {
+      "abstained": 5,
+      "correct": 1
+    },
+    "少女": {
+      "abstained": 2,
+      "correct": 3
+    },
+    "方圆": {
+      "abstained": 4,
+      "correct": 2
+    },
+    "润圆/雅士黑": {
+      "abstained": 3,
+      "correct": 6
+    },
+    "竹体": {
+      "abstained": 4,
+      "correct": 2
+    },
+    "轻吟体": {
+      "abstained": 8,
+      "correct": 3,
+      "wrong": 1
+    },
+    "方新书": {
+      "abstained": 6
+    }
+  },
+  "decisions": [
+    {
+      "qid": 5,
+      "a": "shinmaru",
+      "b": "folk",
+      "expected": "圆体",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 8,
+      "a": "shinmaru",
+      "b": "ywheiti",
+      "expected": "圆体",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 10,
+      "a": "shinmaru",
+      "b": "ywheiti",
+      "expected": "圆体",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 28,
+      "a": "shinmaru",
+      "b": "RodinHappyPro-B",
+      "expected": "圆体",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 91,
+      "a": "shinmaru",
+      "b": "ywheiti",
+      "expected": "圆体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 100,
+      "a": "shinmaru",
+      "b": "humming",
+      "expected": "圆体",
+      "outcome": "wrong",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 2,
+      "a": "ryumin",
+      "b": "mystery",
+      "expected": "宋体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 9,
+      "a": "ryumin",
+      "b": "mystery",
+      "expected": "宋体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 72,
+      "a": "ryumin",
+      "b": "mystery",
+      "expected": "宋体",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 92,
+      "a": "ryumin",
+      "b": "mystery",
+      "expected": "宋体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 114,
+      "a": "ryumin",
+      "b": "antique",
+      "expected": "宋体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 1,
+      "a": "antique",
+      "b": "shinmaru",
+      "expected": "黑体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 21,
+      "a": "shinmaru",
+      "b": "ywheiti",
+      "expected": "黑体",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 26,
+      "a": "antique",
+      "b": "ryumin",
+      "expected": "黑体",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 58,
+      "a": "ywheiti",
+      "b": "shinmaru",
+      "expected": "黑体",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 96,
+      "a": "ywheiti",
+      "b": "shinmaru",
+      "expected": "黑体",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 125,
+      "a": "antique",
+      "b": "mystery",
+      "expected": "黑体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 3,
+      "a": "RodinHappyPro-L",
+      "b": "RodinHappyPro-B",
+      "expected": "少女",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 50,
+      "a": "RodinHappyPro-L",
+      "b": "ywheiti",
+      "expected": "少女",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 51,
+      "a": "RodinHappyPro-L",
+      "b": "RodinHappyPro-B",
+      "expected": "少女",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 86,
+      "a": "RodinHappyPro-L",
+      "b": "RodinHappyPro-B",
+      "expected": "少女",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 89,
+      "a": "RodinHappyPro-L",
+      "b": "RodinHappyPro-B",
+      "expected": "少女",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 13,
+      "a": "RodinHappyPro-B",
+      "b": "RodinHappyPro-UB",
+      "expected": "方圆",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 32,
+      "a": "RodinHappyPro-B",
+      "b": "shinmaru",
+      "expected": "方圆",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 44,
+      "a": "RodinHappyPro-B",
+      "b": "shinmaru",
+      "expected": "方圆",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 57,
+      "a": "RodinHappyPro-B",
+      "b": "RodinHappyPro-UB",
+      "expected": "方圆",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 71,
+      "a": "RodinHappyPro-B",
+      "b": "RodinHappyPro-UB",
+      "expected": "方圆",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 87,
+      "a": "RodinHappyPro-B",
+      "b": "shinmaru",
+      "expected": "方圆",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 4,
+      "a": "humming",
+      "b": "skip",
+      "expected": "润圆/雅士黑",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 6,
+      "a": "skip",
+      "b": "folk",
+      "expected": "润圆/雅士黑",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 6,
+      "a": "humming",
+      "b": "skip",
+      "expected": "润圆/雅士黑",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 80,
+      "a": "skip",
+      "b": "shinmaru",
+      "expected": "润圆/雅士黑",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 80,
+      "a": "humming",
+      "b": "skip",
+      "expected": "润圆/雅士黑",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 81,
+      "a": "skip",
+      "b": "humming",
+      "expected": "润圆/雅士黑",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 85,
+      "a": "skip",
+      "b": "humming",
+      "expected": "润圆/雅士黑",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 90,
+      "a": "skip",
+      "b": "folk",
+      "expected": "润圆/雅士黑",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 90,
+      "a": "humming",
+      "b": "skip",
+      "expected": "润圆/雅士黑",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 14,
+      "a": "take",
+      "b": "ywheiti",
+      "expected": "竹体",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 24,
+      "a": "take",
+      "b": "ywheiti",
+      "expected": "竹体",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 35,
+      "a": "take",
+      "b": "folk",
+      "expected": "竹体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 55,
+      "a": "take",
+      "b": "ywheiti",
+      "expected": "竹体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 83,
+      "a": "take",
+      "b": "antique",
+      "expected": "竹体",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 95,
+      "a": "take",
+      "b": "ywheiti",
+      "expected": "竹体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 30,
+      "a": "humming",
+      "b": "skip",
+      "expected": "轻吟体",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 30,
+      "a": "humming",
+      "b": "folk",
+      "expected": "轻吟体",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 46,
+      "a": "humming",
+      "b": "skip",
+      "expected": "轻吟体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 46,
+      "a": "humming",
+      "b": "folk",
+      "expected": "轻吟体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 47,
+      "a": "humming",
+      "b": "skip",
+      "expected": "轻吟体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 47,
+      "a": "humming",
+      "b": "folk",
+      "expected": "轻吟体",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 106,
+      "a": "folk",
+      "b": "humming",
+      "expected": "轻吟体",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 106,
+      "a": "humming",
+      "b": "skip",
+      "expected": "轻吟体",
+      "outcome": "correct",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 108,
+      "a": "humming",
+      "b": "folk",
+      "expected": "轻吟体",
+      "outcome": "wrong",
+      "reason": "stable_character_agreement"
+    },
+    {
+      "qid": 108,
+      "a": "humming",
+      "b": "skip",
+      "expected": "轻吟体",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 109,
+      "a": "folk",
+      "b": "humming",
+      "expected": "轻吟体",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 109,
+      "a": "humming",
+      "b": "skip",
+      "expected": "轻吟体",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 79,
+      "a": "shinmaru",
+      "b": "folk",
+      "expected": "方新书",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 79,
+      "a": "humming",
+      "b": "folk",
+      "expected": "方新书",
+      "outcome": "abstained",
+      "reason": "conflicting_characters"
+    },
+    {
+      "qid": 127,
+      "a": "humming",
+      "b": "folk",
+      "expected": "方新书",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 128,
+      "a": "humming",
+      "b": "folk",
+      "expected": "方新书",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 132,
+      "a": "folk",
+      "b": "skip",
+      "expected": "方新书",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    },
+    {
+      "qid": 132,
+      "a": "humming",
+      "b": "folk",
+      "expected": "方新书",
+      "outcome": "abstained",
+      "reason": "insufficient_distinct_characters"
+    }
+  ],
+  "note": "Pair counts are correlated within question; no ranking changed."
+}

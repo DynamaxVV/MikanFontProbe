@@ -1,0 +1,74 @@
+[
+  {
+    "question_id": 118,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "low_score": false,
+    "notes": "四个主文字列均被 overlay/mask 覆盖，segments 也逐字框出；没有明显混入左上网点或右下插画。剩余问题是列框四周仍有少量空白，左下省略号形成很小的附加段。"
+  },
+  {
+    "question_id": 115,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 5,
+    "low_score": false,
+    "notes": "两列文字及末尾！？均完整覆盖；放射状背景线留在框外，segments 的逐字框连续且贴合。未见漏字或明显背景混入。"
+  },
+  {
+    "question_id": 125,
+    "text_coverage": 4,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "low_score": false,
+    "notes": "左列完整，右列大部分覆盖，但右侧短句末尾的「り」（より的最后字符）在 overlay/蓝框下缘处被截掉或未纳入；未见气泡边界混入。"
+  },
+  {
+    "question_id": 76,
+    "text_coverage": 4,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "low_score": false,
+    "notes": "两处气泡的主要列均被识别，segments 大体逐字对齐；左气泡中「この村で生活して」的末尾「て」落在列框/掩膜下缘之外。气泡弧线未被明显吸入。"
+  },
+  {
+    "question_id": 62,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 5,
+    "low_score": false,
+    "notes": "三列及问号均完整覆盖；mask 只保留文字，segments 的字符框连续，气泡边界和网点没有混入。"
+  },
+  {
+    "question_id": 70,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "box_tightness": 4,
+    "low_score": false,
+    "notes": "上下两个气泡中的文字列基本全部覆盖，未见明确漏字；部分蓝色列框偏宽并贴近气泡矩形边缘，列尾有轻微空白/边缘余量，但未明显吸入人物图形。"
+  },
+  {
+    "question_id": 91,
+    "text_coverage": 4,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "low_score": false,
+    "notes": "右列「とか」和左列长句完整，中央「しゃべったり」的末尾「り」在蓝框/绿色掩膜下端缺失或未覆盖；气泡线没有混入文字框。"
+  },
+  {
+    "question_id": 92,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "box_tightness": 4,
+    "low_score": false,
+    "notes": "三列文字和句号均覆盖；右列上方的蓝框/绿色掩膜仍沿着气泡弧线带入一小段非文字曲线，字符框本身基本贴合。"
+  },
+  {
+    "question_id": 140,
+    "text_coverage": 5,
+    "background_rejection": 2,
+    "box_tightness": 2,
+    "low_score": true,
+    "notes": "两列主文字基本完整，但右列框向右上延伸，混入邻近气泡中的垂直文字片段，并沿气泡边界/斜线带入非文字；segments 也出现右上额外字符框。右侧蓝框明显比实际文字列宽，属于本组唯一明确低分案例。"
+  }
+]

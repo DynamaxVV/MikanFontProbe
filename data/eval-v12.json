@@ -1,0 +1,16 @@
+[
+  {
+    "question_id": 31,
+    "text_coverage": 4,
+    "background_rejection": 3,
+    "remaining_omissions": "The widened final-line ROI recovers `うに`, but the trailing punctuation `、` in `宝物になりますように、` is still outside the green mask/blue box. No substantive kana/kanji line is otherwise visibly missing.",
+    "comparison_note": "Compared with eval-lines.json (text 4, background 4), text coverage is nearly unchanged but the omission is reduced from `うに、` to only `、`. Background rejection falls to 3 because the wider horizontal padding admits more hair, clothing, and panel texture around several lines."
+  },
+  {
+    "question_id": 100,
+    "text_coverage": 4,
+    "background_rejection": 5,
+    "remaining_omissions": "The main vertical lines and their small reading marks are now covered, including the previously missing `る` and `うが`. The rightmost line still stops at `る`, so the final character `と` in `夜になると` remains missed; vertical padding is still insufficient there.",
+    "comparison_note": "Compared with eval-lines.json (text 3, background 5), text coverage improves to 4 because the central line endings are restored. Background rejection remains 5: no meaningful nontext spill is visible, but the rightmost vertical ROI still truncates `と`."
+  }
+]

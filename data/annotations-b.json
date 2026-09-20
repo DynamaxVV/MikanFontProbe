@@ -1,0 +1,128 @@
+[
+  {
+    "question_id": "q113",
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "すみません",
+    "ocr_uncertain": false,
+    "bbox": [44, 78, 223, 470],
+    "notes": "Two vertical speech-bubble columns; thin, slightly hand-drawn-looking printed glyphs. The surrounding phrase is less certain, but the excerpt is legible."
+  },
+  {
+    "question_id": "q110",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "やめてって",
+    "ocr_uncertain": false,
+    "bbox": [84, 95, 128, 505],
+    "notes": "Clean bold manga lettering in two vertical columns; excerpt is from the right column."
+  },
+  {
+    "question_id": "q109",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "興味津々",
+    "ocr_uncertain": false,
+    "bbox": [54, 82, 435, 919],
+    "notes": "Three main vertical columns with small furigana beside the left column; main kanji are clear."
+  },
+  {
+    "question_id": "q104",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "なんですわね",
+    "ocr_uncertain": false,
+    "bbox": [145, 174, 319, 476],
+    "notes": "Three thin vertical printed columns; the excerpt is from the left column and is the clearest local reading."
+  },
+  {
+    "question_id": "q98",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "紅茶の準備",
+    "ocr_uncertain": false,
+    "bbox": [57, 74, 218, 508],
+    "notes": "Three high-contrast white-on-dark vertical columns; standard serif-like print."
+  },
+  {
+    "question_id": "q93",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "動物プレイ",
+    "ocr_uncertain": false,
+    "bbox": [51, 16, 149, 390],
+    "notes": "Bold printed vertical dialogue; the top-right fragment is included in the text-region box."
+  },
+  {
+    "question_id": "q91",
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "しちゃったり",
+    "ocr_uncertain": false,
+    "bbox": [36, 41, 128, 368],
+    "notes": "Very thin, rounded, hand-drawn-looking printed lettering in two vertical columns; not free handwriting."
+  },
+  {
+    "question_id": "q82",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "一番会いたい",
+    "ocr_uncertain": false,
+    "bbox": [35, 61, 164, 382],
+    "notes": "Three clean bold vertical columns; excerpt is from the middle column."
+  },
+  {
+    "question_id": "q78",
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "チェンジ希望",
+    "ocr_uncertain": false,
+    "bbox": [53, 91, 151, 289],
+    "notes": "Decorative outlined white effect lettering over halftone; two vertical text groups."
+  },
+  {
+    "question_id": "q53",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "特別を抱きしめて",
+    "ocr_uncertain": false,
+    "bbox": [40, 130, 122, 401],
+    "notes": "Thin literary-style vertical print; the black bullet above the text is excluded from the box."
+  },
+  {
+    "question_id": "q38",
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "死にたい",
+    "ocr_uncertain": false,
+    "bbox": [67, 77, 423, 601],
+    "notes": "Several vertical columns with mixed thin and emphatic bold lettering; the large left excerpt is clear."
+  },
+  {
+    "question_id": "q31",
+    "text_type": "regular_print",
+    "layout": "horizontal",
+    "ocr_excerpt": "雨に歌って",
+    "ocr_uncertain": false,
+    "bbox": [66, 210, 679, 699],
+    "notes": "Multiple separate horizontal lyric lines distributed across the manga panel; box encloses the main lyric text only."
+  },
+  {
+    "question_id": "q29",
+    "text_type": "stylized_print",
+    "layout": "mixed",
+    "ocr_excerpt": "薄い本",
+    "ocr_uncertain": false,
+    "bbox": [31, 0, 470, 468],
+    "notes": "Vertical card text plus diagonal decorative effect text; several background labels are cropped or partly occluded. The central card reading is clear."
+  },
+  {
+    "question_id": "q25",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "好きじゃない",
+    "ocr_uncertain": false,
+    "bbox": [169, 125, 569, 539],
+    "notes": "Four bold vertical printed columns with small furigana; excerpt is from the right-center column."
+  }
+]

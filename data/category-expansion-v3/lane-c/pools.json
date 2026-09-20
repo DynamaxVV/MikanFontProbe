@@ -1,0 +1,3589 @@
+{
+  "samples": [
+    {
+      "qid": 35,
+      "expected": "竹体",
+      "notes": [
+        "按右列到左列：な、なんで…！？；重复な跳过，标点排除。仅3个不同可读常规字符，不换题。"
+      ],
+      "glyphs": [
+        {
+          "id": "q35-g0",
+          "character": "な",
+          "bbox": [
+            106,
+            72,
+            46,
+            46
+          ],
+          "cell_bbox": [
+            102,
+            70,
+            54,
+            55
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q35-g0.png",
+          "sha256": "6a9f7636a6e0eaad000a1035f4f92ca0a05c973f9aa6feb934cb323a2c713467",
+          "quality": {
+            "score": 0.9588,
+            "resolution": 1.0,
+            "contrast": 0.8823529411764706,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 42,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q35-g1",
+          "character": "ん",
+          "bbox": [
+            40,
+            126,
+            48,
+            42
+          ],
+          "cell_bbox": [
+            36,
+            126,
+            57,
+            49
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q35-g1.png",
+          "sha256": "e8bd1df04f5696656d3d5d6e35ccd49d88e10b8eb0d84e69c5434cd97426e6de",
+          "quality": {
+            "score": 0.9159,
+            "resolution": 1.0,
+            "contrast": 0.8352941176470589,
+            "edge_ink_fraction": 0.007042253521126761,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 44,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q35-g2",
+          "character": "で",
+          "bbox": [
+            42,
+            178,
+            46,
+            41
+          ],
+          "cell_bbox": [
+            35,
+            175,
+            57,
+            44
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q35-g2.png",
+          "sha256": "2e5fbc0ecf5c687db89fba32d4b9a1544e018589569a63e8faa20a4a75c2448d",
+          "quality": {
+            "score": 0.9629,
+            "resolution": 1.0,
+            "contrast": 0.8941176470588236,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 42,
+          "polarity": "dark",
+          "script": "kana"
+        }
+      ],
+      "source_path": "data/images/q35.png",
+      "source_sha256": "c98dd8f1181aabdff17e02ffb2714c7a3203549007cf03ee4608c26d7e4cb617"
+    },
+    {
+      "qid": 55,
+      "expected": "竹体",
+      "notes": [
+        "按右列やっぱ、左列あとで言う。保留小写っ和ぱ的半浊点，排除框外残字及标点；言右侧振假名不入正文裁片。"
+      ],
+      "glyphs": [
+        {
+          "id": "q55-g0",
+          "character": "や",
+          "bbox": [
+            116,
+            63,
+            29,
+            30
+          ],
+          "cell_bbox": [
+            113,
+            60,
+            36,
+            34
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q55-g0.png",
+          "sha256": "614c5c3700c9d7411b6ce769e74a9e5184cf89b705637b7049309b4d00c9847d",
+          "quality": {
+            "score": 0.9038,
+            "resolution": 0.725,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 26,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q55-g1",
+          "character": "っ",
+          "bbox": [
+            121,
+            98,
+            26,
+            20
+          ],
+          "cell_bbox": [
+            115,
+            94,
+            35,
+            28
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q55-g1.png",
+          "sha256": "c4994e685847f1b71aa10533854c50e0cee3b9c0bc6ac89d1262378df4d6aee0",
+          "quality": {
+            "score": 0.825,
+            "resolution": 0.5,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 22,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q55-g2",
+          "character": "ぱ",
+          "bbox": [
+            117,
+            122,
+            30,
+            30
+          ],
+          "cell_bbox": [
+            113,
+            122,
+            36,
+            32
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q55-g2.png",
+          "sha256": "9439ed2ebe8ecb34cc006ddb32459aedd1070814a5dc52bd4a3d9bf0184e5243",
+          "quality": {
+            "score": 0.9125,
+            "resolution": 0.75,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 27,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q55-g3",
+          "character": "あ",
+          "bbox": [
+            72,
+            63,
+            28,
+            29
+          ],
+          "cell_bbox": [
+            69,
+            61,
+            35,
+            31
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q55-g3.png",
+          "sha256": "7f71ce5b29a403bf85759237d62d8115d17139899755a4135d2b07de4df9fe30",
+          "quality": {
+            "score": 0.8824,
+            "resolution": 0.7,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.003367003367003367,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 27,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q55-g4",
+          "character": "と",
+          "bbox": [
+            74,
+            93,
+            25,
+            29
+          ],
+          "cell_bbox": [
+            69,
+            92,
+            34,
+            30
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q55-g4.png",
+          "sha256": "680a8611d3db57b1fb0ac9cbc35b31f08776e7edd54dbaecd2e722876b27c01f",
+          "quality": {
+            "score": 0.8687,
+            "resolution": 0.625,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 24,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q55-g5",
+          "character": "で",
+          "bbox": [
+            72,
+            124,
+            29,
+            28
+          ],
+          "cell_bbox": [
+            70,
+            123,
+            34,
+            31
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q55-g5.png",
+          "sha256": "340b73168caa76fa1238b4847f9953b799ffc6af334510f09d47d13a6837fe2b",
+          "quality": {
+            "score": 0.8936,
+            "resolution": 0.7,
+            "contrast": 0.996078431372549,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 25,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q55-g6",
+          "character": "言",
+          "bbox": [
+            72,
+            154,
+            29,
+            29
+          ],
+          "cell_bbox": [
+            70,
+            154,
+            31,
+            29
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q55-g6.png",
+          "sha256": "e2f361d19b09180f9bcccd2fb5cb03803277d66d22436e84443540986456291f",
+          "quality": {
+            "score": 0.8343,
+            "resolution": 0.725,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.018518518518518517,
+            "flags": [
+              "墨迹触边，可能截断"
+            ],
+            "usable": true
+          },
+          "resolution": 28,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q55-g7",
+          "character": "う",
+          "bbox": [
+            73,
+            184,
+            26,
+            29
+          ],
+          "cell_bbox": [
+            70,
+            184,
+            34,
+            29
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q55-g7.png",
+          "sha256": "d7724f18786d8b26f125e5c2a1150eda84df1a42bb3d295952fa726b8cfbe14a",
+          "quality": {
+            "score": 0.8281,
+            "resolution": 0.65,
+            "contrast": 0.996078431372549,
+            "edge_ink_fraction": 0.01282051282051282,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 26,
+          "polarity": "dark",
+          "script": "kana"
+        }
+      ],
+      "source_path": "data/images/q55.png",
+      "source_sha256": "716d1242563f62c7f94b90120801ff0edda45df47ca62e7f3cba0563c03ae0eb"
+    },
+    {
+      "qid": 83,
+      "expected": "竹体",
+      "notes": [
+        "按右列いや色々、左列おかしいですっっ。々和标点不入池；重复い、っ跳过，边缘残字排除。"
+      ],
+      "glyphs": [
+        {
+          "id": "q83-g0",
+          "character": "い",
+          "bbox": [
+            98,
+            76,
+            38,
+            33
+          ],
+          "cell_bbox": [
+            94,
+            73,
+            42,
+            36
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q83-g0.png",
+          "sha256": "bb020a321e41b18919f246bd0aa9928b745b144a56ff8fdd3d0ee4ebe3fe4d5c",
+          "quality": {
+            "score": 0.9182,
+            "resolution": 0.825,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 34,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q83-g1",
+          "character": "や",
+          "bbox": [
+            98,
+            111,
+            38,
+            38
+          ],
+          "cell_bbox": [
+            94,
+            110,
+            44,
+            39
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q83-g1.png",
+          "sha256": "c03949bc90a9849866597aef9ca84e792cf7bd7ee0c485392b24e070bd59ad9c",
+          "quality": {
+            "score": 0.9454,
+            "resolution": 0.95,
+            "contrast": 0.9372549019607843,
+            "edge_ink_fraction": 0.004032258064516129,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q83-g2",
+          "character": "色",
+          "bbox": [
+            96,
+            149,
+            40,
+            42
+          ],
+          "cell_bbox": [
+            94,
+            149,
+            45,
+            42
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q83-g2.png",
+          "sha256": "9a5ca2da8b700e660ecc9bb904f4a5cf422e13d4e352a3e10585e0adb63f36a1",
+          "quality": {
+            "score": 0.9694,
+            "resolution": 1.0,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.0026702269692923898,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 40,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q83-g3",
+          "character": "お",
+          "bbox": [
+            48,
+            72,
+            39,
+            38
+          ],
+          "cell_bbox": [
+            44,
+            70,
+            46,
+            40
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q83-g3.png",
+          "sha256": "3a023ccdcbff2856d46a0c7016ddfcf35d3429dae13542392ff0684d7cd20793",
+          "quality": {
+            "score": 0.966,
+            "resolution": 0.95,
+            "contrast": 0.9529411764705882,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 35,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q83-g4",
+          "character": "か",
+          "bbox": [
+            47,
+            111,
+            42,
+            39
+          ],
+          "cell_bbox": [
+            44,
+            111,
+            46,
+            39
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q83-g4.png",
+          "sha256": "93dddbf8af208cb6d6fdea103ab59470123474e46ee704556666551ac1753a4c",
+          "quality": {
+            "score": 0.972,
+            "resolution": 0.975,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q83-g5",
+          "character": "し",
+          "bbox": [
+            53,
+            151,
+            31,
+            39
+          ],
+          "cell_bbox": [
+            44,
+            150,
+            46,
+            42
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q83-g5.png",
+          "sha256": "953f54b2ec27a82214dbae9eddbd86784a378018e8d07d18c9a3bbfa1d44b05e",
+          "quality": {
+            "score": 0.9048,
+            "resolution": 0.775,
+            "contrast": 0.9529411764705882,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 35,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q83-g6",
+          "character": "で",
+          "bbox": [
+            48,
+            231,
+            39,
+            37
+          ],
+          "cell_bbox": [
+            44,
+            231,
+            46,
+            37
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q83-g6.png",
+          "sha256": "08703f9a832113e243c356ef44ca3a4a25a7d1dc757c94bf26914763fa61e852",
+          "quality": {
+            "score": 0.9377,
+            "resolution": 0.925,
+            "contrast": 0.9447058823529411,
+            "edge_ink_fraction": 0.0044444444444444444,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 35,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q83-g7",
+          "character": "す",
+          "bbox": [
+            47,
+            269,
+            40,
+            41
+          ],
+          "cell_bbox": [
+            44,
+            269,
+            46,
+            41
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q83-g7.png",
+          "sha256": "516d3b9a21113e7caafa81f4431e26a5b9e47af49bf4d240756a30d5e68c26ad",
+          "quality": {
+            "score": 0.9767,
+            "resolution": 1.0,
+            "contrast": 0.9333333333333333,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q83-g8",
+          "character": "っ",
+          "bbox": [
+            55,
+            315,
+            32,
+            28
+          ],
+          "cell_bbox": [
+            44,
+            310,
+            46,
+            36
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q83-g8.png",
+          "sha256": "2431972e58ede357d547e1648a05dec2d99674571af38b2522cbbfef4c84636e",
+          "quality": {
+            "score": 0.8772,
+            "resolution": 0.7,
+            "contrast": 0.9490196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 28,
+          "polarity": "dark",
+          "script": "kana"
+        }
+      ],
+      "source_path": "data/images/q83.png",
+      "source_sha256": "eca35933ec08063b2831c1928e591b5e1e603066fb2b423899b16de6b8756e11"
+    },
+    {
+      "qid": 95,
+      "expected": "竹体",
+      "notes": [
+        "按右列にしても、中列珍妙にして奇…、左列…奇々怪々！。重复字符、々及标点排除。"
+      ],
+      "glyphs": [
+        {
+          "id": "q95-g0",
+          "character": "に",
+          "bbox": [
+            108,
+            32,
+            30,
+            30
+          ],
+          "cell_bbox": [
+            104,
+            29,
+            36,
+            34
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q95-g0.png",
+          "sha256": "994612b2f5003a4780adb2fb90c32dd659b7f1e6b1259bd41aa45e83d25ab59b",
+          "quality": {
+            "score": 0.9125,
+            "resolution": 0.75,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 26,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q95-g1",
+          "character": "し",
+          "bbox": [
+            112,
+            63,
+            26,
+            31
+          ],
+          "cell_bbox": [
+            104,
+            62,
+            36,
+            32
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q95-g1.png",
+          "sha256": "2b98ae58a733b0c6b0ec42eb3bccfed2180c856970a99ea3cb44788f5d6d4984",
+          "quality": {
+            "score": 0.816,
+            "resolution": 0.65,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.01639344262295082,
+            "flags": [
+              "墨迹触边，可能截断"
+            ],
+            "usable": true
+          },
+          "resolution": 29,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q95-g2",
+          "character": "て",
+          "bbox": [
+            107,
+            97,
+            31,
+            28
+          ],
+          "cell_bbox": [
+            104,
+            94,
+            36,
+            31
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q95-g2.png",
+          "sha256": "e7eb0fa1803dfee284431d82ce91145e53964d2398916f6effabf39466fee0fd",
+          "quality": {
+            "score": 0.8102,
+            "resolution": 0.7,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.02262443438914027,
+            "flags": [
+              "墨迹触边，可能截断"
+            ],
+            "usable": true
+          },
+          "resolution": 26,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q95-g3",
+          "character": "も",
+          "bbox": [
+            109,
+            125,
+            29,
+            34
+          ],
+          "cell_bbox": [
+            104,
+            125,
+            36,
+            35
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q95-g3.png",
+          "sha256": "1021ed2c5e340c8ed31c237314e787ce737cc4c2df01aa14e6b5e2953f5a80d4",
+          "quality": {
+            "score": 0.8662,
+            "resolution": 0.725,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.01,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 32,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q95-g4",
+          "character": "珍",
+          "bbox": [
+            66,
+            30,
+            35,
+            33
+          ],
+          "cell_bbox": [
+            64,
+            28,
+            38,
+            35
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q95-g4.png",
+          "sha256": "e809145bd1f6b6a9300b5661887eb62c5ee9bfceddb16cfd11418fbc9c584c01",
+          "quality": {
+            "score": 0.9387,
+            "resolution": 0.825,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 29,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q95-g5",
+          "character": "妙",
+          "bbox": [
+            66,
+            63,
+            35,
+            32
+          ],
+          "cell_bbox": [
+            64,
+            63,
+            38,
+            32
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q95-g5.png",
+          "sha256": "45c7c353740ab6c48bb83d916323d7ac2bbe3098599f23931be7d03483fb97ec",
+          "quality": {
+            "score": 0.9099,
+            "resolution": 0.8,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0053475935828877,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 31,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q95-g6",
+          "character": "奇",
+          "bbox": [
+            66,
+            191,
+            33,
+            34
+          ],
+          "cell_bbox": [
+            64,
+            191,
+            39,
+            34
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q95-g6.png",
+          "sha256": "198529b7dad8642d18b858c8be55cfb984122747e8f4fb616e7c8af20da6eff7",
+          "quality": {
+            "score": 0.9387,
+            "resolution": 0.825,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 30,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q95-g7",
+          "character": "怪",
+          "bbox": [
+            24,
+            126,
+            35,
+            35
+          ],
+          "cell_bbox": [
+            22,
+            126,
+            39,
+            35
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q95-g7.png",
+          "sha256": "731e2e9d69622707045e1b849bad35271beb18f8a3e41dac68e242c9a1794a29",
+          "quality": {
+            "score": 0.9563,
+            "resolution": 0.875,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 31,
+          "polarity": "dark",
+          "script": "kanji"
+        }
+      ],
+      "source_path": "data/images/q95.png",
+      "source_sha256": "9b5171c213bf42be8e48a34ea4f0ba5ab37b2c483d1fa2d2a5f3c8be391a35db"
+    },
+    {
+      "qid": 30,
+      "expected": "轻吟体",
+      "notes": [
+        "右列すうなちゃんにも、中列こんなに、左列あたり強いの？；逐次去重后取前14字，截止い。框边手写旁注不作正文。"
+      ],
+      "glyphs": [
+        {
+          "id": "q30-g0",
+          "character": "す",
+          "bbox": [
+            262,
+            73,
+            56,
+            58
+          ],
+          "cell_bbox": [
+            257,
+            70,
+            68,
+            64
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g0.png",
+          "sha256": "a46810013e32e84eddeb30450eacf0d05ab1fb31b11bdc0f3026ae4f3c703003",
+          "quality": {
+            "score": 0.9767,
+            "resolution": 1.0,
+            "contrast": 0.9333333333333333,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 54,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q30-g1",
+          "character": "う",
+          "bbox": [
+            264,
+            135,
+            50,
+            54
+          ],
+          "cell_bbox": [
+            257,
+            134,
+            68,
+            58
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g1.png",
+          "sha256": "7bc7f0c802692b1d4b26a17bcb243bdd80d7012b250b500592c67a12d62aaf83",
+          "quality": {
+            "score": 0.9849,
+            "resolution": 1.0,
+            "contrast": 0.9568627450980393,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 50,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q30-g2",
+          "character": "な",
+          "bbox": [
+            264,
+            193,
+            57,
+            58
+          ],
+          "cell_bbox": [
+            257,
+            193,
+            68,
+            58
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g2.png",
+          "sha256": "4a8c444496456f85dd70626237b04a1af8d98c99c48d4b70cde01206b9bdafcb",
+          "quality": {
+            "score": 0.9835,
+            "resolution": 1.0,
+            "contrast": 0.9529411764705882,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 55,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q30-g3",
+          "character": "ち",
+          "bbox": [
+            262,
+            254,
+            54,
+            54
+          ],
+          "cell_bbox": [
+            257,
+            251,
+            68,
+            59
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g3.png",
+          "sha256": "31ccfe2836d70178411102f03de5d0468b061807dfb146b56d19c5674a9a2e2a",
+          "quality": {
+            "score": 0.9863,
+            "resolution": 1.0,
+            "contrast": 0.9607843137254902,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 50,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q30-g4",
+          "character": "ゃ",
+          "bbox": [
+            274,
+            318,
+            47,
+            45
+          ],
+          "cell_bbox": [
+            260,
+            310,
+            65,
+            59
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g4.png",
+          "sha256": "d87732184f5f52eb0732c2bb685f0eb4f6364d8afe3a3ed8ff12de30a3abe6cc",
+          "quality": {
+            "score": 0.9822,
+            "resolution": 1.0,
+            "contrast": 0.9490196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 43,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q30-g5",
+          "character": "ん",
+          "bbox": [
+            262,
+            373,
+            56,
+            57
+          ],
+          "cell_bbox": [
+            257,
+            369,
+            68,
+            61
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g5.png",
+          "sha256": "4a412423413c6c1534a37eed65f383445cc3b99a24ffd6aeb599c6abd1496be7",
+          "quality": {
+            "score": 0.9808,
+            "resolution": 1.0,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 53,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q30-g6",
+          "character": "に",
+          "bbox": [
+            267,
+            433,
+            51,
+            54
+          ],
+          "cell_bbox": [
+            257,
+            430,
+            68,
+            60
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g6.png",
+          "sha256": "c7e4b2fe7b8837248e8e3c8700002bb26d33dd55899dfef4ab578ddb977db253",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 50,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q30-g7",
+          "character": "も",
+          "bbox": [
+            264,
+            493,
+            54,
+            56
+          ],
+          "cell_bbox": [
+            257,
+            490,
+            68,
+            62
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g7.png",
+          "sha256": "807a622f65d36c37b3f1e35909627559ca9ffa183cc0f85f185d077f02a30651",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 52,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q30-g8",
+          "character": "こ",
+          "bbox": [
+            193,
+            80,
+            49,
+            49
+          ],
+          "cell_bbox": [
+            181,
+            72,
+            68,
+            62
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g8.png",
+          "sha256": "7fd209aff6501ba674c0976f3764b6789f2cb26f2e8939b2c2bcdd333a270630",
+          "quality": {
+            "score": 0.9822,
+            "resolution": 1.0,
+            "contrast": 0.9490196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 45,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q30-g9",
+          "character": "あ",
+          "bbox": [
+            114,
+            73,
+            56,
+            58
+          ],
+          "cell_bbox": [
+            105,
+            70,
+            69,
+            64
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g9.png",
+          "sha256": "6544b73cd0be32a8ce9cbd343ba8707d9eb0fb0f60eb58046b03fb9d17184cd4",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 54,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q30-g10",
+          "character": "た",
+          "bbox": [
+            114,
+            135,
+            56,
+            56
+          ],
+          "cell_bbox": [
+            105,
+            134,
+            69,
+            58
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g10.png",
+          "sha256": "9842777242f38eb6335e0c92a0f4ab902203c9623eda716ae66513e0beb7986a",
+          "quality": {
+            "score": 0.9808,
+            "resolution": 1.0,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 52,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q30-g11",
+          "character": "り",
+          "bbox": [
+            121,
+            194,
+            42,
+            54
+          ],
+          "cell_bbox": [
+            105,
+            193,
+            69,
+            57
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g11.png",
+          "sha256": "dce4567e7705f8884491b3c4e46110081843c2ea3e8669c0ec3e5e1e376dd3ce",
+          "quality": {
+            "score": 0.9822,
+            "resolution": 1.0,
+            "contrast": 0.9490196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 50,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q30-g12",
+          "character": "強",
+          "bbox": [
+            111,
+            252,
+            59,
+            58
+          ],
+          "cell_bbox": [
+            105,
+            250,
+            70,
+            62
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g12.png",
+          "sha256": "e1e38c80b3a3cea957393de79af87fd74fbb0a9b13236b302e518c3c4234f8b2",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 55,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q30-g13",
+          "character": "い",
+          "bbox": [
+            116,
+            318,
+            54,
+            50
+          ],
+          "cell_bbox": [
+            105,
+            312,
+            70,
+            58
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q30-g13.png",
+          "sha256": "2b37790410740cec3e60cf223330db7da90572f4f9406c67bae8fc440bd057a5",
+          "quality": {
+            "score": 0.9808,
+            "resolution": 1.0,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 50,
+          "polarity": "dark",
+          "script": "kana"
+        }
+      ],
+      "source_path": "data/images/q30.png",
+      "source_sha256": "1685e2ed6ff6ba179f0634f7534e20efac3d1573fc819035211f475c49bf3ed9"
+    },
+    {
+      "qid": 46,
+      "expected": "轻吟体",
+      "notes": [
+        "右列ふふ、中列大丈夫？、左列言わされてない？；重复ふ与标点排除。"
+      ],
+      "glyphs": [
+        {
+          "id": "q46-g0",
+          "character": "ふ",
+          "bbox": [
+            200,
+            114,
+            50,
+            44
+          ],
+          "cell_bbox": [
+            198,
+            109,
+            56,
+            49
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q46-g0.png",
+          "sha256": "37f38840c757a19fee6cc40e856c5973bd7b4d2ca9f9e13fa8d1ecae100ed1a8",
+          "quality": {
+            "score": 0.9822,
+            "resolution": 1.0,
+            "contrast": 0.9490196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 46,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q46-g1",
+          "character": "大",
+          "bbox": [
+            142,
+            112,
+            50,
+            46
+          ],
+          "cell_bbox": [
+            138,
+            109,
+            55,
+            49
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q46-g1.png",
+          "sha256": "116160610f03e7e575c2efbd7cc182ed7d7aa30d4cfd29b055a4bed1e41249d5",
+          "quality": {
+            "score": 0.9368,
+            "resolution": 1.0,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.011363636363636364,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 44,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q46-g2",
+          "character": "丈",
+          "bbox": [
+            144,
+            158,
+            46,
+            47
+          ],
+          "cell_bbox": [
+            138,
+            158,
+            55,
+            47
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q46-g2.png",
+          "sha256": "cef37aa4a1fa19a05f6ddcf183052c473a1c1b8819a5dfc9a87e98c18da29fb0",
+          "quality": {
+            "score": 0.9794,
+            "resolution": 1.0,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 44,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q46-g3",
+          "character": "夫",
+          "bbox": [
+            142,
+            206,
+            48,
+            45
+          ],
+          "cell_bbox": [
+            138,
+            205,
+            55,
+            46
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q46-g3.png",
+          "sha256": "926b9723a9c707c0046565974b0a620dda2ae88ed7e9b440a59235ded3bcb784",
+          "quality": {
+            "score": 0.9675,
+            "resolution": 1.0,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.0031746031746031746,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 44,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q46-g4",
+          "character": "言",
+          "bbox": [
+            84,
+            114,
+            48,
+            44
+          ],
+          "cell_bbox": [
+            78,
+            110,
+            57,
+            48
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q46-g4.png",
+          "sha256": "569b68c60973160dc2c9978c08b61ee5e36087db896fc2b14764f03809c71f77",
+          "quality": {
+            "score": 0.989,
+            "resolution": 1.0,
+            "contrast": 0.9686274509803922,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 44,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q46-g5",
+          "character": "わ",
+          "bbox": [
+            84,
+            160,
+            48,
+            44
+          ],
+          "cell_bbox": [
+            78,
+            158,
+            57,
+            46
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q46-g5.png",
+          "sha256": "5b5c829160599db85a1d3925778458d91b43e77990fc24031f61ffe5255c78e5",
+          "quality": {
+            "score": 0.9616,
+            "resolution": 1.0,
+            "contrast": 0.9607843137254902,
+            "edge_ink_fraction": 0.006578947368421052,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 44,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q46-g6",
+          "character": "さ",
+          "bbox": [
+            86,
+            206,
+            44,
+            45
+          ],
+          "cell_bbox": [
+            78,
+            204,
+            57,
+            47
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q46-g6.png",
+          "sha256": "9e0c541fd2ff079a20e40b9231f1be9d2848e7c22f944dd397c92ef82abdc7cd",
+          "quality": {
+            "score": 0.9849,
+            "resolution": 1.0,
+            "contrast": 0.9568627450980393,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 42,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q46-g7",
+          "character": "れ",
+          "bbox": [
+            84,
+            254,
+            50,
+            43
+          ],
+          "cell_bbox": [
+            78,
+            251,
+            57,
+            46
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q46-g7.png",
+          "sha256": "a9a38d0def54d6ba46e0f90a1eeff209a6f6d62d9d37aa2546e00341441d43b7",
+          "quality": {
+            "score": 0.9829,
+            "resolution": 1.0,
+            "contrast": 0.9511764705882353,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 46,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q46-g8",
+          "character": "て",
+          "bbox": [
+            86,
+            297,
+            44,
+            49
+          ],
+          "cell_bbox": [
+            78,
+            297,
+            57,
+            49
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q46-g8.png",
+          "sha256": "8016d2db820993bdb66f526e18eb0f211d5acb2b175f489997b1ebb88638b1a6",
+          "quality": {
+            "score": 0.9798,
+            "resolution": 1.0,
+            "contrast": 0.942156862745098,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 40,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q46-g9",
+          "character": "な",
+          "bbox": [
+            86,
+            346,
+            46,
+            46
+          ],
+          "cell_bbox": [
+            78,
+            346,
+            57,
+            46
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q46-g9.png",
+          "sha256": "0896bf9c7c119c54856dd14b41e5abd3a8b2591db61c9b2815da49027a7b1c7f",
+          "quality": {
+            "score": 0.9849,
+            "resolution": 1.0,
+            "contrast": 0.9568627450980393,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 42,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q46-g10",
+          "character": "い",
+          "bbox": [
+            86,
+            398,
+            46,
+            40
+          ],
+          "cell_bbox": [
+            78,
+            392,
+            57,
+            48
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q46-g10.png",
+          "sha256": "e2db17706db33ca58813103c31d9a4445f29af2b60f3dfe602dc96aaf7da3215",
+          "quality": {
+            "score": 0.9822,
+            "resolution": 1.0,
+            "contrast": 0.9492156862745098,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 42,
+          "polarity": "dark",
+          "script": "kana"
+        }
+      ],
+      "source_path": "data/images/q46.png",
+      "source_sha256": "b9a308a99ccf59c33cb9263b3f4b201d927ccf3ff79c61eea50590c2e3ae0859"
+    },
+    {
+      "qid": 47,
+      "expected": "轻吟体",
+      "notes": [
+        "右列そっか、中列じゃあ好きな人には、左列優しいんだ。前14个不同字截止し；后续い、ん、だ因达到上限不入池。"
+      ],
+      "glyphs": [
+        {
+          "id": "q47-g0",
+          "character": "そ",
+          "bbox": [
+            248,
+            75,
+            48,
+            46
+          ],
+          "cell_bbox": [
+            241,
+            69,
+            60,
+            53
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g0.png",
+          "sha256": "74fead3656eb1923ea95551744853216b89b879e4d30e7a2a5a4b75656190911",
+          "quality": {
+            "score": 0.9835,
+            "resolution": 1.0,
+            "contrast": 0.9529411764705882,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 44,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q47-g1",
+          "character": "っ",
+          "bbox": [
+            258,
+            133,
+            38,
+            32
+          ],
+          "cell_bbox": [
+            241,
+            122,
+            60,
+            48
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g1.png",
+          "sha256": "6b625dea4e4acb8a10b8df2e6d9012ebc34e5f817e60ba55019167e3428e6683",
+          "quality": {
+            "score": 0.9108,
+            "resolution": 0.8,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 34,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q47-g2",
+          "character": "か",
+          "bbox": [
+            248,
+            173,
+            50,
+            46
+          ],
+          "cell_bbox": [
+            241,
+            170,
+            60,
+            51
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g2.png",
+          "sha256": "998327502ff9e0bbb1cdb14df6feab463d263896c7078135f73ab599e9df1bed",
+          "quality": {
+            "score": 0.9822,
+            "resolution": 1.0,
+            "contrast": 0.9490196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 46,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q47-g3",
+          "character": "じ",
+          "bbox": [
+            192,
+            73,
+            40,
+            48
+          ],
+          "cell_bbox": [
+            178,
+            69,
+            61,
+            53
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g3.png",
+          "sha256": "bc09f82e0881307ec5a177afb794a29403a75c87f8a116e63f28d6855ce678ba",
+          "quality": {
+            "score": 0.9835,
+            "resolution": 1.0,
+            "contrast": 0.9529411764705882,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 44,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q47-g4",
+          "character": "ゃ",
+          "bbox": [
+            194,
+            127,
+            40,
+            40
+          ],
+          "cell_bbox": [
+            178,
+            122,
+            61,
+            49
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g4.png",
+          "sha256": "ada339d9959d864ab769d4812ad54142bbf7c8e8a922f49146667e1997f64f60",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q47-g5",
+          "character": "あ",
+          "bbox": [
+            184,
+            171,
+            50,
+            49
+          ],
+          "cell_bbox": [
+            178,
+            171,
+            61,
+            49
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g5.png",
+          "sha256": "d490d046a308b84fed96cdbffb283b408fa125d1a526ff740450b1f4be1524db",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 46,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q47-g6",
+          "character": "好",
+          "bbox": [
+            184,
+            221,
+            50,
+            49
+          ],
+          "cell_bbox": [
+            178,
+            220,
+            61,
+            50
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g6.png",
+          "sha256": "e9fbf4960e43c2cc7ddcb2988c0a9d8d28f3aea4d470466817890311b49edc5d",
+          "quality": {
+            "score": 0.9904,
+            "resolution": 1.0,
+            "contrast": 0.9725490196078431,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 46,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q47-g7",
+          "character": "き",
+          "bbox": [
+            188,
+            273,
+            44,
+            46
+          ],
+          "cell_bbox": [
+            178,
+            270,
+            61,
+            51
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g7.png",
+          "sha256": "e1e625dcaa04a04732bff10055f5ce81f49bb6192510cd9bb5d53966e8ac83a7",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 42,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q47-g8",
+          "character": "な",
+          "bbox": [
+            186,
+            323,
+            48,
+            47
+          ],
+          "cell_bbox": [
+            178,
+            321,
+            61,
+            49
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g8.png",
+          "sha256": "ca62b26b62d9c78df56d110323e0a25327b43b276f42e657a2d2bd472a9616e8",
+          "quality": {
+            "score": 0.9863,
+            "resolution": 1.0,
+            "contrast": 0.9607843137254902,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 44,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q47-g9",
+          "character": "人",
+          "bbox": [
+            184,
+            371,
+            50,
+            50
+          ],
+          "cell_bbox": [
+            178,
+            370,
+            61,
+            51
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g9.png",
+          "sha256": "89b2dab31ea3bd0d6fe0c2a622d46354691ecd193317ce0a5e580a0f0900896e",
+          "quality": {
+            "score": 0.9794,
+            "resolution": 1.0,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 46,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q47-g10",
+          "character": "に",
+          "bbox": [
+            188,
+            423,
+            46,
+            46
+          ],
+          "cell_bbox": [
+            178,
+            421,
+            61,
+            49
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g10.png",
+          "sha256": "7ef326833d5883f2c1158c544861911fb3661daa0591968b52689a1d7260820f",
+          "quality": {
+            "score": 0.9849,
+            "resolution": 1.0,
+            "contrast": 0.9568627450980393,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 42,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q47-g11",
+          "character": "は",
+          "bbox": [
+            188,
+            473,
+            46,
+            46
+          ],
+          "cell_bbox": [
+            178,
+            470,
+            61,
+            54
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g11.png",
+          "sha256": "b4cf7eb3d6ea1543726a4fade9415ba03aab9028c2035b8f5b3f7123a10662b4",
+          "quality": {
+            "score": 0.9863,
+            "resolution": 1.0,
+            "contrast": 0.9607843137254902,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 42,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q47-g12",
+          "character": "優",
+          "bbox": [
+            120,
+            71,
+            52,
+            50
+          ],
+          "cell_bbox": [
+            117,
+            68,
+            60,
+            54
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g12.png",
+          "sha256": "350a822b9bb253485147443e1192f403144eeded59ef705306d0c987851f751d",
+          "quality": {
+            "score": 0.9849,
+            "resolution": 1.0,
+            "contrast": 0.9568627450980393,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 48,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q47-g13",
+          "character": "し",
+          "bbox": [
+            128,
+            125,
+            42,
+            46
+          ],
+          "cell_bbox": [
+            117,
+            122,
+            60,
+            49
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q47-g13.png",
+          "sha256": "6c188605afc249dcef463631dc84ec13c90dc1d6ae98e1a0e05fab5eefd3d2f6",
+          "quality": {
+            "score": 0.9808,
+            "resolution": 1.0,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 42,
+          "polarity": "dark",
+          "script": "kana"
+        }
+      ],
+      "source_path": "data/images/q47.png",
+      "source_sha256": "36c0f42d3c8941bee210a5439024d735eb7d68f10ba1b68191eaa2b60be79882"
+    },
+    {
+      "qid": 106,
+      "expected": "轻吟体",
+      "notes": [
+        "右列もしかして触られただけで、中列感じちゃうくらい；重复し跳过，前14个不同字截止中列ち。"
+      ],
+      "glyphs": [
+        {
+          "id": "q106-g0",
+          "character": "も",
+          "bbox": [
+            163,
+            78,
+            36,
+            39
+          ],
+          "cell_bbox": [
+            155,
+            75,
+            51,
+            43
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g0.png",
+          "sha256": "f452644477508db84c747448777ef35322c64d87fcd9dad07546911e74cf8d8c",
+          "quality": {
+            "score": 0.8895,
+            "resolution": 0.9,
+            "contrast": 0.7843137254901961,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 35,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q106-g1",
+          "character": "し",
+          "bbox": [
+            167,
+            119,
+            31,
+            39
+          ],
+          "cell_bbox": [
+            155,
+            118,
+            51,
+            41
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g1.png",
+          "sha256": "2f033ce8d67ea1f21285290ef56ae6cd0093ee3efb193c7264ed434ab613edda",
+          "quality": {
+            "score": 0.8801,
+            "resolution": 0.775,
+            "contrast": 0.8823529411764706,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 35,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q106-g2",
+          "character": "か",
+          "bbox": [
+            162,
+            161,
+            39,
+            39
+          ],
+          "cell_bbox": [
+            155,
+            159,
+            51,
+            42
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g2.png",
+          "sha256": "92dc460fc11016f63849cd91a14e24551059fa83d61ae8ee44b51d4a523b087e",
+          "quality": {
+            "score": 0.9487,
+            "resolution": 0.975,
+            "contrast": 0.8784313725490196,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q106-g3",
+          "character": "て",
+          "bbox": [
+            162,
+            247,
+            37,
+            36
+          ],
+          "cell_bbox": [
+            155,
+            242,
+            51,
+            43
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g3.png",
+          "sha256": "4e6dbc1d851fac1ac15d77b334edf6976afd25d38304ad9cdd2f005d09faa821",
+          "quality": {
+            "score": 0.8799,
+            "resolution": 0.9,
+            "contrast": 0.7568627450980392,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 33,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q106-g4",
+          "character": "触",
+          "bbox": [
+            159,
+            285,
+            43,
+            42
+          ],
+          "cell_bbox": [
+            155,
+            285,
+            51,
+            42
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g4.png",
+          "sha256": "6b3990bed29046f1d9250a0c7e1e4526b4013fc755d7d4be29b696921db8f443",
+          "quality": {
+            "score": 0.9684,
+            "resolution": 1.0,
+            "contrast": 0.9098039215686274,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 39,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q106-g5",
+          "character": "ら",
+          "bbox": [
+            164,
+            327,
+            34,
+            42
+          ],
+          "cell_bbox": [
+            155,
+            327,
+            51,
+            42
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g5.png",
+          "sha256": "928c31e873a6c8b79d1073c0600b69d7d68c3e2f9e2428d4aae64691fb1d7471",
+          "quality": {
+            "score": 0.8775,
+            "resolution": 0.85,
+            "contrast": 0.8,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q106-g6",
+          "character": "れ",
+          "bbox": [
+            160,
+            370,
+            41,
+            39
+          ],
+          "cell_bbox": [
+            155,
+            369,
+            51,
+            41
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g6.png",
+          "sha256": "900cc67f762cffe5efa87bbd866c582b7f9bf3c2814b090738e752d721d3fa8a",
+          "quality": {
+            "score": 0.935,
+            "resolution": 0.975,
+            "contrast": 0.8392156862745098,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q106-g7",
+          "character": "た",
+          "bbox": [
+            162,
+            411,
+            38,
+            40
+          ],
+          "cell_bbox": [
+            155,
+            410,
+            51,
+            42
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g7.png",
+          "sha256": "68062badbf61c9ed8125aa3b4f3eac8c8bfdfc0fdc7c61edc81a6bc7f98461f0",
+          "quality": {
+            "score": 0.9029,
+            "resolution": 0.95,
+            "contrast": 0.7725490196078432,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q106-g8",
+          "character": "だ",
+          "bbox": [
+            161,
+            452,
+            41,
+            41
+          ],
+          "cell_bbox": [
+            155,
+            452,
+            51,
+            42
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g8.png",
+          "sha256": "e273b47f58018e73792e03afe6559fd8c5c957d1dd9fd07c00a0a7d67ed057f8",
+          "quality": {
+            "score": 0.9273,
+            "resolution": 1.0,
+            "contrast": 0.792156862745098,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 37,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q106-g9",
+          "character": "け",
+          "bbox": [
+            163,
+            495,
+            37,
+            40
+          ],
+          "cell_bbox": [
+            155,
+            494,
+            51,
+            41
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g9.png",
+          "sha256": "bac1b768a2852fbcbb8be9a15faa0df8e8d853c56cd17df19eb41f60a3f2a241",
+          "quality": {
+            "score": 0.9189,
+            "resolution": 0.925,
+            "contrast": 0.8433333333333334,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q106-g10",
+          "character": "で",
+          "bbox": [
+            162,
+            539,
+            40,
+            36
+          ],
+          "cell_bbox": [
+            155,
+            535,
+            51,
+            43
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g10.png",
+          "sha256": "83b7dcbc98bc626fc7bc761ad74a7b877fe64f602f17956a82f4ec6d4a07638f",
+          "quality": {
+            "score": 0.8758,
+            "resolution": 0.9,
+            "contrast": 0.7450980392156863,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 37,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q106-g11",
+          "character": "感",
+          "bbox": [
+            108,
+            76,
+            42,
+            42
+          ],
+          "cell_bbox": [
+            104,
+            75,
+            50,
+            43
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g11.png",
+          "sha256": "acd6de2e76302a0bacaeec1aae65270062f2732d3d12efba91785d3a9fb6f0ca",
+          "quality": {
+            "score": 0.9561,
+            "resolution": 1.0,
+            "contrast": 0.8745098039215686,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q106-g12",
+          "character": "じ",
+          "bbox": [
+            115,
+            119,
+            31,
+            39
+          ],
+          "cell_bbox": [
+            104,
+            118,
+            50,
+            41
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g12.png",
+          "sha256": "d9e8ffd4d7bd842431ef551a272e024473080d0f2c55f00334f196f26118d642",
+          "quality": {
+            "score": 0.8554,
+            "resolution": 0.775,
+            "contrast": 0.8117647058823529,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 35,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q106-g13",
+          "character": "ち",
+          "bbox": [
+            111,
+            160,
+            35,
+            41
+          ],
+          "cell_bbox": [
+            104,
+            159,
+            50,
+            42
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q106-g13.png",
+          "sha256": "cde94d8d499277c7b8b853af51b5d23751076d864b11419d948e13ddb1e0133a",
+          "quality": {
+            "score": 0.8922,
+            "resolution": 0.875,
+            "contrast": 0.8168627450980392,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 37,
+          "polarity": "dark",
+          "script": "kana"
+        }
+      ],
+      "source_path": "data/images/q106.png",
+      "source_sha256": "aa0ab6d3ec8ec20502d486e7d17a1070f348f0382d73f0b55a7da51b3e767015"
+    },
+    {
+      "qid": 108,
+      "expected": "轻吟体",
+      "notes": [
+        "右列でも私、左列知ってるんですよ…；去除重复で与标点，共10字。"
+      ],
+      "glyphs": [
+        {
+          "id": "q108-g0",
+          "character": "で",
+          "bbox": [
+            216,
+            109,
+            70,
+            62
+          ],
+          "cell_bbox": [
+            207,
+            99,
+            85,
+            77
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q108-g0.png",
+          "sha256": "802e656be15f9c26f717cf11a164f4858357e5219f1d690e18d5facbbccf568c",
+          "quality": {
+            "score": 0.9671,
+            "resolution": 1.0,
+            "contrast": 0.9058823529411765,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 66,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q108-g1",
+          "character": "も",
+          "bbox": [
+            217,
+            179,
+            64,
+            68
+          ],
+          "cell_bbox": [
+            207,
+            176,
+            85,
+            73
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q108-g1.png",
+          "sha256": "d481ac01fb4469e582ab9348b1127a23bedc9471bc08b6e68fed9c24b393c48d",
+          "quality": {
+            "score": 0.9835,
+            "resolution": 1.0,
+            "contrast": 0.9529411764705882,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 64,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q108-g2",
+          "character": "私",
+          "bbox": [
+            212,
+            251,
+            74,
+            72
+          ],
+          "cell_bbox": [
+            207,
+            249,
+            85,
+            75
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q108-g2.png",
+          "sha256": "e7e27ca7c20430563fd716b5e4ea732ccef3be6ef1c7f8c3be20cc54a6e58e28",
+          "quality": {
+            "score": 0.9904,
+            "resolution": 1.0,
+            "contrast": 0.9725490196078431,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 70,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q108-g3",
+          "character": "知",
+          "bbox": [
+            120,
+            103,
+            71,
+            72
+          ],
+          "cell_bbox": [
+            114,
+            99,
+            84,
+            79
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q108-g3.png",
+          "sha256": "e9e4b6ee9a0d7890c48c453241fd79ef5f4f2ddac5a519d6dbe4f97f55f64189",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 68,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q108-g4",
+          "character": "っ",
+          "bbox": [
+            137,
+            193,
+            54,
+            44
+          ],
+          "cell_bbox": [
+            114,
+            178,
+            84,
+            70
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q108-g4.png",
+          "sha256": "5ff63ff40647e405d53dacc28d892872ea99def66246390db2a5490a6cf18d20",
+          "quality": {
+            "score": 0.9451,
+            "resolution": 1.0,
+            "contrast": 0.8431372549019608,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 50,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q108-g5",
+          "character": "て",
+          "bbox": [
+            124,
+            257,
+            64,
+            62
+          ],
+          "cell_bbox": [
+            114,
+            248,
+            84,
+            74
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q108-g5.png",
+          "sha256": "48bc660ec5cd402a7c8d58ca70d640a181d0ec597b925c02da75789adc2223e5",
+          "quality": {
+            "score": 0.9707,
+            "resolution": 1.0,
+            "contrast": 0.9162745098039214,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 60,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q108-g6",
+          "character": "る",
+          "bbox": [
+            125,
+            327,
+            62,
+            68
+          ],
+          "cell_bbox": [
+            114,
+            322,
+            84,
+            74
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q108-g6.png",
+          "sha256": "d4e19c42989264d1a42522eaadb1da43e28030c1478bfde6191526019431c736",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 64,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q108-g7",
+          "character": "ん",
+          "bbox": [
+            124,
+            400,
+            67,
+            69
+          ],
+          "cell_bbox": [
+            114,
+            396,
+            84,
+            76
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q108-g7.png",
+          "sha256": "9681ce397ef7e504eebcf78ef915051d3de2dea37b5c0c7fd18ea3f91f75cc54",
+          "quality": {
+            "score": 0.989,
+            "resolution": 1.0,
+            "contrast": 0.9686274509803922,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 65,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q108-g8",
+          "character": "す",
+          "bbox": [
+            123,
+            546,
+            66,
+            72
+          ],
+          "cell_bbox": [
+            114,
+            546,
+            84,
+            75
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q108-g8.png",
+          "sha256": "21e5a5b58908af9fc243948cd9813129cc05f9585a9ff9b1165aed31d3f4b102",
+          "quality": {
+            "score": 0.9808,
+            "resolution": 1.0,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 68,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q108-g9",
+          "character": "よ",
+          "bbox": [
+            125,
+            622,
+            61,
+            69
+          ],
+          "cell_bbox": [
+            114,
+            621,
+            84,
+            75
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q108-g9.png",
+          "sha256": "5e0b569833ce9fd5836391bb98dd14ceb13c5dd952dea03fdd7e7c1b1eb14baa",
+          "quality": {
+            "score": 0.9863,
+            "resolution": 1.0,
+            "contrast": 0.9607843137254902,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 65,
+          "polarity": "dark",
+          "script": "kana"
+        }
+      ],
+      "source_path": "data/images/q108.png",
+      "source_sha256": "a69e369496679ae5b3f494213466bf98aff47438ebf135cbf5ac4dce463f6a55"
+    },
+    {
+      "qid": 109,
+      "expected": "轻吟体",
+      "notes": [
+        "右列お嬢様が本当は、中列えっちなことに，正好前14个不同正文字符；左列正文及其振假名尚未进入选取范围。"
+      ],
+      "glyphs": [
+        {
+          "id": "q109-g0",
+          "character": "お",
+          "bbox": [
+            333,
+            78,
+            90,
+            91
+          ],
+          "cell_bbox": [
+            320,
+            70,
+            109,
+            103
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g0.png",
+          "sha256": "693fd26034d3234692de623151fbf730cade896b21bd9a4db8f35cc5259fd1e1",
+          "quality": {
+            "score": 0.9849,
+            "resolution": 1.0,
+            "contrast": 0.9568627450980393,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 87,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q109-g1",
+          "character": "嬢",
+          "bbox": [
+            327,
+            175,
+            95,
+            95
+          ],
+          "cell_bbox": [
+            320,
+            173,
+            109,
+            99
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g1.png",
+          "sha256": "c8d0521d7bf8a59b5d176c48af9af836d2e2565c39b2a333cb97a61e078c9a8d",
+          "quality": {
+            "score": 0.9849,
+            "resolution": 1.0,
+            "contrast": 0.9568627450980393,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 90,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q109-g2",
+          "character": "様",
+          "bbox": [
+            325,
+            274,
+            97,
+            95
+          ],
+          "cell_bbox": [
+            320,
+            272,
+            109,
+            99
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g2.png",
+          "sha256": "9edc7a2de88e9b0429595a3b53f690a685d3213a0729d35adf9c8040322344e5",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 92,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q109-g3",
+          "character": "が",
+          "bbox": [
+            328,
+            371,
+            97,
+            92
+          ],
+          "cell_bbox": [
+            320,
+            371,
+            109,
+            100
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g3.png",
+          "sha256": "fb89358ea67296bf6283df5ee5741d9af1224071780f6ebf1b16e81f4d3da572",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 93,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q109-g4",
+          "character": "本",
+          "bbox": [
+            326,
+            471,
+            96,
+            95
+          ],
+          "cell_bbox": [
+            320,
+            471,
+            109,
+            98
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g4.png",
+          "sha256": "c04734cb470c204ccc4a178f789be71e06d5cb16001d26ed05723953c6a9eede",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 92,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q109-g5",
+          "character": "当",
+          "bbox": [
+            329,
+            569,
+            87,
+            93
+          ],
+          "cell_bbox": [
+            320,
+            569,
+            109,
+            99
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g5.png",
+          "sha256": "c072b93ae6ba874e0ea140696e804f83c0b1d4eae3d38e78351160c08c373159",
+          "quality": {
+            "score": 0.9863,
+            "resolution": 1.0,
+            "contrast": 0.9607843137254902,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 89,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q109-g6",
+          "character": "は",
+          "bbox": [
+            333,
+            671,
+            85,
+            88
+          ],
+          "cell_bbox": [
+            320,
+            668,
+            109,
+            96
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g6.png",
+          "sha256": "d77db740165800f11b985a1eb95490aca91f284dbf157ed72eac401f99a2a3fa",
+          "quality": {
+            "score": 0.9904,
+            "resolution": 1.0,
+            "contrast": 0.9725490196078431,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 83,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q109-g7",
+          "character": "え",
+          "bbox": [
+            213,
+            78,
+            81,
+            90
+          ],
+          "cell_bbox": [
+            202,
+            70,
+            105,
+            103
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g7.png",
+          "sha256": "00fe7783524373e19a4f3dca49f0edb4b45b4f977df626f920b252fb565c06f0",
+          "quality": {
+            "score": 0.9835,
+            "resolution": 1.0,
+            "contrast": 0.9529411764705882,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 86,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q109-g8",
+          "character": "っ",
+          "bbox": [
+            226,
+            197,
+            71,
+            57
+          ],
+          "cell_bbox": [
+            202,
+            173,
+            105,
+            99
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g8.png",
+          "sha256": "916a64fde80fea9cab2a2e579a5f399370d0b4fea514e77d0e1d3b290f103311",
+          "quality": {
+            "score": 0.9561,
+            "resolution": 1.0,
+            "contrast": 0.8745098039215686,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 67,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q109-g9",
+          "character": "ち",
+          "bbox": [
+            212,
+            275,
+            78,
+            92
+          ],
+          "cell_bbox": [
+            202,
+            272,
+            105,
+            99
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g9.png",
+          "sha256": "457f776bc7c3cac772b40ef6ddea92db93018af694acfa261c998c602da86e6c",
+          "quality": {
+            "score": 0.9863,
+            "resolution": 1.0,
+            "contrast": 0.9607843137254902,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 88,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q109-g10",
+          "character": "な",
+          "bbox": [
+            209,
+            375,
+            85,
+            90
+          ],
+          "cell_bbox": [
+            202,
+            371,
+            105,
+            100
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g10.png",
+          "sha256": "1ee46c81539893e7c5842c3ce686b67a96c0b3b39d7ac57e7ba6fbb6efa54131",
+          "quality": {
+            "score": 0.9863,
+            "resolution": 1.0,
+            "contrast": 0.9607843137254902,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 85,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q109-g11",
+          "character": "こ",
+          "bbox": [
+            214,
+            477,
+            73,
+            82
+          ],
+          "cell_bbox": [
+            202,
+            471,
+            105,
+            98
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g11.png",
+          "sha256": "6c0b41cc5ef8ffbefed92ce148bfa2e4e54596ad5881c45343999afe4c8b6f43",
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 78,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q109-g12",
+          "character": "と",
+          "bbox": [
+            214,
+            571,
+            73,
+            90
+          ],
+          "cell_bbox": [
+            202,
+            569,
+            105,
+            99
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g12.png",
+          "sha256": "fb4d8e6ff1ecd48daa2d0eb31c64edc334f5ecb2608cc67cd46f28360c00e019",
+          "quality": {
+            "score": 0.9822,
+            "resolution": 1.0,
+            "contrast": 0.9490196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 86,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q109-g13",
+          "character": "に",
+          "bbox": [
+            213,
+            673,
+            81,
+            83
+          ],
+          "cell_bbox": [
+            202,
+            668,
+            105,
+            96
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q109-g13.png",
+          "sha256": "7385084a5e62f7973caee76769b89d8b8271102f73e83fc94958c8c455767783",
+          "quality": {
+            "score": 0.9876,
+            "resolution": 1.0,
+            "contrast": 0.9647058823529412,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 79,
+          "polarity": "dark",
+          "script": "kana"
+        }
+      ],
+      "source_path": "data/images/q109.png",
+      "source_sha256": "e55585ad1e9da8e53d409eb997d77d3952264798b8d6692971ad065b4adb5d1b"
+    },
+    {
+      "qid": 9,
+      "expected": "宋体",
+      "notes": [
+        "从右往左：お座りして／にこにこしてはったら／ええように。去重取前14字，截止う；振假名、标点及剩余正文不纳入。"
+      ],
+      "glyphs": [
+        {
+          "id": "q9-g0",
+          "character": "お",
+          "bbox": [
+            399,
+            75,
+            35,
+            35
+          ],
+          "cell_bbox": [
+            395,
+            74,
+            44,
+            37
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g0.png",
+          "sha256": "20f4c49ac31ae58afd9f75916b3c1ce90c5c1ef495a60baa71d5960bd80b271c",
+          "quality": {
+            "score": 0.937,
+            "resolution": 0.875,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 31,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q9-g1",
+          "character": "座",
+          "bbox": [
+            397,
+            112,
+            38,
+            36
+          ],
+          "cell_bbox": [
+            395,
+            111,
+            44,
+            38
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g1.png",
+          "sha256": "0e8c102387d83130e7fe8ef93747c3148891a9b344b1234c403f088f77d8cf32",
+          "quality": {
+            "score": 0.9472,
+            "resolution": 0.9,
+            "contrast": 0.9490196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 34,
+          "polarity": "dark",
+          "script": "kanji"
+        },
+        {
+          "id": "q9-g2",
+          "character": "り",
+          "bbox": [
+            406,
+            150,
+            22,
+            34
+          ],
+          "cell_bbox": [
+            395,
+            149,
+            44,
+            35
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g2.png",
+          "sha256": "bcc3f6f652fda873044ed8cc7ef293aa39cdbbdb2827049cc10726a0b6897fd3",
+          "quality": {
+            "score": 0.7963,
+            "resolution": 0.55,
+            "contrast": 0.9607843137254902,
+            "edge_ink_fraction": 0.008658008658008658,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 32,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q9-g3",
+          "character": "し",
+          "bbox": [
+            403,
+            187,
+            29,
+            35
+          ],
+          "cell_bbox": [
+            395,
+            184,
+            44,
+            38
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g3.png",
+          "sha256": "84d000dc2f615f342238516732c146a207818b88677d3141a9e4bb40d01c22ee",
+          "quality": {
+            "score": 0.8822,
+            "resolution": 0.725,
+            "contrast": 0.9384313725490196,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 31,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q9-g4",
+          "character": "て",
+          "bbox": [
+            399,
+            227,
+            32,
+            32
+          ],
+          "cell_bbox": [
+            395,
+            222,
+            44,
+            39
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g4.png",
+          "sha256": "72b7bbfc25372a7cba6a2eeef3c74a9cbe7bc0d35e0241d46d274819192e7def",
+          "quality": {
+            "score": 0.9067,
+            "resolution": 0.8,
+            "contrast": 0.9333333333333333,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 28,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q9-g5",
+          "character": "に",
+          "bbox": [
+            354,
+            78,
+            32,
+            31
+          ],
+          "cell_bbox": [
+            349,
+            74,
+            41,
+            37
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g5.png",
+          "sha256": "8bb341518423a453ab7ee018f693a612f7e786c7b74ca280dba56361ae590b4f",
+          "quality": {
+            "score": 0.902,
+            "resolution": 0.775,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 28,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q9-g6",
+          "character": "こ",
+          "bbox": [
+            355,
+            116,
+            28,
+            29
+          ],
+          "cell_bbox": [
+            349,
+            111,
+            41,
+            38
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g6.png",
+          "sha256": "af41766be8d830a2d3d305f106a945b65ab9c0cb03a5af4f50b59d3804b2e824",
+          "quality": {
+            "score": 0.8737,
+            "resolution": 0.7,
+            "contrast": 0.9390196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 25,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q9-g7",
+          "character": "は",
+          "bbox": [
+            354,
+            298,
+            32,
+            35
+          ],
+          "cell_bbox": [
+            349,
+            298,
+            41,
+            39
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g7.png",
+          "sha256": "cedeb26e748031aef7264ad5da5d1c925b76986477bff37a149fe3a83015c693",
+          "quality": {
+            "score": 0.9108,
+            "resolution": 0.8,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 31,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q9-g8",
+          "character": "っ",
+          "bbox": [
+            358,
+            343,
+            31,
+            22
+          ],
+          "cell_bbox": [
+            349,
+            337,
+            41,
+            35
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g8.png",
+          "sha256": "acd4954b3c6151418ef9935f105eafa2e7cbc43c661663c1568329648907cce8",
+          "quality": {
+            "score": 0.8178,
+            "resolution": 0.55,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 25,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q9-g9",
+          "character": "た",
+          "bbox": [
+            352,
+            373,
+            34,
+            34
+          ],
+          "cell_bbox": [
+            349,
+            372,
+            41,
+            37
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g9.png",
+          "sha256": "fa810a158c58247d7c2ce6831f68552d223682340e7f5b491ef5ffafa74c6f3f",
+          "quality": {
+            "score": 0.9269,
+            "resolution": 0.85,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 30,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q9-g10",
+          "character": "ら",
+          "bbox": [
+            357,
+            410,
+            27,
+            34
+          ],
+          "cell_bbox": [
+            349,
+            409,
+            41,
+            38
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g10.png",
+          "sha256": "f886af981d65bee609637fdf3693235fae98e5795903e2d3fa1910917d2968a1",
+          "quality": {
+            "score": 0.8645,
+            "resolution": 0.675,
+            "contrast": 0.937843137254902,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 30,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q9-g11",
+          "character": "え",
+          "bbox": [
+            308,
+            74,
+            32,
+            35
+          ],
+          "cell_bbox": [
+            302,
+            74,
+            43,
+            37
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g11.png",
+          "sha256": "71c65e92006bf25c7523cbef1c8ab992c8560cbe97bdb77672c8ab35d6b6aae3",
+          "quality": {
+            "score": 0.9025,
+            "resolution": 0.8,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 31,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q9-g12",
+          "character": "よ",
+          "bbox": [
+            309,
+            150,
+            28,
+            34
+          ],
+          "cell_bbox": [
+            302,
+            149,
+            43,
+            36
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g12.png",
+          "sha256": "65529bb0ef610abcf74cdff9cf115d1ba75139f6978117d1bd8201807a5a6719",
+          "quality": {
+            "score": 0.8819,
+            "resolution": 0.7,
+            "contrast": 0.9625490196078431,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 30,
+          "polarity": "dark",
+          "script": "kana"
+        },
+        {
+          "id": "q9-g13",
+          "character": "う",
+          "bbox": [
+            309,
+            187,
+            26,
+            36
+          ],
+          "cell_bbox": [
+            302,
+            185,
+            43,
+            38
+          ],
+          "path": "data/category-expansion-v3/lane-c/crops/q9-g13.png",
+          "sha256": "629aaad1d2b08c607d23e73064f40745164fa361e93b2eb392005b6d51d9fc1e",
+          "quality": {
+            "score": 0.8569,
+            "resolution": 0.65,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 33,
+          "polarity": "dark",
+          "script": "kana"
+        }
+      ],
+      "source_path": "data/images/q9.png",
+      "source_sha256": "531643bab0d6a7b92a56818083a421f000244c74645a411295414f80c37cad47"
+    }
+  ],
+  "status": "visually reviewed known characters"
+}

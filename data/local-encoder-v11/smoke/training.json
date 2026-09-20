@@ -1,0 +1,26 @@
+{
+  "status": "trained_font_only_development_model",
+  "parameter_count": 402724,
+  "embedding_dim": 64,
+  "device": "mps",
+  "records": 4715,
+  "train_records": 3887,
+  "val_records": 828,
+  "history": [
+    {
+      "epoch": 1,
+      "learning_rate": 0.0,
+      "train_loss": 2.5636920236772105,
+      "train_family": 2.604324148547265,
+      "train_face": 3.1391880973692863,
+      "train_weight": 1.8698522044766335,
+      "train_nce": 3.491307427806239,
+      "train_hard": 0.11162697331559274,
+      "val_family_accuracy": 0.09782608695652174,
+      "val_face_accuracy": 0.051932367149758456,
+      "val_weight_accuracy": 0.3333333333333333
+    }
+  ],
+  "best_score": 0.1497584541062802,
+  "output": "data/local-encoder-v11/smoke"
+}

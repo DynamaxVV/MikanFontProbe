@@ -1,0 +1,366 @@
+[
+  {
+    "question_id": 129,
+    "coarse_label": "粗黑",
+    "roi": null,
+    "text_box": [
+      28,
+      29,
+      213,
+      337
+    ],
+    "components": 50,
+    "ink_pixels": 3314,
+    "subregions": [
+      {
+        "roi": [
+          191,
+          25,
+          57,
+          149
+        ],
+        "text_box": [
+          203,
+          29,
+          38,
+          124
+        ],
+        "components": 13,
+        "ink_pixels": 602
+      },
+      {
+        "roi": [
+          155,
+          151,
+          62,
+          218
+        ],
+        "text_box": [
+          168,
+          163,
+          27,
+          175
+        ],
+        "components": 15,
+        "ink_pixels": 1668
+      },
+      {
+        "roi": [
+          25,
+          252,
+          75,
+          127
+        ],
+        "text_box": [
+          28,
+          257,
+          59,
+          109
+        ],
+        "components": 22,
+        "ink_pixels": 1044
+      }
+    ]
+  },
+  {
+    "question_id": 25,
+    "coarse_label": "海报体",
+    "roi": null,
+    "text_box": [
+      142,
+      131,
+      587,
+      521
+    ],
+    "components": 215,
+    "ink_pixels": 19895,
+    "subregions": [
+      {
+        "roi": [
+          657,
+          142,
+          101,
+          266
+        ],
+        "text_box": [
+          660,
+          156,
+          69,
+          233
+        ],
+        "components": 24,
+        "ink_pixels": 1566
+      },
+      {
+        "roi": [
+          520,
+          105,
+          124,
+          366
+        ],
+        "text_box": [
+          526,
+          131,
+          115,
+          334
+        ],
+        "components": 56,
+        "ink_pixels": 4709
+      },
+      {
+        "roi": [
+          407,
+          106,
+          125,
+          410
+        ],
+        "text_box": [
+          433,
+          131,
+          95,
+          365
+        ],
+        "components": 55,
+        "ink_pixels": 5296
+      },
+      {
+        "roi": [
+          241,
+          236,
+          115,
+          341
+        ],
+        "text_box": [
+          253,
+          252,
+          96,
+          319
+        ],
+        "components": 39,
+        "ink_pixels": 3131
+      },
+      {
+        "roi": [
+          132,
+          242,
+          117,
+          415
+        ],
+        "text_box": [
+          142,
+          254,
+          104,
+          398
+        ],
+        "components": 41,
+        "ink_pixels": 5193
+      }
+    ]
+  },
+  {
+    "question_id": 31,
+    "coarse_label": "珍珠体",
+    "roi": null,
+    "text_box": [
+      78,
+      218,
+      658,
+      697
+    ],
+    "components": 172,
+    "ink_pixels": 11422,
+    "subregions": [
+      {
+        "roi": [
+          74,
+          210,
+          263,
+          60
+        ],
+        "text_box": [
+          78,
+          218,
+          195,
+          49
+        ],
+        "components": 25,
+        "ink_pixels": 1280
+      },
+      {
+        "roi": [
+          177,
+          298,
+          230,
+          55
+        ],
+        "text_box": [
+          183,
+          307,
+          178,
+          42
+        ],
+        "components": 28,
+        "ink_pixels": 1172
+      },
+      {
+        "roi": [
+          115,
+          404,
+          305,
+          66
+        ],
+        "text_box": [
+          123,
+          411,
+          293,
+          53
+        ],
+        "components": 23,
+        "ink_pixels": 2230
+      },
+      {
+        "roi": [
+          86,
+          594,
+          302,
+          67
+        ],
+        "text_box": [
+          119,
+          599,
+          218,
+          38
+        ],
+        "components": 22,
+        "ink_pixels": 1626
+      },
+      {
+        "roi": [
+          167,
+          652,
+          323,
+          66
+        ],
+        "text_box": [
+          170,
+          655,
+          316,
+          43
+        ],
+        "components": 21,
+        "ink_pixels": 1702
+      },
+      {
+        "roi": [
+          396,
+          802,
+          192,
+          58
+        ],
+        "text_box": [
+          412,
+          818,
+          157,
+          36
+        ],
+        "components": 11,
+        "ink_pixels": 1089
+      },
+      {
+        "roi": [
+          397,
+          858,
+          342,
+          62
+        ],
+        "text_box": [
+          416,
+          864,
+          320,
+          51
+        ],
+        "components": 42,
+        "ink_pixels": 2323
+      }
+    ]
+  },
+  {
+    "question_id": 100,
+    "coarse_label": "中圆",
+    "roi": null,
+    "text_box": [
+      47,
+      130,
+      399,
+      521
+    ],
+    "components": 104,
+    "ink_pixels": 10620,
+    "subregions": [
+      {
+        "roi": [
+          366,
+          120,
+          83,
+          271
+        ],
+        "text_box": [
+          382,
+          130,
+          64,
+          255
+        ],
+        "components": 26,
+        "ink_pixels": 2440
+      },
+      {
+        "roi": [
+          246,
+          255,
+          89,
+          373
+        ],
+        "text_box": [
+          256,
+          298,
+          53,
+          312
+        ],
+        "components": 15,
+        "ink_pixels": 1936
+      },
+      {
+        "roi": [
+          132,
+          246,
+          102,
+          409
+        ],
+        "text_box": [
+          136,
+          253,
+          91,
+          398
+        ],
+        "components": 42,
+        "ink_pixels": 4759
+      },
+      {
+        "roi": [
+          44,
+          268,
+          91,
+          239
+        ],
+        "text_box": [
+          47,
+          272,
+          64,
+          181
+        ],
+        "components": 21,
+        "ink_pixels": 1485
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "policy": {
+    "min_pixels": 32,
+    "patch_radius": 5,
+    "sdf_clip": 3.0,
+    "width_offset_limit": 0.75,
+    "noise_multiplier": 2.0,
+    "min_separation": 0.04,
+    "min_vote_margin": 0.02,
+    "min_votes": 3,
+    "agreement": 0.8
+  },
+  "status": "all real samples already exposed; not blind validation",
+  "inputs": {
+    "data/category-expansion-v3/pools.json": "2fad7e426c9cccad999463d55d2f32a0a16306e2755aa9994235c12cd1d6cb39",
+    "data/category-expansion-v3/templates/catalog.json": "660f15c4f21621ee84d8cd90abdf686fbd819312d5d0514363368b870bb9d3d0",
+    "data/humming-v4/folk-controls/pools.json": "259b2bb405e111973aa65ac13f31e03b5758bbf91f8092831f858d60c9466a6f",
+    "data/humming-v4/folk-controls/templates/catalog.json": "39b6fa9cca898547c1df304b5b603763d2c12593753325be7de68cb253756393",
+    "data/humming-v4/guarded-results.json": "d3ecc3e0dcbdafaf124d792d4a1999cae7724e852dbbcad135054909b6c06add"
+  },
+  "code": {
+    "local_contour_matcher.py": "52923db461b3aaaf1f80851f599b13461c60dcc53d49b58de044d591155a2fc3",
+    "rank_font_contours.py": "aaab652cd364cd4e360f74a07cc3c544f4a206e400fbca6b2c0ffa8796438387",
+    "evaluate_contours_v5.py": "38aa34efcb6ac281a2a1cf58722b8d90ae8877311b24c0a83beee57dd634ca4d"
+  },
+  "rerank": "top two only, both within old .015 appearance band; >=3 votes, >=80% agreement",
+  "additional_queries": "at most 2 distinct chars per pair, font-only utility, fixed face per sample"
+}

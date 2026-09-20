@@ -1,0 +1,149 @@
+{
+  "review": "MikanFontProbe priority batch 3 independent visual review",
+  "question_order": [91, 61, 33, 72, 27, 140],
+  "method": {
+    "source": "Each manifest image_file was visually read first, then compared with priority-v7 overlay, mask and segments and with the corresponding priority-a/b excerpts.",
+    "reading_order": "Vertical columns from right to left; characters within each column from top to bottom.",
+    "score_scale": "0–5; higher is better.",
+    "crop_score_dimensions": ["main_text_coverage", "background_exclusion", "column_and_character_segmentation"],
+    "ocr_score_dimensions": ["character_coverage", "column_coverage", "character_correctness"],
+    "ocr_quantification_limit": "priority-a/b provide excerpts, not full OCR output. Global OCR character and column coverage therefore have null scores. character_correctness scores only the visible, verifiable excerpt text and cannot be interpreted as global OCR accuracy."
+  },
+  "questions": [
+    {
+      "question_id": 91,
+      "image_file": "images/q91.png",
+      "annotation_file": "priority-b.json",
+      "original_reading": {
+        "columns_right_to_left": ["とか", "しちゃったり", "できるってこと…!?"],
+        "notes": "Left column ends in an ellipsis followed by !?; the punctuation is part of the printed text.",
+        "confidence": "high"
+      },
+      "annotation_comparison": {
+        "ocr_excerpt": "しちゃったり",
+        "lines": ["とか", "しちゃったり", "できるってこと"],
+        "correct": ["All three excerpts match visible substrings."],
+        "missing": ["Left-column final …!? is absent from text_excerpt; ocr_excerpt is only one sampled column, not a complete transcription."],
+        "incorrect": []
+      },
+      "crop_scores": {"main_text_coverage": 4.5, "background_exclusion": 4.5, "column_and_character_segmentation": 3.5},
+      "ocr_scores": {"character_coverage": null, "column_coverage": null, "character_correctness": 5.0},
+      "evidence": "Overlay encloses all three text columns; mask follows the thin glyphs with little balloon-border pickup. Segments divide the left and middle columns into irregular multi-character groups rather than consistent single-character boxes.",
+      "confidence": "high",
+      "overall": "Good main-text extraction and accurate supplied excerpts; the full sentence is not transcribed in the excerpts. Global OCR accuracy is not quantifiable."
+    },
+    {
+      "question_id": 61,
+      "image_file": "images/q61.png",
+      "annotation_file": "priority-b.json",
+      "original_reading": {
+        "columns_right_to_left": ["プレゼント", "持ってきたし", "ちゃんと", "可愛い格好", "してきた"],
+        "joined_reading": "プレゼント持ってきたし／ちゃんと可愛い格好してきた",
+        "notes": "Small furigana beside 持, 可愛 and 格好 is visible and should remain associated with the parent characters; it is not another main column. The lower three columns form a separate staggered phrase.",
+        "confidence": "high for main characters; medium for individual furigana"
+      },
+      "annotation_comparison": {
+        "ocr_excerpt": "可愛い",
+        "lines": ["持ってきたし", "ちゃんと", "可愛い", "格好してきた"],
+        "correct": ["The four supplied line excerpts match visible reading-order substrings; 格好してきた continues from the middle lower column into the left lower column rather than occupying one physical column."],
+        "missing": ["The entire upper-right プレゼント column has no text_excerpt or OCR excerpt; ocr_excerpt alone covers only 可愛い.", "Furigana is not transcribed in the supplied excerpts."],
+        "incorrect": ["The line entry 格好してきた is a cross-column phrase assigned to one bbox, so its box/text alignment is inaccurate even though the phrase itself is readable."]
+      },
+      "crop_scores": {"main_text_coverage": 3.5, "background_exclusion": 4.0, "column_and_character_segmentation": 2.5},
+      "ocr_scores": {"character_coverage": null, "column_coverage": null, "character_correctness": 5.0},
+      "evidence": "The upper overlay box merges プレゼント with 持ってきたし. Lower boxes overlap adjacent columns and furigana; the segments view does not cleanly separate ちゃんと, 可愛い and 格好してきた into their own columns. Mask largely excludes illustration but loses some thin strokes and mixes ruby with main glyphs.",
+      "confidence": "high",
+      "overall": "Readable excerpt text is accurate, but crop geometry and segmentation blur distinct columns; complete OCR coverage cannot be measured from excerpts."
+    },
+    {
+      "question_id": 33,
+      "image_file": "images/q33.png",
+      "annotation_file": "priority-b.json",
+      "original_reading": {
+        "columns_right_to_left": ["とか", "しちゃったり", "できるってこと…!?"],
+        "notes": "The left column includes the ellipsis and !? at its end.",
+        "confidence": "high"
+      },
+      "annotation_comparison": {
+        "ocr_excerpt": "しちゃったり",
+        "lines": ["とか", "しちゃったり", "できるってこと"],
+        "correct": ["All three supplied excerpts match their visible column portions."],
+        "missing": ["The final …!? is omitted from the left text_excerpt; ocr_excerpt is not a complete reading."],
+        "incorrect": []
+      },
+      "crop_scores": {"main_text_coverage": 4.5, "background_exclusion": 4.5, "column_and_character_segmentation": 3.0},
+      "ocr_scores": {"character_coverage": null, "column_coverage": null, "character_correctness": 5.0},
+      "evidence": "Overlay covers the three main columns and punctuation, and mask avoids most balloon outlines. Segments split columns unevenly into groups of one to several characters, with boxes crossing or abutting neighbouring glyphs around the middle column.",
+      "confidence": "high",
+      "overall": "Strong column crop and correct local excerpts, with weak per-character segmentation and omitted sentence-ending punctuation in annotations. Global OCR accuracy is not quantifiable."
+    },
+    {
+      "question_id": 72,
+      "image_file": "images/q72.png",
+      "annotation_file": "priority-b.json",
+      "original_reading": {
+        "columns_right_to_left": ["聖魔法を使って", "経験値を", "貯めます！"],
+        "notes": "The right column begins 聖魔法; the left column ends with an exclamation mark.",
+        "confidence": "high"
+      },
+      "annotation_comparison": {
+        "ocr_excerpt": "経験値を",
+        "lines": ["を使って", "経験値を", "貯めます"],
+        "correct": ["All supplied excerpts are correct visible substrings."],
+        "missing": ["The right text_excerpt omits 聖魔法; the left text_excerpt omits ！. The single ocr_excerpt does not represent the whole three-column sentence."],
+        "incorrect": []
+      },
+      "crop_scores": {"main_text_coverage": 4.5, "background_exclusion": 4.5, "column_and_character_segmentation": 3.5},
+      "ocr_scores": {"character_coverage": null, "column_coverage": null, "character_correctness": 5.0},
+      "evidence": "Overlay and mask capture the three bold columns and final punctuation with little balloon edge. Segments mostly use whole-column boxes and split only the last characters of the right column; they are not reliable single-character segmentation.",
+      "confidence": "high",
+      "overall": "Main text is well isolated and the excerpts are locally exact, but the supplied transcription leaves 聖魔法 and ！ out. Global OCR accuracy is not quantifiable."
+    },
+    {
+      "question_id": 27,
+      "image_file": "images/q27.jpg",
+      "annotation_file": "priority-b.json",
+      "original_reading": {
+        "columns_right_to_left": ["私にしか", "見せないような", "顔してよー"],
+        "notes": "The left-column final long vertical stroke appears to be a prolonged sound mark; its exact punctuation function is less certain than the preceding 顔してよ. Dense speed lines cross the letters. The manifest points to q27.jpg.",
+        "confidence": "high for 私にしか and 見せないような; medium for the left-column ending"
+      },
+      "annotation_comparison": {
+        "ocr_excerpt": "私にだけ",
+        "lines": ["私にだけ", "見せるような", "顔"],
+        "correct": ["私に and 見せ and ような are visible; 顔 is the first character of the left column."],
+        "missing": ["Right excerpt does not include the actual しか ending.", "Middle excerpt omits the visible ない sequence.", "Left excerpt leaves してよー untranscribed; the overlay and segments also miss the long ending."],
+        "incorrect": ["私にだけ conflicts with visible 私にしか: だけ is a substitution for しか.", "見せるような conflicts with visible 見せないような: る is not the printed continuation."],
+        "uncertain": ["The final prolonged mark after よ is partly merged with speed-line artwork; treat 顔してよ as secure and the exact final mark as provisional."]
+      },
+      "crop_scores": {"main_text_coverage": 2.5, "background_exclusion": 1.0, "column_and_character_segmentation": 2.0},
+      "ocr_scores": {"character_coverage": null, "column_coverage": null, "character_correctness": 2.0},
+      "evidence": "The right overlay box stops above か; the middle and left boxes end before all lower text or the long left ending. Mask includes conspicuous vertical speed lines between and within letters, so glyph/background separation is poor. Segments remain coarse column boxes.",
+      "confidence": "high for the two concrete excerpt substitutions and crop failures; medium for final left-column mark",
+      "overall": "Weakest case: incomplete crops, heavy speed-line contamination and two clear wrong local readings. Excerpts are incomplete, so global OCR accuracy is not quantifiable."
+    },
+    {
+      "question_id": 140,
+      "image_file": "images/q140.png",
+      "annotation_file": "priority-b.json",
+      "original_reading": {
+        "columns_right_to_left": ["ヒビキさんは", "ともかくとして"],
+        "edge_fragment": "A separate printed column is cut by the right image edge; visible parts resemble …に／立派よ… but are too truncated to transcribe confidently as a complete sentence.",
+        "notes": "The main two columns are clear. The edge fragment is retained as uncertain rather than silently ignored.",
+        "confidence": "high for the two main columns; low for the edge fragment"
+      },
+      "annotation_comparison": {
+        "ocr_excerpt": "さんは",
+        "lines": ["さんは", "ともかくとして"],
+        "correct": ["Both supplied excerpts match the corresponding main columns."],
+        "missing": ["The right main-column name prefix ヒビキ is not transcribed.", "The cropped right-edge printed fragment has no usable excerpt; its complete wording is not recoverable from this image."],
+        "incorrect": []
+      },
+      "crop_scores": {"main_text_coverage": 4.0, "background_exclusion": 3.0, "column_and_character_segmentation": 2.5},
+      "ocr_scores": {"character_coverage": null, "column_coverage": null, "character_correctness": 5.0},
+      "evidence": "The two main columns are substantially inside overlay and mask, but a thin spurious box and retained vertical stroke occur at the far right. Segments split the two words into uneven groups and do not offer dependable character boxes; the separate edge fragment is not adequately represented.",
+      "confidence": "high for main text and crop defects; low for the cropped edge reading",
+      "overall": "Main printed text is mostly captured and excerpts are locally correct; edge content and name prefix remain untranscribed. Global OCR accuracy is not quantifiable."
+    }
+  ]
+}

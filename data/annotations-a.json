@@ -1,0 +1,128 @@
+[
+  {
+    "question_id": "q141",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "冗談だって",
+    "ocr_uncertain": false,
+    "bbox": [37, 29, 65, 158],
+    "notes": "两个竖排文字列，字形清楚；bbox 覆盖气泡内主印刷文字。"
+  },
+  {
+    "question_id": "q140",
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "ヒビキさんは",
+    "ocr_uncertain": false,
+    "bbox": [37, 40, 89, 219],
+    "notes": "粗体漫画印刷字，非手写；主文字分为竖排列。"
+  },
+  {
+    "question_id": "q139",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "それでいいのか",
+    "ocr_uncertain": false,
+    "bbox": [27, 11, 39, 264],
+    "notes": "窄栏中的单列竖排常规印刷字；省略号在摘录中未纳入。"
+  },
+  {
+    "question_id": "q138",
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "濡れる",
+    "ocr_uncertain": false,
+    "bbox": [18, 48, 296, 394],
+    "notes": "包含左下大型粗体字和右侧多列竖排文字；摘录字形清楚，bbox 覆盖主印刷文字整体。"
+  },
+  {
+    "question_id": "q136",
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "いい加減にしろ",
+    "ocr_uncertain": false,
+    "bbox": [33, 41, 45, 253],
+    "notes": "粗体、强调感明显的竖排漫画印刷字；感叹号属于同一文字区。"
+  },
+  {
+    "question_id": "q135",
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "あなたたちは",
+    "ocr_uncertain": false,
+    "bbox": [28, 35, 143, 344],
+    "notes": "三列粗体竖排台词，主文字边界清楚；bbox 覆盖三列。"
+  },
+  {
+    "question_id": "q134",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "会いたかった",
+    "ocr_uncertain": false,
+    "bbox": [37, 29, 110, 330],
+    "notes": "两列细体竖排常规印刷字；省略号和感叹号未纳入摘录。"
+  },
+  {
+    "question_id": "q132",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "スケッチしてた",
+    "ocr_uncertain": false,
+    "bbox": [30, 56, 63, 207],
+    "notes": "单个主要竖排文字区，字形清楚；含末尾问号和感叹号。"
+  },
+  {
+    "question_id": "q131",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "あるのかな",
+    "ocr_uncertain": false,
+    "bbox": [42, 45, 66, 185],
+    "notes": "气泡内两列竖排常规印刷字；摘录来自左列，未纳入问号。"
+  },
+  {
+    "question_id": "q129",
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "どっちがいい",
+    "ocr_uncertain": false,
+    "bbox": [55, 27, 192, 358],
+    "notes": "三处粗体竖排台词区，含右上短列和下方两列；bbox 覆盖主印刷文字整体。"
+  },
+  {
+    "question_id": "q126",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "モチーフ探して",
+    "ocr_uncertain": false,
+    "bbox": [46, 47, 73, 307],
+    "notes": "两列竖排常规印刷字；长音符号和末尾感叹号未纳入摘录。"
+  },
+  {
+    "question_id": "q123",
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "エロトラップ",
+    "ocr_uncertain": false,
+    "bbox": [31, 43, 216, 333],
+    "notes": "多列粗体竖排漫画印刷字，含右侧主句及左下短句；摘录清楚。"
+  },
+  {
+    "question_id": "q118",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "わたしの実家",
+    "ocr_uncertain": false,
+    "bbox": [39, 40, 119, 292],
+    "notes": "两组细体竖排常规印刷字；bbox 覆盖气泡内主要文字。"
+  },
+  {
+    "question_id": "q114",
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "ステキだった",
+    "ocr_uncertain": false,
+    "bbox": [116, 79, 77, 266],
+    "notes": "气泡中央单列细体竖排印刷字；文字清楚，省略号未纳入摘录。"
+  }
+]

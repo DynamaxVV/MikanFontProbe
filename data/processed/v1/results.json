@@ -1,0 +1,74 @@
+[
+  {
+    "question_id": 100,
+    "coarse_label": "中圆",
+    "roi": [
+      0,
+      0,
+      560,
+      780
+    ],
+    "text_box": [
+      0,
+      0,
+      560,
+      780
+    ],
+    "components": 197,
+    "ink_pixels": 38791
+  },
+  {
+    "question_id": 139,
+    "coarse_label": "POP1",
+    "roi": [
+      0,
+      0,
+      82,
+      295
+    ],
+    "text_box": [
+      21,
+      0,
+      61,
+      278
+    ],
+    "components": 21,
+    "ink_pixels": 2112
+  },
+  {
+    "question_id": 136,
+    "coarse_label": "雷盖/雷鬼体",
+    "roi": [
+      0,
+      0,
+      112,
+      331
+    ],
+    "text_box": [
+      10,
+      0,
+      102,
+      324
+    ],
+    "components": 41,
+    "ink_pixels": 4012
+  },
+  {
+    "question_id": 140,
+    "coarse_label": "粗宋",
+    "roi": [
+      0,
+      0,
+      137,
+      291
+    ],
+    "text_box": [
+      0,
+      0,
+      137,
+      283
+    ],
+    "components": 53,
+    "ink_pixels": 5184
+  }
+]

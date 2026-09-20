@@ -1,0 +1,394 @@
+[
+  {
+    "question_id": 118,
+    "coarse_label": "中圆",
+    "ink_pixels": 5195,
+    "blocks": [
+      {
+        "bbox": [
+          29,
+          157,
+          63,
+          188
+        ],
+        "score": 0.793
+      },
+      {
+        "bbox": [
+          107,
+          43,
+          61,
+          176
+        ],
+        "score": 0.661
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 115,
+    "coarse_label": "中圆",
+    "ink_pixels": 8415,
+    "blocks": [
+      {
+        "bbox": [
+          36,
+          176,
+          69,
+          316
+        ],
+        "score": 0.447
+      },
+      {
+        "bbox": [
+          31,
+          52,
+          132,
+          273
+        ],
+        "score": 0.345
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 100,
+    "coarse_label": "中圆",
+    "ink_pixels": 36390,
+    "blocks": [
+      {
+        "bbox": [
+          376,
+          116,
+          76,
+          386
+        ],
+        "score": 0.73
+      },
+      {
+        "bbox": [
+          121,
+          399,
+          207,
+          363
+        ],
+        "score": 0.278
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 125,
+    "coarse_label": "中黑",
+    "ink_pixels": 4922,
+    "blocks": [
+      {
+        "bbox": [
+          22,
+          24,
+          96,
+          177
+        ],
+        "score": 0.705
+      },
+      {
+        "bbox": [
+          59,
+          83,
+          62,
+          234
+        ],
+        "score": 0.457
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 76,
+    "coarse_label": "中黑",
+    "ink_pixels": 12936,
+    "blocks": [],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 62,
+    "coarse_label": "中黑",
+    "ink_pixels": 1415,
+    "blocks": [
+      {
+        "bbox": [
+          25,
+          32,
+          54,
+          117
+        ],
+        "score": 0.409
+      },
+      {
+        "bbox": [
+          29,
+          128,
+          23,
+          70
+        ],
+        "score": 0.332
+      },
+      {
+        "bbox": [
+          90,
+          30,
+          25,
+          119
+        ],
+        "score": 0.275
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 58,
+    "coarse_label": "粗黑",
+    "ink_pixels": 2341,
+    "blocks": [
+      {
+        "bbox": [
+          125,
+          97,
+          43,
+          192
+        ],
+        "score": 0.322
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 96,
+    "coarse_label": "粗黑",
+    "ink_pixels": 3516,
+    "blocks": [],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 65,
+    "coarse_label": "粗黑",
+    "ink_pixels": 12039,
+    "blocks": [
+      {
+        "bbox": [
+          83,
+          21,
+          64,
+          182
+        ],
+        "score": 0.361
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 114,
+    "coarse_label": "细宋",
+    "ink_pixels": 1626,
+    "blocks": [
+      {
+        "bbox": [
+          117,
+          54,
+          73,
+          276
+        ],
+        "score": 0.72
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 92,
+    "coarse_label": "细宋",
+    "ink_pixels": 1401,
+    "blocks": [
+      {
+        "bbox": [
+          77,
+          28,
+          51,
+          184
+        ],
+        "score": 0.309
+      },
+      {
+        "bbox": [
+          124,
+          39,
+          37,
+          166
+        ],
+        "score": 0.251
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 70,
+    "coarse_label": "细宋",
+    "ink_pixels": 22188,
+    "blocks": [
+      {
+        "bbox": [
+          359,
+          31,
+          127,
+          361
+        ],
+        "score": 0.611
+      },
+      {
+        "bbox": [
+          84,
+          232,
+          170,
+          316
+        ],
+        "score": 0.501
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 91,
+    "coarse_label": "细圆",
+    "ink_pixels": 222,
+    "blocks": [
+      {
+        "bbox": [
+          0,
+          21,
+          33,
+          11
+        ],
+        "score": 0.29
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 61,
+    "coarse_label": "细圆",
+    "ink_pixels": 7093,
+    "blocks": [
+      {
+        "bbox": [
+          140,
+          64,
+          75,
+          176
+        ],
+        "score": 0.869
+      },
+      {
+        "bbox": [
+          59,
+          272,
+          99,
+          136
+        ],
+        "score": 0.804
+      },
+      {
+        "bbox": [
+          64,
+          486,
+          14,
+          12
+        ],
+        "score": 0.399
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 33,
+    "coarse_label": "细圆",
+    "ink_pixels": 427,
+    "blocks": [
+      {
+        "bbox": [
+          0,
+          81,
+          50,
+          15
+        ],
+        "score": 0.31
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 72,
+    "coarse_label": "粗宋",
+    "ink_pixels": 5038,
+    "blocks": [],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 27,
+    "coarse_label": "粗宋",
+    "ink_pixels": 61653,
+    "blocks": [],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 140,
+    "coarse_label": "粗宋",
+    "ink_pixels": 2858,
+    "blocks": [
+      {
+        "bbox": [
+          120,
+          6,
+          17,
+          120
+        ],
+        "score": 0.286
+      }
+    ],
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  }
+]

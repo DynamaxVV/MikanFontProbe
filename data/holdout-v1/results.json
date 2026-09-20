@@ -1,0 +1,695 @@
+{
+  "status": "first_question_level_holdout_not_source_disjoint",
+  "freeze_sha256": "b5652a83c590cfa7eb0c5b4e58c9cbd501c686eb61dad1f48e627e4749cf1531",
+  "correct": {
+    "binary": 10,
+    "structure": 10,
+    "hybrid": 11
+  },
+  "questions": [
+    {
+      "qid": 111,
+      "expected": "圆体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.16959263937187938
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.19974702271494307
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.33334007924519876
+          }
+        ],
+        "structure": [
+          {
+            "font": "PShinMGoPr6N-Light",
+            "group": "圆体",
+            "distance": 0.18416976286146347
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.19847126373544377
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.29597120650448316
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PShinMGoPr6N-Light",
+            "group": "圆体",
+            "distance": 0.17698075306575337
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.19910914322519346
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.32118859260101246
+          }
+        ]
+      }
+    },
+    {
+      "qid": 82,
+      "expected": "圆体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.06412075805165567
+          },
+          {
+            "font": "PAntiqueANpProN-Ultra",
+            "group": "黑体",
+            "distance": 0.0803762973301443
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.25259952691401744
+          }
+        ],
+        "structure": [
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.19681553931610796
+          },
+          {
+            "font": "YWHeiTi-Bold",
+            "group": "黑体",
+            "distance": 0.24361803377987334
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.31837767126867944
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.1346902861876318
+          },
+          {
+            "font": "PAntiqueANpProN-Ultra",
+            "group": "黑体",
+            "distance": 0.17579251985309963
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.28850242438880835
+          }
+        ]
+      }
+    },
+    {
+      "qid": 52,
+      "expected": "圆体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.14009706596971075
+          },
+          {
+            "font": "YWHeiTi-Bold",
+            "group": "黑体",
+            "distance": 0.17787392730407703
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.288723443480924
+          }
+        ],
+        "structure": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.16262514009156712
+          },
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.20498369011908302
+          },
+          {
+            "font": "PRyuminPr6N-Light",
+            "group": "宋体",
+            "distance": 0.26337952793060904
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.15167980631570832
+          },
+          {
+            "font": "YWHeiTi-Bold",
+            "group": "黑体",
+            "distance": 0.19878090064555917
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.28242584208331806
+          }
+        ]
+      }
+    },
+    {
+      "qid": 56,
+      "expected": "圆体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.22692645177410323
+          },
+          {
+            "font": "PAntiqueANpProN-Light",
+            "group": "黑体",
+            "distance": 0.2786588297952674
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.4823974167865481
+          }
+        ],
+        "structure": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.20474702814245083
+          },
+          {
+            "font": "PAntiqueANpProN-Light",
+            "group": "黑体",
+            "distance": 0.21894777369783336
+          },
+          {
+            "font": "PRyuminPr6N-Light",
+            "group": "宋体",
+            "distance": 0.36741697661877576
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.2234938770093801
+          },
+          {
+            "font": "PAntiqueANpProN-Light",
+            "group": "黑体",
+            "distance": 0.2521951288188462
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.43408237671752326
+          }
+        ]
+      }
+    },
+    {
+      "qid": 98,
+      "expected": "宋体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.13614772631663413
+          },
+          {
+            "font": "PAntiqueANpProN-Bold",
+            "group": "黑体",
+            "distance": 0.16392901764918918
+          },
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.17216720189057722
+          }
+        ],
+        "structure": [
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.1762862519554483
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.2809735338227785
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.2876541424003896
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.17432312130507024
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.2329454818048197
+          },
+          {
+            "font": "PAntiqueANpProN-Bold",
+            "group": "黑体",
+            "distance": 0.2531252067029153
+          }
+        ]
+      }
+    },
+    {
+      "qid": 69,
+      "expected": "宋体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PRyuminPr6N-Medium",
+            "group": "宋体",
+            "distance": 0.18409662496279677
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.24461617610670797
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.2594642885038212
+          }
+        ],
+        "structure": [
+          {
+            "font": "PRyuminPr6N-Medium",
+            "group": "宋体",
+            "distance": 0.17605705139243996
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.23394692313123963
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.2381040619374822
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PRyuminPr6N-Medium",
+            "group": "宋体",
+            "distance": 0.1824030260819466
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.2479183547972882
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.2558027948700147
+          }
+        ]
+      }
+    },
+    {
+      "qid": 42,
+      "expected": "宋体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PRyuminPr6N-Medium",
+            "group": "宋体",
+            "distance": 0.18813069908508284
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.23456401631364418
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.2945062130743621
+          }
+        ],
+        "structure": [
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.24246694522147696
+          },
+          {
+            "font": "PRyuminPr6N-Medium",
+            "group": "宋体",
+            "distance": 0.2548812014075494
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.26032030152624996
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PRyuminPr6N-Medium",
+            "group": "宋体",
+            "distance": 0.2330367199007423
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.2590276580102045
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.2853735760095728
+          }
+        ]
+      }
+    },
+    {
+      "qid": 9,
+      "expected": "宋体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.18381218780910727
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.1972635834574147
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.19920811161558558
+          }
+        ],
+        "structure": [
+          {
+            "font": "PRyuminPr6N-Medium",
+            "group": "宋体",
+            "distance": 0.2453117562798047
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.2761189577135326
+          },
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.2819589172277723
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.21967029745647362
+          },
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.2474954989307392
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.2503857398460819
+          }
+        ]
+      }
+    },
+    {
+      "qid": 131,
+      "expected": "黑体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.09922273581282794
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.1621218264097257
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.20330939068938333
+          }
+        ],
+        "structure": [
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.2059136988859154
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.2339378891128522
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.25128618147193277
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PAntiqueANpProN-Medium",
+            "group": "黑体",
+            "distance": 0.15540821189746082
+          },
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.2015140521186863
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.22934350473574724
+          }
+        ]
+      }
+    },
+    {
+      "qid": 129,
+      "expected": "黑体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.10012857662635281
+          },
+          {
+            "font": "PAntiqueANpProN-Bold",
+            "group": "黑体",
+            "distance": 0.10723858096080935
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.22742473590518128
+          }
+        ],
+        "structure": [
+          {
+            "font": "PAntiqueANpProN-Bold",
+            "group": "黑体",
+            "distance": 0.16710147018233382
+          },
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.19109367315952844
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.253168573268522
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PAntiqueANpProN-Bold",
+            "group": "黑体",
+            "distance": 0.14049235361640947
+          },
+          {
+            "font": "PShinMGoPr6N-Bold",
+            "group": "圆体",
+            "distance": 0.1482263172354988
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.24774868454385146
+          }
+        ]
+      }
+    },
+    {
+      "qid": 104,
+      "expected": "黑体",
+      "variants": {
+        "binary": [
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.11678697985939816
+          },
+          {
+            "font": "PShinMGoPr6N-Light",
+            "group": "圆体",
+            "distance": 0.21966868167915976
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.436243099552669
+          }
+        ],
+        "structure": [
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.11922938431556007
+          },
+          {
+            "font": "PShinMGoPr6N-Light",
+            "group": "圆体",
+            "distance": 0.18607675247332003
+          },
+          {
+            "font": "PRyuminPr6N-Light",
+            "group": "宋体",
+            "distance": 0.3075832970463175
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "YWHeiTi-Light",
+            "group": "黑体",
+            "distance": 0.11800818208747911
+          },
+          {
+            "font": "PShinMGoPr6N-Light",
+            "group": "圆体",
+            "distance": 0.22588963412784577
+          },
+          {
+            "font": "PRyuminPr6N-Light",
+            "group": "宋体",
+            "distance": 0.38632308856904407
+          }
+        ]
+      }
+    },
+    {
+      "qid": 99,
+      "expected": "黑体",
+      "variants": {
+        "binary": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.07984310596690315
+          },
+          {
+            "font": "YWHeiTi-Bold",
+            "group": "黑体",
+            "distance": 0.1223957453496911
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.25413517187798024
+          }
+        ],
+        "structure": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.16512533959360323
+          },
+          {
+            "font": "YWHeiTi-Bold",
+            "group": "黑体",
+            "distance": 0.18664062453605146
+          },
+          {
+            "font": "PRyuminPr6N-Medium",
+            "group": "宋体",
+            "distance": 0.26605147080559116
+          }
+        ],
+        "hybrid": [
+          {
+            "font": "PShinMGoPr6N-Medium",
+            "group": "圆体",
+            "distance": 0.12524893052072877
+          },
+          {
+            "font": "YWHeiTi-Bold",
+            "group": "黑体",
+            "distance": 0.1686717855965462
+          },
+          {
+            "font": "PRyuminPr6N-Bold",
+            "group": "宋体",
+            "distance": 0.2625710243335
+          }
+        ]
+      }
+    }
+  ]
+}

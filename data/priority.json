@@ -1,0 +1,12 @@
+{
+  "selection_rule": "At least 4 question crops per coarse Chinese label and at least 2 one-star questions; start with three samples per eligible label, preferring one-star questions.",
+  "note": "These labels are coarse Chinese mappings and do not prove exact Japanese source-font identity.",
+  "groups": [
+    {"label": "中圆", "total": 13, "one_star": 9, "sample_ids": [118, 115, 100]},
+    {"label": "中黑", "total": 10, "one_star": 8, "sample_ids": [125, 76, 62]},
+    {"label": "粗黑", "total": 9, "one_star": 8, "sample_ids": [58, 96, 65]},
+    {"label": "细宋", "total": 6, "one_star": 6, "sample_ids": [114, 92, 70]},
+    {"label": "细圆", "total": 5, "one_star": 4, "sample_ids": [91, 61, 33]},
+    {"label": "粗宋", "total": 4, "one_star": 2, "sample_ids": [72, 27, 140]}
+  ]
+}

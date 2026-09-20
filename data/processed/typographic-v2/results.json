@@ -1,0 +1,2971 @@
+[
+  {
+    "question_id": 27,
+    "route": "dark_print_pale_outline",
+    "columns": [
+      {
+        "x_range": [
+          473,
+          630
+        ],
+        "grid": {
+          "pitch": 138,
+          "phase": 93,
+          "cost": 0.0953,
+          "status": "candidate_only",
+          "scale": 152.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              486,
+              97,
+              134,
+              134
+            ],
+            "source_bbox": [
+              471,
+              95,
+              161,
+              138
+            ],
+            "source_file": "q27-c0-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              498,
+              247,
+              116,
+              121
+            ],
+            "source_bbox": [
+              471,
+              229,
+              161,
+              142
+            ],
+            "source_file": "q27-c0-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              512,
+              369,
+              108,
+              138
+            ],
+            "source_bbox": [
+              471,
+              367,
+              161,
+              142
+            ],
+            "source_file": "q27-c0-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              473,
+              507,
+              157,
+              136
+            ],
+            "source_bbox": [
+              471,
+              505,
+              161,
+              142
+            ],
+            "source_file": "q27-c0-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              545,
+              661,
+              11,
+              26
+            ],
+            "source_bbox": [
+              471,
+              643,
+              161,
+              46
+            ],
+            "source_file": "q27-c0-g4-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          303,
+          447
+        ],
+        "grid": {
+          "pitch": 141,
+          "phase": 89,
+          "cost": 0.2251,
+          "status": "candidate_only",
+          "scale": 152.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              303,
+              97,
+              141,
+              133
+            ],
+            "source_bbox": [
+              301,
+              95,
+              148,
+              137
+            ],
+            "source_file": "q27-c1-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              303,
+              243,
+              141,
+              128
+            ],
+            "source_bbox": [
+              301,
+              228,
+              148,
+              145
+            ],
+            "source_file": "q27-c1-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              322,
+              371,
+              125,
+              141
+            ],
+            "source_bbox": [
+              301,
+              369,
+              148,
+              145
+            ],
+            "source_file": "q27-c1-g2-source.png",
+            "cut_crosses_ink": true
+          },
+          {
+            "ink_bbox": [
+              319,
+              512,
+              128,
+              141
+            ],
+            "source_bbox": [
+              301,
+              510,
+              148,
+              145
+            ],
+            "source_file": "q27-c1-g3-source.png",
+            "cut_crosses_ink": true
+          },
+          {
+            "ink_bbox": [
+              326,
+              653,
+              121,
+              130
+            ],
+            "source_bbox": [
+              301,
+              651,
+              148,
+              145
+            ],
+            "source_file": "q27-c1-g4-source.png",
+            "cut_crosses_ink": true
+          },
+          {
+            "ink_bbox": [
+              330,
+              798,
+              82,
+              136
+            ],
+            "source_bbox": [
+              301,
+              792,
+              148,
+              145
+            ],
+            "source_file": "q27-c1-g5-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              322,
+              940,
+              113,
+              127
+            ],
+            "source_bbox": [
+              301,
+              933,
+              148,
+              136
+            ],
+            "source_file": "q27-c1-g6-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          126,
+          278
+        ],
+        "grid": {
+          "pitch": 143,
+          "phase": 94,
+          "cost": 0.0622,
+          "status": "candidate_only",
+          "scale": 152.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              126,
+              33,
+              8,
+              61
+            ],
+            "source_bbox": [
+              124,
+              31,
+              156,
+              65
+            ],
+            "source_file": "q27-c2-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              126,
+              94,
+              142,
+              136
+            ],
+            "source_bbox": [
+              124,
+              92,
+              156,
+              147
+            ],
+            "source_file": "q27-c2-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              126,
+              243,
+              152,
+              137
+            ],
+            "source_bbox": [
+              124,
+              235,
+              156,
+              147
+            ],
+            "source_file": "q27-c2-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              142,
+              388,
+              122,
+              115
+            ],
+            "source_bbox": [
+              124,
+              378,
+              156,
+              147
+            ],
+            "source_file": "q27-c2-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              152,
+              525,
+              97,
+              118
+            ],
+            "source_bbox": [
+              124,
+              521,
+              156,
+              124
+            ],
+            "source_file": "q27-c2-g4-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      }
+    ],
+    "outline_components": [
+      {
+        "bbox": [
+          125,
+          33,
+          9,
+          64
+        ],
+        "pale_support": 0.989
+      },
+      {
+        "bbox": [
+          135,
+          95,
+          133,
+          135
+        ],
+        "pale_support": 0.997
+      },
+      {
+        "bbox": [
+          312,
+          97,
+          132,
+          133
+        ],
+        "pale_support": 0.981
+      },
+      {
+        "bbox": [
+          486,
+          97,
+          72,
+          134
+        ],
+        "pale_support": 0.912
+      },
+      {
+        "bbox": [
+          536,
+          98,
+          84,
+          129
+        ],
+        "pale_support": 0.918
+      },
+      {
+        "bbox": [
+          300,
+          149,
+          10,
+          60
+        ],
+        "pale_support": 1.0
+      },
+      {
+        "bbox": [
+          161,
+          243,
+          106,
+          121
+        ],
+        "pale_support": 0.998
+      },
+      {
+        "bbox": [
+          310,
+          243,
+          134,
+          117
+        ],
+        "pale_support": 0.998
+      },
+      {
+        "bbox": [
+          272,
+          244,
+          6,
+          19
+        ],
+        "pale_support": 0.86
+      },
+      {
+        "bbox": [
+          498,
+          247,
+          32,
+          114
+        ],
+        "pale_support": 0.993
+      },
+      {
+        "bbox": [
+          126,
+          248,
+          24,
+          132
+        ],
+        "pale_support": 0.917
+      },
+      {
+        "bbox": [
+          254,
+          249,
+          13,
+          48
+        ],
+        "pale_support": 0.94
+      },
+      {
+        "bbox": [
+          300,
+          249,
+          8,
+          18
+        ],
+        "pale_support": 1.0
+      },
+      {
+        "bbox": [
+          544,
+          256,
+          62,
+          30
+        ],
+        "pale_support": 0.997
+      },
+      {
+        "bbox": [
+          598,
+          297,
+          9,
+          12
+        ],
+        "pale_support": 0.797
+      },
+      {
+        "bbox": [
+          608,
+          299,
+          6,
+          13
+        ],
+        "pale_support": 0.827
+      },
+      {
+        "bbox": [
+          577,
+          300,
+          7,
+          10
+        ],
+        "pale_support": 1.0
+      },
+      {
+        "bbox": [
+          543,
+          313,
+          67,
+          39
+        ],
+        "pale_support": 0.999
+      },
+      {
+        "bbox": [
+          257,
+          360,
+          11,
+          13
+        ],
+        "pale_support": 1.0
+      },
+      {
+        "bbox": [
+          544,
+          363,
+          5,
+          5
+        ],
+        "pale_support": 0.993
+      },
+      {
+        "bbox": [
+          605,
+          369,
+          15,
+          68
+        ],
+        "pale_support": 0.986
+      },
+      {
+        "bbox": [
+          439,
+          370,
+          7,
+          40
+        ],
+        "pale_support": 0.962
+      },
+      {
+        "bbox": [
+          322,
+          379,
+          80,
+          101
+        ],
+        "pale_support": 0.982
+      },
+      {
+        "bbox": [
+          412,
+          378,
+          10,
+          13
+        ],
+        "pale_support": 1.0
+      },
+      {
+        "bbox": [
+          512,
+          384,
+          104,
+          120
+        ],
+        "pale_support": 1.0
+      },
+      {
+        "bbox": [
+          142,
+          388,
+          122,
+          115
+        ],
+        "pale_support": 1.0
+      },
+      {
+        "bbox": [
+          390,
+          419,
+          45,
+          31
+        ],
+        "pale_support": 0.916
+      },
+      {
+        "bbox": [
+          223,
+          430,
+          23,
+          30
+        ],
+        "pale_support": 0.99
+      },
+      {
+        "bbox": [
+          347,
+          438,
+          80,
+          68
+        ],
+        "pale_support": 0.976
+      },
+      {
+        "bbox": [
+          440,
+          462,
+          7,
+          12
+        ],
+        "pale_support": 0.851
+      },
+      {
+        "bbox": [
+          613,
+          464,
+          26,
+          117
+        ],
+        "pale_support": 0.998
+      },
+      {
+        "bbox": [
+          423,
+          500,
+          24,
+          56
+        ],
+        "pale_support": 0.967
+      },
+      {
+        "bbox": [
+          322,
+          507,
+          18,
+          13
+        ],
+        "pale_support": 0.959
+      },
+      {
+        "bbox": [
+          590,
+          515,
+          9,
+          23
+        ],
+        "pale_support": 0.823
+      },
+      {
+        "bbox": [
+          577,
+          519,
+          11,
+          16
+        ],
+        "pale_support": 0.756
+      },
+      {
+        "bbox": [
+          384,
+          520,
+          20,
+          8
+        ],
+        "pale_support": 0.998
+      },
+      {
+        "bbox": [
+          152,
+          525,
+          97,
+          118
+        ],
+        "pale_support": 0.999
+      },
+      {
+        "bbox": [
+          492,
+          525,
+          79,
+          118
+        ],
+        "pale_support": 1.0
+      },
+      {
+        "bbox": [
+          364,
+          526,
+          8,
+          30
+        ],
+        "pale_support": 0.994
+      },
+      {
+        "bbox": [
+          319,
+          536,
+          49,
+          94
+        ],
+        "pale_support": 0.994
+      },
+      {
+        "bbox": [
+          395,
+          547,
+          41,
+          61
+        ],
+        "pale_support": 0.999
+      },
+      {
+        "bbox": [
+          574,
+          554,
+          43,
+          54
+        ],
+        "pale_support": 0.998
+      },
+      {
+        "bbox": [
+          473,
+          580,
+          13,
+          38
+        ],
+        "pale_support": 0.881
+      },
+      {
+        "bbox": [
+          383,
+          612,
+          27,
+          54
+        ],
+        "pale_support": 0.975
+      },
+      {
+        "bbox": [
+          420,
+          620,
+          27,
+          73
+        ],
+        "pale_support": 0.926
+      },
+      {
+        "bbox": [
+          545,
+          661,
+          11,
+          26
+        ],
+        "pale_support": 0.757
+      },
+      {
+        "bbox": [
+          326,
+          665,
+          98,
+          118
+        ],
+        "pale_support": 1.0
+      },
+      {
+        "bbox": [
+          336,
+          690,
+          9,
+          34
+        ],
+        "pale_support": 0.882
+      },
+      {
+        "bbox": [
+          350,
+          798,
+          51,
+          32
+        ],
+        "pale_support": 0.998
+      },
+      {
+        "bbox": [
+          330,
+          839,
+          82,
+          95
+        ],
+        "pale_support": 0.988
+      },
+      {
+        "bbox": [
+          322,
+          940,
+          80,
+          102
+        ],
+        "pale_support": 0.972
+      },
+      {
+        "bbox": [
+          390,
+          980,
+          45,
+          31
+        ],
+        "pale_support": 0.922
+      },
+      {
+        "bbox": [
+          347,
+          999,
+          80,
+          68
+        ],
+        "pale_support": 0.976
+      }
+    ],
+    "status": "needs_visual_review"
+  },
+  {
+    "question_id": 72,
+    "route": "vertical_print",
+    "columns": [
+      {
+        "x_range": [
+          172,
+          215
+        ],
+        "grid": {
+          "pitch": 46,
+          "phase": 43,
+          "cost": 0.1139,
+          "status": "candidate_only",
+          "scale": 43.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              173,
+              45,
+              42,
+              43
+            ],
+            "source_bbox": [
+              170,
+              43,
+              47,
+              48
+            ],
+            "source_file": "q72-c0-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              172,
+              91,
+              43,
+              44
+            ],
+            "source_bbox": [
+              170,
+              87,
+              47,
+              50
+            ],
+            "source_file": "q72-c0-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              173,
+              136,
+              41,
+              43
+            ],
+            "source_bbox": [
+              170,
+              133,
+              47,
+              50
+            ],
+            "source_file": "q72-c0-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              175,
+              182,
+              37,
+              45
+            ],
+            "source_bbox": [
+              170,
+              179,
+              47,
+              50
+            ],
+            "source_file": "q72-c0-g3-source.png",
+            "cut_crosses_ink": true
+          },
+          {
+            "ink_bbox": [
+              172,
+              227,
+              43,
+              43
+            ],
+            "source_bbox": [
+              170,
+              225,
+              47,
+              50
+            ],
+            "source_file": "q72-c0-g4-source.png",
+            "cut_crosses_ink": true
+          },
+          {
+            "ink_bbox": [
+              174,
+              280,
+              40,
+              39
+            ],
+            "source_bbox": [
+              170,
+              271,
+              47,
+              50
+            ],
+            "source_file": "q72-c0-g5-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              174,
+              319,
+              34,
+              32
+            ],
+            "source_bbox": [
+              170,
+              317,
+              47,
+              36
+            ],
+            "source_file": "q72-c0-g6-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          114,
+          158
+        ],
+        "grid": {
+          "pitch": 45,
+          "phase": 0,
+          "cost": 0.1026,
+          "status": "candidate_only",
+          "scale": 43.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              115,
+              45,
+              43,
+              44
+            ],
+            "source_bbox": [
+              112,
+              43,
+              48,
+              49
+            ],
+            "source_file": "q72-c1-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              114,
+              91,
+              44,
+              44
+            ],
+            "source_bbox": [
+              112,
+              88,
+              48,
+              49
+            ],
+            "source_file": "q72-c1-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              114,
+              136,
+              43,
+              44
+            ],
+            "source_bbox": [
+              112,
+              133,
+              48,
+              49
+            ],
+            "source_file": "q72-c1-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              119,
+              182,
+              36,
+              36
+            ],
+            "source_bbox": [
+              112,
+              178,
+              48,
+              42
+            ],
+            "source_file": "q72-c1-g3-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          57,
+          100
+        ],
+        "grid": {
+          "pitch": 45,
+          "phase": 0,
+          "cost": 0.0333,
+          "status": "candidate_only",
+          "scale": 43.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              57,
+              45,
+              43,
+              44
+            ],
+            "source_bbox": [
+              55,
+              43,
+              47,
+              49
+            ],
+            "source_file": "q72-c2-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              59,
+              94,
+              39,
+              36
+            ],
+            "source_bbox": [
+              55,
+              88,
+              47,
+              49
+            ],
+            "source_file": "q72-c2-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              63,
+              137,
+              31,
+              41
+            ],
+            "source_bbox": [
+              55,
+              133,
+              47,
+              49
+            ],
+            "source_file": "q72-c2-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              57,
+              181,
+              43,
+              44
+            ],
+            "source_bbox": [
+              55,
+              178,
+              47,
+              49
+            ],
+            "source_file": "q72-c2-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              70,
+              231,
+              18,
+              35
+            ],
+            "source_bbox": [
+              55,
+              223,
+              47,
+              45
+            ],
+            "source_file": "q72-c2-g4-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      }
+    ],
+    "outline_components": [],
+    "status": "needs_visual_review"
+  },
+  {
+    "question_id": 91,
+    "route": "vertical_print",
+    "columns": [
+      {
+        "x_range": [
+          141,
+          178
+        ],
+        "grid": {
+          "pitch": 41,
+          "phase": 14,
+          "cost": 0.0002,
+          "status": "candidate_only",
+          "scale": 37.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              143,
+              60,
+              31,
+              35
+            ],
+            "source_bbox": [
+              139,
+              58,
+              41,
+              40
+            ],
+            "source_file": "q91-c0-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              141,
+              100,
+              37,
+              35
+            ],
+            "source_bbox": [
+              139,
+              94,
+              41,
+              43
+            ],
+            "source_file": "q91-c0-g1-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          87,
+          125
+        ],
+        "grid": {
+          "pitch": 40,
+          "phase": 17,
+          "cost": 0.0017,
+          "status": "candidate_only",
+          "scale": 37.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              94,
+              60,
+              28,
+              36
+            ],
+            "source_bbox": [
+              85,
+              58,
+              42,
+              41
+            ],
+            "source_file": "q91-c1-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              87,
+              100,
+              31,
+              9
+            ],
+            "source_bbox": [
+              85,
+              95,
+              42,
+              44
+            ],
+            "source_file": "q91-c1-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              94,
+              143,
+              31,
+              29
+            ],
+            "source_bbox": [
+              85,
+              135,
+              42,
+              44
+            ],
+            "source_file": "q91-c1-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              94,
+              187,
+              30,
+              25
+            ],
+            "source_bbox": [
+              85,
+              175,
+              42,
+              44
+            ],
+            "source_file": "q91-c1-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              101,
+              231,
+              22,
+              24
+            ],
+            "source_bbox": [
+              85,
+              215,
+              42,
+              44
+            ],
+            "source_file": "q91-c1-g4-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              92,
+              260,
+              27,
+              37
+            ],
+            "source_bbox": [
+              85,
+              255,
+              42,
+              44
+            ],
+            "source_file": "q91-c1-g5-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          35,
+          70
+        ],
+        "grid": {
+          "pitch": 40,
+          "phase": 18,
+          "cost": 0.0017,
+          "status": "candidate_only",
+          "scale": 37.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              35,
+              65,
+              31,
+              32
+            ],
+            "source_bbox": [
+              33,
+              63,
+              39,
+              37
+            ],
+            "source_file": "q91-c2-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              35,
+              100,
+              34,
+              35
+            ],
+            "source_bbox": [
+              33,
+              96,
+              39,
+              44
+            ],
+            "source_file": "q91-c2-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              35,
+              140,
+              34,
+              35
+            ],
+            "source_bbox": [
+              33,
+              136,
+              39,
+              44
+            ],
+            "source_file": "q91-c2-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              40,
+              188,
+              30,
+              24
+            ],
+            "source_bbox": [
+              33,
+              176,
+              39,
+              44
+            ],
+            "source_file": "q91-c2-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              35,
+              225,
+              30,
+              32
+            ],
+            "source_bbox": [
+              33,
+              216,
+              39,
+              44
+            ],
+            "source_file": "q91-c2-g4-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              36,
+              263,
+              32,
+              30
+            ],
+            "source_bbox": [
+              33,
+              256,
+              39,
+              44
+            ],
+            "source_file": "q91-c2-g5-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              35,
+              300,
+              32,
+              36
+            ],
+            "source_bbox": [
+              33,
+              296,
+              39,
+              44
+            ],
+            "source_file": "q91-c2-g6-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              49,
+              344,
+              5,
+              30
+            ],
+            "source_bbox": [
+              33,
+              336,
+              39,
+              44
+            ],
+            "source_file": "q91-c2-g7-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              37,
+              380,
+              33,
+              34
+            ],
+            "source_bbox": [
+              33,
+              376,
+              39,
+              40
+            ],
+            "source_file": "q91-c2-g8-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      }
+    ],
+    "outline_components": [],
+    "status": "needs_visual_review"
+  },
+  {
+    "question_id": 33,
+    "route": "vertical_print",
+    "columns": [
+      {
+        "x_range": [
+          185,
+          226
+        ],
+        "grid": {
+          "pitch": 46,
+          "phase": 39,
+          "cost": 0.0,
+          "status": "candidate_only",
+          "scale": 41.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              187,
+              131,
+              39,
+              43
+            ],
+            "source_bbox": [
+              183,
+              129,
+              45,
+              50
+            ],
+            "source_file": "q33-c0-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              185,
+              181,
+              33,
+              44
+            ],
+            "source_bbox": [
+              183,
+              175,
+              45,
+              52
+            ],
+            "source_file": "q33-c0-g1-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          119,
+          165
+        ],
+        "grid": {
+          "pitch": 50,
+          "phase": 28,
+          "cost": 0.011,
+          "status": "candidate_only",
+          "scale": 41.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              127,
+              131,
+              34,
+              44
+            ],
+            "source_bbox": [
+              117,
+              129,
+              50,
+              51
+            ],
+            "source_file": "q33-c1-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              119,
+              181,
+              43,
+              46
+            ],
+            "source_bbox": [
+              117,
+              176,
+              50,
+              54
+            ],
+            "source_file": "q33-c1-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              127,
+              235,
+              38,
+              36
+            ],
+            "source_bbox": [
+              117,
+              226,
+              50,
+              54
+            ],
+            "source_file": "q33-c1-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              127,
+              289,
+              37,
+              31
+            ],
+            "source_bbox": [
+              117,
+              276,
+              50,
+              54
+            ],
+            "source_file": "q33-c1-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              119,
+              331,
+              42,
+              44
+            ],
+            "source_bbox": [
+              117,
+              326,
+              50,
+              54
+            ],
+            "source_file": "q33-c1-g4-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              125,
+              381,
+              33,
+              46
+            ],
+            "source_bbox": [
+              117,
+              376,
+              50,
+              53
+            ],
+            "source_file": "q33-c1-g5-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          59,
+          97
+        ],
+        "grid": {
+          "pitch": 50,
+          "phase": 28,
+          "cost": 0.011,
+          "status": "candidate_only",
+          "scale": 41.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              59,
+              139,
+              32,
+              38
+            ],
+            "source_bbox": [
+              57,
+              137,
+              42,
+              43
+            ],
+            "source_file": "q33-c2-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              72,
+              181,
+              24,
+              42
+            ],
+            "source_bbox": [
+              57,
+              176,
+              42,
+              54
+            ],
+            "source_file": "q33-c2-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              59,
+              235,
+              7,
+              1
+            ],
+            "source_bbox": [
+              57,
+              226,
+              42,
+              54
+            ],
+            "source_file": "q33-c2-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              59,
+              289,
+              38,
+              31
+            ],
+            "source_bbox": [
+              57,
+              276,
+              42,
+              54
+            ],
+            "source_file": "q33-c2-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              59,
+              339,
+              31,
+              38
+            ],
+            "source_bbox": [
+              57,
+              326,
+              42,
+              54
+            ],
+            "source_file": "q33-c2-g4-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              77,
+              388,
+              17,
+              33
+            ],
+            "source_bbox": [
+              57,
+              376,
+              42,
+              54
+            ],
+            "source_file": "q33-c2-g5-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              75,
+              443,
+              18,
+              3
+            ],
+            "source_bbox": [
+              57,
+              426,
+              42,
+              54
+            ],
+            "source_file": "q33-c2-g6-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              70,
+              485,
+              6,
+              38
+            ],
+            "source_bbox": [
+              57,
+              476,
+              42,
+              54
+            ],
+            "source_file": "q33-c2-g7-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              71,
+              531,
+              26,
+              42
+            ],
+            "source_bbox": [
+              57,
+              526,
+              42,
+              49
+            ],
+            "source_file": "q33-c2-g8-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      }
+    ],
+    "outline_components": [],
+    "status": "needs_visual_review"
+  },
+  {
+    "question_id": 70,
+    "route": "vertical_print",
+    "columns": [
+      {
+        "x_range": [
+          445,
+          480
+        ],
+        "grid": {
+          "pitch": 41,
+          "phase": 5,
+          "cost": 0.0226,
+          "status": "candidate_only",
+          "scale": 36.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              446,
+              50,
+              30,
+              37
+            ],
+            "source_bbox": [
+              443,
+              48,
+              39,
+              41
+            ],
+            "source_file": "q70-c0-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              445,
+              89,
+              35,
+              37
+            ],
+            "source_bbox": [
+              443,
+              85,
+              39,
+              45
+            ],
+            "source_file": "q70-c0-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              445,
+              130,
+              35,
+              38
+            ],
+            "source_bbox": [
+              443,
+              126,
+              39,
+              45
+            ],
+            "source_file": "q70-c0-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              445,
+              178,
+              33,
+              24
+            ],
+            "source_bbox": [
+              443,
+              167,
+              39,
+              45
+            ],
+            "source_file": "q70-c0-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              446,
+              213,
+              32,
+              33
+            ],
+            "source_bbox": [
+              443,
+              208,
+              39,
+              45
+            ],
+            "source_file": "q70-c0-g4-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              451,
+              253,
+              18,
+              36
+            ],
+            "source_bbox": [
+              443,
+              249,
+              39,
+              42
+            ],
+            "source_file": "q70-c0-g5-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          392,
+          429
+        ],
+        "grid": {
+          "pitch": 41,
+          "phase": 4,
+          "cost": 0.0174,
+          "status": "candidate_only",
+          "scale": 36.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              398,
+              50,
+              31,
+              34
+            ],
+            "source_bbox": [
+              390,
+              48,
+              41,
+              40
+            ],
+            "source_file": "q70-c1-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              398,
+              90,
+              22,
+              37
+            ],
+            "source_bbox": [
+              390,
+              84,
+              41,
+              45
+            ],
+            "source_file": "q70-c1-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              393,
+              134,
+              34,
+              31
+            ],
+            "source_bbox": [
+              390,
+              125,
+              41,
+              45
+            ],
+            "source_file": "q70-c1-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              398,
+              173,
+              26,
+              33
+            ],
+            "source_bbox": [
+              390,
+              166,
+              41,
+              45
+            ],
+            "source_file": "q70-c1-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              393,
+              212,
+              34,
+              37
+            ],
+            "source_bbox": [
+              390,
+              207,
+              41,
+              45
+            ],
+            "source_file": "q70-c1-g4-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              394,
+              257,
+              33,
+              28
+            ],
+            "source_bbox": [
+              390,
+              248,
+              41,
+              45
+            ],
+            "source_file": "q70-c1-g5-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              392,
+              292,
+              37,
+              38
+            ],
+            "source_bbox": [
+              390,
+              289,
+              41,
+              45
+            ],
+            "source_file": "q70-c1-g6-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              394,
+              337,
+              34,
+              30
+            ],
+            "source_bbox": [
+              390,
+              330,
+              41,
+              39
+            ],
+            "source_file": "q70-c1-g7-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          341,
+          378
+        ],
+        "grid": {
+          "pitch": 41,
+          "phase": 3,
+          "cost": 0.0041,
+          "status": "candidate_only",
+          "scale": 36.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              344,
+              51,
+              34,
+              28
+            ],
+            "source_bbox": [
+              339,
+              49,
+              41,
+              38
+            ],
+            "source_file": "q70-c2-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              343,
+              92,
+              35,
+              33
+            ],
+            "source_bbox": [
+              339,
+              83,
+              41,
+              45
+            ],
+            "source_file": "q70-c2-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              347,
+              132,
+              20,
+              33
+            ],
+            "source_bbox": [
+              339,
+              124,
+              41,
+              45
+            ],
+            "source_file": "q70-c2-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              347,
+              176,
+              26,
+              27
+            ],
+            "source_bbox": [
+              339,
+              165,
+              41,
+              45
+            ],
+            "source_file": "q70-c2-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              341,
+              217,
+              34,
+              27
+            ],
+            "source_bbox": [
+              339,
+              206,
+              41,
+              45
+            ],
+            "source_file": "q70-c2-g4-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              341,
+              252,
+              35,
+              38
+            ],
+            "source_bbox": [
+              339,
+              247,
+              41,
+              45
+            ],
+            "source_file": "q70-c2-g5-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              341,
+              293,
+              36,
+              37
+            ],
+            "source_bbox": [
+              339,
+              288,
+              41,
+              45
+            ],
+            "source_file": "q70-c2-g6-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              344,
+              333,
+              29,
+              35
+            ],
+            "source_bbox": [
+              339,
+              329,
+              41,
+              41
+            ],
+            "source_file": "q70-c2-g7-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          275,
+          331
+        ],
+        "grid": {
+          "pitch": 41,
+          "phase": 5,
+          "cost": 0.0374,
+          "status": "candidate_only",
+          "scale": 36.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              275,
+              49,
+              56,
+              38
+            ],
+            "source_bbox": [
+              273,
+              47,
+              60,
+              42
+            ],
+            "source_file": "q70-c3-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              275,
+              88,
+              56,
+              40
+            ],
+            "source_bbox": [
+              273,
+              85,
+              60,
+              45
+            ],
+            "source_file": "q70-c3-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              281,
+              131,
+              26,
+              34
+            ],
+            "source_bbox": [
+              273,
+              126,
+              60,
+              45
+            ],
+            "source_file": "q70-c3-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              276,
+              172,
+              32,
+              34
+            ],
+            "source_bbox": [
+              273,
+              167,
+              60,
+              45
+            ],
+            "source_file": "q70-c3-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              280,
+              213,
+              26,
+              33
+            ],
+            "source_bbox": [
+              273,
+              208,
+              60,
+              45
+            ],
+            "source_file": "q70-c3-g4-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              281,
+              253,
+              26,
+              34
+            ],
+            "source_bbox": [
+              273,
+              249,
+              60,
+              45
+            ],
+            "source_file": "q70-c3-g5-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              282,
+              294,
+              18,
+              36
+            ],
+            "source_bbox": [
+              273,
+              290,
+              60,
+              42
+            ],
+            "source_file": "q70-c3-g6-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          200,
+          236
+        ],
+        "grid": {
+          "pitch": 41,
+          "phase": 34,
+          "cost": 0.0004,
+          "status": "candidate_only",
+          "scale": 36.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              202,
+              244,
+              33,
+              35
+            ],
+            "source_bbox": [
+              198,
+              242,
+              40,
+              40
+            ],
+            "source_file": "q70-c4-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              202,
+              288,
+              33,
+              28
+            ],
+            "source_bbox": [
+              198,
+              278,
+              40,
+              45
+            ],
+            "source_file": "q70-c4-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              200,
+              324,
+              36,
+              36
+            ],
+            "source_bbox": [
+              198,
+              319,
+              40,
+              45
+            ],
+            "source_file": "q70-c4-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              204,
+              364,
+              29,
+              36
+            ],
+            "source_bbox": [
+              198,
+              360,
+              40,
+              45
+            ],
+            "source_file": "q70-c4-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              200,
+              405,
+              36,
+              37
+            ],
+            "source_bbox": [
+              198,
+              401,
+              40,
+              45
+            ],
+            "source_file": "q70-c4-g4-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              206,
+              447,
+              27,
+              33
+            ],
+            "source_bbox": [
+              198,
+              442,
+              40,
+              45
+            ],
+            "source_file": "q70-c4-g5-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              207,
+              487,
+              27,
+              34
+            ],
+            "source_bbox": [
+              198,
+              483,
+              40,
+              45
+            ],
+            "source_file": "q70-c4-g6-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              203,
+              528,
+              31,
+              33
+            ],
+            "source_bbox": [
+              198,
+              524,
+              40,
+              39
+            ],
+            "source_file": "q70-c4-g7-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          150,
+          186
+        ],
+        "grid": {
+          "pitch": 40,
+          "phase": 1,
+          "cost": 0.0001,
+          "status": "candidate_only",
+          "scale": 36.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              153,
+              244,
+              33,
+              28
+            ],
+            "source_bbox": [
+              148,
+              242,
+              40,
+              41
+            ],
+            "source_file": "q70-c5-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              151,
+              284,
+              35,
+              33
+            ],
+            "source_bbox": [
+              148,
+              279,
+              40,
+              44
+            ],
+            "source_file": "q70-c5-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              155,
+              326,
+              20,
+              32
+            ],
+            "source_bbox": [
+              148,
+              319,
+              40,
+              44
+            ],
+            "source_file": "q70-c5-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              155,
+              370,
+              27,
+              26
+            ],
+            "source_bbox": [
+              148,
+              359,
+              40,
+              44
+            ],
+            "source_file": "q70-c5-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              151,
+              406,
+              31,
+              34
+            ],
+            "source_bbox": [
+              148,
+              399,
+              40,
+              44
+            ],
+            "source_file": "q70-c5-g4-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              150,
+              451,
+              33,
+              27
+            ],
+            "source_bbox": [
+              148,
+              439,
+              40,
+              44
+            ],
+            "source_file": "q70-c5-g5-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              150,
+              490,
+              34,
+              30
+            ],
+            "source_bbox": [
+              148,
+              479,
+              40,
+              44
+            ],
+            "source_file": "q70-c5-g6-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              151,
+              528,
+              32,
+              33
+            ],
+            "source_bbox": [
+              148,
+              519,
+              40,
+              44
+            ],
+            "source_file": "q70-c5-g7-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          99,
+          133
+        ],
+        "grid": {
+          "pitch": 40,
+          "phase": 1,
+          "cost": 0.0001,
+          "status": "candidate_only",
+          "scale": 36.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              103,
+              243,
+              22,
+              33
+            ],
+            "source_bbox": [
+              97,
+              241,
+              38,
+              42
+            ],
+            "source_file": "q70-c6-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              99,
+              290,
+              33,
+              25
+            ],
+            "source_bbox": [
+              97,
+              279,
+              38,
+              44
+            ],
+            "source_file": "q70-c6-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              103,
+              323,
+              22,
+              37
+            ],
+            "source_bbox": [
+              97,
+              319,
+              38,
+              44
+            ],
+            "source_file": "q70-c6-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              102,
+              368,
+              25,
+              26
+            ],
+            "source_bbox": [
+              97,
+              359,
+              38,
+              44
+            ],
+            "source_file": "q70-c6-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              103,
+              405,
+              22,
+              31
+            ],
+            "source_bbox": [
+              97,
+              399,
+              38,
+              44
+            ],
+            "source_file": "q70-c6-g4-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              99,
+              446,
+              34,
+              34
+            ],
+            "source_bbox": [
+              97,
+              439,
+              38,
+              44
+            ],
+            "source_file": "q70-c6-g5-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              104,
+              494,
+              28,
+              18
+            ],
+            "source_bbox": [
+              97,
+              479,
+              38,
+              44
+            ],
+            "source_file": "q70-c6-g6-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              99,
+              524,
+              32,
+              33
+            ],
+            "source_bbox": [
+              97,
+              519,
+              38,
+              40
+            ],
+            "source_file": "q70-c6-g7-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      }
+    ],
+    "outline_components": [],
+    "status": "needs_visual_review"
+  },
+  {
+    "question_id": 114,
+    "route": "vertical_print",
+    "columns": [
+      {
+        "x_range": [
+          161,
+          190
+        ],
+        "grid": {
+          "pitch": 33,
+          "phase": 5,
+          "cost": 0.0038,
+          "status": "candidate_only",
+          "scale": 28.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              161,
+              73,
+              29,
+              30
+            ],
+            "source_bbox": [
+              159,
+              71,
+              33,
+              35
+            ],
+            "source_file": "q114-c0-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              163,
+              106,
+              21,
+              30
+            ],
+            "source_bbox": [
+              159,
+              102,
+              33,
+              37
+            ],
+            "source_file": "q114-c0-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              165,
+              140,
+              20,
+              28
+            ],
+            "source_bbox": [
+              159,
+              135,
+              33,
+              37
+            ],
+            "source_file": "q114-c0-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              162,
+              174,
+              26,
+              25
+            ],
+            "source_bbox": [
+              159,
+              168,
+              33,
+              33
+            ],
+            "source_file": "q114-c0-g3-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      },
+      {
+        "x_range": [
+          121,
+          148
+        ],
+        "grid": {
+          "pitch": 33,
+          "phase": 3,
+          "cost": 0.0038,
+          "status": "candidate_only",
+          "scale": 28.0
+        },
+        "glyphs": [
+          {
+            "ink_bbox": [
+              124,
+              77,
+              21,
+              22
+            ],
+            "source_bbox": [
+              119,
+              75,
+              31,
+              29
+            ],
+            "source_file": "q114-c1-g0-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              122,
+              109,
+              24,
+              24
+            ],
+            "source_bbox": [
+              119,
+              100,
+              31,
+              37
+            ],
+            "source_file": "q114-c1-g1-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              122,
+              140,
+              24,
+              27
+            ],
+            "source_bbox": [
+              119,
+              133,
+              31,
+              37
+            ],
+            "source_file": "q114-c1-g2-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              121,
+              172,
+              27,
+              27
+            ],
+            "source_bbox": [
+              119,
+              166,
+              31,
+              37
+            ],
+            "source_file": "q114-c1-g3-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              125,
+              213,
+              22,
+              14
+            ],
+            "source_bbox": [
+              119,
+              199,
+              31,
+              37
+            ],
+            "source_file": "q114-c1-g4-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              121,
+              238,
+              26,
+              27
+            ],
+            "source_bbox": [
+              119,
+              232,
+              31,
+              37
+            ],
+            "source_file": "q114-c1-g5-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              122,
+              271,
+              25,
+              28
+            ],
+            "source_bbox": [
+              119,
+              265,
+              31,
+              37
+            ],
+            "source_file": "q114-c1-g6-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              126,
+              306,
+              21,
+              23
+            ],
+            "source_bbox": [
+              119,
+              298,
+              31,
+              37
+            ],
+            "source_file": "q114-c1-g7-source.png",
+            "cut_crosses_ink": false
+          },
+          {
+            "ink_bbox": [
+              131,
+              337,
+              5,
+              27
+            ],
+            "source_bbox": [
+              119,
+              331,
+              31,
+              35
+            ],
+            "source_file": "q114-c1-g8-source.png",
+            "cut_crosses_ink": false
+          }
+        ]
+      }
+    ],
+    "outline_components": [],
+    "status": "needs_visual_review"
+  }
+]

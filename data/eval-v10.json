@@ -1,0 +1,54 @@
+[
+  {
+    "question_id": 110,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "per_line_bbox_quality": 5,
+    "remaining_failure": "Only small interior whitespace margins remain inside the two blue column boxes; no material halftone, bubble-border, or artwork contamination is visible.",
+    "eval_v5": {
+      "text_coverage": 5,
+      "background_rejection": 1,
+      "bbox_quality": 1
+    },
+    "comparison_note": "Compared with v5, coverage remains complete while the full-crop box and halftone/bubble contamination are removed by the two separate column boxes."
+  },
+  {
+    "question_id": 140,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "per_line_bbox_quality": 4,
+    "remaining_failure": "The right text-column box still reaches a narrow slanted segment of the speech-bubble border along its right edge, and the green mask follows that edge locally.",
+    "eval_v5": {
+      "text_coverage": 5,
+      "background_rejection": 2,
+      "bbox_quality": 2
+    },
+    "comparison_note": "Compared with v5, both text columns are tightly localized and the broad near-full-crop box is removed; the remaining defect is localized border spill on the right column."
+  },
+  {
+    "question_id": 136,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "per_line_bbox_quality": 5,
+    "remaining_failure": "Only a small amount of whitespace remains around the single text column; the adjacent top decoration and right-side contour stay outside the blue box.",
+    "eval_v5": {
+      "text_coverage": 5,
+      "background_rejection": 3,
+      "bbox_quality": 3
+    },
+    "comparison_note": "Compared with v5, the text column and exclamation marks remain fully covered while decorative strokes and the figure contour are excluded from the ROI."
+  },
+  {
+    "question_id": 141,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "per_line_bbox_quality": 5,
+    "remaining_failure": "The two boxes retain only small top/bottom whitespace margins; no visible bubble edge, lower-left texture, or unrelated artwork is included.",
+    "eval_v5": {
+      "text_coverage": 5,
+      "background_rejection": 3,
+      "bbox_quality": 4
+    },
+    "comparison_note": "Compared with v5, the lower-left residue is excluded and each speech-text column now has its own close blue box."
+  }
+]

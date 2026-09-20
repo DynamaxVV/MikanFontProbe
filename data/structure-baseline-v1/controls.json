@@ -1,0 +1,262 @@
+{
+  "note": "same renderer and known library; positive control only; all 12 fonts, 3 chars each",
+  "records": [
+    {
+      "source_font": "PShinMGoPr6N-Bold",
+      "expected": "圆体",
+      "winners": {
+        "binary": {
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "exact_font": true
+        },
+        "structure": {
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "exact_font": false
+        },
+        "hybrid": {
+          "font": "PShinMGoPr6N-Bold",
+          "group": "圆体",
+          "exact_font": true
+        }
+      }
+    },
+    {
+      "source_font": "PShinMGoPr6N-Light",
+      "expected": "圆体",
+      "winners": {
+        "binary": {
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "exact_font": true
+        },
+        "structure": {
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "exact_font": true
+        },
+        "hybrid": {
+          "font": "PShinMGoPr6N-Light",
+          "group": "圆体",
+          "exact_font": true
+        }
+      }
+    },
+    {
+      "source_font": "PShinMGoPr6N-Medium",
+      "expected": "圆体",
+      "winners": {
+        "binary": {
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "exact_font": true
+        },
+        "structure": {
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "exact_font": true
+        },
+        "hybrid": {
+          "font": "PShinMGoPr6N-Medium",
+          "group": "圆体",
+          "exact_font": true
+        }
+      }
+    },
+    {
+      "source_font": "PRyuminPr6N-Bold",
+      "expected": "宋体",
+      "winners": {
+        "binary": {
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "exact_font": true
+        },
+        "structure": {
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "exact_font": true
+        },
+        "hybrid": {
+          "font": "PRyuminPr6N-Bold",
+          "group": "宋体",
+          "exact_font": true
+        }
+      }
+    },
+    {
+      "source_font": "PRyuminPr6N-Light",
+      "expected": "宋体",
+      "winners": {
+        "binary": {
+          "font": "PRyuminPr6N-Light",
+          "group": "宋体",
+          "exact_font": true
+        },
+        "structure": {
+          "font": "PRyuminPr6N-Light",
+          "group": "宋体",
+          "exact_font": true
+        },
+        "hybrid": {
+          "font": "PRyuminPr6N-Light",
+          "group": "宋体",
+          "exact_font": true
+        }
+      }
+    },
+    {
+      "source_font": "PRyuminPr6N-Medium",
+      "expected": "宋体",
+      "winners": {
+        "binary": {
+          "font": "PRyuminPr6N-Medium",
+          "group": "宋体",
+          "exact_font": true
+        },
+        "structure": {
+          "font": "PRyuminPr6N-Medium",
+          "group": "宋体",
+          "exact_font": true
+        },
+        "hybrid": {
+          "font": "PRyuminPr6N-Medium",
+          "group": "宋体",
+          "exact_font": true
+        }
+      }
+    },
+    {
+      "source_font": "PAntiqueANpProN-Bold",
+      "expected": "黑体",
+      "winners": {
+        "binary": {
+          "font": "PAntiqueANpProN-Bold",
+          "group": "黑体",
+          "exact_font": true
+        },
+        "structure": {
+          "font": "PAntiqueANpProN-Bold",
+          "group": "黑体",
+          "exact_font": true
+        },
+        "hybrid": {
+          "font": "PAntiqueANpProN-Bold",
+          "group": "黑体",
+          "exact_font": true
+        }
+      }
+    },
+    {
+      "source_font": "PAntiqueANpProN-Light",
+      "expected": "黑体",
+      "winners": {
+        "binary": {
+          "font": "PAntiqueANpProN-Light",
+          "group": "黑体",
+          "exact_font": true
+        },
+        "structure": {
+          "font": "PAntiqueANpProN-Light",
+          "group": "黑体",
+          "exact_font": true
+        },
+        "hybrid": {
+          "font": "PAntiqueANpProN-Light",
+          "group": "黑体",
+          "exact_font": true
+        }
+      }
+    },
+    {
+      "source_font": "PAntiqueANpProN-Medium",
+      "expected": "黑体",
+      "winners": {
+        "binary": {
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "exact_font": true
+        },
+        "structure": {
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "exact_font": true
+        },
+        "hybrid": {
+          "font": "PAntiqueANpProN-Medium",
+          "group": "黑体",
+          "exact_font": true
+        }
+      }
+    },
+    {
+      "source_font": "PAntiqueANpProN-Ultra",
+      "expected": "黑体",
+      "winners": {
+        "binary": {
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "exact_font": true
+        },
+        "structure": {
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "exact_font": true
+        },
+        "hybrid": {
+          "font": "PAntiqueANpProN-Ultra",
+          "group": "黑体",
+          "exact_font": true
+        }
+      }
+    },
+    {
+      "source_font": "YWHeiTi-Bold",
+      "expected": "黑体",
+      "winners": {
+        "binary": {
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "exact_font": true
+        },
+        "structure": {
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "exact_font": true
+        },
+        "hybrid": {
+          "font": "YWHeiTi-Bold",
+          "group": "黑体",
+          "exact_font": true
+        }
+      }
+    },
+    {
+      "source_font": "YWHeiTi-Light",
+      "expected": "黑体",
+      "winners": {
+        "binary": {
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "exact_font": true
+        },
+        "structure": {
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "exact_font": true
+        },
+        "hybrid": {
+          "font": "YWHeiTi-Light",
+          "group": "黑体",
+          "exact_font": true
+        }
+      }
+    }
+  ],
+  "group_correct": {
+    "binary": 12,
+    "structure": 12,
+    "hybrid": 12
+  }
+}

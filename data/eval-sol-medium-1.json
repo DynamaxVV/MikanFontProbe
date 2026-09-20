@@ -1,0 +1,210 @@
+{
+  "reviewer": "Sol independent visual review",
+  "batch": "priority-1",
+  "question_ids": [118, 115, 100, 125, 76, 62],
+  "method": "For each question, read the manifest image_file visually in right-to-left vertical column order, then compare that original with the priority-v7 overlay, mask and segments, and finally compare the visible text with priority-a/b excerpts. Excerpts are treated as samples, never as complete OCR output.",
+  "score_scale": "0–5; higher is better. crop_scores evaluate rendered extraction, while ocr_scores concern complete OCR transcription. null means no complete OCR output was supplied, so global OCR accuracy cannot be quantified.",
+  "global_ocr_accuracy_quantifiable": false,
+  "questions": [
+    {
+      "question_id": 118,
+      "image_file": "images/q118.png",
+      "processed_files": ["processed/priority-v7/q118-overlay.png", "processed/priority-v7/q118-mask.png", "processed/priority-v7/q118-segments.png"],
+      "original_reading": {
+        "columns_right_to_left": ["つまり", "わたしの実家", "何をしに来た", "のかというと…"],
+        "uncertain_or_truncated": "Leftmost column ends with an ellipsis at the lower image edge; the sentence continues outside this image. No continuation is inferred.",
+        "confidence": "high"
+      },
+      "annotation_comparison": {
+        "source": "priority-a.json; priority-b.json has no q118 entry",
+        "ocr_excerpt": "わたしの実家",
+        "line_text_excerpts_right_to_left": ["つまり", "わたしの実家", "何をしに来た", "のかというと"],
+        "correct_local_excerpts": true,
+        "errors_or_omissions": ["The final line excerpt omits the visible trailing ellipsis; its missing continuation is outside the source image, not an OCR error."],
+        "whole_sentence_untranscribed": false
+      },
+      "crop_scores": {
+        "main_text_coverage": 4,
+        "background_exclusion": 5,
+        "column_and_character_segmentation": 4
+      },
+      "crop_evidence": "Four main columns are covered and the upper-left texture and lower-right illustration are excluded. The lower-left punctuation reaches beyond the last marked character/column region; the final ellipsis is less securely captured than the main glyphs.",
+      "ocr_scores": {
+        "character_coverage": null,
+        "column_coverage": null,
+        "character_correctness": null
+      },
+      "verifiable_local_excerpt_score": 5,
+      "ocr_evidence": "All supplied Japanese word excerpts match the visible columns; only final punctuation is omitted. The excerpts do not establish full OCR character or column coverage.",
+      "overall": "Strong main-text extraction; check the leftmost line's trailing punctuation. Supplied excerpts are locally correct, but full OCR accuracy is unmeasurable.",
+      "confidence": "high for the text and major crop regions; medium for exact ellipsis pixel coverage"
+    },
+    {
+      "question_id": 115,
+      "image_file": "images/q115.png",
+      "processed_files": ["processed/priority-v7/q115-overlay.png", "processed/priority-v7/q115-mask.png", "processed/priority-v7/q115-segments.png"],
+      "original_reading": {
+        "columns_right_to_left": ["なんか", "がっかりしてる!?"],
+        "uncertain_or_truncated": null,
+        "confidence": "high"
+      },
+      "annotation_comparison": {
+        "source": "priority-a.json; priority-b.json has no q115 entry",
+        "ocr_excerpt": "がっかりしてる",
+        "line_text_excerpts_right_to_left": ["なんか", "がっかりしてる"],
+        "correct_local_excerpts": true,
+        "errors_or_omissions": ["The second excerpt omits the visible terminal !? punctuation."],
+        "whole_sentence_untranscribed": false
+      },
+      "crop_scores": {
+        "main_text_coverage": 5,
+        "background_exclusion": 5,
+        "column_and_character_segmentation": 4
+      },
+      "crop_evidence": "Both columns, including the bottom punctuation in the mask, are covered. Radiating ink and the frame remain outside the mask. The terminal !? is grouped in one bottom segment rather than individually boxed.",
+      "ocr_scores": {
+        "character_coverage": null,
+        "column_coverage": null,
+        "character_correctness": null
+      },
+      "verifiable_local_excerpt_score": 5,
+      "ocr_evidence": "The two excerpt strings match the original where quoted; punctuation is not transcribed. No complete OCR output is present.",
+      "overall": "Clean two-column crop with a minor punctuation-segmentation limitation; local excerpt text is correct, global OCR accuracy unknown.",
+      "confidence": "high"
+    },
+    {
+      "question_id": 100,
+      "image_file": "images/q100.png",
+      "processed_files": ["processed/priority-v7/q100-overlay.png", "processed/priority-v7/q100-mask.png", "processed/priority-v7/q100-segments.png"],
+      "original_reading": {
+        "columns_right_to_left": ["夜になると", "この人のほうが", "「従う側」になる", "からだ"],
+        "furigana": ["従う: したが", "側: がわ"],
+        "uncertain_or_truncated": "The quotation marks around 従う側 are visible; the furigana are ancillary reading aids, not additional main-text columns.",
+        "confidence": "high"
+      },
+      "annotation_comparison": {
+        "source": "priority-a.json; priority-b.json has no q100 entry",
+        "ocr_excerpt": "夜になると",
+        "line_text_excerpts_right_to_left": ["夜になると", "この人のほうが", "従う側になる", "からだ"],
+        "correct_local_excerpts": true,
+        "errors_or_omissions": ["The third excerpt omits the visible Japanese quotation marks 「」 around 従う側.", "The furigana したが and がわ are not transcribed in the excerpts; they are visible in the original and separately boxed in the segments image."],
+        "whole_sentence_untranscribed": false
+      },
+      "crop_scores": {
+        "main_text_coverage": 5,
+        "background_exclusion": 5,
+        "column_and_character_segmentation": 4
+      },
+      "crop_evidence": "All four main columns, quotation marks, and adjacent furigana appear in the mask. The picture and halftone texture are excluded. Small reading aids have separate narrow segment boxes, though their proximity to the main column makes character assignment delicate.",
+      "ocr_scores": {
+        "character_coverage": null,
+        "column_coverage": null,
+        "character_correctness": null
+      },
+      "verifiable_local_excerpt_score": 5,
+      "ocr_evidence": "All quoted main-word excerpts match the image. Missing brackets and furigana are annotation omissions; the provided excerpts cannot establish complete OCR accuracy.",
+      "overall": "Main text and small reading aids are visually extracted, with some fine-grained segmentation risk near the furigana. Local excerpts are correct but incomplete.",
+      "confidence": "high"
+    },
+    {
+      "question_id": 125,
+      "image_file": "images/q125.png",
+      "processed_files": ["processed/priority-v7/q125-overlay.png", "processed/priority-v7/q125-mask.png", "processed/priority-v7/q125-segments.png"],
+      "original_reading": {
+        "columns_right_to_left": ["でも…約束の時間より", "早めに着いちゃった", "みたいです"],
+        "uncertain_or_truncated": null,
+        "confidence": "high"
+      },
+      "annotation_comparison": {
+        "source": "priority-a.json; priority-b.json has no q125 entry",
+        "ocr_excerpt": "約束の時間",
+        "line_text_excerpts_right_to_left": ["約束の時間", "早めに着いた"],
+        "correct_local_excerpts": false,
+        "errors_or_omissions": ["The second line's 『早めに着いた』 skips the visible 『ちゃっ』 in 『早めに着いちゃった』; it is not a contiguous exact excerpt.", "The first line excerpt leaves out the visible opening 『でも…』 and ending 『より』.", "The entire third/left column 『みたいです』 is untranscribed in the annotation, even though the overlay, mask, and segments visibly include it.", "The annotation notes incorrectly describe two columns; the original and processed images contain three."],
+        "whole_sentence_untranscribed": false,
+        "whole_column_untranscribed": true
+      },
+      "crop_scores": {
+        "main_text_coverage": 5,
+        "background_exclusion": 5,
+        "column_and_character_segmentation": 5
+      },
+      "crop_evidence": "The overlay and mask capture all three vertical columns and the ellipsis; segments divide their glyphs cleanly. The speech-balloon edge and lower-left texture are excluded. The missing third column is an annotation problem, not a crop failure.",
+      "ocr_scores": {
+        "character_coverage": null,
+        "column_coverage": null,
+        "character_correctness": null
+      },
+      "verifiable_local_excerpt_score": 2,
+      "ocr_evidence": "One supplied word excerpt is correct, but the other deletes internal characters and a full visible column is absent from the annotation. This is a local annotation score only; no full OCR transcript is supplied.",
+      "overall": "Visually excellent three-column crop; priority-a text annotation has a substantive internal omission and omits an entire column. Full OCR accuracy remains unquantifiable.",
+      "confidence": "high"
+    },
+    {
+      "question_id": 76,
+      "image_file": "images/q76.png",
+      "processed_files": ["processed/priority-v7/q76-overlay.png", "processed/priority-v7/q76-mask.png", "processed/priority-v7/q76-segments.png"],
+      "original_reading": {
+        "columns_right_to_left": ["村の人たちとは", "いい関係を", "築きたいですね", "これからも", "この村で生活して", "いくんですから"],
+        "uncertain_or_truncated": null,
+        "confidence": "high"
+      },
+      "annotation_comparison": {
+        "source": "priority-a.json; priority-b.json has no q76 entry",
+        "ocr_excerpt": "築きたいですね",
+        "line_text_excerpts_right_to_left": ["村の人たちとは", "いい関係を", "築きたいですね", "これからも", "この村で生活して", "いくんですから"],
+        "correct_local_excerpts": true,
+        "errors_or_omissions": [],
+        "whole_sentence_untranscribed": false
+      },
+      "crop_scores": {
+        "main_text_coverage": 5,
+        "background_exclusion": 5,
+        "column_and_character_segmentation": 5
+      },
+      "crop_evidence": "All six columns across both balloons are covered and individually segmented. Balloon outlines are excluded from the white-on-black mask, with no visible missing main glyph or merged background region.",
+      "ocr_scores": {
+        "character_coverage": null,
+        "column_coverage": null,
+        "character_correctness": null
+      },
+      "verifiable_local_excerpt_score": 5,
+      "ocr_evidence": "All six supplied excerpts agree with the six visible columns. Their unusually full coverage still does not prove what a separate OCR engine output, since these are annotation excerpts.",
+      "overall": "Strong six-column visual extraction and consistent local annotation; global OCR accuracy cannot be measured from excerpts.",
+      "confidence": "high"
+    },
+    {
+      "question_id": 62,
+      "image_file": "images/q62.png",
+      "processed_files": ["processed/priority-v7/q62-overlay.png", "processed/priority-v7/q62-mask.png", "processed/priority-v7/q62-segments.png"],
+      "original_reading": {
+        "columns_right_to_left": ["そういえば", "さっきの話", "なんだったの？"],
+        "uncertain_or_truncated": null,
+        "confidence": "high"
+      },
+      "annotation_comparison": {
+        "source": "priority-a.json; priority-b.json has no q62 entry",
+        "ocr_excerpt": "そういえば",
+        "line_text_excerpts_right_to_left": ["そういえば", "さっきの話", "なんだったの"],
+        "correct_local_excerpts": true,
+        "errors_or_omissions": ["The leftmost line excerpt omits the final question mark, although the mask and final segment include it."],
+        "whole_sentence_untranscribed": false
+      },
+      "crop_scores": {
+        "main_text_coverage": 5,
+        "background_exclusion": 5,
+        "column_and_character_segmentation": 5
+      },
+      "crop_evidence": "All three vertical columns and the question mark are captured and split into character regions. Balloon border and outer halftone are excluded.",
+      "ocr_scores": {
+        "character_coverage": null,
+        "column_coverage": null,
+        "character_correctness": null
+      },
+      "verifiable_local_excerpt_score": 5,
+      "ocr_evidence": "Every supplied word excerpt matches; only final punctuation is absent from the annotation. No complete OCR output is available.",
+      "overall": "Clean three-column crop; punctuation should be present in any full transcription. Local excerpts are correct, global OCR accuracy unknown.",
+      "confidence": "high"
+    }
+  ]
+}

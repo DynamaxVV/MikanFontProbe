@@ -1,0 +1,1999 @@
+[
+  {
+    "qid": 108,
+    "character": "知",
+    "pixels": 68,
+    "source": [
+      {
+        "kind": "terminal",
+        "point": [
+          60,
+          30
+        ],
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "width": 6.0375000000000005,
+        "native_width": 3.947596153846154,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.23580474317944555,
+          "round_residual": 0.09191529782005901,
+          "crown": 0.6376811594202898,
+          "shaft_width": 6.0375000000000005,
+          "shaft_width_variation": 0.025357036674774035,
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "rounded"
+          ]
+        },
+        "reason": "native_shaft_too_thin"
+      },
+      {
+        "kind": "terminal",
+        "point": [
+          18,
+          65
+        ],
+        "direction": [
+          -1.0,
+          0.0
+        ],
+        "width": 6.700000000000001,
+        "native_width": 4.380769230769231,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.20267265749385088,
+          "round_residual": 0.07068857465091491,
+          "crown": 0.5174129353233827,
+          "shaft_width": 6.700000000000001,
+          "shaft_width_variation": 0.008030657618844922,
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "rounded"
+          ]
+        },
+        "reason": "native_shaft_too_thin"
+      },
+      {
+        "kind": "terminal",
+        "point": [
+          63,
+          65
+        ],
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "width": 7.19378662109375,
+        "native_width": 4.7036297137920675,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "threshold_states": [
+            "unknown",
+            "unknown",
+            "unknown"
+          ]
+        },
+        "reason": "native_shaft_too_thin"
+      }
+    ],
+    "templates": {
+      "HummingStd-M": [
+        {
+          "kind": "terminal",
+          "point": [
+            61,
+            28
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 6.130030959752322,
+          "native_width": 4.008097165991902,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.16462549403553678,
+            "round_residual": 0.02370308741358206,
+            "crown": 0.43066666666666653,
+            "shaft_width": 6.130030959752322,
+            "shaft_width_variation": 0.0,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            19,
+            59
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 6.253125000000001,
+          "native_width": 4.088581730769231,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.19002073930965732,
+            "round_residual": 0.04545834616775806,
+            "crown": 0.5082948721717571,
+            "shaft_width": 6.253125000000001,
+            "shaft_width_variation": 0.0,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            64,
+            59
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 8.0,
+          "native_width": 5.230769230769231,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "unstable_or_non_cap_geometry"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            63,
+            99
+          ],
+          "direction": [
+            0.5038710255240862,
+            0.8637789008984335
+          ],
+          "width": 9.360108968189785,
+          "native_width": 6.120071248431783,
+          "state": "rounded",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.12483069647901149,
+            "round_residual": 0.02479140035666623,
+            "crown": 0.3404669090052468,
+            "shaft_width": 9.360108968189785,
+            "shaft_width_variation": 0.02858924491131418,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "corner",
+          "point": [
+            110.0,
+            105.2132034355964
+          ],
+          "width": 10.0,
+          "native_width": 6.538461538461538,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "turn_degrees": 89.99998020307147,
+            "line_residual": 1.8671080826550102e-07,
+            "flank_turn_degrees": 6.68999750361615e-05,
+            "turn_concentration": 0.6214349565755012,
+            "intersection_gap": 0.36919992375328564,
+            "center_gap": 0.41986366227244953,
+            "broad_arc_residual": 0.07162528990513002,
+            "circle_residual": 0.01083584300419839,
+            "circle_radius": 0.8354751607062565,
+            "width_variation": 0.1941204071044922,
+            "thresholds": [
+              116.0,
+              136.0,
+              156.0
+            ],
+            "threshold_states": [
+              "unknown",
+              "rounded",
+              "missing"
+            ],
+            "threshold_width_variation": null
+          },
+          "reason": "threshold_unstable"
+        },
+        {
+          "kind": "corner",
+          "point": [
+            80.02943725152288,
+            109.0
+          ],
+          "width": 8.0,
+          "native_width": 5.230769230769231,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "turn_degrees": 77.85284635038896,
+            "line_residual": 0.018422143773604065,
+            "flank_turn_degrees": 2.758024916983936,
+            "turn_concentration": 0.3574070864617178,
+            "intersection_gap": 0.32332806493551125,
+            "center_gap": 0.6707845412911624,
+            "broad_arc_residual": 0.08957018054722989,
+            "circle_residual": 0.00940809221089738,
+            "circle_radius": 1.3091302088044672,
+            "width_variation": 0.1829751580953598,
+            "thresholds": [
+              116.0,
+              136.0,
+              156.0
+            ],
+            "threshold_states": [
+              "missing",
+              "rounded",
+              "missing"
+            ],
+            "threshold_width_variation": null
+          },
+          "reason": "native_stroke_too_thin"
+        }
+      ],
+      "SkipStd-M": [
+        {
+          "kind": "terminal",
+          "point": [
+            62,
+            31
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 5.833455882352942,
+          "native_width": 3.8141826923076922,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.019394354442899917,
+            "round_residual": 0.13968363896081448,
+            "crown": 0.014960724660100677,
+            "shaft_width": 5.833455882352942,
+            "shaft_width_variation": 0.015372275702616478,
+            "threshold_states": [
+              "square",
+              "square",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            19,
+            52
+          ],
+          "direction": [
+            -0.4472135954999579,
+            0.8944271909999159
+          ],
+          "width": 5.5999755859375,
+          "native_width": 3.6615224984975963,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            65,
+            60
+          ],
+          "direction": [
+            0.9938837346736188,
+            -0.11043152607484653
+          ],
+          "width": 6.0,
+          "native_width": 3.923076923076923,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            17,
+            61
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 5.516718750000001,
+          "native_width": 3.6070853365384616,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.018350562646115717,
+            "round_residual": 0.1360807232382593,
+            "crown": 0.016906649585721523,
+            "shaft_width": 5.516718750000001,
+            "shaft_width_variation": 0.015608303794488571,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "corner",
+          "point": [
+            112.48528137423858,
+            23.0
+          ],
+          "width": 10.0,
+          "native_width": 6.538461538461538,
+          "state": "square",
+          "square_score": 0.9999277826972368,
+          "metrics": {
+            "turn_degrees": 90.0,
+            "line_residual": 0.0,
+            "flank_turn_degrees": 0.0,
+            "turn_concentration": 0.9999277826972368,
+            "intersection_gap": 0.056312668931541805,
+            "center_gap": 0.06747905045381865,
+            "broad_arc_residual": 0.12489740917100492,
+            "circle_residual": 0.03345746938965207,
+            "circle_radius": 0.3734990460485374,
+            "width_variation": 0.1998627781867981,
+            "thresholds": [
+              119.0,
+              139.0,
+              159.0
+            ],
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ],
+            "threshold_width_variation": 0.0
+          },
+          "reason": "stable_outer_corner_fit"
+        }
+      ],
+      "FolkPro-Bold": [
+        {
+          "kind": "terminal",
+          "point": [
+            63,
+            32
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 6.0,
+          "native_width": 3.923076923076923,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            18,
+            65
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 6.02284090909091,
+          "native_width": 3.938011363636364,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.0632173535087764,
+            "round_residual": 0.08612997413220802,
+            "crown": 0.16187263947295127,
+            "shaft_width": 6.02284090909091,
+            "shaft_width_variation": 0.0,
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            64,
+            65
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 6.0,
+          "native_width": 3.923076923076923,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 109,
+    "character": "当",
+    "pixels": 89,
+    "source": [
+      {
+        "kind": "terminal",
+        "point": [
+          65,
+          22
+        ],
+        "direction": [
+          0.0,
+          -1.0
+        ],
+        "width": 14.073811428363506,
+        "native_width": 12.043934780041846,
+        "state": "rounded",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.16307421819630713,
+          "round_residual": 0.023078017380356846,
+          "crown": 0.42186267857213,
+          "shaft_width": 14.073811428363506,
+          "shaft_width_variation": 0.0023662925590523954,
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "rounded"
+          ]
+        },
+        "reason": "stable_cap_fit"
+      },
+      {
+        "kind": "terminal",
+        "point": [
+          18,
+          57
+        ],
+        "direction": [
+          -1.0,
+          0.0
+        ],
+        "width": 7.53125,
+        "native_width": 6.445012019230769,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.12086623932267634,
+          "round_residual": 0.056585575348100096,
+          "crown": 0.30279631968248255,
+          "shaft_width": 7.53125,
+          "shaft_width_variation": 0.011321210366265766,
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "unknown"
+          ]
+        },
+        "reason": "unstable_or_non_cap_geometry"
+      },
+      {
+        "kind": "terminal",
+        "point": [
+          23,
+          84
+        ],
+        "direction": [
+          -1.0,
+          0.0
+        ],
+        "width": 7.389285714285714,
+        "native_width": 6.323523351648352,
+        "state": "rounded",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.1709493494323778,
+          "round_residual": 0.038879595903176675,
+          "crown": 0.45335911068148915,
+          "shaft_width": 7.389285714285714,
+          "shaft_width_variation": 0.019762610836841193,
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "rounded"
+          ]
+        },
+        "reason": "stable_cap_fit"
+      },
+      {
+        "kind": "terminal",
+        "point": [
+          19,
+          112
+        ],
+        "direction": [
+          -1.0,
+          0.0
+        ],
+        "width": 7.066666666666666,
+        "native_width": 6.047435897435897,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.09469604405592696,
+          "round_residual": 0.0673148597079291,
+          "crown": 0.23927958833619167,
+          "shaft_width": 7.066666666666666,
+          "shaft_width_variation": 0.0047477763416299765,
+          "threshold_states": [
+            "rounded",
+            "unknown",
+            "square"
+          ]
+        },
+        "reason": "unstable_or_non_cap_geometry"
+      }
+    ],
+    "templates": {
+      "HummingStd-M": [
+        {
+          "kind": "terminal",
+          "point": [
+            63,
+            20
+          ],
+          "direction": [
+            0.0,
+            -1.0
+          ],
+          "width": 9.834204545454547,
+          "native_width": 8.41580965909091,
+          "state": "rounded",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.16263255439509164,
+            "round_residual": 0.01782395472690399,
+            "crown": 0.44397710012851954,
+            "shaft_width": 9.834204545454547,
+            "shaft_width_variation": 0.0,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            21,
+            58
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 7.044444444444444,
+          "native_width": 6.028418803418803,
+          "state": "rounded",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.17003160227614095,
+            "round_residual": 0.02657531525817212,
+            "crown": 0.46890593633495814,
+            "shaft_width": 7.044444444444444,
+            "shaft_width_variation": 0.0,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            23,
+            84
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 7.067499999999999,
+          "native_width": 6.0481490384615375,
+          "state": "rounded",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.17594077963661287,
+            "round_residual": 0.030798070324722874,
+            "crown": 0.4814526588845658,
+            "shaft_width": 7.067499999999999,
+            "shaft_width_variation": 0.0,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            20,
+            112
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 7.189327485380117,
+          "native_width": 6.152405251911831,
+          "state": "rounded",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.13999275695345917,
+            "round_residual": 0.031095716317286644,
+            "crown": 0.3666232085106541,
+            "shaft_width": 7.189327485380117,
+            "shaft_width_variation": 1.2354123824603676e-16,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "corner",
+          "point": [
+            108.4228355337248,
+            59.422835533724786
+          ],
+          "width": 9.1968994140625,
+          "native_width": 7.870423537034255,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "turn_degrees": 87.63409668965627,
+            "line_residual": 0.014023984005162252,
+            "flank_turn_degrees": 7.414502010295579,
+            "turn_concentration": 0.55096234875599,
+            "intersection_gap": 0.4131690742890308,
+            "center_gap": 0.4494285652478435,
+            "broad_arc_residual": 0.06184359627355137,
+            "circle_residual": 0.0034405586141766156,
+            "circle_radius": 0.9433724049186009,
+            "width_variation": 0.11184073984622955,
+            "thresholds": [
+              112.0,
+              132.0,
+              152.0
+            ],
+            "threshold_states": [
+              "missing",
+              "rounded",
+              "rounded"
+            ],
+            "threshold_width_variation": null
+          },
+          "reason": "threshold_unstable"
+        },
+        {
+          "kind": "corner",
+          "point": [
+            108.74873734152905,
+            110.25126265847095
+          ],
+          "width": 9.393798828125,
+          "native_width": 8.038923997145433,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "turn_degrees": 88.99686892030485,
+            "line_residual": 0.0073787940421622894,
+            "flank_turn_degrees": 3.258658053493687,
+            "turn_concentration": 0.5885909213989837,
+            "intersection_gap": 0.4329822095624757,
+            "center_gap": 0.5039513007644196,
+            "broad_arc_residual": 0.0653837001904848,
+            "circle_residual": 0.0036292094016090186,
+            "circle_radius": 0.9048723614707076,
+            "width_variation": 0.10197039693593979,
+            "thresholds": [
+              112.0,
+              132.0,
+              152.0
+            ],
+            "threshold_states": [
+              "missing",
+              "rounded",
+              "rounded"
+            ],
+            "threshold_width_variation": null
+          },
+          "reason": "threshold_unstable"
+        }
+      ],
+      "SkipStd-M": [
+        {
+          "kind": "terminal",
+          "point": [
+            66,
+            17
+          ],
+          "direction": [
+            0.06651901052377393,
+            -0.9977851578566089
+          ],
+          "width": 9.753493788819876,
+          "native_width": 8.346739876970855,
+          "state": "square",
+          "square_score": 0.8304726032347768,
+          "metrics": {
+            "flat_residual": 0.025429109514783478,
+            "round_residual": 0.15576961355741098,
+            "crown": -0.028208368946877505,
+            "shaft_width": 9.753493788819876,
+            "shaft_width_variation": 0.007081949791099369,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            25,
+            58
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 5.8125,
+          "native_width": 4.974158653846154,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.01275040420074151,
+            "round_residual": 0.14011878684217619,
+            "crown": 0.016794674859191172,
+            "shaft_width": 5.8125,
+            "shaft_width_variation": 0.012758679346672738,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            27,
+            81
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 5.922836538461539,
+          "native_width": 5.0685812684911244,
+          "state": "square",
+          "square_score": 0.8851960442464966,
+          "metrics": {
+            "flat_residual": 0.017220593363025512,
+            "round_residual": 0.1390912669908939,
+            "crown": 0.01958953961876153,
+            "shaft_width": 5.922836538461539,
+            "shaft_width_variation": 0.01506347455250628,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            23,
+            105
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 5.942410714285714,
+          "native_width": 5.085332245879121,
+          "state": "square",
+          "square_score": 0.950468066036372,
+          "metrics": {
+            "flat_residual": 0.00742979009454419,
+            "round_residual": 0.142762261379774,
+            "crown": 0.009354492304020967,
+            "shaft_width": 5.942410714285714,
+            "shaft_width_variation": 0.023695464102346065,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "corner",
+          "point": [
+            105.55634918610417,
+            56.0
+          ],
+          "width": 10.0,
+          "native_width": 8.557692307692308,
+          "state": "square",
+          "square_score": 0.9999377545278472,
+          "metrics": {
+            "turn_degrees": 90.0,
+            "line_residual": 6.938893903907227e-18,
+            "flank_turn_degrees": 3.108473514489673e-30,
+            "turn_concentration": 0.9999377545278473,
+            "intersection_gap": 0.05644386278723959,
+            "center_gap": 0.06272453046065068,
+            "broad_arc_residual": 0.12475944670118319,
+            "circle_residual": 0.03302355462521637,
+            "circle_radius": 0.37276288001850366,
+            "width_variation": 0.1998627781867981,
+            "thresholds": [
+              119.0,
+              139.0,
+              159.0
+            ],
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ],
+            "threshold_width_variation": 0.0
+          },
+          "reason": "stable_outer_corner_fit"
+        }
+      ],
+      "FolkPro-Bold": [
+        {
+          "kind": "terminal",
+          "point": [
+            64,
+            18
+          ],
+          "direction": [
+            0.0,
+            -1.0
+          ],
+          "width": 15.265066026410564,
+          "native_width": 13.063373811062887,
+          "state": "square",
+          "square_score": 0.9976564629189053,
+          "metrics": {
+            "flat_residual": 0.00035153056216420827,
+            "round_residual": 0.14682246561511975,
+            "crown": 0.0003314909909725161,
+            "shaft_width": 15.265066026410564,
+            "shaft_width_variation": 0.0,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            19,
+            55
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 6.205263157894738,
+          "native_width": 5.310273279352227,
+          "state": "square",
+          "square_score": 0.8520264426019676,
+          "metrics": {
+            "flat_residual": 0.02219603360970486,
+            "round_residual": 0.12655804755695907,
+            "crown": 0.055549937004808925,
+            "shaft_width": 6.205263157894738,
+            "shaft_width_variation": 0.0,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            23,
+            80
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 6.124553571428571,
+          "native_width": 5.241204498626373,
+          "state": "square",
+          "square_score": 0.6744451615182501,
+          "metrics": {
+            "flat_residual": 0.04883322577226248,
+            "round_residual": 0.10269466194123299,
+            "crown": 0.12034833614180451,
+            "shaft_width": 6.124553571428571,
+            "shaft_width_variation": 0.0,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            19,
+            106
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 6.118815789473684,
+          "native_width": 5.236294281376518,
+          "state": "square",
+          "square_score": 0.9122231759476315,
+          "metrics": {
+            "flat_residual": 0.01316652360785528,
+            "round_residual": 0.13454904168739312,
+            "crown": 0.03230911098714695,
+            "shaft_width": 6.118815789473684,
+            "shaft_width_variation": 1.4515528008345597e-16,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 109,
+    "character": "こ",
+    "pixels": 78,
+    "source": [
+      {
+        "kind": "terminal",
+        "point": [
+          91,
+          22
+        ],
+        "direction": [
+          0.9761870601839528,
+          0.21693045781865616
+        ],
+        "width": 13.528125000000001,
+        "native_width": 10.146093750000002,
+        "state": "rounded",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.11526688373947329,
+          "round_residual": 0.033015830313828126,
+          "crown": 0.32321552321552316,
+          "shaft_width": 13.528125000000001,
+          "shaft_width_variation": 0.04424156614712517,
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "rounded"
+          ]
+        },
+        "reason": "stable_cap_fit"
+      },
+      {
+        "kind": "corner",
+        "point": [
+          19.0,
+          99.44365081389594
+        ],
+        "width": 11.58758544921875,
+        "native_width": 8.690689086914062,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "turn_degrees": 91.49026832498016,
+          "line_residual": 0.013183534379452267,
+          "flank_turn_degrees": 10.034337694428658,
+          "turn_concentration": 0.3615709872114314,
+          "intersection_gap": 0.6454801358618727,
+          "center_gap": 0.6454801358618727,
+          "broad_arc_residual": 0.025097405718271997,
+          "circle_residual": 0.011988964973387405,
+          "circle_radius": 1.1226444835056306,
+          "width_variation": 0.11220058053731918,
+          "thresholds": [
+            137.0,
+            157.0,
+            177.0
+          ],
+          "threshold_states": [
+            "missing",
+            "rounded",
+            "rounded"
+          ],
+          "threshold_width_variation": null
+        },
+        "reason": "threshold_unstable"
+      }
+    ],
+    "templates": {
+      "HummingStd-M": [
+        {
+          "kind": "terminal",
+          "point": [
+            23,
+            19
+          ],
+          "direction": [
+            -0.9912279006826347,
+            0.13216372009101796
+          ],
+          "width": 9.213694852941178,
+          "native_width": 6.910271139705883,
+          "state": "rounded",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.1515844984343449,
+            "round_residual": 0.01661738510154655,
+            "crown": 0.41068524970963993,
+            "shaft_width": 9.213694852941178,
+            "shaft_width_variation": 0.004616429411290672,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            100,
+            19
+          ],
+          "direction": [
+            0.9912279006826347,
+            0.13216372009101796
+          ],
+          "width": 9.46546052631579,
+          "native_width": 7.099095394736842,
+          "state": "rounded",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.16199256840340667,
+            "round_residual": 0.015637701924978584,
+            "crown": 0.440765158269119,
+            "shaft_width": 9.46546052631579,
+            "shaft_width_variation": 0.004379064383520279,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            105,
+            106
+          ],
+          "direction": [
+            0.9863939238321437,
+            -0.1643989873053573
+          ],
+          "width": 12.482021738027596,
+          "native_width": 9.361516303520698,
+          "state": "rounded",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.16515568114188564,
+            "round_residual": 0.020325231667072747,
+            "crown": 0.4489609771573604,
+            "shaft_width": 12.482021738027596,
+            "shaft_width_variation": 0.005291886176540741,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        }
+      ],
+      "SkipStd-M": [
+        {
+          "kind": "terminal",
+          "point": [
+            103,
+            16
+          ],
+          "direction": [
+            0.9965457582448796,
+            -0.08304547985373997
+          ],
+          "width": 8.6025,
+          "native_width": 6.451874999999999,
+          "state": "square",
+          "square_score": 0.8743411237540933,
+          "metrics": {
+            "flat_residual": 0.018848831436886,
+            "round_residual": 0.15974367479356127,
+            "crown": -0.03612605763143373,
+            "shaft_width": 8.6025,
+            "shaft_width_variation": 0.02055281073597614,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            21,
+            17
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 8.43,
+          "native_width": 6.3225,
+          "state": "square",
+          "square_score": 0.8930773602347544,
+          "metrics": {
+            "flat_residual": 0.01603839596478685,
+            "round_residual": 0.16008934168111377,
+            "crown": -0.038635741482716646,
+            "shaft_width": 8.43,
+            "shaft_width_variation": 0.022617301697679518,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            21,
+            62
+          ],
+          "direction": [
+            0.38461538461538464,
+            -0.9230769230769231
+          ],
+          "width": 7.466176470588234,
+          "native_width": 5.599632352941176,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.3288985617769634,
+            "round_residual": 0.18354253646702698,
+            "crown": 0.9077126537043811,
+            "shaft_width": 7.466176470588234,
+            "shaft_width_variation": 0.010261616598471881,
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "unstable_or_non_cap_geometry"
+        }
+      ],
+      "FolkPro-Bold": [
+        {
+          "kind": "terminal",
+          "point": [
+            34,
+            18
+          ],
+          "direction": [
+            -0.9980525784828885,
+            0.06237828615518053
+          ],
+          "width": 10.194327989661176,
+          "native_width": 7.645745992245882,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.07649932109412956,
+            "round_residual": 0.0830066424228131,
+            "crown": 0.1870624365614344,
+            "shaft_width": 10.194327989661176,
+            "shaft_width_variation": 0.030356547746008985,
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "unstable_or_non_cap_geometry"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            30,
+            76
+          ],
+          "direction": [
+            0.3511234415883917,
+            -0.9363291775690445
+          ],
+          "width": 10.589610992916047,
+          "native_width": 7.942208244687036,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.27978919831958016,
+            "round_residual": 0.14852904598435107,
+            "crown": 0.724663512334053,
+            "shaft_width": 10.589610992916047,
+            "shaft_width_variation": 0.0375945216973373,
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "unstable_or_non_cap_geometry"
+        },
+        {
+          "kind": "corner",
+          "point": [
+            19.0,
+            100.02943725152286
+          ],
+          "width": 12.393798828125,
+          "native_width": 9.29534912109375,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "turn_degrees": 95.24150543776508,
+            "line_residual": 0.016533597493992167,
+            "flank_turn_degrees": 10.303531327003906,
+            "turn_concentration": 0.43839481821409004,
+            "intersection_gap": 0.666209532243812,
+            "center_gap": 0.6703109997635003,
+            "broad_arc_residual": 0.026826169657367505,
+            "circle_residual": 0.0052568640507069464,
+            "circle_radius": 1.0883878107512082,
+            "width_variation": 0.11197058111429214,
+            "thresholds": [
+              112.0,
+              132.0,
+              152.0
+            ],
+            "threshold_states": [
+              "missing",
+              "rounded",
+              "missing"
+            ],
+            "threshold_width_variation": null
+          },
+          "reason": "threshold_unstable"
+        }
+      ]
+    }
+  },
+  {
+    "qid": 106,
+    "character": "け",
+    "pixels": 36,
+    "source": [
+      {
+        "kind": "terminal",
+        "point": [
+          86,
+          18
+        ],
+        "direction": [
+          -0.05547001962252291,
+          -0.9984603532054125
+        ],
+        "width": 10.528125,
+        "native_width": 3.6443509615384615,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.1556681780493518,
+          "round_residual": 0.05309865138407136,
+          "crown": 0.39330191342875165,
+          "shaft_width": 10.528125,
+          "shaft_width_variation": 0.026219013373090995,
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "unknown"
+          ]
+        },
+        "reason": "native_shaft_too_thin"
+      },
+      {
+        "kind": "terminal",
+        "point": [
+          25,
+          23
+        ],
+        "direction": [
+          0.19611613513818402,
+          -0.9805806756909201
+        ],
+        "width": 10.513281113760812,
+        "native_width": 3.6392126932248963,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.19014071907151447,
+          "round_residual": 0.043963022017790614,
+          "crown": 0.5066754937658612,
+          "shaft_width": 10.513281113760812,
+          "shaft_width_variation": 0.02184864414530176,
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "rounded"
+          ]
+        },
+        "reason": "native_shaft_too_thin"
+      },
+      {
+        "kind": "terminal",
+        "point": [
+          108,
+          36
+        ],
+        "direction": [
+          0.9965457582448796,
+          -0.08304547985373997
+        ],
+        "width": 7.67,
+        "native_width": 2.6550000000000002,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.17118483882626415,
+          "round_residual": 0.06767636631706893,
+          "crown": 0.4321599304650149,
+          "shaft_width": 7.67,
+          "shaft_width_variation": 0.02447922467893182,
+          "threshold_states": [
+            "unknown",
+            "rounded",
+            "square"
+          ]
+        },
+        "reason": "native_shaft_too_thin"
+      },
+      {
+        "kind": "terminal",
+        "point": [
+          51,
+          40
+        ],
+        "direction": [
+          -0.9965457582448796,
+          0.08304547985373997
+        ],
+        "width": 7.75,
+        "native_width": 2.6826923076923075,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.20688140249406142,
+          "round_residual": 0.06554245953698509,
+          "crown": 0.5354838709677419,
+          "shaft_width": 7.75,
+          "shaft_width_variation": 0.010503631601957641,
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "rounded"
+          ]
+        },
+        "reason": "native_shaft_too_thin"
+      },
+      {
+        "kind": "terminal",
+        "point": [
+          23,
+          97
+        ],
+        "direction": [
+          0.13216372009101796,
+          0.9912279006826347
+        ],
+        "width": 10.36875,
+        "native_width": 3.5891826923076926,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.1976418399229,
+          "round_residual": 0.058432452285489114,
+          "crown": 0.5209678808232152,
+          "shaft_width": 10.36875,
+          "shaft_width_variation": 0.022578833296581974,
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "rounded"
+          ]
+        },
+        "reason": "native_shaft_too_thin"
+      },
+      {
+        "kind": "terminal",
+        "point": [
+          58,
+          113
+        ],
+        "direction": [
+          -0.9486832980505138,
+          0.31622776601683794
+        ],
+        "width": 7.875,
+        "native_width": 2.7259615384615383,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.3598137357041612,
+          "round_residual": 0.22396667038998846,
+          "crown": 0.9193650793650792,
+          "shaft_width": 7.875,
+          "shaft_width_variation": 0.06405777564632657,
+          "threshold_states": [
+            "unknown",
+            "unknown",
+            "unknown"
+          ]
+        },
+        "reason": "native_shaft_too_thin"
+      }
+    ],
+    "templates": {
+      "HummingStd-M": [
+        {
+          "kind": "terminal",
+          "point": [
+            85,
+            17
+          ],
+          "direction": [
+            -0.05547001962252291,
+            -0.9984603532054125
+          ],
+          "width": 10.752797202797202,
+          "native_width": 3.72212210866057,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.13951747846784693,
+            "round_residual": 0.08407255487367767,
+            "crown": 0.30858356656375663,
+            "shaft_width": 10.752797202797202,
+            "shaft_width_variation": 0.009181702579305598,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            22,
+            19
+          ],
+          "direction": [
+            0.13216372009101796,
+            -0.9912279006826347
+          ],
+          "width": 11.184253246753247,
+          "native_width": 3.871472277722278,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.1923092400352091,
+            "round_residual": 0.07475813541555618,
+            "crown": 0.5613614921256985,
+            "shaft_width": 11.184253246753247,
+            "shaft_width_variation": 0.007882421410123805,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            109,
+            41
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 8.007142857142858,
+          "native_width": 2.7717032967032966,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.13500040668477337,
+            "round_residual": 0.08258325006210283,
+            "crown": 0.30479251899474025,
+            "shaft_width": 8.007142857142858,
+            "shaft_width_variation": 0.0006395305380300515,
+            "threshold_states": [
+              "unknown",
+              "rounded",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            46,
+            42
+          ],
+          "direction": [
+            -0.9965457582448796,
+            0.08304547985373997
+          ],
+          "width": 8.137878787878787,
+          "native_width": 2.8169580419580416,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.22108886170250283,
+            "round_residual": 0.08101798790236937,
+            "crown": 0.5802767951343634,
+            "shaft_width": 8.137878787878787,
+            "shaft_width_variation": 0.0004345932990499074,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            20,
+            104
+          ],
+          "direction": [
+            0.11043152607484653,
+            0.9938837346736188
+          ],
+          "width": 11.8125,
+          "native_width": 4.0889423076923075,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.20644652643761752,
+            "round_residual": 0.06449031712432796,
+            "crown": 0.5375661375661374,
+            "shaft_width": 11.8125,
+            "shaft_width_variation": 0.02663675300527927,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        }
+      ],
+      "SkipStd-M": [
+        {
+          "kind": "terminal",
+          "point": [
+            87,
+            20
+          ],
+          "direction": [
+            0.0,
+            -1.0
+          ],
+          "width": 11.545312500000001,
+          "native_width": 3.996454326923077,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.06646393356211057,
+            "round_residual": 0.0965608516961587,
+            "crown": 0.16899375108511516,
+            "shaft_width": 11.545312500000001,
+            "shaft_width_variation": 0.004458361882992206,
+            "threshold_states": [
+              "square",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            23,
+            21
+          ],
+          "direction": [
+            0.13216372009101796,
+            -0.9912279006826347
+          ],
+          "width": 10.499360847473145,
+          "native_width": 3.6343941395099346,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.04018488916143821,
+            "round_residual": 0.10947825404156648,
+            "crown": 0.10253501761622408,
+            "shaft_width": 10.499360847473145,
+            "shaft_width_variation": 0.027490861745981723,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            46,
+            41
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 7.425,
+          "native_width": 2.5701923076923077,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.05062862261710686,
+            "round_residual": 0.09790064243034864,
+            "crown": 0.13549249104804706,
+            "shaft_width": 7.425,
+            "shaft_width_variation": 0.01871562678373462,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            108,
+            41
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 7.5,
+          "native_width": 2.5961538461538463,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.01701809196235498,
+            "round_residual": 0.13021833762503385,
+            "crown": 0.04624843024843006,
+            "shaft_width": 7.5,
+            "shaft_width_variation": 0.017092053290586173,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            20,
+            102
+          ],
+          "direction": [
+            0.05547001962252291,
+            0.9984603532054125
+          ],
+          "width": 11.324387755102041,
+          "native_width": 3.919980376766091,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.05628501447845551,
+            "round_residual": 0.09763489189839752,
+            "crown": 0.13128874938183843,
+            "shaft_width": 11.324387755102041,
+            "shaft_width_variation": 0.011275199747440802,
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "square"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            47,
+            113
+          ],
+          "direction": [
+            -0.9284766908852594,
+            0.3713906763541037
+          ],
+          "width": 7.0657466298057905,
+          "native_width": 2.4458353718558503,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.2666607031550795,
+            "round_residual": 0.14499969844683278,
+            "crown": 0.6250063953311914,
+            "shaft_width": 7.0657466298057905,
+            "shaft_width_variation": 0.04214386466414514,
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        }
+      ],
+      "FolkPro-Bold": [
+        {
+          "kind": "terminal",
+          "point": [
+            107,
+            36
+          ],
+          "direction": [
+            0.9863939238321437,
+            -0.1643989873053573
+          ],
+          "width": 7.585714285714285,
+          "native_width": 2.625824175824176,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.014733009204274122,
+            "round_residual": 0.13317729961855862,
+            "crown": 0.03902427851580381,
+            "shaft_width": 7.585714285714285,
+            "shaft_width_variation": 0.015165984391835094,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            49,
+            41
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 7.2975,
+          "native_width": 2.5260576923076927,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.0772038709035699,
+            "round_residual": 0.07162333819784224,
+            "crown": 0.19819988165311897,
+            "shaft_width": 7.2975,
+            "shaft_width_variation": 0.007885469885405363,
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            25,
+            93
+          ],
+          "direction": [
+            0.08304547985373997,
+            0.9965457582448796
+          ],
+          "width": 16.70952380952381,
+          "native_width": 5.784065934065934,
+          "state": "square",
+          "square_score": 0.826202169456514,
+          "metrics": {
+            "flat_residual": 0.02606967458152289,
+            "round_residual": 0.13503626833618246,
+            "crown": 0.03860159346052772,
+            "shaft_width": 16.70952380952381,
+            "shaft_width_variation": 0.00890645643270974,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "corner",
+          "point": [
+            91.0,
+            89.12489168102826
+          ],
+          "width": 15.5906982421875,
+          "native_width": 5.396780160757212,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "turn_degrees": 56.91342399636434,
+            "line_residual": 0.008510472055702335,
+            "flank_turn_degrees": 5.628255863080051,
+            "turn_concentration": 0.4384762523058467,
+            "intersection_gap": 0.26134587665978987,
+            "center_gap": 0.47028647787533534,
+            "broad_arc_residual": 0.04105147996141856,
+            "circle_residual": 0.01210407815079178,
+            "circle_radius": 2.107790705823348,
+            "width_variation": 0.195958212018013,
+            "thresholds": [
+              117.0,
+              137.0,
+              157.0
+            ],
+            "threshold_states": [
+              "missing",
+              "rounded",
+              "missing"
+            ],
+            "threshold_width_variation": null
+          },
+          "reason": "native_stroke_too_thin"
+        }
+      ]
+    }
+  }
+]

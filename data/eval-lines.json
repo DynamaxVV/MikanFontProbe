@@ -1,0 +1,148 @@
+[
+  {
+    "question_id": 129,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "bbox_quality": [
+      {
+        "line": "よし!!",
+        "score": 4,
+        "evidence": "The full line is captured; the blue box has a little extra margin and touches nearby panel structure."
+      },
+      {
+        "line": "どっちがいい絵描けるか勝負だ!!",
+        "score": 3,
+        "evidence": "The visible characters are covered, but the box is broad and includes the speech-bubble boundary/art residue on the right."
+      },
+      {
+        "line": "望むところ!!",
+        "score": 4,
+        "evidence": "The complete line is inside a comparatively tight blue box with modest surrounding whitespace."
+      },
+      {
+        "line": "unassigned bubble/art fragment",
+        "score": 1,
+        "evidence": "A separate narrow blue region follows a nontext bubble/edge fragment beside the central line."
+      }
+    ],
+    "notes": "Line-wise ROI processing removes nearly all of the former action-line and character-art contamination. All three printed text groups appear covered, including punctuation. The remaining failure is localized: a small bubble/edge fragment is still accepted and one central box is wider than the text it contains.",
+    "comparison_note": "Compared with eval-v5 (text 5, background 1, bbox 1), text coverage remains 5 while background rejection improves strongly to 4. Line boxes are now useful (main-line scores 3-4), replacing the former full-crop box; the stray art box prevents a clean pass."
+  },
+  {
+    "question_id": 25,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "bbox_quality": [
+      {
+        "line": "見れるんです",
+        "score": 3,
+        "evidence": "All characters are covered, but the blue box has substantial horizontal margin to the right of the column."
+      },
+      {
+        "line": "厳しい目で",
+        "score": 4,
+        "evidence": "The main column is complete and the blue box is reasonably close, though it also spans the adjacent reading marks."
+      },
+      {
+        "line": "純文学こそ",
+        "score": 3,
+        "evidence": "The complete main column is captured, but the blue box is noticeably wider than the glyph column."
+      },
+      {
+        "line": "好きじゃない",
+        "score": 3,
+        "evidence": "The text is complete, but the box includes generous side/bottom whitespace."
+      },
+      {
+        "line": "そこまで",
+        "score": 3,
+        "evidence": "The complete line is covered, but the box is broad relative to the narrow rightmost column."
+      },
+      {
+        "line": "厳しい: きび・め reading marks",
+        "score": 2,
+        "evidence": "The small reading marks are detected, but their grouping/blue extent is loose and combines separated marks with intervening whitespace."
+      },
+      {
+        "line": "純文学: じゅんぶんがく reading marks",
+        "score": 3,
+        "evidence": "The reading-mark column is captured, but its box is less tight than the character boxes and sits close to neighboring structure."
+      }
+    ],
+    "notes": "Every visible main text column and the small reading marks are highlighted; no printed character is visibly omitted. The previous lower-right black object is no longer accepted as green mask content. A small false-positive patch remains on the upper panel hardware/edge, and several blue boxes have avoidable whitespace.",
+    "comparison_note": "Compared with eval-v5 (text 5, background 3, bbox 3), text coverage stays 5, background rejection improves to 4, and line-wise boxes are materially more informative. Main-line bbox quality is mixed (3-4), with the small reading-mark grouping at 2-3 rather than a single broad crop."
+  },
+  {
+    "question_id": 31,
+    "text_coverage": 4,
+    "background_rejection": 4,
+    "bbox_quality": [
+      {
+        "line": "雨に歌って",
+        "score": 3,
+        "evidence": "The line is covered, but the blue box extends well beyond the text into the hair/background area on the right."
+      },
+      {
+        "line": "風に踊って",
+        "score": 3,
+        "evidence": "The characters are captured, but the box has a wide right margin and touches nearby hair contours."
+      },
+      {
+        "line": "陽だまりに微笑む",
+        "score": 4,
+        "evidence": "The full line is covered and the box is fairly well aligned, with only moderate extra margin."
+      },
+      {
+        "line": "名前のない",
+        "score": 3,
+        "evidence": "The line is complete, but the box includes broad whitespace and nearby clothing/background texture."
+      },
+      {
+        "line": "わたしの一日が",
+        "score": 3,
+        "evidence": "The visible line is covered, but the box is broad and overlaps adjacent illustration space."
+      },
+      {
+        "line": "あなたの",
+        "score": 4,
+        "evidence": "The complete short line is contained in a relatively tight blue box."
+      },
+      {
+        "line": "宝物になりますように、",
+        "score": 1,
+        "evidence": "The blue box and green mask stop at `よ`; the trailing `うに、` remains outside and is missed."
+      }
+    ],
+    "notes": "The line-wise pass suppresses the catastrophic page-wide illustration mask from v5, and the first six text lines are substantially recovered. The final line is materially incomplete: only `宝物になりますよ` is covered, while `うに、` is outside the blue box. Residual green/background acceptance remains around several line regions and the boxes are often wider than the text.",
+    "comparison_note": "Compared with eval-v5 (text 5, background 0, bbox 1), background rejection improves sharply to 4 and the first six line boxes are usable. Text coverage drops to 4 because the final line truncates three trailing characters; the line-wise bbox scores are mostly 3-4 but the final line is 1."
+  },
+  {
+    "question_id": 100,
+    "text_coverage": 3,
+    "background_rejection": 5,
+    "bbox_quality": [
+      {
+        "line": "夜になると",
+        "score": 1,
+        "evidence": "The blue box and green mask stop after `る`; the final character `と` is visibly outside and missed."
+      },
+      {
+        "line": "からだ",
+        "score": 4,
+        "evidence": "The complete short line is captured in a reasonably tight blue box."
+      },
+      {
+        "line": "「従う側」になる",
+        "score": 2,
+        "evidence": "The box captures the upper portion through `な`, but the final `る` is outside the box and remains unhighlighted."
+      },
+      {
+        "line": "この人のほうが",
+        "score": 2,
+        "evidence": "The box captures only through `ほ`; the trailing `うが` is outside and unhighlighted."
+      }
+    ],
+    "notes": "Background rejection is excellent: the green mask is confined to text and reading marks with no meaningful spill into the adjacent dark texture. However, the ROI segmentation truncates multiple vertical lines: `と` is missed from `夜になると`, `る` from `「従う側」になる`, and `うが` from `この人のほうが`. The small reading marks are visible, but they do not compensate for the missing main-text tails.",
+    "comparison_note": "Compared with eval-v5 (text 5, background 3, bbox 3), background rejection improves to 5, but text coverage falls to 3 because three main-line tails are omitted. The per-line bbox quality is uneven: one good short line at 4, while the truncated boxes score 1-2."
+  }
+]

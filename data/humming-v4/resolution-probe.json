@@ -1,0 +1,512 @@
+[
+  {
+    "qid": 30,
+    "ranking": [
+      {
+        "font": "SkipStd-B",
+        "factor": 2,
+        "mean": 0.1419905620827246
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 3,
+        "mean": 0.14414382641318024
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 2,
+        "mean": 0.14760660672475948
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 2,
+        "mean": 0.14862619542524416
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 3,
+        "mean": 0.1550296195623626
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 3,
+        "mean": 0.15661549794075727
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 4,
+        "mean": 0.1653744310017093
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 1,
+        "mean": 0.1658423076050517
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 4,
+        "mean": 0.17245920999160896
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 1,
+        "mean": 0.17384587738015753
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 4,
+        "mean": 0.17906106498726104
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 1,
+        "mean": 0.1855554810868933
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 2,
+        "mean": 0.21841044246170163
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 3,
+        "mean": 0.22822841882416198
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 1,
+        "mean": 0.23980244728740338
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 4,
+        "mean": 0.244089767943694
+      }
+    ]
+  },
+  {
+    "qid": 46,
+    "ranking": [
+      {
+        "font": "HummingStd-M",
+        "factor": 2,
+        "mean": 0.12997167807808685
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 2,
+        "mean": 0.1408024117521453
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 2,
+        "mean": 0.15277235161093763
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 3,
+        "mean": 0.16135320827745245
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 1,
+        "mean": 0.16805759801416492
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 1,
+        "mean": 0.17004918415267342
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 3,
+        "mean": 0.17555527138928137
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 3,
+        "mean": 0.17769428242282598
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 4,
+        "mean": 0.18130442822866222
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 1,
+        "mean": 0.18996767019759161
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 4,
+        "mean": 0.19305698226592574
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 2,
+        "mean": 0.1976861376625749
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 4,
+        "mean": 0.20426919331399365
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 3,
+        "mean": 0.21493529784861468
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 4,
+        "mean": 0.22242539773110845
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 1,
+        "mean": 0.22834243762873846
+      }
+    ]
+  },
+  {
+    "qid": 47,
+    "ranking": [
+      {
+        "font": "HummingStd-M",
+        "factor": 2,
+        "mean": 0.11734000400926584
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 2,
+        "mean": 0.13612749988900996
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 2,
+        "mean": 0.14491921217402573
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 1,
+        "mean": 0.16218658282972773
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 3,
+        "mean": 0.1675739990080265
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 1,
+        "mean": 0.16912449963891443
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 3,
+        "mean": 0.1710573092498182
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 3,
+        "mean": 0.17306377443082047
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 1,
+        "mean": 0.17922035372029518
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 4,
+        "mean": 0.18969932823900956
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 2,
+        "mean": 0.19224220809466872
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 4,
+        "mean": 0.19412154872758675
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 4,
+        "mean": 0.2041822132308364
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 1,
+        "mean": 0.21082858878721655
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 3,
+        "mean": 0.21753595601688924
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 4,
+        "mean": 0.2409934355072321
+      }
+    ]
+  },
+  {
+    "qid": 106,
+    "ranking": [
+      {
+        "font": "FolkPro-Bold",
+        "factor": 1,
+        "mean": 0.1573315135780073
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 1,
+        "mean": 0.19676562358751912
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 1,
+        "mean": 0.2032559160320751
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 2,
+        "mean": 0.20445866775845953
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 1,
+        "mean": 0.22195614052529972
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 2,
+        "mean": 0.22713417651712434
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 2,
+        "mean": 0.22758246578023597
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 2,
+        "mean": 0.2438480692557818
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 3,
+        "mean": 0.24393475544614465
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 3,
+        "mean": 0.2556174520817201
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 3,
+        "mean": 0.25594381567777885
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 4,
+        "mean": 0.2707449210493363
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 4,
+        "mean": 0.2766901112648002
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 3,
+        "mean": 0.2771730809324081
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 4,
+        "mean": 0.28437838931937476
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 4,
+        "mean": 0.30752914330166475
+      }
+    ]
+  },
+  {
+    "qid": 108,
+    "ranking": [
+      {
+        "font": "FolkPro-Bold",
+        "factor": 1,
+        "mean": 0.09861221054243131
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 2,
+        "mean": 0.12229962779784043
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 3,
+        "mean": 0.1538489096417589
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 1,
+        "mean": 0.17751066441833796
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 4,
+        "mean": 0.18525451641617816
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 1,
+        "mean": 0.18535367778398104
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 2,
+        "mean": 0.18641739169100954
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 2,
+        "mean": 0.1899633054730164
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 1,
+        "mean": 0.19394878046450723
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 2,
+        "mean": 0.1973138235555641
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 3,
+        "mean": 0.21275356086302583
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 3,
+        "mean": 0.2149181146775941
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 3,
+        "mean": 0.22126439009291565
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 4,
+        "mean": 0.2319055602652261
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 4,
+        "mean": 0.23697935478218288
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 4,
+        "mean": 0.23999120299763016
+      }
+    ]
+  },
+  {
+    "qid": 109,
+    "ranking": [
+      {
+        "font": "FolkPro-Bold",
+        "factor": 1,
+        "mean": 0.11696369606459199
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 2,
+        "mean": 0.13040253935557272
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 3,
+        "mean": 0.15211262997989525
+      },
+      {
+        "font": "FolkPro-Bold",
+        "factor": 4,
+        "mean": 0.16908625992718476
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 2,
+        "mean": 0.1828777738455116
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 1,
+        "mean": 0.18478609247338082
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 2,
+        "mean": 0.19116388985466812
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 1,
+        "mean": 0.19313816536732972
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 3,
+        "mean": 0.19613346043403662
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 3,
+        "mean": 0.20181030605786532
+      },
+      {
+        "font": "HummingStd-M",
+        "factor": 4,
+        "mean": 0.20309812111510617
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 2,
+        "mean": 0.20552494145060635
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 1,
+        "mean": 0.20880527941875315
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 3,
+        "mean": 0.21127918182413574
+      },
+      {
+        "font": "SkipStd-B",
+        "factor": 4,
+        "mean": 0.21734555315393114
+      },
+      {
+        "font": "SkipStd-M",
+        "factor": 4,
+        "mean": 0.22342642410369645
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": 70,
+    "coarse_label": "细宋",
+    "ink_pixels": 22188,
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 92,
+    "coarse_label": "细宋",
+    "ink_pixels": 1401,
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 72,
+    "coarse_label": "粗宋",
+    "ink_pixels": 5038,
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  },
+  {
+    "question_id": 27,
+    "coarse_label": "粗宋",
+    "ink_pixels": 61653,
+    "model": "comictextdetector.pt.onnx",
+    "input_size": 1024,
+    "threshold": 0.3
+  }
+]

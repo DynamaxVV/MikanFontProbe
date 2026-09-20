@@ -1,0 +1,121 @@
+[
+  {
+    "question_id": 129,
+    "layout": "vertical-columns",
+    "lines": [
+      {
+        "bbox": [191, 25, 57, 149],
+        "text_excerpt": "よし!!",
+        "uncertain": false
+      },
+      {
+        "bbox": [155, 151, 62, 218],
+        "text_excerpt": "どっちがいい絵描けるか勝負だ!!",
+        "uncertain": true
+      },
+      {
+        "bbox": [25, 252, 75, 127],
+        "text_excerpt": "望むところ!!",
+        "uncertain": false
+      }
+    ]
+  },
+  {
+    "question_id": 25,
+    "layout": "vertical-columns",
+    "lines": [
+      {
+        "bbox": [657, 142, 101, 266],
+        "text_excerpt": "そこまで",
+        "uncertain": false
+      },
+      {
+        "bbox": [520, 105, 124, 366],
+        "text_excerpt": "好きじゃない",
+        "uncertain": true
+      },
+      {
+        "bbox": [407, 106, 125, 410],
+        "text_excerpt": "純文学こそ",
+        "uncertain": true
+      },
+      {
+        "bbox": [241, 236, 115, 341],
+        "text_excerpt": "厳しい目で",
+        "uncertain": true
+      },
+      {
+        "bbox": [132, 242, 117, 415],
+        "text_excerpt": "見れるんです",
+        "uncertain": false
+      }
+    ]
+  },
+  {
+    "question_id": 31,
+    "layout": "horizontal-lines",
+    "lines": [
+      {
+        "bbox": [74, 210, 263, 60],
+        "text_excerpt": "“雨に歌って",
+        "uncertain": false
+      },
+      {
+        "bbox": [177, 298, 230, 55],
+        "text_excerpt": "風に踊って",
+        "uncertain": false
+      },
+      {
+        "bbox": [115, 404, 305, 66],
+        "text_excerpt": "陽だまりに微笑む”",
+        "uncertain": false
+      },
+      {
+        "bbox": [86, 594, 302, 67],
+        "text_excerpt": "名前のない",
+        "uncertain": false
+      },
+      {
+        "bbox": [167, 652, 323, 66],
+        "text_excerpt": "わたしの二日が",
+        "uncertain": false
+      },
+      {
+        "bbox": [396, 802, 192, 58],
+        "text_excerpt": "“あなたの",
+        "uncertain": false
+      },
+      {
+        "bbox": [397, 858, 342, 62],
+        "text_excerpt": "宝物になりますように”",
+        "uncertain": true
+      }
+    ]
+  },
+  {
+    "question_id": 100,
+    "layout": "vertical-columns",
+    "lines": [
+      {
+        "bbox": [366, 120, 83, 271],
+        "text_excerpt": "夜になると",
+        "uncertain": false
+      },
+      {
+        "bbox": [246, 255, 89, 373],
+        "text_excerpt": "この人のほうが",
+        "uncertain": false
+      },
+      {
+        "bbox": [132, 246, 102, 409],
+        "text_excerpt": "「従う側」になる",
+        "uncertain": true
+      },
+      {
+        "bbox": [44, 268, 91, 239],
+        "text_excerpt": "からだ",
+        "uncertain": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "policy": {
+    "min_pixels": 32,
+    "patch_radius": 5,
+    "sdf_clip": 3.0,
+    "width_offset_limit": 0.75,
+    "noise_multiplier": 2.0,
+    "min_separation": 0.04,
+    "min_vote_margin": 0.02,
+    "min_votes": 3,
+    "agreement": 0.8
+  },
+  "status": "all real samples already exposed; not blind validation",
+  "code": {
+    "local_contour_matcher.py": "52923db461b3aaaf1f80851f599b13461c60dcc53d49b58de044d591155a2fc3",
+    "rank_font_contours.py": "9e7f8d5c9b8b64e39df98a532e7b7d2293eaacd0662f35ef16d92a3733862b30",
+    "evaluate_contours_v5.py": "d874b5f66053d7df72fbe44c631eae94dcb9fbb12b0dc719ecd90b079a52b2f2"
+  },
+  "rerank": "top two only, both within old .015 appearance band; >=3 votes, >=80% agreement",
+  "additional_queries": "at most 2 distinct chars per pair, font-only utility, fixed face per sample"
+}

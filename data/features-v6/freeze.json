@@ -1,0 +1,59 @@
+{
+  "code": {
+    "stroke_terminal_features.py": "fad927a7c671b94665020f31c198ce66561286b0c3fe5156218131f25023072f",
+    "stroke_corner_features.py": "307e757d37e8cf9ab42f5a022f65467c9af106b20b9bb11d8882f1557fe1a7c0",
+    "stroke_feature_matcher.py": "2c300c3ace54d3d2f18e71c90833a8a529333f85e9e7e89fe75ce3bcdcb6db33",
+    "rank_font_features.py": "9f4ae2b73b3cb8006e3eca63b9d6999fce32a5fa337b5ddf31f31a37911c6121",
+    "evaluate_features_v6.py": "4d4389ac38a67bb55d7f5b026da8f3df9b6ef77187619503d6203984ba697de7"
+  },
+  "inputs": {
+    "data/category-expansion-v3/pools.json": "2fad7e426c9cccad999463d55d2f32a0a16306e2755aa9994235c12cd1d6cb39",
+    "data/category-expansion-v3/templates/catalog.json": "660f15c4f21621ee84d8cd90abdf686fbd819312d5d0514363368b870bb9d3d0",
+    "data/humming-v4/folk-controls/pools.json": "259b2bb405e111973aa65ac13f31e03b5758bbf91f8092831f858d60c9466a6f",
+    "data/humming-v4/folk-controls/templates/catalog.json": "39b6fa9cca898547c1df304b5b603763d2c12593753325be7de68cb253756393",
+    "data/humming-v4/guarded-results.json": "d3ecc3e0dcbdafaf124d792d4a1999cae7724e852dbbcad135054909b6c06add"
+  },
+  "terminal_policy": {
+    "min_native_width": 5.0,
+    "flat_residual": 0.07,
+    "round_residual": 0.1,
+    "model_margin": 0.045,
+    "threshold_delta": 20,
+    "max_features": 16
+  },
+  "corner_policy": {
+    "max_features": 16,
+    "threshold_delta": 20,
+    "min_native_width": 6.0,
+    "min_width": 5.0,
+    "min_turn_degrees": 50.0,
+    "max_turn_degrees": 130.0,
+    "max_line_residual": 0.045,
+    "max_flank_turn_degrees": 12.0,
+    "max_flank_turn_fraction": 0.12,
+    "min_concentration": 0.32,
+    "square_concentration": 0.7,
+    "square_gap": 0.12,
+    "rounded_gap": 0.18,
+    "max_circle_residual": 0.035,
+    "continuous_arc_residual": 0.025,
+    "rounded_concentration": 0.65,
+    "min_circle_radius": 0.5,
+    "max_circle_radius": 2.5,
+    "exclusion_radius": 1.6,
+    "merge_radius": 1.5,
+    "score_residual_scale": 0.09,
+    "max_point_shift": 0.25,
+    "max_width_variation": 0.2
+  },
+  "feature_policy": {
+    "max_point_distance": 12.0,
+    "min_direction_dot": 0.8,
+    "square_weight": 2.0,
+    "round_weight": 1.0,
+    "min_distinct_votes": 3,
+    "agreement": 0.8,
+    "requires_square_anchor": true
+  },
+  "status": "all real data exposed; development regression, not new holdout"
+}

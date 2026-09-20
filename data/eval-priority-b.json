@@ -1,0 +1,74 @@
+[
+  {
+    "question_id": 114,
+    "text_coverage": 5,
+    "background_rejection": 3,
+    "box_tightness": 2,
+    "low_score": true,
+    "exact_failures": "All main glyphs are present in the green overlay and white mask, but the mask also contains isolated halftone/bubble-border noise near the top and bottom. segments uses oversized vertical/column boxes that include speech-bubble whitespace and border rather than tight text boxes."
+  },
+  {
+    "question_id": 92,
+    "text_coverage": 5,
+    "background_rejection": 3,
+    "box_tightness": 3,
+    "low_score": false,
+    "exact_failures": "The three text columns are covered, but the mask retains the speech-balloon contour and page/border fragments. The right-column segment/blue box extends into the balloon outline and is looser than the character boxes in the other columns."
+  },
+  {
+    "question_id": 70,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "box_tightness": 4,
+    "low_score": false,
+    "exact_failures": "All seven main vertical columns are recovered. Minor residuals are small isolated mask pixels around the speech balloons/furigana, and some blue column boxes include a little empty balloon area; character boxes are otherwise well aligned."
+  },
+  {
+    "question_id": 91,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "low_score": false,
+    "exact_failures": "The mask cleanly retains the three printed columns without visible artwork or balloon-border leakage. The long left-column box has modest extra vertical whitespace, while the orange character boxes are mostly tight."
+  },
+  {
+    "question_id": 61,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "box_tightness": 2,
+    "low_score": true,
+    "exact_failures": "Upper and lower text are covered, with only a small isolated mask artifact below the lower text. The major failure is geometry: large blue boxes merge the lower columns and include substantial empty speech-bubble area; lower character grouping is not separated cleanly."
+  },
+  {
+    "question_id": 33,
+    "text_coverage": 3,
+    "background_rejection": 5,
+    "box_tightness": 3,
+    "low_score": true,
+    "exact_failures": "The right とか and long left column are covered, but the middle しちゃったり column loses the lower ったり portion in the green overlay/mask. segments retains a broad middle-column box but does not recover that missed lower text as tight character boxes; no artwork is falsely selected."
+  },
+  {
+    "question_id": 72,
+    "text_coverage": 5,
+    "background_rejection": 3,
+    "box_tightness": 3,
+    "low_score": false,
+    "exact_failures": "All three bold columns are covered, but the right-column box runs down into the small artwork at the lower-right edge. The mask has stray white pixels at that artwork, and segments splits the final って into separate loose boxes instead of one tight column."
+  },
+  {
+    "question_id": 27,
+    "text_coverage": 5,
+    "background_rejection": 0,
+    "box_tightness": 1,
+    "low_score": true,
+    "exact_failures": "The main outlined glyphs are largely covered, but the mask is dominated by the dense vertical speed-line artwork and white/black outline texture. The green overlay visibly paints background lines and halos; segments produces only very large column boxes containing extensive non-text artwork, with no useful character-level isolation. The source image is q27.jpg because q27.png is absent."
+  },
+  {
+    "question_id": 140,
+    "text_coverage": 5,
+    "background_rejection": 3,
+    "box_tightness": 4,
+    "low_score": false,
+    "exact_failures": "Both main columns are covered and their orange character boxes are tight. A narrow adjacent text fragment at the far-right/top edge is also included in the overlay/mask and receives a loose blue box; the main speech-bubble text itself has little leakage."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": 33,
+    "text_coverage": 3,
+    "background_rejection": 5,
+    "box_tightness": 3,
+    "low_score": true,
+    "exact_failures": "ROI correction did not recover the lower half of the middle しちゃったり column: ったり remains largely black in the overlay. The left column and とか are covered, and no balloon/artwork contamination is visible. segments has a broad middle-column box but does not turn the missed lower glyphs into reliable green coverage; the column box also contains extra empty height."
+  },
+  {
+    "question_id": 65,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "low_score": false,
+    "exact_failures": "The outlined プレゼント and the adjacent vertical text are fully covered, including the small furigana at the top. No meaningful gray artwork/background is painted green. The right column is split into an upper box and a small lower への box, with a little empty margin but no material miss."
+  },
+  {
+    "question_id": 72,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "box_tightness": 3,
+    "low_score": false,
+    "exact_failures": "All three printed columns, including the final って, are covered. The main residual problem is geometry: the right column is split into a large upper box plus separate っ/て boxes, and the column ROI reaches toward the small lower-right artwork even though the artwork itself is not substantially painted green."
+  },
+  {
+    "question_id": 27,
+    "text_coverage": 4,
+    "background_rejection": 1,
+    "box_tightness": 2,
+    "low_score": true,
+    "exact_failures": "The large outlined columns are mostly covered, but a lower glyph at the bottom of the right text column remains outside/black below the corrected ROI. Dense vertical speed lines still enter the green mask around and inside all three columns, especially the long middle column. segments remains column-level and includes extensive non-text streaks; it does not provide tight character boxes. The evaluated original is q27.jpg because q27.png is absent."
+  }
+]

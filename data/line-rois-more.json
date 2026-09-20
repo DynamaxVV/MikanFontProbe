@@ -1,0 +1,61 @@
+[
+  {
+    "question_id": "q110",
+    "layout": "vertical",
+    "lines": [
+      {
+        "bbox": [148, 95, 59, 282],
+        "text_excerpt": "やめてって",
+        "uncertain": false
+      },
+      {
+        "bbox": [81, 94, 60, 526],
+        "text_excerpt": "言ってるでしょ",
+        "uncertain": false
+      }
+    ]
+  },
+  {
+    "question_id": "q140",
+    "layout": "vertical",
+    "lines": [
+      {
+        "bbox": [73, 40, 41, 185],
+        "text_excerpt": "ヒビキさんは",
+        "uncertain": false
+      },
+      {
+        "bbox": [34, 40, 39, 218],
+        "text_excerpt": "ともかくとして",
+        "uncertain": false
+      }
+    ]
+  },
+  {
+    "question_id": "q136",
+    "layout": "vertical",
+    "lines": [
+      {
+        "bbox": [33, 42, 47, 255],
+        "text_excerpt": "加減にしろ",
+        "uncertain": false
+      }
+    ]
+  },
+  {
+    "question_id": "q141",
+    "layout": "vertical",
+    "lines": [
+      {
+        "bbox": [74, 31, 31, 95],
+        "text_excerpt": "あはは",
+        "uncertain": false
+      },
+      {
+        "bbox": [37, 31, 32, 157],
+        "text_excerpt": "冗談だって",
+        "uncertain": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "question_id": 141,
+    "coarse_label": "少女",
+    "roi": [
+      0,
+      0,
+      130,
+      224
+    ],
+    "text_box": [
+      14,
+      32,
+      85,
+      188
+    ],
+    "components": 36,
+    "ink_pixels": 1622
+  },
+  {
+    "question_id": 140,
+    "coarse_label": "粗宋",
+    "roi": [
+      0,
+      0,
+      137,
+      291
+    ],
+    "text_box": [
+      4,
+      11,
+      129,
+      272
+    ],
+    "components": 32,
+    "ink_pixels": 3890
+  },
+  {
+    "question_id": 139,
+    "coarse_label": "POP1",
+    "roi": [
+      0,
+      0,
+      82,
+      295
+    ],
+    "text_box": [
+      33,
+      44,
+      26,
+      220
+    ],
+    "components": 19,
+    "ink_pixels": 1316
+  },
+  {
+    "question_id": 138,
+    "coarse_label": "雅宋",
+    "roi": [
+      0,
+      0,
+      336,
+      497
+    ],
+    "text_box": [
+      7,
+      48,
+      283,
+      396
+    ],
+    "components": 81,
+    "ink_pixels": 18265
+  },
+  {
+    "question_id": 136,
+    "coarse_label": "雷盖/雷鬼体",
+    "roi": [
+      0,
+      0,
+      112,
+      331
+    ],
+    "text_box": [
+      30,
+      5,
+      73,
+      304
+    ],
+    "components": 27,
+    "ink_pixels": 2490
+  },
+  {
+    "question_id": 135,
+    "coarse_label": "毛刷体",
+    "roi": [
+      0,
+      0,
+      219,
+      414
+    ],
+    "text_box": [
+      6,
+      8,
+      205,
+      390
+    ],
+    "components": 59,
+    "ink_pixels": 16336
+  },
+  {
+    "question_id": 134,
+    "coarse_label": "润圆/雅士黑",
+    "roi": [
+      0,
+      0,
+      163,
+      376
+    ],
+    "text_box": [
+      28,
+      62,
+      114,
+      308
+    ],
+    "components": 49,
+    "ink_pixels": 3708
+  },
+  {
+    "question_id": 132,
+    "coarse_label": "方新书",
+    "roi": [
+      0,
+      0,
+      133,
+      284
+    ],
+    "text_box": [
+      27,
+      4,
+      98,
+      264
+    ],
+    "components": 29,
+    "ink_pixels": 2474
+  },
+  {
+    "question_id": 131,
+    "coarse_label": "中黑",
+    "roi": [
+      0,
+      0,
+      146,
+      262
+    ],
+    "text_box": [
+      8,
+      11,
+      125,
+      247
+    ],
+    "components": 22,
+    "ink_pixels": 1912
+  },
+  {
+    "question_id": 129,
+    "coarse_label": "粗黑",
+    "roi": [
+      0,
+      0,
+      271,
+      404
+    ],
+    "text_box": [
+      16,
+      3,
+      245,
+      385
+    ],
+    "components": 72,
+    "ink_pixels": 13567
+  },
+  {
+    "question_id": 126,
+    "coarse_label": "竹体",
+    "roi": [
+      0,
+      0,
+      161,
+      398
+    ],
+    "text_box": [
+      3,
+      52,
+      119,
+      339
+    ],
+    "components": 62,
+    "ink_pixels": 5592
+  },
+  {
+    "question_id": 123,
+    "coarse_label": "方圆",
+    "roi": [
+      0,
+      0,
+      263,
+      404
+    ],
+    "text_box": [
+      7,
+      10,
+      235,
+      368
+    ],
+    "components": 67,
+    "ink_pixels": 15861
+  },
+  {
+    "question_id": 118,
+    "coarse_label": "中圆",
+    "roi": [
+      0,
+      0,
+      193,
+      359
+    ],
+    "text_box": [
+      3,
+      3,
+      167,
+      352
+    ],
+    "components": 48,
+    "ink_pixels": 5176
+  },
+  {
+    "question_id": 114,
+    "coarse_label": "细宋",
+    "roi": [
+      0,
+      0,
+      316,
+      434
+    ],
+    "text_box": [
+      8,
+      18,
+      296,
+      413
+    ],
+    "components": 41,
+    "ink_pixels": 6226
+  },
+  {
+    "question_id": 113,
+    "coarse_label": "竹带体",
+    "roi": [
+      0,
+      0,
+      296,
+      586
+    ],
+    "text_box": [
+      45,
+      5,
+      223,
+      549
+    ],
+    "components": 63,
+    "ink_pixels": 8886
+  },
+  {
+    "question_id": 110,
+    "coarse_label": "角明体",
+    "roi": [
+      0,
+      0,
+      310,
+      718
+    ],
+    "text_box": [
+      4,
+      6,
+      298,
+      707
+    ],
+    "components": 57,
+    "ink_pixels": 9447
+  },
+  {
+    "question_id": 109,
+    "coarse_label": "轻吟体",
+    "roi": [
+      0,
+      0,
+      518,
+      1078
+    ],
+    "text_box": [
+      58,
+      78,
+      365,
+      976
+    ],
+    "components": 74,
+    "ink_pixels": 53077
+  },
+  {
+    "question_id": 104,
+    "coarse_label": "细黑",
+    "roi": [
+      0,
+      0,
+      596,
+      770
+    ],
+    "text_box": [
+      141,
+      173,
+      328,
+      472
+    ],
+    "components": 30,
+    "ink_pixels": 23693
+  },
+  {
+    "question_id": 98,
+    "coarse_label": "中宋",
+    "roi": [
+      0,
+      0,
+      314,
+      648
+    ],
+    "text_box": [
+      4,
+      73,
+      307,
+      572
+    ],
+    "components": 643,
+    "ink_pixels": 33582
+  },
+  {
+    "question_id": 93,
+    "coarse_label": "降圆体",
+    "roi": [
+      0,
+      0,
+      230,
+      490
+    ],
+    "text_box": [
+      8,
+      18,
+      214,
+      464
+    ],
+    "components": 67,
+    "ink_pixels": 12151
+  },
+  {
+    "question_id": 91,
+    "coarse_label": "细圆",
+    "roi": [
+      0,
+      0,
+      206,
+      446
+    ],
+    "text_box": [
+      8,
+      7,
+      191,
+      406
+    ],
+    "components": 29,
+    "ink_pixels": 4432
+  },
+  {
+    "question_id": 82,
+    "coarse_label": "粗圆",
+    "roi": [
+      0,
+      0,
+      240,
+      470
+    ],
+    "text_box": [
+      5,
+      60,
+      211,
+      403
+    ],
+    "components": 44,
+    "ink_pixels": 11180
+  },
+  {
+    "question_id": 78,
+    "coarse_label": "神秘体",
+    "roi": [
+      0,
+      0,
+      260,
+      462
+    ],
+    "text_box": [
+      4,
+      5,
+      253,
+      424
+    ],
+    "components": 473,
+    "ink_pixels": 12571
+  },
+  {
+    "question_id": 53,
+    "coarse_label": "电影体",
+    "roi": [
+      0,
+      0,
+      204,
+      548
+    ],
+    "text_box": [
+      44,
+      45,
+      112,
+      475
+    ],
+    "components": 26,
+    "ink_pixels": 6765
+  },
+  {
+    "question_id": 38,
+    "coarse_label": "淡古印",
+    "roi": [
+      0,
+      0,
+      510,
+      804
+    ],
+    "text_box": [
+      3,
+      27,
+      456,
+      730
+    ],
+    "components": 92,
+    "ink_pixels": 31886
+  },
+  {
+    "question_id": 31,
+    "coarse_label": "珍珠体",
+    "roi": [
+      0,
+      0,
+      1041,
+      995
+    ],
+    "text_box": [
+      6,
+      28,
+      1030,
+      962
+    ],
+    "components": 165,
+    "ink_pixels": 72046
+  },
+  {
+    "question_id": 29,
+    "coarse_label": "勘亭流",
+    "roi": [
+      0,
+      0,
+      541,
+      508
+    ],
+    "text_box": [
+      5,
+      4,
+      533,
+      500
+    ],
+    "components": 36,
+    "ink_pixels": 9641
+  },
+  {
+    "question_id": 25,
+    "coarse_label": "海报体",
+    "roi": [
+      0,
+      0,
+      813,
+      744
+    ],
+    "text_box": [
+      142,
+      13,
+      635,
+      686
+    ],
+    "components": 62,
+    "ink_pixels": 60105
+  }
+]

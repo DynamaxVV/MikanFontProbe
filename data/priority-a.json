@@ -1,0 +1,119 @@
+[
+  {
+    "question_id": 118,
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "わたしの実家",
+    "ocr_uncertain": false,
+    "lines": [
+      {"bbox": [145, 42, 35, 113], "text_excerpt": "つまり", "uncertain": false},
+      {"bbox": [106, 42, 45, 170], "text_excerpt": "わたしの実家", "uncertain": false},
+      {"bbox": [62, 160, 49, 187], "text_excerpt": "何をしに来た", "uncertain": false},
+      {"bbox": [29, 159, 39, 186], "text_excerpt": "のかというと", "uncertain": false}
+    ],
+    "notes": "四个彼此分离的竖排文字列；左上网点区和右下框状插画均未纳入。"
+  },
+  {
+    "question_id": 115,
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "がっかりしてる",
+    "ocr_uncertain": false,
+    "lines": [
+      {"bbox": [119, 78, 63, 166], "text_excerpt": "なんか", "uncertain": false},
+      {"bbox": [42, 77, 61, 406], "text_excerpt": "がっかりしてる", "uncertain": false}
+    ],
+    "notes": "两列细体竖排印刷字；右侧放射线插画与左侧边框均避开。"
+  },
+  {
+    "question_id": 100,
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "夜になると",
+    "ocr_uncertain": false,
+    "lines": [
+      {"bbox": [374, 130, 70, 470], "text_excerpt": "夜になると", "uncertain": false},
+      {"bbox": [245, 245, 82, 490], "text_excerpt": "この人のほうが", "uncertain": false},
+      {"bbox": [137, 245, 79, 490], "text_excerpt": "従う側になる", "uncertain": false},
+      {"bbox": [43, 245, 71, 230], "text_excerpt": "からだ", "uncertain": false}
+    ],
+    "notes": "四列主文字均单独框选；従う旁的细小注音不作为独立主文字列，周围纹理和右下插画避开。"
+  },
+  {
+    "question_id": 125,
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "約束の時間",
+    "ocr_uncertain": false,
+    "lines": [
+      {"bbox": [99, 32, 45, 275], "text_excerpt": "約束の時間", "uncertain": false},
+      {"bbox": [28, 32, 52, 259], "text_excerpt": "早めに着いた", "uncertain": false}
+    ],
+    "notes": "气泡内两列细体竖排字；外侧弧形边界和左下纹理未纳入。"
+  },
+  {
+    "question_id": 76,
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "築きたいですね",
+    "ocr_uncertain": false,
+    "lines": [
+      {"bbox": [507, 43, 91, 369], "text_excerpt": "村の人たちとは", "uncertain": false},
+      {"bbox": [419, 43, 74, 337], "text_excerpt": "いい関係を", "uncertain": false},
+      {"bbox": [335, 43, 78, 357], "text_excerpt": "築きたいですね", "uncertain": false},
+      {"bbox": [227, 193, 65, 314], "text_excerpt": "これからも", "uncertain": false},
+      {"bbox": [140, 194, 69, 405], "text_excerpt": "この村で生活して", "uncertain": false},
+      {"bbox": [68, 194, 65, 354], "text_excerpt": "いくんですから", "uncertain": false}
+    ],
+    "notes": "两个对话气泡中的六列粗体/装饰性印刷字；各列分开框选，未把气泡弧线并入。"
+  },
+  {
+    "question_id": 62,
+    "text_type": "regular_print",
+    "layout": "vertical",
+    "ocr_excerpt": "そういえば",
+    "ocr_uncertain": false,
+    "lines": [
+      {"bbox": [94, 40, 47, 126], "text_excerpt": "そういえば", "uncertain": false},
+      {"bbox": [58, 41, 43, 135], "text_excerpt": "さっきの話", "uncertain": false},
+      {"bbox": [24, 41, 53, 154], "text_excerpt": "なんだったの", "uncertain": false}
+    ],
+    "notes": "三列细体竖排文字，问号包含在左列文字区；气泡边界避开。"
+  },
+  {
+    "question_id": 58,
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "ありがとう",
+    "ocr_uncertain": false,
+    "lines": [
+      {"bbox": [137, 40, 58, 177], "text_excerpt": "ありがとう", "uncertain": false},
+      {"bbox": [79, 40, 62, 222], "text_excerpt": "いただくわ", "uncertain": false}
+    ],
+    "notes": "两列粗体竖排漫画印刷字；感叹号在各自列的下端，气泡边界未纳入。"
+  },
+  {
+    "question_id": 96,
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "万里花さんを",
+    "ocr_uncertain": false,
+    "lines": [
+      {"bbox": [120, 80, 64, 382], "text_excerpt": "とにかく", "uncertain": false},
+      {"bbox": [48, 90, 66, 270], "text_excerpt": "万里花さんを", "uncertain": false}
+    ],
+    "notes": "两列粗体竖排字；右列开头的停顿符号和末尾感叹号仍在同一 ROI，网点背景避开。"
+  },
+  {
+    "question_id": 65,
+    "text_type": "stylized_print",
+    "layout": "vertical",
+    "ocr_excerpt": "プレゼント",
+    "ocr_uncertain": false,
+    "lines": [
+      {"bbox": [78, 24, 66, 330], "text_excerpt": "朝加ちゃんへの", "uncertain": true},
+      {"bbox": [14, 47, 64, 228], "text_excerpt": "プレゼント", "uncertain": false}
+    ],
+    "notes": "两列白色描边粗体字叠在深色背景上；右列专名及其小注音的精确读法存在不确定性，小注音未单列。"
+  }
+]

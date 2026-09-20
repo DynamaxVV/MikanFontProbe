@@ -1,0 +1,16 @@
+{
+  "hashes": {
+    "geometry_font_matcher.py": "04de710fa336c5faffa4dea0166a76c9c25b04438a73ade02938622d12e999b6",
+    "glyph_geometry.py": "7a7c2ff8128520f15f3c74e43d93d025f44dda39ad1ddcea9c38c88125b2fe0d",
+    "evaluate_humming_v4.py": "828768b181f1bc97645a431f2b47ef449247d56ad88d171cd609e15679a4ef99",
+    "informative_selection.py": "b55f7c1e16cbee01ace4ce6dabaaaef0101fc7b32c101caf035aa33bea48673f",
+    "match_font_baseline.py": "1fe82c8ba02c3b978cca746cf436d7ea930c145e5f3568a794efab310684da7d",
+    "structure_font_baseline.py": "910e4572a2fea7281f41f7621876bf5ae5590ced24131d11918728389d922e01",
+    "data/category-expansion-v3/pools.json": "2fad7e426c9cccad999463d55d2f32a0a16306e2755aa9994235c12cd1d6cb39",
+    "data/category-expansion-v3/templates/catalog.json": "660f15c4f21621ee84d8cd90abdf686fbd819312d5d0514363368b870bb9d3d0"
+  },
+  "rule": "50% existing appearance + 50% bounded centerline geometry; one shared alignment",
+  "resolution": "exact periodic duplicate detection in both axes; equal-resolution references",
+  "status": "six Humming questions used for diagnosis; 48-question regression is not blind",
+  "no_family_specific_bonus": true
+}

@@ -1,0 +1,133 @@
+[
+  {
+    "question_id": 118,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "All four blue boxes contain the intended vertical lines; margins are slightly generous around the lower two lines."
+    ],
+    "punctuation_issues": [],
+    "comparison_to_priority_baseline": "Matches the priority-a expectation: four separated vertical lines, with the upper-left halftone and lower-right framed artwork excluded."
+  },
+  {
+    "question_id": 115,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "The long left-column box is slightly roomier than the glyphs; the short なんか box is close."
+    ],
+    "punctuation_issues": [],
+    "comparison_to_priority_baseline": "Matches the baseline: both vertical columns are complete and the right-side radiating illustration and left border are not included in the mask."
+  },
+  {
+    "question_id": 100,
+    "text_coverage": 5,
+    "background_rejection": 3,
+    "box_tightness": 2,
+    "missed_characters": [],
+    "art_inclusions": [
+      "A substantial green patch from the dark textured illustration remains at the lower right."
+    ],
+    "box_line_issues": [
+      "The rightmost 夜になると box extends far below the text into the lower-right texture; the other three line boxes are materially tighter."
+    ],
+    "punctuation_issues": [],
+    "comparison_to_priority_baseline": "Text coverage matches the baseline, but the baseline specifically expected the lower-right illustration to be avoided; the current mask and rightmost box regress on that point."
+  },
+  {
+    "question_id": 125,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "The three vertical text boxes are complete with modest padding; the right box includes the punctuation area but not the outer bubble border."
+    ],
+    "punctuation_issues": [],
+    "comparison_to_priority_baseline": "Matches the baseline expectation: みたいです, 早めに着いちゃった, and でも…約束の時間より are all retained while the outer border and lower-left texture are rejected."
+  },
+  {
+    "question_id": 76,
+    "text_coverage": 5,
+    "background_rejection": 4,
+    "box_tightness": 4,
+    "missed_characters": [],
+    "art_inclusions": [
+      "A small stray stroke from the speech-bubble boundary/nearby line is retained above the これからも region."
+    ],
+    "box_line_issues": [
+      "The これからも box has extra top padding that admits the stray stroke; the other five column boxes are close to the text."
+    ],
+    "punctuation_issues": [],
+    "comparison_to_priority_baseline": "Mostly matches the six-column baseline, but the baseline's clean bubble-arc exclusion is not fully met because of the small upper stray stroke."
+  },
+  {
+    "question_id": 62,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 5,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [],
+    "punctuation_issues": [
+      "The question mark in なんだったの? is correctly retained inside the left-column box."
+    ],
+    "comparison_to_priority_baseline": "Clean match to the baseline: all three lines and the question mark are retained, with the speech-bubble boundary excluded."
+  },
+  {
+    "question_id": 58,
+    "text_coverage": 5,
+    "background_rejection": 2,
+    "box_tightness": 2,
+    "missed_characters": [],
+    "art_inclusions": [
+      "The mask retains horizontal speech-bubble boundary strokes above and below the text."
+    ],
+    "box_line_issues": [
+      "Both blue line boxes extend from near the top bubble border toward the bottom border instead of tightly following the two text columns."
+    ],
+    "punctuation_issues": [
+      "Both double exclamation marks are retained."
+    ],
+    "comparison_to_priority_baseline": "Text coverage matches the baseline, but the baseline expected the bubble boundary to be excluded; current mask contamination and oversized boxes are a clear regression."
+  },
+  {
+    "question_id": 96,
+    "text_coverage": 5,
+    "background_rejection": 2,
+    "box_tightness": 2,
+    "missed_characters": [],
+    "art_inclusions": [
+      "A band of halftone dots above the speech bubble is accepted, with additional boundary-adjacent pixels around the top of the boxes."
+    ],
+    "box_line_issues": [
+      "Both blue boxes include large top margins and bubble/halftone area; the right box is especially tall relative to the text."
+    ],
+    "punctuation_issues": [
+      "The ellipsis in と…とにかく and the final double exclamation marks are retained."
+    ],
+    "comparison_to_priority_baseline": "All text and punctuation match the baseline, but the baseline's stated halftone exclusion is not met and the boxes are not tight around the two columns."
+  },
+  {
+    "question_id": 65,
+    "text_coverage": 5,
+    "background_rejection": 2,
+    "box_tightness": 2,
+    "missed_characters": [],
+    "art_inclusions": [
+      "The lower-left hand/gray illustration is included in the mask, with additional small nontext fragments near the bottom."
+    ],
+    "box_line_issues": [
+      "The プレゼント box is much taller than the glyphs and includes the lower hand; the 朝加ちゃんへの box is closer but still carries extra lower margin."
+    ],
+    "punctuation_issues": [],
+    "comparison_to_priority_baseline": "The outlined main text and small side reading marks are retained as expected, but the baseline's clean separation from the dark-background illustration is not achieved because the lower hand/art is accepted."
+  }
+]

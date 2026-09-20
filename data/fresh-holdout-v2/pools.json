@@ -1,0 +1,5426 @@
+{
+  "status": "fresh local-evidence holdout; visually annotated; never font-matched by preparer",
+  "schema": "active-selection-v1 compatible, source provenance and shortfall fields added",
+  "bbox_format": "original image [x,y,width,height], half-open; crop pixels unmodified",
+  "audit_sha256": "83d693a01d968962cdaf177c351387ea1f8cc5a5ed232222e65b9361dbef394d",
+  "annotations_sha256": "d50be08f7835d074bb2e1fe279fe2fb6664ddf63d17b344fb55536431af63bdb",
+  "samples": [
+    {
+      "qid": 1,
+      "expected": "黑体",
+      "coarse_label": "中黑",
+      "source_path": "data/images/q1.png",
+      "source_absolute_path": "./data/images/q1.png",
+      "source_sha256": "ea65185f0bde4c1d2658d74515df4443f39a1a2c3fa6df5d8f05c98e6288be5e",
+      "source_pixel_sha256": "ef526481dcde059253e8221c7de5080aec88cd891815e10f631c0b499da581fc",
+      "polarity": "dark",
+      "glyphs": [
+        {
+          "id": "q1-c0-g0",
+          "character": "高",
+          "path": "data/fresh-holdout-v2/crops/q1-c0-g0.png",
+          "sha256": "1f6fdf6fc9ff1084e0dcf0c7f4bda92a50e187504bc2edf5bded347b18d94329",
+          "bbox": [
+            46,
+            23,
+            20,
+            19
+          ],
+          "cell_bbox": [
+            45,
+            22,
+            24,
+            20
+          ],
+          "quality": {
+            "score": 0.8162,
+            "resolution": 0.475,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 17,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q1-c0-g1",
+          "character": "校",
+          "path": "data/fresh-holdout-v2/crops/q1-c0-g1.png",
+          "sha256": "6fc696daffb4b7c003cf9fe9a2ba810e49e50ea5a517cbdfc2eaab118ba9660c",
+          "bbox": [
+            46,
+            42,
+            20,
+            18
+          ],
+          "cell_bbox": [
+            45,
+            42,
+            24,
+            18
+          ],
+          "quality": {
+            "score": 0.8075,
+            "resolution": 0.45,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q1-c0-g2",
+          "character": "生",
+          "path": "data/fresh-holdout-v2/crops/q1-c0-g2.png",
+          "sha256": "86945210f87f28ba3b816703b39c853f78a5d511d4f5c0fb9ef2d5f9844d4889",
+          "bbox": [
+            46,
+            60,
+            20,
+            18
+          ],
+          "cell_bbox": [
+            45,
+            60,
+            24,
+            18
+          ],
+          "quality": {
+            "score": 0.8075,
+            "resolution": 0.45,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q1-c0-g3",
+          "character": "活",
+          "path": "data/fresh-holdout-v2/crops/q1-c0-g3.png",
+          "sha256": "7b772a0bd71876d1aad4c05e06121cdfda457fc560415dae1478bc634b99233a",
+          "bbox": [
+            46,
+            78,
+            20,
+            19
+          ],
+          "cell_bbox": [
+            45,
+            78,
+            24,
+            19
+          ],
+          "quality": {
+            "score": 0.8162,
+            "resolution": 0.475,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q1-c0-g4",
+          "character": "は",
+          "path": "data/fresh-holdout-v2/crops/q1-c0-g4.png",
+          "sha256": "49556ee25a2e366f371c1ce652332b69839e31c7b0b3b024d6743c75864dd580",
+          "bbox": [
+            48,
+            97,
+            17,
+            17
+          ],
+          "cell_bbox": [
+            45,
+            97,
+            24,
+            17
+          ],
+          "quality": {
+            "score": 0.7987,
+            "resolution": 0.425,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 13,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q1-c0-g5",
+          "character": "ど",
+          "path": "data/fresh-holdout-v2/crops/q1-c0-g5.png",
+          "sha256": "82b42ccefced7f5394390942c51699ac7710e1f45bee451f09222272188c09d7",
+          "bbox": [
+            51,
+            114,
+            14,
+            19
+          ],
+          "cell_bbox": [
+            45,
+            114,
+            24,
+            19
+          ],
+          "quality": {
+            "score": 0.7725,
+            "resolution": 0.35,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 15,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q1-c0-g6",
+          "character": "う",
+          "path": "data/fresh-holdout-v2/crops/q1-c0-g6.png",
+          "sha256": "2d147a61e8abf273d62b61a5886a0a66e15988a45cc3bd19644deefa79597828",
+          "bbox": [
+            50,
+            133,
+            12,
+            18
+          ],
+          "cell_bbox": [
+            45,
+            133,
+            24,
+            19
+          ],
+          "quality": {
+            "score": 0.755,
+            "resolution": 0.3,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 14,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q1-c1-g0",
+          "character": "慣",
+          "path": "data/fresh-holdout-v2/crops/q1-c1-g0.png",
+          "sha256": "0fac0cbcfa1ef62d687f0884e5b37f99a8f7b70bbc4d4939d27af138970130e1",
+          "bbox": [
+            23,
+            23,
+            20,
+            19
+          ],
+          "cell_bbox": [
+            22,
+            22,
+            22,
+            20
+          ],
+          "quality": {
+            "score": 0.8162,
+            "resolution": 0.475,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q1-c1-g1",
+          "character": "れ",
+          "path": "data/fresh-holdout-v2/crops/q1-c1-g1.png",
+          "sha256": "4976bd3422f7ce1ec4fc52409f762edb930765f9d6b07b44cf614f603e6e620f",
+          "bbox": [
+            25,
+            42,
+            18,
+            18
+          ],
+          "cell_bbox": [
+            22,
+            42,
+            22,
+            18
+          ],
+          "quality": {
+            "score": 0.8075,
+            "resolution": 0.45,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 14,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q1-c1-g2",
+          "character": "た",
+          "path": "data/fresh-holdout-v2/crops/q1-c1-g2.png",
+          "sha256": "dc984fbabab24aeefded588878f91dfcc0b3f06a4f768be8408b069e56ca4e7b",
+          "bbox": [
+            25,
+            60,
+            16,
+            18
+          ],
+          "cell_bbox": [
+            22,
+            60,
+            22,
+            19
+          ],
+          "quality": {
+            "score": 0.79,
+            "resolution": 0.4,
+            "contrast": 1.0,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 14,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        }
+      ],
+      "distinct_characters": 10,
+      "meets_seven_distinct": true,
+      "shortfall_reason": null,
+      "exclusions": [
+        {
+          "bbox": [
+            45,
+            152,
+            24,
+            22
+          ],
+          "reason": "问号，非本池常规文字"
+        },
+        {
+          "bbox": [
+            22,
+            79,
+            22,
+            21
+          ],
+          "reason": "问号，非本池常规文字"
+        }
+      ],
+      "notes": [
+        "原图仅84×202，文字约16px；全部保留并标记低分辨率，不上采样伪造细节。"
+      ]
+    },
+    {
+      "qid": 2,
+      "expected": "宋体",
+      "coarse_label": "细宋",
+      "source_path": "data/images/q2.png",
+      "source_absolute_path": "./data/images/q2.png",
+      "source_sha256": "11c1dcd8c5c0dd5060022bbd10efdb3d3e2e20591319749aba134c5c729403f8",
+      "source_pixel_sha256": "5760aa0254cc2248de0ed07dcc977e1ce99380d42a392f185b5135bbdf023a13",
+      "polarity": "dark",
+      "glyphs": [
+        {
+          "id": "q2-c0-g0",
+          "character": "な",
+          "path": "data/fresh-holdout-v2/crops/q2-c0-g0.png",
+          "sha256": "ccbd5559a9dedf80e119a970a1fb63671720ccb082d487eaee2d16ca94c8ec06",
+          "bbox": [
+            83,
+            27,
+            17,
+            19
+          ],
+          "cell_bbox": [
+            81,
+            26,
+            21,
+            20
+          ],
+          "quality": {
+            "score": 0.7005,
+            "resolution": 0.425,
+            "contrast": 0.7192156862745097,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c0-g1",
+          "character": "ん",
+          "path": "data/fresh-holdout-v2/crops/q2-c0-g1.png",
+          "sha256": "6d586979b329fe46784a5b431f69ceb5831d5b16e19cecb88179633e4b3d05f4",
+          "bbox": [
+            82,
+            46,
+            19,
+            18
+          ],
+          "cell_bbox": [
+            81,
+            46,
+            21,
+            18
+          ],
+          "quality": {
+            "score": 0.6877,
+            "resolution": 0.45,
+            "contrast": 0.6576470588235294,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 15,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c0-g2",
+          "character": "だ",
+          "path": "data/fresh-holdout-v2/crops/q2-c0-g2.png",
+          "sha256": "28c3d29b05d2aea942f5795be8c2f634ae34f8020d288850ad4736a834de00f7",
+          "bbox": [
+            82,
+            64,
+            19,
+            19
+          ],
+          "cell_bbox": [
+            81,
+            64,
+            21,
+            19
+          ],
+          "quality": {
+            "score": 0.6845,
+            "resolution": 0.475,
+            "contrast": 0.6235294117647059,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 15,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c0-g3",
+          "character": "ろ",
+          "path": "data/fresh-holdout-v2/crops/q2-c0-g3.png",
+          "sha256": "5dd3af6a426bd20ebecebd4593eb39f91b700d516cfd53f368ded10e02fd1e61",
+          "bbox": [
+            83,
+            83,
+            16,
+            18
+          ],
+          "cell_bbox": [
+            81,
+            83,
+            21,
+            18
+          ],
+          "quality": {
+            "score": 0.7063,
+            "resolution": 0.4,
+            "contrast": 0.7607843137254902,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 14,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c0-g4",
+          "character": "う",
+          "path": "data/fresh-holdout-v2/crops/q2-c0-g4.png",
+          "sha256": "6dcfc19f667b3ac3cac701ea7e05adfa82e3e8cf92197c7b40108a7d21be0d71",
+          "bbox": [
+            84,
+            101,
+            14,
+            19
+          ],
+          "cell_bbox": [
+            81,
+            101,
+            21,
+            19
+          ],
+          "quality": {
+            "score": 0.6486,
+            "resolution": 0.35,
+            "contrast": 0.6460784313725491,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 15,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c1-g0",
+          "character": "責",
+          "path": "data/fresh-holdout-v2/crops/q2-c1-g0.png",
+          "sha256": "e5b47bd45dadbc928a35e3a9d0d123e8bd1948d4432737fa163363d31d0f87cd",
+          "bbox": [
+            59,
+            27,
+            20,
+            19
+          ],
+          "cell_bbox": [
+            58,
+            26,
+            22,
+            20
+          ],
+          "quality": {
+            "score": 0.671,
+            "resolution": 0.475,
+            "contrast": 0.5849019607843138,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c1-g1",
+          "character": "任",
+          "path": "data/fresh-holdout-v2/crops/q2-c1-g1.png",
+          "sha256": "52838ca8f47a67250de604124c9cd4c67eea0a71f4641e424ccd327b95840547",
+          "bbox": [
+            60,
+            46,
+            18,
+            18
+          ],
+          "cell_bbox": [
+            58,
+            46,
+            22,
+            18
+          ],
+          "quality": {
+            "score": 0.63,
+            "resolution": 0.45,
+            "contrast": 0.6503921568627451,
+            "edge_ink_fraction": 0.014705882352941176,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c1-g3",
+          "character": "っ",
+          "path": "data/fresh-holdout-v2/crops/q2-c1-g3.png",
+          "sha256": "f4c1be59e0487b4d280443ad6482de662f03d4083399c17d602d048d66543429",
+          "bbox": [
+            63,
+            86,
+            16,
+            12
+          ],
+          "cell_bbox": [
+            58,
+            83,
+            22,
+            17
+          ],
+          "quality": {
+            "score": 0.596,
+            "resolution": 0.3,
+            "contrast": 0.5456862745098038,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 13,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c1-g4",
+          "character": "て",
+          "path": "data/fresh-holdout-v2/crops/q2-c1-g4.png",
+          "sha256": "030ad0ead7a5445c8b33fc21b8eb6f9c57df3ee71c6641cccb43d7363faece1f",
+          "bbox": [
+            59,
+            102,
+            18,
+            17
+          ],
+          "cell_bbox": [
+            58,
+            100,
+            22,
+            20
+          ],
+          "quality": {
+            "score": 0.6728,
+            "resolution": 0.425,
+            "contrast": 0.6401960784313725,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 14,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c1-g5",
+          "character": "い",
+          "path": "data/fresh-holdout-v2/crops/q2-c1-g5.png",
+          "sha256": "dec2cf36819d877fd26ae13dd33cc1d88dc1ccb6488b9b4a272273e4fab3a28c",
+          "bbox": [
+            60,
+            121,
+            18,
+            15
+          ],
+          "cell_bbox": [
+            58,
+            120,
+            22,
+            17
+          ],
+          "quality": {
+            "score": 0.6409,
+            "resolution": 0.375,
+            "contrast": 0.5990196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 14,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c1-g6",
+          "character": "う",
+          "path": "data/fresh-holdout-v2/crops/q2-c1-g6.png",
+          "sha256": "9a5ef15ef7859204f0fa4bbda2589217f2374020459210c88ee64eef9126ef34",
+          "bbox": [
+            61,
+            137,
+            14,
+            19
+          ],
+          "cell_bbox": [
+            58,
+            137,
+            22,
+            20
+          ],
+          "quality": {
+            "score": 0.6514,
+            "resolution": 0.35,
+            "contrast": 0.653921568627451,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c1-g7",
+          "character": "の",
+          "path": "data/fresh-holdout-v2/crops/q2-c1-g7.png",
+          "sha256": "ccd406ecec9ad634d1adc81b338eecb7d2173215f5534ca342cf36a1f08e4fa5",
+          "bbox": [
+            60,
+            157,
+            18,
+            16
+          ],
+          "cell_bbox": [
+            58,
+            157,
+            22,
+            17
+          ],
+          "quality": {
+            "score": 0.74,
+            "resolution": 0.4,
+            "contrast": 0.8572549019607842,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 14,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c1-g8",
+          "character": "か",
+          "path": "data/fresh-holdout-v2/crops/q2-c1-g8.png",
+          "sha256": "12f9fe7954f08ae23bb3a972aac432ea458161880f63cbee665f074097c0804f",
+          "bbox": [
+            59,
+            174,
+            20,
+            18
+          ],
+          "cell_bbox": [
+            58,
+            174,
+            22,
+            18
+          ],
+          "quality": {
+            "score": 0.7184,
+            "resolution": 0.45,
+            "contrast": 0.7452941176470589,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c1-g9",
+          "character": "な",
+          "path": "data/fresh-holdout-v2/crops/q2-c1-g9.png",
+          "sha256": "7cf0cf5407a6563ca100a7b20518554df0c230f4166d183f1ed7898d1f64288c",
+          "bbox": [
+            60,
+            192,
+            18,
+            19
+          ],
+          "cell_bbox": [
+            58,
+            192,
+            22,
+            20
+          ],
+          "quality": {
+            "score": 0.7168,
+            "resolution": 0.45,
+            "contrast": 0.7409803921568627,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c2-g0",
+          "character": "自",
+          "path": "data/fresh-holdout-v2/crops/q2-c2-g0.png",
+          "sha256": "cd40ced6380a8c3bf07afc67977447650f158c501941a651f74b46abf45fa508",
+          "bbox": [
+            38,
+            27,
+            16,
+            19
+          ],
+          "cell_bbox": [
+            34,
+            26,
+            23,
+            20
+          ],
+          "quality": {
+            "score": 0.6913,
+            "resolution": 0.4,
+            "contrast": 0.7180392156862745,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c2-g1",
+          "character": "立",
+          "path": "data/fresh-holdout-v2/crops/q2-c2-g1.png",
+          "sha256": "0ded9dc3b6e256752b2a6d3121d55d176f5091d7fa3c53ca6720599f44fe520c",
+          "bbox": [
+            39,
+            46,
+            16,
+            18
+          ],
+          "cell_bbox": [
+            34,
+            46,
+            23,
+            18
+          ],
+          "quality": {
+            "score": 0.6463,
+            "resolution": 0.4,
+            "contrast": 0.5894117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 14,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c2-g3",
+          "character": "っ",
+          "path": "data/fresh-holdout-v2/crops/q2-c2-g3.png",
+          "sha256": "5716b63fc4269e29b3bc6f1886c4a8d726e5fd065a9f2681ba6c458067290fff",
+          "bbox": [
+            40,
+            86,
+            16,
+            12
+          ],
+          "cell_bbox": [
+            34,
+            83,
+            23,
+            17
+          ],
+          "quality": {
+            "score": 0.6096,
+            "resolution": 0.3,
+            "contrast": 0.5845098039215687,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 12,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c2-g4",
+          "character": "て",
+          "path": "data/fresh-holdout-v2/crops/q2-c2-g4.png",
+          "sha256": "add90904cb6c895d4c54ee5d1e7e513ea02dfcb04950e8a86f393f3e787f5d2a",
+          "bbox": [
+            37,
+            102,
+            17,
+            17
+          ],
+          "cell_bbox": [
+            34,
+            100,
+            23,
+            20
+          ],
+          "quality": {
+            "score": 0.6686,
+            "resolution": 0.425,
+            "contrast": 0.628235294117647,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 13,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c2-g5",
+          "character": "い",
+          "path": "data/fresh-holdout-v2/crops/q2-c2-g5.png",
+          "sha256": "b68b7f23107687872dc73cd2f7f73ecd591b5d43e768f8b9df108343cddaf1f3",
+          "bbox": [
+            37,
+            121,
+            18,
+            15
+          ],
+          "cell_bbox": [
+            34,
+            120,
+            23,
+            17
+          ],
+          "quality": {
+            "score": 0.653,
+            "resolution": 0.375,
+            "contrast": 0.6335294117647059,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 14,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c2-g6",
+          "character": "う",
+          "path": "data/fresh-holdout-v2/crops/q2-c2-g6.png",
+          "sha256": "0593af24cc273db673077977149fdce7a8b18e788afc4e8df5fc0e397110a0c2",
+          "bbox": [
+            39,
+            137,
+            14,
+            19
+          ],
+          "cell_bbox": [
+            34,
+            137,
+            23,
+            20
+          ],
+          "quality": {
+            "score": 0.637,
+            "resolution": 0.35,
+            "contrast": 0.6127450980392157,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c2-g7",
+          "character": "の",
+          "path": "data/fresh-holdout-v2/crops/q2-c2-g7.png",
+          "sha256": "1538d791f4128a4235f724e010c049acefa20fa73494d039a0635f9a5b7f068b",
+          "bbox": [
+            37,
+            157,
+            18,
+            16
+          ],
+          "cell_bbox": [
+            34,
+            157,
+            23,
+            17
+          ],
+          "quality": {
+            "score": 0.7126,
+            "resolution": 0.4,
+            "contrast": 0.7788235294117647,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 14,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c2-g8",
+          "character": "か",
+          "path": "data/fresh-holdout-v2/crops/q2-c2-g8.png",
+          "sha256": "8b9bbbd47b5f2530b7db4ae83a0d4f217f6edab34a86e1c767cc3cee4ebffecd",
+          "bbox": [
+            37,
+            174,
+            19,
+            18
+          ],
+          "cell_bbox": [
+            34,
+            174,
+            23,
+            18
+          ],
+          "quality": {
+            "score": 0.7059,
+            "resolution": 0.45,
+            "contrast": 0.7096078431372549,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 15,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q2-c2-g9",
+          "character": "な",
+          "path": "data/fresh-holdout-v2/crops/q2-c2-g9.png",
+          "sha256": "6fbf094d9b13fbc33c7af72440aac294ddceaa7d426af59084109eacb94cb012",
+          "bbox": [
+            37,
+            192,
+            18,
+            19
+          ],
+          "cell_bbox": [
+            34,
+            192,
+            23,
+            20
+          ],
+          "quality": {
+            "score": 0.738,
+            "resolution": 0.45,
+            "contrast": 0.8013725490196079,
+            "edge_ink_fraction": 0.0,
+            "flags": [
+              "分辨率偏低"
+            ],
+            "usable": true
+          },
+          "resolution": 16,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        }
+      ],
+      "distinct_characters": 14,
+      "meets_seven_distinct": true,
+      "shortfall_reason": null,
+      "exclusions": [
+        {
+          "bbox": [
+            81,
+            120,
+            21,
+            19
+          ],
+          "reason": "省略号"
+        },
+        {
+          "bbox": [
+            58,
+            64,
+            22,
+            19
+          ],
+          "reason": "省略号"
+        },
+        {
+          "bbox": [
+            34,
+            64,
+            23,
+            19
+          ],
+          "reason": "省略号"
+        }
+      ],
+      "notes": [
+        "正文约16px，低分辨率；促音っ与全尺寸つ视觉区分，保留两个っ。"
+      ]
+    },
+    {
+      "qid": 5,
+      "expected": "圆体",
+      "coarse_label": "中圆",
+      "source_path": "data/images/q5.png",
+      "source_absolute_path": "./data/images/q5.png",
+      "source_sha256": "d3806a0d15bf3b4c75c945c926f1ba710540558492456deda2c2e3ef82c60bf0",
+      "source_pixel_sha256": "9ea79434c0bfcf917cddbfe23f62f3b9a76649a86bf5fec9d626683e3d6b6419",
+      "polarity": "dark",
+      "glyphs": [
+        {
+          "id": "q5-c0-g0",
+          "character": "ど",
+          "path": "data/fresh-holdout-v2/crops/q5-c0-g0.png",
+          "sha256": "d70981f944bd58950bd5542a9f4a8ead387b22ed01d85c00997ab3d71dc49f22",
+          "bbox": [
+            105,
+            54,
+            41,
+            40
+          ],
+          "cell_bbox": [
+            102,
+            52,
+            50,
+            44
+          ],
+          "quality": {
+            "score": 0.9767,
+            "resolution": 1.0,
+            "contrast": 0.9333333333333333,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 37,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q5-c0-g1",
+          "character": "う",
+          "path": "data/fresh-holdout-v2/crops/q5-c0-g1.png",
+          "sha256": "b449b10c6057afe17a8636a70d25e2b59167f2c7f6e3caecf61f6559f09854fc",
+          "bbox": [
+            105,
+            96,
+            37,
+            40
+          ],
+          "cell_bbox": [
+            102,
+            96,
+            50,
+            40
+          ],
+          "quality": {
+            "score": 0.9532,
+            "resolution": 0.925,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q5-c0-g2",
+          "character": "し",
+          "path": "data/fresh-holdout-v2/crops/q5-c0-g2.png",
+          "sha256": "85011fbd97ee04b47f252d2dc2f90a7b8edc783dc9b45f31ea04133fe4cf7584",
+          "bbox": [
+            110,
+            136,
+            34,
+            42
+          ],
+          "cell_bbox": [
+            102,
+            136,
+            50,
+            44
+          ],
+          "quality": {
+            "score": 0.9242,
+            "resolution": 0.85,
+            "contrast": 0.9333333333333333,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 37,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q5-c0-g3",
+          "character": "て",
+          "path": "data/fresh-holdout-v2/crops/q5-c0-g3.png",
+          "sha256": "4e7a869dc087240c4fe7510a889fe83f45f820dff8d07ccde8a0da8db04cfc3b",
+          "bbox": [
+            103,
+            181,
+            41,
+            38
+          ],
+          "cell_bbox": [
+            102,
+            180,
+            50,
+            40
+          ],
+          "quality": {
+            "score": 0.9619,
+            "resolution": 0.95,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 37,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q5-c0-g4",
+          "character": "も",
+          "path": "data/fresh-holdout-v2/crops/q5-c0-g4.png",
+          "sha256": "b6fbb554fa07d2988feaa76b1979b965c1445a0f47edba9266af9a410f1828ba",
+          "bbox": [
+            105,
+            220,
+            39,
+            40
+          ],
+          "cell_bbox": [
+            102,
+            220,
+            50,
+            41
+          ],
+          "quality": {
+            "score": 0.972,
+            "resolution": 0.975,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q5-c1-g0",
+          "character": "だ",
+          "path": "data/fresh-holdout-v2/crops/q5-c1-g0.png",
+          "sha256": "1cb01a51ed55b20eedf04621ac544b7dcbcf194fc08270a943c7c5ee88a725d9",
+          "bbox": [
+            50,
+            54,
+            42,
+            42
+          ],
+          "cell_bbox": [
+            47,
+            52,
+            51,
+            44
+          ],
+          "quality": {
+            "score": 0.9822,
+            "resolution": 1.0,
+            "contrast": 0.9490196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q5-c1-g1",
+          "character": "め",
+          "path": "data/fresh-holdout-v2/crops/q5-c1-g1.png",
+          "sha256": "8fe3407195f2262b9f9da65b17471a6ac73ae70fa5a8caff57764cc724e045f7",
+          "bbox": [
+            52,
+            96,
+            40,
+            40
+          ],
+          "cell_bbox": [
+            47,
+            96,
+            51,
+            42
+          ],
+          "quality": {
+            "score": 0.9822,
+            "resolution": 1.0,
+            "contrast": 0.9490196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q5-c1-g2",
+          "character": "で",
+          "path": "data/fresh-holdout-v2/crops/q5-c1-g2.png",
+          "sha256": "d72252edc4226901db4ae0bcc252c75c6a0a885cfce325a651ea3527a2ba1045",
+          "bbox": [
+            52,
+            140,
+            40,
+            38
+          ],
+          "cell_bbox": [
+            47,
+            138,
+            51,
+            40
+          ],
+          "quality": {
+            "score": 0.9619,
+            "resolution": 0.95,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q5-c1-g3",
+          "character": "す",
+          "path": "data/fresh-holdout-v2/crops/q5-c1-g3.png",
+          "sha256": "facc02b5a4a2af881df72e91c9f102e14ac5a2a5b2a0ff903e122572dff82c76",
+          "bbox": [
+            50,
+            178,
+            43,
+            41
+          ],
+          "cell_bbox": [
+            47,
+            178,
+            51,
+            42
+          ],
+          "quality": {
+            "score": 0.9835,
+            "resolution": 1.0,
+            "contrast": 0.9529411764705882,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 39,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q5-c1-g4",
+          "character": "の",
+          "path": "data/fresh-holdout-v2/crops/q5-c1-g4.png",
+          "sha256": "a793531b015eaf885395700270e8d48b179a36fea9aba560bcb497a219220811",
+          "bbox": [
+            50,
+            222,
+            43,
+            38
+          ],
+          "cell_bbox": [
+            47,
+            220,
+            51,
+            41
+          ],
+          "quality": {
+            "score": 0.9633,
+            "resolution": 0.95,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 39,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        }
+      ],
+      "distinct_characters": 10,
+      "meets_seven_distinct": true,
+      "shortfall_reason": null,
+      "exclusions": [
+        {
+          "bbox": [
+            47,
+            261,
+            51,
+            43
+          ],
+          "reason": "三个感叹号"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "qid": 8,
+      "expected": "圆体",
+      "coarse_label": "中圆",
+      "source_path": "data/images/q8.png",
+      "source_absolute_path": "./data/images/q8.png",
+      "source_sha256": "c9ebefd3ae068aa31eb1bb85f968ed847e501658f66281a32ad8d48448510389",
+      "source_pixel_sha256": "5b0a9f88626bf1be3eb3c27c641f5c1b9f50da381c2bc6806900ad076e34675e",
+      "polarity": "dark",
+      "glyphs": [
+        {
+          "id": "q8-c0-g0",
+          "character": "何",
+          "path": "data/fresh-holdout-v2/crops/q8-c0-g0.png",
+          "sha256": "d3421885ad81062566bacc1bc69a23cf1ee38be036af7e96e37d414f5ac7a8eb",
+          "bbox": [
+            171,
+            74,
+            44,
+            42
+          ],
+          "cell_bbox": [
+            170,
+            72,
+            49,
+            45
+          ],
+          "quality": {
+            "score": 0.9835,
+            "resolution": 1.0,
+            "contrast": 0.9529411764705882,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 39,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c0-g1",
+          "character": "回",
+          "path": "data/fresh-holdout-v2/crops/q8-c0-g1.png",
+          "sha256": "4ce9b5c84ea954ecf629744f50f63197e9d5fd0509148ef2bc4f3b2d0dee6112",
+          "bbox": [
+            173,
+            118,
+            39,
+            39
+          ],
+          "cell_bbox": [
+            170,
+            117,
+            49,
+            41
+          ],
+          "quality": {
+            "score": 0.9775,
+            "resolution": 0.975,
+            "contrast": 0.9607843137254902,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 35,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c0-g2",
+          "character": "や",
+          "path": "data/fresh-holdout-v2/crops/q8-c0-g2.png",
+          "sha256": "d91c7afaa6e749a2a4a228fb3ab2c82fc94954b1a790a69dd29f7de1d91c44d3",
+          "bbox": [
+            171,
+            159,
+            44,
+            43
+          ],
+          "cell_bbox": [
+            170,
+            158,
+            49,
+            46
+          ],
+          "quality": {
+            "score": 0.978,
+            "resolution": 1.0,
+            "contrast": 0.9372549019607843,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 40,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c0-g3",
+          "character": "っ",
+          "path": "data/fresh-holdout-v2/crops/q8-c0-g3.png",
+          "sha256": "d4baa29a8cfbb8cf32a4923980cb32f7bbda35e51c83c1a6b03895612950aafc",
+          "bbox": [
+            179,
+            209,
+            36,
+            30
+          ],
+          "cell_bbox": [
+            170,
+            204,
+            49,
+            40
+          ],
+          "quality": {
+            "score": 0.8947,
+            "resolution": 0.75,
+            "contrast": 0.9490196078431372,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 32,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c0-g4",
+          "character": "て",
+          "path": "data/fresh-holdout-v2/crops/q8-c0-g4.png",
+          "sha256": "2ead099b5eb49e04ce3adb6fb0b9edb6b8a38f3750e6ee321e8cbf77501e6fe0",
+          "bbox": [
+            173,
+            249,
+            41,
+            39
+          ],
+          "cell_bbox": [
+            170,
+            244,
+            49,
+            44
+          ],
+          "quality": {
+            "score": 0.972,
+            "resolution": 0.975,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 37,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c0-g5",
+          "character": "も",
+          "path": "data/fresh-holdout-v2/crops/q8-c0-g5.png",
+          "sha256": "fd995ceddb8d120091bdd59904790fda43f2dc814adbde37a9767fe206a39bb7",
+          "bbox": [
+            175,
+            288,
+            39,
+            42
+          ],
+          "cell_bbox": [
+            170,
+            288,
+            49,
+            44
+          ],
+          "quality": {
+            "score": 0.9748,
+            "resolution": 0.975,
+            "contrast": 0.9529411764705882,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 39,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c1-g0",
+          "character": "枯",
+          "path": "data/fresh-holdout-v2/crops/q8-c1-g0.png",
+          "sha256": "247ec94d8a27fd862f3355e5ead1a7ca21cf94b0497aaa45948b9718e24179c1",
+          "bbox": [
+            118,
+            74,
+            42,
+            42
+          ],
+          "cell_bbox": [
+            115,
+            72,
+            50,
+            44
+          ],
+          "quality": {
+            "score": 0.9849,
+            "resolution": 1.0,
+            "contrast": 0.9568627450980393,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c1-g1",
+          "character": "ら",
+          "path": "data/fresh-holdout-v2/crops/q8-c1-g1.png",
+          "sha256": "e20578366012320e3a57c070a56b2667ff9e994dbf32737dc6e9a67a59a1bb68",
+          "bbox": [
+            121,
+            116,
+            38,
+            44
+          ],
+          "cell_bbox": [
+            115,
+            116,
+            50,
+            44
+          ],
+          "quality": {
+            "score": 0.9633,
+            "resolution": 0.95,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c1-g2",
+          "character": "せ",
+          "path": "data/fresh-holdout-v2/crops/q8-c1-g2.png",
+          "sha256": "e8ba8ac0fe56410b8aac9c195d319f8acfcc76be130ed1a4d91c8c742b6eabfc",
+          "bbox": [
+            117,
+            160,
+            46,
+            41
+          ],
+          "cell_bbox": [
+            115,
+            160,
+            50,
+            43
+          ],
+          "quality": {
+            "score": 0.9835,
+            "resolution": 1.0,
+            "contrast": 0.9529411764705882,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 41,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c1-g3",
+          "character": "て",
+          "path": "data/fresh-holdout-v2/crops/q8-c1-g3.png",
+          "sha256": "ff6a02e5f3ddb128ff1b055609bcfb38211440822c0ddfadb3a0b876630b091e",
+          "bbox": [
+            118,
+            205,
+            42,
+            40
+          ],
+          "cell_bbox": [
+            115,
+            203,
+            50,
+            44
+          ],
+          "quality": {
+            "score": 0.9794,
+            "resolution": 1.0,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c2-g0",
+          "character": "し",
+          "path": "data/fresh-holdout-v2/crops/q8-c2-g0.png",
+          "sha256": "1eb31fb1a64cb171e03266b0bde55977e015fb4e890dbee40ee4b3c21bba6a39",
+          "bbox": [
+            73,
+            74,
+            34,
+            42
+          ],
+          "cell_bbox": [
+            64,
+            72,
+            49,
+            44
+          ],
+          "quality": {
+            "score": 0.9242,
+            "resolution": 0.85,
+            "contrast": 0.9333333333333333,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c2-g1",
+          "character": "ま",
+          "path": "data/fresh-holdout-v2/crops/q8-c2-g1.png",
+          "sha256": "2b45a057905dfc9f86145fb4e8dad15d44700d92d8a9f305e59f6f4f20447cb4",
+          "bbox": [
+            66,
+            116,
+            39,
+            42
+          ],
+          "cell_bbox": [
+            64,
+            116,
+            49,
+            45
+          ],
+          "quality": {
+            "score": 0.9748,
+            "resolution": 0.975,
+            "contrast": 0.9529411764705882,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c2-g2",
+          "character": "っ",
+          "path": "data/fresh-holdout-v2/crops/q8-c2-g2.png",
+          "sha256": "8ed5607a90716e4e9e98a15bc2ca9e677cab2e0191022ce37f085e1038990c33",
+          "bbox": [
+            71,
+            167,
+            37,
+            29
+          ],
+          "cell_bbox": [
+            64,
+            161,
+            49,
+            39
+          ],
+          "quality": {
+            "score": 0.8845,
+            "resolution": 0.725,
+            "contrast": 0.9450980392156862,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 30,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q8-c2-g3",
+          "character": "て",
+          "path": "data/fresh-holdout-v2/crops/q8-c2-g3.png",
+          "sha256": "c0a95a724ff2f341f7dff06f9008b13225e73b653aad353def98cb7441bd73b4",
+          "bbox": [
+            65,
+            205,
+            42,
+            40
+          ],
+          "cell_bbox": [
+            64,
+            200,
+            49,
+            47
+          ],
+          "quality": {
+            "score": 0.9794,
+            "resolution": 1.0,
+            "contrast": 0.9411764705882353,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        }
+      ],
+      "distinct_characters": 11,
+      "meets_seven_distinct": true,
+      "shortfall_reason": null,
+      "exclusions": [
+        {
+          "bbox": [
+            64,
+            247,
+            49,
+            45
+          ],
+          "reason": "省略号"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "qid": 10,
+      "expected": "圆体",
+      "coarse_label": "细圆",
+      "source_path": "data/images/q10.png",
+      "source_absolute_path": "./data/images/q10.png",
+      "source_sha256": "46ba5bc971fb1801fbd0af9144952e0e98966b70f0285362b7d589c01a30792e",
+      "source_pixel_sha256": "c8eec5852b58a295166aaec9ad9a91a3e622c24ac8b91c73be4787f09218aa0a",
+      "polarity": "dark",
+      "glyphs": [
+        {
+          "id": "q10-c0-g0",
+          "character": "本",
+          "path": "data/fresh-holdout-v2/crops/q10-c0-g0.png",
+          "sha256": "6d9a51a41ed9609b6a47d3b52bccfb1e5aa3a2a0fd56a4461e43f2c7bdb1d50a",
+          "bbox": [
+            160,
+            82,
+            40,
+            39
+          ],
+          "cell_bbox": [
+            158,
+            80,
+            47,
+            41
+          ],
+          "quality": {
+            "score": 0.924,
+            "resolution": 0.975,
+            "contrast": 0.807843137254902,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c0-g1",
+          "character": "当",
+          "path": "data/fresh-holdout-v2/crops/q10-c0-g1.png",
+          "sha256": "20f8cb4ecf02697a182009a3d569a351ac9dba424b55931ebb261252e1a8d780",
+          "bbox": [
+            161,
+            121,
+            36,
+            38
+          ],
+          "cell_bbox": [
+            158,
+            121,
+            47,
+            39
+          ],
+          "quality": {
+            "score": 0.9032,
+            "resolution": 0.9,
+            "contrast": 0.8235294117647058,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 34,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c0-g2",
+          "character": "は",
+          "path": "data/fresh-holdout-v2/crops/q10-c0-g2.png",
+          "sha256": "08c7306d1f16ea9ee7424c22f59a71a9a0befc3dc32d06a4b597d1150e836fff",
+          "bbox": [
+            163,
+            160,
+            36,
+            39
+          ],
+          "cell_bbox": [
+            158,
+            160,
+            47,
+            39
+          ],
+          "quality": {
+            "score": 0.8893,
+            "resolution": 0.9,
+            "contrast": 0.7837254901960784,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c0-g3",
+          "character": "お",
+          "path": "data/fresh-holdout-v2/crops/q10-c0-g3.png",
+          "sha256": "2347d992ee13d856de8987a1013fbfa5c093628401958e5149703558d48c2bbc",
+          "bbox": [
+            161,
+            200,
+            39,
+            37
+          ],
+          "cell_bbox": [
+            158,
+            199,
+            47,
+            39
+          ],
+          "quality": {
+            "score": 0.8965,
+            "resolution": 0.925,
+            "contrast": 0.8505882352941175,
+            "edge_ink_fraction": 0.006666666666666667,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 35,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c0-g4",
+          "character": "母",
+          "path": "data/fresh-holdout-v2/crops/q10-c0-g4.png",
+          "sha256": "6ebe9e256d24c2cd1c3f11ec84791a3ffcaa69ba9b7f318ed45da7e2ba2fb8c6",
+          "bbox": [
+            160,
+            240,
+            40,
+            38
+          ],
+          "cell_bbox": [
+            158,
+            238,
+            47,
+            40
+          ],
+          "quality": {
+            "score": 0.94,
+            "resolution": 0.95,
+            "contrast": 0.8784313725490196,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c0-g5",
+          "character": "様",
+          "path": "data/fresh-holdout-v2/crops/q10-c0-g5.png",
+          "sha256": "2d3a49d82bd6d032c591000c31d93ed1acf06289f5f9bf90674fc4b6ca70504c",
+          "bbox": [
+            160,
+            278,
+            39,
+            39
+          ],
+          "cell_bbox": [
+            158,
+            278,
+            47,
+            39
+          ],
+          "quality": {
+            "score": 0.9418,
+            "resolution": 0.975,
+            "contrast": 0.8588235294117647,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c0-g6",
+          "character": "が",
+          "path": "data/fresh-holdout-v2/crops/q10-c0-g6.png",
+          "sha256": "93f44551d2d07643e7d36f994ec3fbd6318be3ab68ef10d0b0ec4d965681ccdc",
+          "bbox": [
+            160,
+            317,
+            42,
+            40
+          ],
+          "cell_bbox": [
+            158,
+            317,
+            47,
+            42
+          ],
+          "quality": {
+            "score": 0.9355,
+            "resolution": 1.0,
+            "contrast": 0.8156862745098039,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c1-g0",
+          "character": "勝",
+          "path": "data/fresh-holdout-v2/crops/q10-c1-g0.png",
+          "sha256": "ec2a30e17a725e1909f297298956c4ba194ec7896ec7ea42158b868910be5f61",
+          "bbox": [
+            111,
+            81,
+            39,
+            40
+          ],
+          "cell_bbox": [
+            108,
+            80,
+            49,
+            41
+          ],
+          "quality": {
+            "score": 0.9363,
+            "resolution": 0.975,
+            "contrast": 0.8431372549019608,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c1-g1",
+          "character": "手",
+          "path": "data/fresh-holdout-v2/crops/q10-c1-g1.png",
+          "sha256": "ef09fa8131aa2d0a31f64a5ec616c90fe9bd4027a55a9354dd9a51e2a387fab4",
+          "bbox": [
+            111,
+            121,
+            39,
+            39
+          ],
+          "cell_bbox": [
+            108,
+            121,
+            49,
+            39
+          ],
+          "quality": {
+            "score": 0.9556,
+            "resolution": 0.975,
+            "contrast": 0.8980392156862745,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 35,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c1-g2",
+          "character": "に",
+          "path": "data/fresh-holdout-v2/crops/q10-c1-g2.png",
+          "sha256": "48da3f92e981a8c397520e4c0715cb720a07b69b28f299c56da597dca6a11912",
+          "bbox": [
+            115,
+            160,
+            33,
+            38
+          ],
+          "cell_bbox": [
+            108,
+            160,
+            49,
+            40
+          ],
+          "quality": {
+            "score": 0.8507,
+            "resolution": 0.825,
+            "contrast": 0.8117647058823529,
+            "edge_ink_fraction": 0.005917159763313609,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 34,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c2-g0",
+          "character": "お",
+          "path": "data/fresh-holdout-v2/crops/q10-c2-g0.png",
+          "sha256": "d706782e5985e1d2e142e36cfc6b473529ddf7badc34bd0c8a74231968ef0758",
+          "bbox": [
+            63,
+            82,
+            39,
+            38
+          ],
+          "cell_bbox": [
+            56,
+            80,
+            52,
+            41
+          ],
+          "quality": {
+            "score": 0.9221,
+            "resolution": 0.95,
+            "contrast": 0.8274509803921568,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c2-g1",
+          "character": "決",
+          "path": "data/fresh-holdout-v2/crops/q10-c2-g1.png",
+          "sha256": "cb1880043a7ff3d1464794c621f8def730699d1d0b0addc9c72bb2efb7a82968",
+          "bbox": [
+            62,
+            121,
+            39,
+            39
+          ],
+          "cell_bbox": [
+            56,
+            121,
+            52,
+            39
+          ],
+          "quality": {
+            "score": 0.9405,
+            "resolution": 0.975,
+            "contrast": 0.8549019607843137,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 35,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c2-g2",
+          "character": "め",
+          "path": "data/fresh-holdout-v2/crops/q10-c2-g2.png",
+          "sha256": "da7e346dd69c7818e29494c1a4bdb7d3f1d64b7a2c7c9fcae89d5062e757086d",
+          "bbox": [
+            62,
+            160,
+            40,
+            39
+          ],
+          "cell_bbox": [
+            56,
+            160,
+            52,
+            40
+          ],
+          "quality": {
+            "score": 0.9391,
+            "resolution": 0.975,
+            "contrast": 0.8509803921568627,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 36,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c2-g3",
+          "character": "に",
+          "path": "data/fresh-holdout-v2/crops/q10-c2-g3.png",
+          "sha256": "655dcb1912c96496dd7151dcdb5267492e032cc5367a47cddc475857998fbb37",
+          "bbox": [
+            66,
+            201,
+            33,
+            36
+          ],
+          "cell_bbox": [
+            56,
+            200,
+            52,
+            38
+          ],
+          "quality": {
+            "score": 0.8687,
+            "resolution": 0.825,
+            "contrast": 0.8,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 32,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c2-g4",
+          "character": "な",
+          "path": "data/fresh-holdout-v2/crops/q10-c2-g4.png",
+          "sha256": "18d297f2b2e0f15908575e3c77fef20f334ac5aa572ac8ca4e140cb09e2b4602",
+          "bbox": [
+            62,
+            239,
+            39,
+            39
+          ],
+          "cell_bbox": [
+            56,
+            238,
+            52,
+            40
+          ],
+          "quality": {
+            "score": 0.9391,
+            "resolution": 0.975,
+            "contrast": 0.8509803921568627,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 35,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c2-g5",
+          "character": "ら",
+          "path": "data/fresh-holdout-v2/crops/q10-c2-g5.png",
+          "sha256": "4658c66fdd706c12b475b723df82932afb2afe023f446ed4aeb28b76b54dc3fd",
+          "bbox": [
+            64,
+            278,
+            35,
+            40
+          ],
+          "cell_bbox": [
+            56,
+            278,
+            52,
+            40
+          ],
+          "quality": {
+            "score": 0.8783,
+            "resolution": 0.875,
+            "contrast": 0.7772549019607843,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 37,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c2-g6",
+          "character": "れ",
+          "path": "data/fresh-holdout-v2/crops/q10-c2-g6.png",
+          "sha256": "626a678208a094b133a3d826cb72ac513cb926daf170f3accb08fa2b84445f35",
+          "bbox": [
+            62,
+            318,
+            42,
+            39
+          ],
+          "cell_bbox": [
+            56,
+            318,
+            52,
+            41
+          ],
+          "quality": {
+            "score": 0.9281,
+            "resolution": 0.975,
+            "contrast": 0.8196078431372549,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 38,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q10-c2-g7",
+          "character": "て",
+          "path": "data/fresh-holdout-v2/crops/q10-c2-g7.png",
+          "sha256": "3e497a7a43a308c08b9a3b016e8b780944b4e24844630c8a1b2dbb5577dddbe0",
+          "bbox": [
+            62,
+            361,
+            39,
+            35
+          ],
+          "cell_bbox": [
+            56,
+            359,
+            52,
+            39
+          ],
+          "quality": {
+            "score": 0.8945,
+            "resolution": 0.875,
+            "contrast": 0.8235294117647058,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 35,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        }
+      ],
+      "distinct_characters": 16,
+      "meets_seven_distinct": true,
+      "shortfall_reason": null,
+      "exclusions": [
+        {
+          "bbox": [
+            56,
+            398,
+            52,
+            39
+          ],
+          "reason": "省略号"
+        }
+      ],
+      "notes": [
+        "细笔画、扫描背景与少量墨点保留；不进行字体匹配或去噪修字。"
+      ]
+    },
+    {
+      "qid": 11,
+      "expected": "宋体",
+      "coarse_label": "粗宋",
+      "source_path": "data/images/q11.png",
+      "source_absolute_path": "./data/images/q11.png",
+      "source_sha256": "cd1214822b23eee49d5887b7faadf59208543698e52357fb8d2d95189bf92d3f",
+      "source_pixel_sha256": "878099d400c6684bc3ad00f4c5db02dd0cb0d580af6213b8a1e9b9893d2be35f",
+      "polarity": "light",
+      "glyphs": [
+        {
+          "id": "q11-c0-g0",
+          "character": "く",
+          "path": "data/fresh-holdout-v2/crops/q11-c0-g0.png",
+          "sha256": "a22b5353df1702c115ebc5794f776552a1113251c7ddd9bfdfe926a5741504b1",
+          "bbox": [
+            139,
+            61,
+            38,
+            69
+          ],
+          "cell_bbox": [
+            113,
+            56,
+            96,
+            82
+          ],
+          "quality": {
+            "score": 0.9523,
+            "resolution": 0.95,
+            "contrast": 0.9137254901960784,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 65,
+          "script": "kana",
+          "polarity": "light",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q11-c0-g7",
+          "character": "さ",
+          "path": "data/fresh-holdout-v2/crops/q11-c0-g7.png",
+          "sha256": "a9b0263d3227b1416ff14c9d8edeecae442d0b20cdf1f081951e680af4e68afb",
+          "bbox": [
+            134,
+            541,
+            52,
+            64
+          ],
+          "cell_bbox": [
+            113,
+            533,
+            96,
+            78
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 60,
+          "script": "kana",
+          "polarity": "light",
+          "annotation_method": "visual_original_manual_cell"
+        }
+      ],
+      "distinct_characters": 2,
+      "meets_seven_distinct": false,
+      "shortfall_reason": "新宋体题仅剩q2/q11；q11重复字多，可靠正文只有く、さ两个不同字。即使把重复つ/っ认定为一个字符，也不足7字。原题保留，不替换、不伪造。",
+      "exclusions": [
+        {
+          "bbox": [
+            113,
+            138,
+            96,
+            395
+          ],
+          "reason": "六个重复弯曲假名，视觉读作つ/っ但缺乏同字体尺寸对照，大小写假名身份无法可靠确定；不猜标签，不加入评分池"
+        },
+        {
+          "bbox": [
+            113,
+            611,
+            96,
+            66
+          ],
+          "reason": "感叹号与问号"
+        },
+        {
+          "bbox": [
+            223,
+            54,
+            83,
+            379
+          ],
+          "reason": "右侧え状拟声字带游离浊点，手绘/特效字，不与框内正文混池"
+        }
+      ],
+      "notes": [
+        "原图已有红框，非此次绘制；白字黑底。保留原极性与原图bbox。"
+      ]
+    },
+    {
+      "qid": 21,
+      "expected": "黑体",
+      "coarse_label": "粗黑",
+      "source_path": "data/images/q21.jpg",
+      "source_absolute_path": "./data/images/q21.jpg",
+      "source_sha256": "706e7a5e3083fa004c11a4e80e0e67f16ec7f9b083856ff94ab0e6a4b7565cb0",
+      "source_pixel_sha256": "d4d7ae00581feb0567c8033ef30ec727c60aeba77cdaf65ad2af8591fa10285f",
+      "polarity": "dark",
+      "glyphs": [
+        {
+          "id": "q21-c0-g0",
+          "character": "つ",
+          "path": "data/fresh-holdout-v2/crops/q21-c0-g0.png",
+          "sha256": "e4ad79376b07a26eec0ede5ffad91c0fa107c4374706f90fe8a5bae9f3a8e5c7",
+          "bbox": [
+            511,
+            284,
+            96,
+            81
+          ],
+          "cell_bbox": [
+            501,
+            276,
+            119,
+            99
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 92,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c0-g2",
+          "character": "ち",
+          "path": "data/fresh-holdout-v2/crops/q21-c0-g2.png",
+          "sha256": "44ee170a5d402d8dd67124e9f2a9404b3ed6985149b21ff2456cb2f209a2661f",
+          "bbox": [
+            512,
+            480,
+            94,
+            95
+          ],
+          "cell_bbox": [
+            501,
+            477,
+            119,
+            106
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 90,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c0-g3",
+          "character": "ゃ",
+          "path": "data/fresh-holdout-v2/crops/q21-c0-g3.png",
+          "sha256": "2153d52a6b3972e188e6e2bcb89820ba127e60c73495e21c501392c18d32d89d",
+          "bbox": [
+            529,
+            592,
+            81,
+            79
+          ],
+          "cell_bbox": [
+            501,
+            583,
+            119,
+            97
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 76,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c0-g4",
+          "character": "ん",
+          "path": "data/fresh-holdout-v2/crops/q21-c0-g4.png",
+          "sha256": "1928f280c33236e6cd8269ea302af3128da085ae8aa4834626a57913cedcb6ec",
+          "bbox": [
+            511,
+            688,
+            97,
+            94
+          ],
+          "cell_bbox": [
+            501,
+            680,
+            119,
+            107
+          ],
+          "quality": {
+            "score": 0.9712,
+            "resolution": 1.0,
+            "contrast": 0.9176470588235294,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 93,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c0-g5",
+          "character": "が",
+          "path": "data/fresh-holdout-v2/crops/q21-c0-g5.png",
+          "sha256": "9f2e63fb4001947d1355fba259d9dea41b66ca74fa8322d6ba61359966c3109e",
+          "bbox": [
+            512,
+            788,
+            98,
+            97
+          ],
+          "cell_bbox": [
+            501,
+            787,
+            119,
+            102
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 94,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c1-g0",
+          "character": "そ",
+          "path": "data/fresh-holdout-v2/crops/q21-c1-g0.png",
+          "sha256": "ab43ca5963cbb70c87ce98886c4a3385590581d0149b4f4f6fc443087d63c8a7",
+          "bbox": [
+            384,
+            277,
+            93,
+            92
+          ],
+          "cell_bbox": [
+            374,
+            270,
+            116,
+            104
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 88,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c1-g1",
+          "character": "う",
+          "path": "data/fresh-holdout-v2/crops/q21-c1-g1.png",
+          "sha256": "59ed444099c137ebdca0b3692182fee55f9b36e77630d6a5de4b1f7a3e68dedf",
+          "bbox": [
+            391,
+            377,
+            77,
+            97
+          ],
+          "cell_bbox": [
+            374,
+            374,
+            116,
+            106
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 93,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c1-g2",
+          "character": "い",
+          "path": "data/fresh-holdout-v2/crops/q21-c1-g2.png",
+          "sha256": "419ba66485c1f58400da871c1b3d3be2f2556bdfef9ce2ab6bb923ea925b95d7",
+          "bbox": [
+            383,
+            487,
+            96,
+            87
+          ],
+          "cell_bbox": [
+            374,
+            480,
+            116,
+            100
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 92,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c1-g3",
+          "character": "う",
+          "path": "data/fresh-holdout-v2/crops/q21-c1-g3.png",
+          "sha256": "c221f2310034fc1c1e3358e3de414418d4435acdeb58850d1f8469f6f04ecd2c",
+          "bbox": [
+            391,
+            583,
+            77,
+            97
+          ],
+          "cell_bbox": [
+            374,
+            580,
+            116,
+            105
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 93,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c1-g4",
+          "character": "こ",
+          "path": "data/fresh-holdout-v2/crops/q21-c1-g4.png",
+          "sha256": "83e35598f6c4a0d543cbddb7e56ecf7538f938b78b4da3d48039b3d4222abe8b",
+          "bbox": [
+            388,
+            691,
+            83,
+            89
+          ],
+          "cell_bbox": [
+            374,
+            685,
+            116,
+            102
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 84,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c1-g5",
+          "character": "と",
+          "path": "data/fresh-holdout-v2/crops/q21-c1-g5.png",
+          "sha256": "5b51af437b4deca0b9edf1ca5c06951187a888969c982751bf1686dda8f40d73",
+          "bbox": [
+            388,
+            791,
+            85,
+            94
+          ],
+          "cell_bbox": [
+            374,
+            787,
+            116,
+            102
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 90,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c1-g6",
+          "character": "言",
+          "path": "data/fresh-holdout-v2/crops/q21-c1-g6.png",
+          "sha256": "17645d54c6be58a1fbdda72c796313a6a2a962e72c563adb6af1f97cafc78b62",
+          "bbox": [
+            379,
+            893,
+            103,
+            99
+          ],
+          "cell_bbox": [
+            374,
+            889,
+            116,
+            106
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 97,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c1-g7",
+          "character": "う",
+          "path": "data/fresh-holdout-v2/crops/q21-c1-g7.png",
+          "sha256": "98bfe3281d21422e7c79d58b9dc8b8030569f84da99562f15c8e4a05a65b6fb9",
+          "bbox": [
+            391,
+            997,
+            77,
+            97
+          ],
+          "cell_bbox": [
+            374,
+            995,
+            116,
+            103
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 92,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c1-g8",
+          "character": "と",
+          "path": "data/fresh-holdout-v2/crops/q21-c1-g8.png",
+          "sha256": "b689a75e917089147e17b195d8f3ceae61f961c97bb67e4179e08098e1318271",
+          "bbox": [
+            388,
+            1101,
+            85,
+            94
+          ],
+          "cell_bbox": [
+            374,
+            1098,
+            116,
+            102
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 90,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c2-g0",
+          "character": "本",
+          "path": "data/fresh-holdout-v2/crops/q21-c2-g0.png",
+          "sha256": "88fd00ff8b79ec5d90c9f3837d137aaad27812c555b6010be33020210fedffb0",
+          "bbox": [
+            249,
+            271,
+            103,
+            102
+          ],
+          "cell_bbox": [
+            244,
+            266,
+            118,
+            108
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 98,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c2-g1",
+          "character": "当",
+          "path": "data/fresh-holdout-v2/crops/q21-c2-g1.png",
+          "sha256": "51f6156d88112be773ed080f43086ee5e1b8e3b2087f5b19f68021908740256a",
+          "bbox": [
+            250,
+            374,
+            98,
+            102
+          ],
+          "cell_bbox": [
+            244,
+            374,
+            118,
+            106
+          ],
+          "quality": {
+            "score": 0.9767,
+            "resolution": 1.0,
+            "contrast": 0.9333333333333333,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 97,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c2-g2",
+          "character": "に",
+          "path": "data/fresh-holdout-v2/crops/q21-c2-g2.png",
+          "sha256": "7f88e1b6a1e0d759e81ec7dbd45ff22207ef1333a6862f201301b8cf221b3877",
+          "bbox": [
+            257,
+            483,
+            88,
+            92
+          ],
+          "cell_bbox": [
+            244,
+            480,
+            118,
+            98
+          ],
+          "quality": {
+            "score": 0.9767,
+            "resolution": 1.0,
+            "contrast": 0.9333333333333333,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 88,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c2-g3",
+          "character": "実",
+          "path": "data/fresh-holdout-v2/crops/q21-c2-g3.png",
+          "sha256": "27618ed4936b2da20ccddbb4c9713467443fd9dd7e81bdc6cee79db3272cc84f",
+          "bbox": [
+            250,
+            581,
+            102,
+            101
+          ],
+          "cell_bbox": [
+            244,
+            578,
+            118,
+            107
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 97,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c2-g4",
+          "character": "現",
+          "path": "data/fresh-holdout-v2/crops/q21-c2-g4.png",
+          "sha256": "e9eb7328511775e85b8ebdd2dbcc7f9da8e14c5625c1d0fb649017cd9260e15f",
+          "bbox": [
+            249,
+            687,
+            104,
+            99
+          ],
+          "cell_bbox": [
+            244,
+            685,
+            118,
+            104
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 98,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c2-g5",
+          "character": "し",
+          "path": "data/fresh-holdout-v2/crops/q21-c2-g5.png",
+          "sha256": "323450e889b937e3eb12f8f2b04c3d9cc8a583603eecb01778b423f51c7db83c",
+          "bbox": [
+            266,
+            791,
+            80,
+            94
+          ],
+          "cell_bbox": [
+            244,
+            789,
+            118,
+            102
+          ],
+          "quality": {
+            "score": 0.9698,
+            "resolution": 1.0,
+            "contrast": 0.9137254901960784,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 90,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c2-g6",
+          "character": "そ",
+          "path": "data/fresh-holdout-v2/crops/q21-c2-g6.png",
+          "sha256": "ba2db6954df6443e2bfc1d6e8cf96d1ecee94ecaed5dff66c9563227eaa1c9dd",
+          "bbox": [
+            255,
+            896,
+            92,
+            93
+          ],
+          "cell_bbox": [
+            244,
+            891,
+            118,
+            103
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 88,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c2-g7",
+          "character": "う",
+          "path": "data/fresh-holdout-v2/crops/q21-c2-g7.png",
+          "sha256": "3022ed2e06cff5586c4146a0ac2aa9cfda4ea7c681f5c1cc27bff8284fad87e6",
+          "bbox": [
+            262,
+            997,
+            76,
+            97
+          ],
+          "cell_bbox": [
+            244,
+            994,
+            118,
+            105
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 92,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c2-g8",
+          "character": "で",
+          "path": "data/fresh-holdout-v2/crops/q21-c2-g8.png",
+          "sha256": "85ced337ee3aa3c1d46be7120b223212412fd768dc8227f5280263abcf90108f",
+          "bbox": [
+            253,
+            1105,
+            95,
+            90
+          ],
+          "cell_bbox": [
+            244,
+            1099,
+            118,
+            101
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 89,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c3-g0",
+          "character": "夢",
+          "path": "data/fresh-holdout-v2/crops/q21-c3-g0.png",
+          "sha256": "f34a7967a9f68dc5aeb2d90006429060742e8c65302efe1d85ebcc6f969ca03f",
+          "bbox": [
+            121,
+            271,
+            101,
+            104
+          ],
+          "cell_bbox": [
+            111,
+            265,
+            119,
+            111
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 99,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c3-g1",
+          "character": "見",
+          "path": "data/fresh-holdout-v2/crops/q21-c3-g1.png",
+          "sha256": "02b2429d914e7b51e7ddc576380d70d167a0471bbfee33284e68da0624406f1c",
+          "bbox": [
+            121,
+            377,
+            102,
+            99
+          ],
+          "cell_bbox": [
+            111,
+            376,
+            119,
+            103
+          ],
+          "quality": {
+            "score": 0.978,
+            "resolution": 1.0,
+            "contrast": 0.9372549019607843,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 97,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c3-g2",
+          "character": "ち",
+          "path": "data/fresh-holdout-v2/crops/q21-c3-g2.png",
+          "sha256": "3843535bc5a2a3fab5361589b0f3df6e885248ef41f79c3189a8512a73bba333",
+          "bbox": [
+            125,
+            481,
+            93,
+            94
+          ],
+          "cell_bbox": [
+            111,
+            479,
+            119,
+            104
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 90,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c3-g3",
+          "character": "ゃ",
+          "path": "data/fresh-holdout-v2/crops/q21-c3-g3.png",
+          "sha256": "a824f5c64b1f6b3af7d6de303cfbd765e088a73514d2a8690c07a19f7bc2c735",
+          "bbox": [
+            142,
+            592,
+            80,
+            79
+          ],
+          "cell_bbox": [
+            111,
+            583,
+            119,
+            97
+          ],
+          "quality": {
+            "score": 0.9712,
+            "resolution": 1.0,
+            "contrast": 0.9178431372549017,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 76,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q21-c3-g4",
+          "character": "う",
+          "path": "data/fresh-holdout-v2/crops/q21-c3-g4.png",
+          "sha256": "f66b41f68d29dac1e82b38d3f49d8ed3e2403030d83ebcf347a7fe5feaa8d44b",
+          "bbox": [
+            133,
+            687,
+            76,
+            97
+          ],
+          "cell_bbox": [
+            111,
+            680,
+            119,
+            109
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 92,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        }
+      ],
+      "distinct_characters": 20,
+      "meets_seven_distinct": true,
+      "shortfall_reason": null,
+      "exclusions": [
+        {
+          "bbox": [
+            501,
+            375,
+            119,
+            102
+          ],
+          "reason": "竖排长音符ー：方向相关符号，未作旋转归一化，排除出常规字池"
+        },
+        {
+          "bbox": [
+            111,
+            789,
+            119,
+            203
+          ],
+          "reason": "省略号与感叹号"
+        }
+      ],
+      "notes": [
+        "JPEG原图，保留压缩痕迹；左列小ゃ保留。"
+      ]
+    },
+    {
+      "qid": 26,
+      "expected": "黑体",
+      "coarse_label": "中黑",
+      "source_path": "data/images/q26.jpg",
+      "source_absolute_path": "./data/images/q26.jpg",
+      "source_sha256": "d2636cd5c5f2af8aa85ce9aef0ac85853b147ea2e83f8561311fc974673b321f",
+      "source_pixel_sha256": "b7343364aeff05daf15f8d59f8b417ead829751b49afd8aa121fcec692b5aca7",
+      "polarity": "dark",
+      "glyphs": [
+        {
+          "id": "q26-c0-g0",
+          "character": "私",
+          "path": "data/fresh-holdout-v2/crops/q26-c0-g0.png",
+          "sha256": "9903a43a3a330d885f39899bdbaf7c1a6fe3847bdec0845446cf3bbff7eb2ccf",
+          "bbox": [
+            339,
+            207,
+            86,
+            82
+          ],
+          "cell_bbox": [
+            331,
+            203,
+            101,
+            89
+          ],
+          "quality": {
+            "score": 0.9684,
+            "resolution": 1.0,
+            "contrast": 0.9098039215686274,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 82,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c0-g1",
+          "character": "も",
+          "path": "data/fresh-holdout-v2/crops/q26-c0-g1.png",
+          "sha256": "154fa5b10a3a9f29656671867127ce52178b8b8344601b8c927059530ed13033",
+          "bbox": [
+            358,
+            296,
+            47,
+            73
+          ],
+          "cell_bbox": [
+            331,
+            292,
+            101,
+            82
+          ],
+          "quality": {
+            "score": 0.9698,
+            "resolution": 1.0,
+            "contrast": 0.9137254901960784,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 69,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c0-g2",
+          "character": "別",
+          "path": "data/fresh-holdout-v2/crops/q26-c0-g2.png",
+          "sha256": "7adf159dc09a21b7bf5a10edd66dcdc895dd9f9a2eb576e2cf6a2736584160fa",
+          "bbox": [
+            339,
+            378,
+            82,
+            82
+          ],
+          "cell_bbox": [
+            331,
+            374,
+            101,
+            93
+          ],
+          "quality": {
+            "score": 0.9712,
+            "resolution": 1.0,
+            "contrast": 0.9176470588235294,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 78,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c0-g3",
+          "character": "に",
+          "path": "data/fresh-holdout-v2/crops/q26-c0-g3.png",
+          "sha256": "835ce6af41f1fc10784daf59e61d28514bf5d9693d84393b32d333c6403026e5",
+          "bbox": [
+            352,
+            475,
+            62,
+            61
+          ],
+          "cell_bbox": [
+            331,
+            467,
+            101,
+            75
+          ],
+          "quality": {
+            "score": 0.9684,
+            "resolution": 1.0,
+            "contrast": 0.9098039215686274,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 58,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c1-g0",
+          "character": "そ",
+          "path": "data/fresh-holdout-v2/crops/q26-c1-g0.png",
+          "sha256": "deed5c70d8b97e98e63af1042ed224660001970128fe65f86dabc4e7a630dbf8",
+          "bbox": [
+            245,
+            212,
+            60,
+            73
+          ],
+          "cell_bbox": [
+            236,
+            207,
+            84,
+            85
+          ],
+          "quality": {
+            "score": 0.9671,
+            "resolution": 1.0,
+            "contrast": 0.9058823529411765,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 69,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c1-g1",
+          "character": "ん",
+          "path": "data/fresh-holdout-v2/crops/q26-c1-g1.png",
+          "sha256": "c4e45fd8a2022edfe404bbf58b99e3cbd79b89e790d4a21bc3783bcb6dfb001a",
+          "bbox": [
+            243,
+            298,
+            68,
+            70
+          ],
+          "cell_bbox": [
+            236,
+            292,
+            84,
+            82
+          ],
+          "quality": {
+            "score": 0.9629,
+            "resolution": 1.0,
+            "contrast": 0.8941176470588236,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 66,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c1-g2",
+          "character": "な",
+          "path": "data/fresh-holdout-v2/crops/q26-c1-g2.png",
+          "sha256": "935d51f07fa317cac308372993996423ae090d168e09328c810cef08c7d65613",
+          "bbox": [
+            244,
+            381,
+            63,
+            74
+          ],
+          "cell_bbox": [
+            236,
+            374,
+            84,
+            91
+          ],
+          "quality": {
+            "score": 0.9657,
+            "resolution": 1.0,
+            "contrast": 0.9019607843137255,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 70,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c1-g3",
+          "character": "に",
+          "path": "data/fresh-holdout-v2/crops/q26-c1-g3.png",
+          "sha256": "85b01b96c972413fb562fbd2a319f42489ec3c6beb90cbac9f75630750e5f673",
+          "bbox": [
+            245,
+            475,
+            62,
+            61
+          ],
+          "cell_bbox": [
+            236,
+            465,
+            84,
+            77
+          ],
+          "quality": {
+            "score": 0.9671,
+            "resolution": 1.0,
+            "contrast": 0.9058823529411765,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 58,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c2-g0",
+          "character": "話",
+          "path": "data/fresh-holdout-v2/crops/q26-c2-g0.png",
+          "sha256": "f64ee5e60de1c456ac2c3f383d11109d220952c705ea3e5ef7d203ca350e8f52",
+          "bbox": [
+            128,
+            207,
+            81,
+            82
+          ],
+          "cell_bbox": [
+            119,
+            203,
+            97,
+            90
+          ],
+          "quality": {
+            "score": 0.9643,
+            "resolution": 1.0,
+            "contrast": 0.8980392156862745,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 78,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c2-g1",
+          "character": "し",
+          "path": "data/fresh-holdout-v2/crops/q26-c2-g1.png",
+          "sha256": "8c7a55bf5675d40baffbab6e39642ea923c6b8d41872705359129a1b76bb799d",
+          "bbox": [
+            147,
+            298,
+            54,
+            70
+          ],
+          "cell_bbox": [
+            119,
+            293,
+            97,
+            84
+          ],
+          "quality": {
+            "score": 0.9671,
+            "resolution": 1.0,
+            "contrast": 0.9058823529411765,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 66,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c2-g2",
+          "character": "て",
+          "path": "data/fresh-holdout-v2/crops/q26-c2-g2.png",
+          "sha256": "7de46943f72bf4f88ab42368e2da4bdfff15348a0f4e5372485d4867c199dbb5",
+          "bbox": [
+            136,
+            387,
+            63,
+            66
+          ],
+          "cell_bbox": [
+            119,
+            377,
+            97,
+            83
+          ],
+          "quality": {
+            "score": 0.9671,
+            "resolution": 1.0,
+            "contrast": 0.9058823529411765,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 62,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c2-g3",
+          "character": "な",
+          "path": "data/fresh-holdout-v2/crops/q26-c2-g3.png",
+          "sha256": "ca4dfcbbc518ff4ee43e7352199af22871b7693ac7515d799f1184b9e5e46194",
+          "bbox": [
+            136,
+            467,
+            63,
+            74
+          ],
+          "cell_bbox": [
+            119,
+            460,
+            97,
+            90
+          ],
+          "quality": {
+            "score": 0.9671,
+            "resolution": 1.0,
+            "contrast": 0.9058823529411765,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 70,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c2-g4",
+          "character": "い",
+          "path": "data/fresh-holdout-v2/crops/q26-c2-g4.png",
+          "sha256": "d49434104c709924443610b52932d22017f234b110b276a17b9de92a7ce8015a",
+          "bbox": [
+            136,
+            563,
+            65,
+            55
+          ],
+          "cell_bbox": [
+            119,
+            550,
+            97,
+            80
+          ],
+          "quality": {
+            "score": 0.9657,
+            "resolution": 1.0,
+            "contrast": 0.9019607843137255,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 61,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q26-c2-g5",
+          "character": "し",
+          "path": "data/fresh-holdout-v2/crops/q26-c2-g5.png",
+          "sha256": "981e8a753b7a2fe89e2270b6dd97822e646daaec00e967af8abb53f2bc7787f8",
+          "bbox": [
+            147,
+            641,
+            54,
+            70
+          ],
+          "cell_bbox": [
+            119,
+            630,
+            97,
+            85
+          ],
+          "quality": {
+            "score": 0.9671,
+            "resolution": 1.0,
+            "contrast": 0.9058823529411765,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 65,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        }
+      ],
+      "distinct_characters": 11,
+      "meets_seven_distinct": true,
+      "shortfall_reason": null,
+      "exclusions": [
+        {
+          "bbox": [
+            119,
+            715,
+            97,
+            65
+          ],
+          "reason": "省略号"
+        }
+      ],
+      "notes": [
+        "JPEG原图，保留全部14个正文字符实例。"
+      ]
+    },
+    {
+      "qid": 28,
+      "expected": "圆体",
+      "coarse_label": "中圆",
+      "source_path": "data/images/q28.jpg",
+      "source_absolute_path": "./data/images/q28.jpg",
+      "source_sha256": "9836109db44fe136efd292b6086caf79603e20aa638e0781606b20d3dbfa3ecb",
+      "source_pixel_sha256": "ac970f5b475fd0272547dc20ed47017c0cb2027c6b9ec8cadb86f739cb22f161",
+      "polarity": "dark",
+      "glyphs": [
+        {
+          "id": "q28-c0-g0",
+          "character": "で",
+          "path": "data/fresh-holdout-v2/crops/q28-c0-g0.png",
+          "sha256": "e69d522c9931a0eac1c130d9bc1b3dac755f87c8eedaab52f1dfd359789c0a42",
+          "bbox": [
+            820,
+            354,
+            77,
+            65
+          ],
+          "cell_bbox": [
+            810,
+            342,
+            99,
+            81
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 73,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c0-g1",
+          "character": "も",
+          "path": "data/fresh-holdout-v2/crops/q28-c0-g1.png",
+          "sha256": "adb372050c081a1cc5fc4f869ceaa8e360bc87f0e81642836f0053e66071c366",
+          "bbox": [
+            821,
+            427,
+            73,
+            72
+          ],
+          "cell_bbox": [
+            810,
+            423,
+            99,
+            79
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 68,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c0-g2",
+          "character": "き",
+          "path": "data/fresh-holdout-v2/crops/q28-c0-g2.png",
+          "sha256": "c8bc610aac316a9e8e2c3fa3c1af2f8d57bdf7c665cf23758b856afa2a18a194",
+          "bbox": [
+            824,
+            505,
+            68,
+            72
+          ],
+          "cell_bbox": [
+            810,
+            502,
+            99,
+            79
+          ],
+          "quality": {
+            "score": 0.9767,
+            "resolution": 1.0,
+            "contrast": 0.9333333333333333,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 68,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c0-g3",
+          "character": "っ",
+          "path": "data/fresh-holdout-v2/crops/q28-c0-g3.png",
+          "sha256": "79430455ba74ae80ae6524779fa4f1f7d11cdeff56ec192e78b5ca6bcbc5c437",
+          "bbox": [
+            834,
+            593,
+            60,
+            54
+          ],
+          "cell_bbox": [
+            810,
+            581,
+            99,
+            76
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 56,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c0-g4",
+          "character": "と",
+          "path": "data/fresh-holdout-v2/crops/q28-c0-g4.png",
+          "sha256": "a703d18ab5cb09c7328c29ac24e9b65f63531429649dfbc9de39dc0ceb2ada9c",
+          "bbox": [
+            827,
+            661,
+            61,
+            72
+          ],
+          "cell_bbox": [
+            810,
+            657,
+            99,
+            82
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 68,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c1-g0",
+          "character": "い",
+          "path": "data/fresh-holdout-v2/crops/q28-c1-g0.png",
+          "sha256": "e0c070bf4e31fe2322ca4c7682fe0a125a7f9456763478c3757529f8f0fa1c4e",
+          "bbox": [
+            731,
+            354,
+            66,
+            66
+          ],
+          "cell_bbox": [
+            718,
+            342,
+            91,
+            83
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 62,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c1-g1",
+          "character": "ろ",
+          "path": "data/fresh-holdout-v2/crops/q28-c1-g1.png",
+          "sha256": "597104d40cee77bae6c2b448576a3fbc2420bfb32cddde9fa397f4fbc7b4f280",
+          "bbox": [
+            730,
+            431,
+            66,
+            68
+          ],
+          "cell_bbox": [
+            718,
+            425,
+            91,
+            77
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 64,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c1-g2",
+          "character": "ん",
+          "path": "data/fresh-holdout-v2/crops/q28-c1-g2.png",
+          "sha256": "1ce0f11569049c5b166c4b4acf2f496708920879885004bd4a9b0e8dc5785c06",
+          "bbox": [
+            731,
+            506,
+            69,
+            71
+          ],
+          "cell_bbox": [
+            718,
+            502,
+            91,
+            78
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 67,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c1-g3",
+          "character": "な",
+          "path": "data/fresh-holdout-v2/crops/q28-c1-g3.png",
+          "sha256": "d07acb79077e2d813899619d90067037e670c51dc4d1afcd6b20bc25b1b80443",
+          "bbox": [
+            727,
+            583,
+            74,
+            72
+          ],
+          "cell_bbox": [
+            718,
+            580,
+            91,
+            77
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 70,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c1-g4",
+          "character": "人",
+          "path": "data/fresh-holdout-v2/crops/q28-c1-g4.png",
+          "sha256": "e8cd8cfd783b21775a8aa1b7de9af02add0bc3ad1ff342280eb2ac1fd49cabb3",
+          "bbox": [
+            725,
+            659,
+            77,
+            77
+          ],
+          "cell_bbox": [
+            718,
+            657,
+            91,
+            82
+          ],
+          "quality": {
+            "score": 0.9684,
+            "resolution": 1.0,
+            "contrast": 0.9098039215686274,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 73,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c1-g5",
+          "character": "に",
+          "path": "data/fresh-holdout-v2/crops/q28-c1-g5.png",
+          "sha256": "d0bb1dc25ec60320afa1d8a4a576ab9326e0cb39cdad3bdc5c76bfebdf7177e8",
+          "bbox": [
+            733,
+            742,
+            64,
+            68
+          ],
+          "cell_bbox": [
+            718,
+            739,
+            91,
+            76
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 64,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c2-g0",
+          "character": "声",
+          "path": "data/fresh-holdout-v2/crops/q28-c2-g0.png",
+          "sha256": "921438acbafbeb5d8ed5e9da4a818856e067e2baf6bb4f6632bf091a249c55cd",
+          "bbox": [
+            631,
+            346,
+            78,
+            77
+          ],
+          "cell_bbox": [
+            624,
+            340,
+            93,
+            85
+          ],
+          "quality": {
+            "score": 0.9767,
+            "resolution": 1.0,
+            "contrast": 0.9333333333333333,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 73,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c2-g1",
+          "character": "か",
+          "path": "data/fresh-holdout-v2/crops/q28-c2-g1.png",
+          "sha256": "9027d7cd3305cae2bbf249a8d27a7b9dcfa6064328f23f00b1edc0474b0cdfcf",
+          "bbox": [
+            633,
+            427,
+            75,
+            72
+          ],
+          "cell_bbox": [
+            624,
+            425,
+            93,
+            77
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 71,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c2-g2",
+          "character": "け",
+          "path": "data/fresh-holdout-v2/crops/q28-c2-g2.png",
+          "sha256": "5e06f99d0ec60e28b044aaec9fe0c21671a2c1e5514bcf488a53e116df43e729",
+          "bbox": [
+            637,
+            506,
+            71,
+            71
+          ],
+          "cell_bbox": [
+            624,
+            502,
+            93,
+            78
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 67,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c2-g3",
+          "character": "た",
+          "path": "data/fresh-holdout-v2/crops/q28-c2-g3.png",
+          "sha256": "c547446667ef7584fa4ee6ff365df30a2b23542baa60834664d11fc1a0067d24",
+          "bbox": [
+            635,
+            582,
+            70,
+            73
+          ],
+          "cell_bbox": [
+            624,
+            580,
+            93,
+            78
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 68,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c2-g4",
+          "character": "り",
+          "path": "data/fresh-holdout-v2/crops/q28-c2-g4.png",
+          "sha256": "b9981b18d22ef9ebdb50c7f488d854ffb2bd7b8d68547a3d3dc25abc81074174",
+          "bbox": [
+            640,
+            664,
+            59,
+            71
+          ],
+          "cell_bbox": [
+            624,
+            658,
+            93,
+            82
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 67,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c3-g0",
+          "character": "当",
+          "path": "data/fresh-holdout-v2/crops/q28-c3-g0.png",
+          "sha256": "0ab36486fb8284a39cb776c441c5c9235229fe9c3a1531819eef248ed969927c",
+          "bbox": [
+            538,
+            345,
+            73,
+            76
+          ],
+          "cell_bbox": [
+            533,
+            339,
+            91,
+            86
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 72,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c3-g1",
+          "character": "日",
+          "path": "data/fresh-holdout-v2/crops/q28-c3-g1.png",
+          "sha256": "f5b239215ea33296005acd068c4047d026e9d61bfd213bf711004e1ac8ec6b8b",
+          "bbox": [
+            545,
+            428,
+            63,
+            72
+          ],
+          "cell_bbox": [
+            533,
+            425,
+            91,
+            77
+          ],
+          "quality": {
+            "score": 0.978,
+            "resolution": 1.0,
+            "contrast": 0.9372549019607843,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 68,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c3-g2",
+          "character": "ま",
+          "path": "data/fresh-holdout-v2/crops/q28-c3-g2.png",
+          "sha256": "fa8215800390809bad663d6ddd55a47771cd216dc89f573eeb2e61faabfa8f1b",
+          "bbox": [
+            543,
+            504,
+            68,
+            73
+          ],
+          "cell_bbox": [
+            533,
+            502,
+            91,
+            80
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 69,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c3-g3",
+          "character": "で",
+          "path": "data/fresh-holdout-v2/crops/q28-c3-g3.png",
+          "sha256": "75292b328172920a38a983edf4b3867a79f7fa29149ac7b4fa0242b14b12227c",
+          "bbox": [
+            539,
+            588,
+            77,
+            66
+          ],
+          "cell_bbox": [
+            533,
+            582,
+            91,
+            75
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 73,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c3-g4",
+          "character": "私",
+          "path": "data/fresh-holdout-v2/crops/q28-c3-g4.png",
+          "sha256": "8e4238c2c8f28b00f3892a4c22b29aa7bac6105aaa2298feab0a5408ae9ad9d2",
+          "bbox": [
+            537,
+            659,
+            78,
+            78
+          ],
+          "cell_bbox": [
+            533,
+            657,
+            91,
+            82
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 73,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c3-g5",
+          "character": "じ",
+          "path": "data/fresh-holdout-v2/crops/q28-c3-g5.png",
+          "sha256": "8cfbf313e8d4cb2975b0d53cbf7019067eace99baee1422a04831d389eda1746",
+          "bbox": [
+            550,
+            741,
+            62,
+            70
+          ],
+          "cell_bbox": [
+            533,
+            739,
+            91,
+            77
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 66,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c3-g6",
+          "character": "ゃ",
+          "path": "data/fresh-holdout-v2/crops/q28-c3-g6.png",
+          "sha256": "65df3e9ac94746e72820084a17646b006bd16f72364b2478a2d096475acbf0fd",
+          "bbox": [
+            551,
+            821,
+            64,
+            64
+          ],
+          "cell_bbox": [
+            533,
+            816,
+            91,
+            74
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 60,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c3-g7",
+          "character": "想",
+          "path": "data/fresh-holdout-v2/crops/q28-c3-g7.png",
+          "sha256": "b46add58a0bafcb6282bca524f9d896aeeccd58eab67557d677a10a411001b5d",
+          "bbox": [
+            537,
+            893,
+            77,
+            77
+          ],
+          "cell_bbox": [
+            533,
+            890,
+            91,
+            80
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 73,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c3-g8",
+          "character": "像",
+          "path": "data/fresh-holdout-v2/crops/q28-c3-g8.png",
+          "sha256": "78e7947883a102352f0aae35b1055e5672cf80340e0eed32b8cbca15df97df0c",
+          "bbox": [
+            537,
+            971,
+            78,
+            78
+          ],
+          "cell_bbox": [
+            533,
+            970,
+            91,
+            83
+          ],
+          "quality": {
+            "score": 0.978,
+            "resolution": 1.0,
+            "contrast": 0.9372549019607843,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 74,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c4-g0",
+          "character": "で",
+          "path": "data/fresh-holdout-v2/crops/q28-c4-g0.png",
+          "sha256": "32655e503dc8d43c4b381219eabbf649f176a1003a15b7ecfd7a362f37e511b9",
+          "bbox": [
+            445,
+            354,
+            77,
+            65
+          ],
+          "cell_bbox": [
+            439,
+            343,
+            93,
+            80
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 73,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c4-g1",
+          "character": "き",
+          "path": "data/fresh-holdout-v2/crops/q28-c4-g1.png",
+          "sha256": "64e865cc0416a4ae478551ac7c02322035d3fb0505bc41940881fc81270b4b81",
+          "bbox": [
+            449,
+            427,
+            67,
+            72
+          ],
+          "cell_bbox": [
+            439,
+            423,
+            93,
+            80
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 67,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c4-g2",
+          "character": "な",
+          "path": "data/fresh-holdout-v2/crops/q28-c4-g2.png",
+          "sha256": "5fc16d8e292cd60035ba04795b74d7e287a467188fee4f022d8c057653732b89",
+          "bbox": [
+            446,
+            505,
+            74,
+            72
+          ],
+          "cell_bbox": [
+            439,
+            503,
+            93,
+            78
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 70,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c4-g3",
+          "character": "い",
+          "path": "data/fresh-holdout-v2/crops/q28-c4-g3.png",
+          "sha256": "893fa44bc9b2d60e5301c65fc120d9f38a0a01dbb44d0f1a03ed8a797649e90f",
+          "bbox": [
+            449,
+            588,
+            67,
+            66
+          ],
+          "cell_bbox": [
+            439,
+            581,
+            93,
+            77
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 62,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c4-g4",
+          "character": "く",
+          "path": "data/fresh-holdout-v2/crops/q28-c4-g4.png",
+          "sha256": "78f28e09d828a833ef954c146e554bf913b1cc577cbfedec8350b989aee58bf1",
+          "bbox": [
+            455,
+            663,
+            49,
+            70
+          ],
+          "cell_bbox": [
+            439,
+            658,
+            93,
+            80
+          ],
+          "quality": {
+            "score": 0.9698,
+            "resolution": 1.0,
+            "contrast": 0.9137254901960784,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 66,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c4-g5",
+          "character": "ら",
+          "path": "data/fresh-holdout-v2/crops/q28-c4-g5.png",
+          "sha256": "57335acf4910147a0e8d91b4b43175f4012878cd5149126966b5ebc58813df5e",
+          "bbox": [
+            450,
+            742,
+            66,
+            69
+          ],
+          "cell_bbox": [
+            439,
+            738,
+            93,
+            80
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 65,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c4-g6",
+          "character": "い",
+          "path": "data/fresh-holdout-v2/crops/q28-c4-g6.png",
+          "sha256": "625545bfa10ce7c06ca61c4108dfba9e0099a355f70e6d3ab6fe10aafbf48921",
+          "bbox": [
+            449,
+            823,
+            67,
+            66
+          ],
+          "cell_bbox": [
+            439,
+            818,
+            93,
+            77
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 62,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c4-g7",
+          "character": "の",
+          "path": "data/fresh-holdout-v2/crops/q28-c4-g7.png",
+          "sha256": "751d6f75076622ee6c6ab0259e7d38329cbd7cec1424637fe86c69b3965dbb3e",
+          "bbox": [
+            447,
+            900,
+            72,
+            68
+          ],
+          "cell_bbox": [
+            439,
+            895,
+            93,
+            77
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 68,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c5-g0",
+          "character": "準",
+          "path": "data/fresh-holdout-v2/crops/q28-c5-g0.png",
+          "sha256": "c7f623d4721a53ee7d769a1220a7e77611e6c59bc76b3eabe2ac9a5ebac7e7d7",
+          "bbox": [
+            349,
+            345,
+            78,
+            79
+          ],
+          "cell_bbox": [
+            344,
+            339,
+            95,
+            85
+          ],
+          "quality": {
+            "score": 0.9767,
+            "resolution": 1.0,
+            "contrast": 0.9333333333333333,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 74,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c5-g1",
+          "character": "備",
+          "path": "data/fresh-holdout-v2/crops/q28-c5-g1.png",
+          "sha256": "82b635aa7067af2eb0a6cd875f7ee0579ad9098bc93fa79748d8d6e66cfc32eb",
+          "bbox": [
+            349,
+            424,
+            78,
+            78
+          ],
+          "cell_bbox": [
+            344,
+            424,
+            95,
+            78
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 74,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c5-g2",
+          "character": "が",
+          "path": "data/fresh-holdout-v2/crops/q28-c5-g2.png",
+          "sha256": "9fdc2b6ddb12b0691ac42d615a8e928e89213c622710271a976d7afa1c03b37d",
+          "bbox": [
+            352,
+            502,
+            75,
+            75
+          ],
+          "cell_bbox": [
+            344,
+            502,
+            95,
+            77
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 71,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c5-g3",
+          "character": "あ",
+          "path": "data/fresh-holdout-v2/crops/q28-c5-g3.png",
+          "sha256": "9d5d46643d40fb49b8212ac07fce83242f7d93707b4f84202d449efb26cca202",
+          "bbox": [
+            354,
+            581,
+            69,
+            75
+          ],
+          "cell_bbox": [
+            344,
+            579,
+            95,
+            84
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 70,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c5-g4",
+          "character": "っ",
+          "path": "data/fresh-holdout-v2/crops/q28-c5-g4.png",
+          "sha256": "556c7f193dbbf515868bf1160ab0454d15f1b1c138552927206a9d63ce763116",
+          "bbox": [
+            366,
+            672,
+            59,
+            54
+          ],
+          "cell_bbox": [
+            344,
+            663,
+            95,
+            70
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 55,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c5-g5",
+          "character": "た",
+          "path": "data/fresh-holdout-v2/crops/q28-c5-g5.png",
+          "sha256": "99ec8b9537df013b2457341476dfeaf766bd9c2ca9ee3bc35ba6bb0f4dbe9b57",
+          "bbox": [
+            353,
+            738,
+            70,
+            73
+          ],
+          "cell_bbox": [
+            344,
+            733,
+            95,
+            82
+          ],
+          "quality": {
+            "score": 0.9753,
+            "resolution": 1.0,
+            "contrast": 0.9294117647058824,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 68,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c5-g6",
+          "character": "り",
+          "path": "data/fresh-holdout-v2/crops/q28-c5-g6.png",
+          "sha256": "38a548b6bc8a15517e5b2fcde187ecc9df3421c0c4782065c60c6d711812cc5e",
+          "bbox": [
+            359,
+            821,
+            59,
+            69
+          ],
+          "cell_bbox": [
+            344,
+            815,
+            95,
+            79
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 65,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c6-g0",
+          "character": "し",
+          "path": "data/fresh-holdout-v2/crops/q28-c6-g0.png",
+          "sha256": "976592f1b28a1df801c73a9e37507724f689a7a3a2ea6239012ef0cad2e01ead",
+          "bbox": [
+            270,
+            351,
+            59,
+            69
+          ],
+          "cell_bbox": [
+            250,
+            344,
+            93,
+            79
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 65,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c6-g1",
+          "character": "た",
+          "path": "data/fresh-holdout-v2/crops/q28-c6-g1.png",
+          "sha256": "68f906bda60763bdd1034ff64c4deda7ab714b56351dc341213981201ddb44fb",
+          "bbox": [
+            259,
+            426,
+            71,
+            73
+          ],
+          "cell_bbox": [
+            250,
+            423,
+            93,
+            79
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 69,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c6-g2",
+          "character": "と",
+          "path": "data/fresh-holdout-v2/crops/q28-c6-g2.png",
+          "sha256": "29dc8819f443fc8a88116d70d0b339f8c614be18e025e78522ec1b4d48aa6f7e",
+          "bbox": [
+            264,
+            504,
+            61,
+            73
+          ],
+          "cell_bbox": [
+            250,
+            502,
+            93,
+            78
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 68,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c6-g3",
+          "character": "思",
+          "path": "data/fresh-holdout-v2/crops/q28-c6-g3.png",
+          "sha256": "6cc04dcd7184d75663e8ef1668bac3e3a1c8f1828ccfe3b666ec48da75b11c79",
+          "bbox": [
+            256,
+            582,
+            77,
+            75
+          ],
+          "cell_bbox": [
+            250,
+            580,
+            93,
+            84
+          ],
+          "quality": {
+            "score": 0.9767,
+            "resolution": 1.0,
+            "contrast": 0.9333333333333333,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 72,
+          "script": "kanji",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c6-g4",
+          "character": "っ",
+          "path": "data/fresh-holdout-v2/crops/q28-c6-g4.png",
+          "sha256": "2a0bbfb6a9bd0bc5767c70abb1dfe344df2757d3fcbf3857e8ce6ae6938beb2c",
+          "bbox": [
+            271,
+            672,
+            60,
+            54
+          ],
+          "cell_bbox": [
+            250,
+            664,
+            93,
+            71
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 56,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c6-g5",
+          "character": "て",
+          "path": "data/fresh-holdout-v2/crops/q28-c6-g5.png",
+          "sha256": "322798e4c2879d17b158eee96c407a5b3742cc10fae10a704f4c20cd73ff6fca",
+          "bbox": [
+            258,
+            745,
+            71,
+            65
+          ],
+          "cell_bbox": [
+            250,
+            735,
+            93,
+            80
+          ],
+          "quality": {
+            "score": 0.9712,
+            "resolution": 1.0,
+            "contrast": 0.9176470588235294,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 67,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c7-g0",
+          "character": "そ",
+          "path": "data/fresh-holdout-v2/crops/q28-c7-g0.png",
+          "sha256": "9cbd64b1c55606720da3518a326f13c5e9e93eb6c51f60bc46def2532dbceeb9",
+          "bbox": [
+            165,
+            353,
+            71,
+            68
+          ],
+          "cell_bbox": [
+            160,
+            344,
+            88,
+            81
+          ],
+          "quality": {
+            "score": 0.9725,
+            "resolution": 1.0,
+            "contrast": 0.9215686274509803,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 67,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c7-g1",
+          "character": "の",
+          "path": "data/fresh-holdout-v2/crops/q28-c7-g1.png",
+          "sha256": "e282de73800f9c5a8369832f7a3650868f917ba001e537ea2fb1e1a5b54a823e",
+          "bbox": [
+            166,
+            430,
+            72,
+            69
+          ],
+          "cell_bbox": [
+            160,
+            425,
+            88,
+            80
+          ],
+          "quality": {
+            "score": 0.9739,
+            "resolution": 1.0,
+            "contrast": 0.9254901960784314,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 68,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        },
+        {
+          "id": "q28-c7-g2",
+          "character": "っ",
+          "path": "data/fresh-holdout-v2/crops/q28-c7-g2.png",
+          "sha256": "14920cade59764a2de62e2a073125c920a3191be2363c77a84a44b0bc000cc5f",
+          "bbox": [
+            178,
+            516,
+            59,
+            54
+          ],
+          "cell_bbox": [
+            160,
+            505,
+            88,
+            72
+          ],
+          "quality": {
+            "score": 0.9712,
+            "resolution": 1.0,
+            "contrast": 0.9176470588235294,
+            "edge_ink_fraction": 0.0,
+            "flags": [],
+            "usable": true
+          },
+          "resolution": 55,
+          "script": "kana",
+          "polarity": "dark",
+          "annotation_method": "visual_original_manual_cell"
+        }
+      ],
+      "distinct_characters": 35,
+      "meets_seven_distinct": true,
+      "shortfall_reason": null,
+      "exclusions": [
+        {
+          "bbox": [
+            160,
+            577,
+            88,
+            86
+          ],
+          "reason": "省略号"
+        }
+      ],
+      "notes": [
+        "宋体类别不足时按全体剩余qid升序补至9题，q28在裁片标注前固定入选；不是因q11困难换题。所有49个常规正文实例均标注，包括小っ/ゃ。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "question_id": 100,
+    "text_coverage": 5,
+    "background_rejection": 5,
+    "box_tightness": 4,
+    "missed_characters": [],
+    "art_inclusions": [],
+    "box_line_issues": [
+      "The three adjusted top regions retain the full こ, 従, and か glyphs. The four blue column boxes remain close to the text with only modest padding, especially around the rightmost column."
+    ],
+    "punctuation_issues": [],
+    "comparison_to_v2": "Compared with eval-priority-v2 q100 (5/5/4), v4 shows no material score change: the previously complete top glyphs remain complete, and moving the ROI upward does not introduce visible background or artwork into the mask."
+  }
+]

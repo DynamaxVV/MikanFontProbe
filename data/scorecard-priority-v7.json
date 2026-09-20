@@ -1,0 +1,204 @@
+{
+  "note": "Visual LLM judgments on per-column masks; not ground-truth OCR or font-ID accuracy. candidate means usable for a later font-file experiment, not a correct font match.",
+  "version": "priority-v7",
+  "entries": [
+    {
+      "question_id": 118,
+      "coarse_label": "中圆",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 4
+      },
+      "score_source": "eval-priority-v4-rest.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 115,
+      "coarse_label": "中圆",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 5
+      },
+      "score_source": "eval-priority-v4-rest.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 100,
+      "coarse_label": "中圆",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 4
+      },
+      "score_source": "eval-priority-v4-q100.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 125,
+      "coarse_label": "中黑",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 5
+      },
+      "score_source": "eval-priority-v7-fixes.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 76,
+      "coarse_label": "中黑",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 5
+      },
+      "score_source": "eval-priority-v7-fixes.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 62,
+      "coarse_label": "中黑",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 5
+      },
+      "score_source": "eval-priority-v4-rest.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 58,
+      "coarse_label": "粗黑",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 4
+      },
+      "score_source": "eval-priority-v2.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 96,
+      "coarse_label": "粗黑",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 4
+      },
+      "score_source": "eval-priority-v2.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 65,
+      "coarse_label": "粗黑",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 4
+      },
+      "score_source": "eval-priority-v3-q65.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 114,
+      "coarse_label": "细宋",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 3
+      },
+      "score_source": "eval-priority-v2.json",
+      "status": "review"
+    },
+    {
+      "question_id": 92,
+      "coarse_label": "细宋",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 4,
+        "box_tightness": 4
+      },
+      "score_source": "eval-priority-v4-rest.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 70,
+      "coarse_label": "细宋",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 4,
+        "box_tightness": 4
+      },
+      "score_source": "eval-priority-v4-rest.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 91,
+      "coarse_label": "细圆",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 5
+      },
+      "score_source": "eval-priority-v7-fixes.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 61,
+      "coarse_label": "细圆",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 4
+      },
+      "score_source": "eval-priority-v2.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 33,
+      "coarse_label": "细圆",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 5,
+        "box_tightness": 4
+      },
+      "score_source": "eval-priority-v5-q33.json",
+      "status": "candidate"
+    },
+    {
+      "question_id": 72,
+      "coarse_label": "粗宋",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 4,
+        "box_tightness": 3
+      },
+      "score_source": "eval-priority-v3-spot.json",
+      "status": "review"
+    },
+    {
+      "question_id": 27,
+      "coarse_label": "粗宋",
+      "scores": {
+        "text_coverage": 4,
+        "background_rejection": 1,
+        "box_tightness": 2
+      },
+      "score_source": "eval-priority-v3-spot.json",
+      "status": "reject"
+    },
+    {
+      "question_id": 140,
+      "coarse_label": "粗宋",
+      "scores": {
+        "text_coverage": 5,
+        "background_rejection": 3,
+        "box_tightness": 3
+      },
+      "score_source": "eval-priority-v7-fixes.json",
+      "status": "review"
+    }
+  ]
+}

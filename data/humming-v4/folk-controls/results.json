@@ -1,0 +1,980 @@
+{
+  "status": "first untuned real negative controls",
+  "samples": [
+    {
+      "qid": 79,
+      "expected": "方新书",
+      "selected": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4
+      ],
+      "eligible_seven": false,
+      "ranking": {
+        "baseline": [
+          {
+            "key": "shinmaru",
+            "name": "新丸ゴ",
+            "answer": "圆体",
+            "distance": 0.18862675331653497,
+            "font_id": "a604062919104d47",
+            "representative_face": "PShinMGoPr6N-Medium"
+          },
+          {
+            "key": "folk",
+            "name": "Folk",
+            "answer": "方新书",
+            "distance": 0.1988839599030816,
+            "font_id": "4cb3c8980183b975",
+            "representative_face": "FolkPro-Bold"
+          },
+          {
+            "key": "skip",
+            "name": "Skip",
+            "answer": "润圆/雅士黑",
+            "distance": 0.20965887322923718,
+            "font_id": "cd6dba1952e1ce54",
+            "representative_face": "SkipStd-B"
+          },
+          {
+            "key": "humming",
+            "name": "Humming",
+            "answer": "轻吟体",
+            "distance": 0.21176645589815102,
+            "font_id": "1c6bad4cb7153485",
+            "representative_face": "HummingStd-M"
+          },
+          {
+            "key": "ywheiti",
+            "name": "攸望黑体（日文）",
+            "answer": "黑体",
+            "distance": 0.23219999086570384,
+            "font_id": "474631d57970d95e",
+            "representative_face": "YWHeiTi-Light"
+          },
+          {
+            "key": "RodinHappyPro-B",
+            "name": "RodinHappy B",
+            "answer": "方圆",
+            "distance": 0.23343502942155586,
+            "font_id": "3a72509524abbbd5",
+            "representative_face": "RodinHappyPro-B"
+          },
+          {
+            "key": "antique",
+            "name": "Antique AN+",
+            "answer": "黑体",
+            "distance": 0.25121475282070144,
+            "font_id": "3af024455a62616f",
+            "representative_face": "PAntiqueANpProN-Medium"
+          },
+          {
+            "key": "take",
+            "name": "Take",
+            "answer": "竹体",
+            "distance": 0.2684762477535378,
+            "font_id": "220c46ed8730f621",
+            "representative_face": "TakeStd-Medium"
+          },
+          {
+            "key": "reggae",
+            "name": "Comic Reggae",
+            "answer": "雷盖/雷鬼体",
+            "distance": 0.28602107326176424,
+            "font_id": "ce810a603122ce39",
+            "representative_face": "ComicReggaeStd-B"
+          },
+          {
+            "key": "RodinHappyPro-UB",
+            "name": "RodinHappy UB",
+            "answer": "海报体",
+            "distance": 0.2907055972682694,
+            "font_id": "26438c9cc3aaac8b",
+            "representative_face": "RodinHappyPro-UB"
+          },
+          {
+            "key": "RodinHappyPro-L",
+            "name": "RodinHappy L",
+            "answer": "少女",
+            "distance": 0.30120599225655464,
+            "font_id": "cb6428ac09aa7f0d",
+            "representative_face": "RodinHappyPro-L"
+          },
+          {
+            "key": "koin",
+            "name": "Manyo Koin Large",
+            "answer": "淡古印",
+            "distance": 0.3137244217000307,
+            "font_id": "c5c4498a3dfb5e6a",
+            "representative_face": "ManyoKoinLargeStd-B"
+          },
+          {
+            "key": "mystery",
+            "name": "Comic Mystery",
+            "answer": "神秘体",
+            "distance": 0.31767934702284234,
+            "font_id": "f0c6602c901c47d7",
+            "representative_face": "ComicMysteryStd-DB"
+          },
+          {
+            "key": "ryumin",
+            "name": "Ryumin",
+            "answer": "宋体",
+            "distance": 0.31799818466388874,
+            "font_id": "fa8128550eb71b48",
+            "representative_face": "PRyuminPr6N-Bold"
+          }
+        ],
+        "geometry": [
+          {
+            "key": "shinmaru",
+            "name": "新丸ゴ",
+            "answer": "圆体",
+            "distance": 0.17469784793418408,
+            "font_id": "a604062919104d47",
+            "representative_face": "PShinMGoPr6N-Medium"
+          },
+          {
+            "key": "humming",
+            "name": "Humming",
+            "answer": "轻吟体",
+            "distance": 0.2135028357256588,
+            "font_id": "1c6bad4cb7153485",
+            "representative_face": "HummingStd-M"
+          },
+          {
+            "key": "skip",
+            "name": "Skip",
+            "answer": "润圆/雅士黑",
+            "distance": 0.2150955973160867,
+            "font_id": "078cacc873dad7b0",
+            "representative_face": "SkipStd-M"
+          },
+          {
+            "key": "ywheiti",
+            "name": "攸望黑体（日文）",
+            "answer": "黑体",
+            "distance": 0.22227058969962846,
+            "font_id": "474631d57970d95e",
+            "representative_face": "YWHeiTi-Light"
+          },
+          {
+            "key": "folk",
+            "name": "Folk",
+            "answer": "方新书",
+            "distance": 0.22400566267570698,
+            "font_id": "4cb3c8980183b975",
+            "representative_face": "FolkPro-Bold"
+          },
+          {
+            "key": "RodinHappyPro-B",
+            "name": "RodinHappy B",
+            "answer": "方圆",
+            "distance": 0.2441060074232725,
+            "font_id": "3a72509524abbbd5",
+            "representative_face": "RodinHappyPro-B"
+          },
+          {
+            "key": "RodinHappyPro-L",
+            "name": "RodinHappy L",
+            "answer": "少女",
+            "distance": 0.28582249521682995,
+            "font_id": "cb6428ac09aa7f0d",
+            "representative_face": "RodinHappyPro-L"
+          },
+          {
+            "key": "take",
+            "name": "Take",
+            "answer": "竹体",
+            "distance": 0.29566724602821487,
+            "font_id": "220c46ed8730f621",
+            "representative_face": "TakeStd-Medium"
+          },
+          {
+            "key": "antique",
+            "name": "Antique AN+",
+            "answer": "黑体",
+            "distance": 0.31967604836742486,
+            "font_id": "aaf07832a81e6684",
+            "representative_face": "PAntiqueANpProN-Light"
+          },
+          {
+            "key": "RodinHappyPro-UB",
+            "name": "RodinHappy UB",
+            "answer": "海报体",
+            "distance": 0.3410418984009697,
+            "font_id": "26438c9cc3aaac8b",
+            "representative_face": "RodinHappyPro-UB"
+          },
+          {
+            "key": "reggae",
+            "name": "Comic Reggae",
+            "answer": "雷盖/雷鬼体",
+            "distance": 0.3419835273615384,
+            "font_id": "ce810a603122ce39",
+            "representative_face": "ComicReggaeStd-B"
+          },
+          {
+            "key": "koin",
+            "name": "Manyo Koin Large",
+            "answer": "淡古印",
+            "distance": 0.3423191638054836,
+            "font_id": "c5c4498a3dfb5e6a",
+            "representative_face": "ManyoKoinLargeStd-B"
+          },
+          {
+            "key": "ryumin",
+            "name": "Ryumin",
+            "answer": "宋体",
+            "distance": 0.3557222565621388,
+            "font_id": "fa8128550eb71b48",
+            "representative_face": "PRyuminPr6N-Bold"
+          },
+          {
+            "key": "mystery",
+            "name": "Comic Mystery",
+            "answer": "神秘体",
+            "distance": 0.36615373937353923,
+            "font_id": "f0c6602c901c47d7",
+            "representative_face": "ComicMysteryStd-DB"
+          }
+        ]
+      }
+    },
+    {
+      "qid": 127,
+      "expected": "方新书",
+      "selected": [
+        8,
+        12,
+        6,
+        2,
+        11,
+        9,
+        10
+      ],
+      "eligible_seven": true,
+      "ranking": {
+        "baseline": [
+          {
+            "key": "humming",
+            "name": "Humming",
+            "answer": "轻吟体",
+            "distance": 0.23628508266599677,
+            "font_id": "1c6bad4cb7153485",
+            "representative_face": "HummingStd-M"
+          },
+          {
+            "key": "folk",
+            "name": "Folk",
+            "answer": "方新书",
+            "distance": 0.2395651991185827,
+            "font_id": "4cb3c8980183b975",
+            "representative_face": "FolkPro-Bold"
+          },
+          {
+            "key": "skip",
+            "name": "Skip",
+            "answer": "润圆/雅士黑",
+            "distance": 0.24353627431899927,
+            "font_id": "078cacc873dad7b0",
+            "representative_face": "SkipStd-M"
+          },
+          {
+            "key": "shinmaru",
+            "name": "新丸ゴ",
+            "answer": "圆体",
+            "distance": 0.2436972719508772,
+            "font_id": "a604062919104d47",
+            "representative_face": "PShinMGoPr6N-Medium"
+          },
+          {
+            "key": "ywheiti",
+            "name": "攸望黑体（日文）",
+            "answer": "黑体",
+            "distance": 0.26584121725285975,
+            "font_id": "474631d57970d95e",
+            "representative_face": "YWHeiTi-Light"
+          },
+          {
+            "key": "RodinHappyPro-B",
+            "name": "RodinHappy B",
+            "answer": "方圆",
+            "distance": 0.28022187115739694,
+            "font_id": "3a72509524abbbd5",
+            "representative_face": "RodinHappyPro-B"
+          },
+          {
+            "key": "antique",
+            "name": "Antique AN+",
+            "answer": "黑体",
+            "distance": 0.3070127776101834,
+            "font_id": "3af024455a62616f",
+            "representative_face": "PAntiqueANpProN-Medium"
+          },
+          {
+            "key": "ryumin",
+            "name": "Ryumin",
+            "answer": "宋体",
+            "distance": 0.3249507643254223,
+            "font_id": "fa8128550eb71b48",
+            "representative_face": "PRyuminPr6N-Bold"
+          },
+          {
+            "key": "koin",
+            "name": "Manyo Koin Large",
+            "answer": "淡古印",
+            "distance": 0.3274311938904893,
+            "font_id": "c5c4498a3dfb5e6a",
+            "representative_face": "ManyoKoinLargeStd-B"
+          },
+          {
+            "key": "take",
+            "name": "Take",
+            "answer": "竹体",
+            "distance": 0.33272179837115085,
+            "font_id": "220c46ed8730f621",
+            "representative_face": "TakeStd-Medium"
+          },
+          {
+            "key": "mystery",
+            "name": "Comic Mystery",
+            "answer": "神秘体",
+            "distance": 0.3375755061595059,
+            "font_id": "f0c6602c901c47d7",
+            "representative_face": "ComicMysteryStd-DB"
+          },
+          {
+            "key": "RodinHappyPro-UB",
+            "name": "RodinHappy UB",
+            "answer": "海报体",
+            "distance": 0.3420287638302823,
+            "font_id": "26438c9cc3aaac8b",
+            "representative_face": "RodinHappyPro-UB"
+          },
+          {
+            "key": "reggae",
+            "name": "Comic Reggae",
+            "answer": "雷盖/雷鬼体",
+            "distance": 0.3487368174746902,
+            "font_id": "ce810a603122ce39",
+            "representative_face": "ComicReggaeStd-B"
+          },
+          {
+            "key": "RodinHappyPro-L",
+            "name": "RodinHappy L",
+            "answer": "少女",
+            "distance": 0.39305363967248613,
+            "font_id": "cb6428ac09aa7f0d",
+            "representative_face": "RodinHappyPro-L"
+          }
+        ],
+        "geometry": [
+          {
+            "key": "ywheiti",
+            "name": "攸望黑体（日文）",
+            "answer": "黑体",
+            "distance": 0.22874995758763972,
+            "font_id": "474631d57970d95e",
+            "representative_face": "YWHeiTi-Light"
+          },
+          {
+            "key": "skip",
+            "name": "Skip",
+            "answer": "润圆/雅士黑",
+            "distance": 0.2409137844012246,
+            "font_id": "078cacc873dad7b0",
+            "representative_face": "SkipStd-M"
+          },
+          {
+            "key": "humming",
+            "name": "Humming",
+            "answer": "轻吟体",
+            "distance": 0.24180904206186488,
+            "font_id": "1c6bad4cb7153485",
+            "representative_face": "HummingStd-M"
+          },
+          {
+            "key": "shinmaru",
+            "name": "新丸ゴ",
+            "answer": "圆体",
+            "distance": 0.24860806300511307,
+            "font_id": "a604062919104d47",
+            "representative_face": "PShinMGoPr6N-Medium"
+          },
+          {
+            "key": "folk",
+            "name": "Folk",
+            "answer": "方新书",
+            "distance": 0.25724672673121235,
+            "font_id": "4cb3c8980183b975",
+            "representative_face": "FolkPro-Bold"
+          },
+          {
+            "key": "RodinHappyPro-B",
+            "name": "RodinHappy B",
+            "answer": "方圆",
+            "distance": 0.3152238117939557,
+            "font_id": "3a72509524abbbd5",
+            "representative_face": "RodinHappyPro-B"
+          },
+          {
+            "key": "koin",
+            "name": "Manyo Koin Large",
+            "answer": "淡古印",
+            "distance": 0.35441726246372884,
+            "font_id": "c5c4498a3dfb5e6a",
+            "representative_face": "ManyoKoinLargeStd-B"
+          },
+          {
+            "key": "ryumin",
+            "name": "Ryumin",
+            "answer": "宋体",
+            "distance": 0.359094251886331,
+            "font_id": "18a5e5f6ab602421",
+            "representative_face": "PRyuminPr6N-Medium"
+          },
+          {
+            "key": "RodinHappyPro-UB",
+            "name": "RodinHappy UB",
+            "answer": "海报体",
+            "distance": 0.36021274377461054,
+            "font_id": "26438c9cc3aaac8b",
+            "representative_face": "RodinHappyPro-UB"
+          },
+          {
+            "key": "take",
+            "name": "Take",
+            "answer": "竹体",
+            "distance": 0.36401498831851137,
+            "font_id": "220c46ed8730f621",
+            "representative_face": "TakeStd-Medium"
+          },
+          {
+            "key": "antique",
+            "name": "Antique AN+",
+            "answer": "黑体",
+            "distance": 0.38365928080137496,
+            "font_id": "3af024455a62616f",
+            "representative_face": "PAntiqueANpProN-Medium"
+          },
+          {
+            "key": "mystery",
+            "name": "Comic Mystery",
+            "answer": "神秘体",
+            "distance": 0.393057282836541,
+            "font_id": "f0c6602c901c47d7",
+            "representative_face": "ComicMysteryStd-DB"
+          },
+          {
+            "key": "reggae",
+            "name": "Comic Reggae",
+            "answer": "雷盖/雷鬼体",
+            "distance": 0.4271551962414483,
+            "font_id": "ce810a603122ce39",
+            "representative_face": "ComicReggaeStd-B"
+          },
+          {
+            "key": "RodinHappyPro-L",
+            "name": "RodinHappy L",
+            "answer": "少女",
+            "distance": 0.4396743675253356,
+            "font_id": "cb6428ac09aa7f0d",
+            "representative_face": "RodinHappyPro-L"
+          }
+        ]
+      }
+    },
+    {
+      "qid": 128,
+      "expected": "方新书",
+      "selected": [
+        10,
+        13,
+        4,
+        11,
+        3,
+        1,
+        9
+      ],
+      "eligible_seven": true,
+      "ranking": {
+        "baseline": [
+          {
+            "key": "shinmaru",
+            "name": "新丸ゴ",
+            "answer": "圆体",
+            "distance": 0.20985979968949742,
+            "font_id": "a604062919104d47",
+            "representative_face": "PShinMGoPr6N-Medium"
+          },
+          {
+            "key": "folk",
+            "name": "Folk",
+            "answer": "方新书",
+            "distance": 0.21532337811547717,
+            "font_id": "4cb3c8980183b975",
+            "representative_face": "FolkPro-Bold"
+          },
+          {
+            "key": "skip",
+            "name": "Skip",
+            "answer": "润圆/雅士黑",
+            "distance": 0.2211209855934642,
+            "font_id": "cd6dba1952e1ce54",
+            "representative_face": "SkipStd-B"
+          },
+          {
+            "key": "humming",
+            "name": "Humming",
+            "answer": "轻吟体",
+            "distance": 0.2322064999134987,
+            "font_id": "1c6bad4cb7153485",
+            "representative_face": "HummingStd-M"
+          },
+          {
+            "key": "ywheiti",
+            "name": "攸望黑体（日文）",
+            "answer": "黑体",
+            "distance": 0.2664192945650138,
+            "font_id": "d25bc98335d4cf34",
+            "representative_face": "YWHeiTi-Bold"
+          },
+          {
+            "key": "RodinHappyPro-B",
+            "name": "RodinHappy B",
+            "answer": "方圆",
+            "distance": 0.276386207712811,
+            "font_id": "3a72509524abbbd5",
+            "representative_face": "RodinHappyPro-B"
+          },
+          {
+            "key": "reggae",
+            "name": "Comic Reggae",
+            "answer": "雷盖/雷鬼体",
+            "distance": 0.3051625811460433,
+            "font_id": "ce810a603122ce39",
+            "representative_face": "ComicReggaeStd-B"
+          },
+          {
+            "key": "take",
+            "name": "Take",
+            "answer": "竹体",
+            "distance": 0.3191049313545451,
+            "font_id": "220c46ed8730f621",
+            "representative_face": "TakeStd-Medium"
+          },
+          {
+            "key": "RodinHappyPro-UB",
+            "name": "RodinHappy UB",
+            "answer": "海报体",
+            "distance": 0.32460706895976005,
+            "font_id": "26438c9cc3aaac8b",
+            "representative_face": "RodinHappyPro-UB"
+          },
+          {
+            "key": "antique",
+            "name": "Antique AN+",
+            "answer": "黑体",
+            "distance": 0.32905638411590526,
+            "font_id": "3af024455a62616f",
+            "representative_face": "PAntiqueANpProN-Medium"
+          },
+          {
+            "key": "mystery",
+            "name": "Comic Mystery",
+            "answer": "神秘体",
+            "distance": 0.3506848806536751,
+            "font_id": "f0c6602c901c47d7",
+            "representative_face": "ComicMysteryStd-DB"
+          },
+          {
+            "key": "ryumin",
+            "name": "Ryumin",
+            "answer": "宋体",
+            "distance": 0.35649792102359784,
+            "font_id": "fa8128550eb71b48",
+            "representative_face": "PRyuminPr6N-Bold"
+          },
+          {
+            "key": "koin",
+            "name": "Manyo Koin Large",
+            "answer": "淡古印",
+            "distance": 0.36511353600233065,
+            "font_id": "c5c4498a3dfb5e6a",
+            "representative_face": "ManyoKoinLargeStd-B"
+          },
+          {
+            "key": "RodinHappyPro-L",
+            "name": "RodinHappy L",
+            "answer": "少女",
+            "distance": 0.3696795100501765,
+            "font_id": "cb6428ac09aa7f0d",
+            "representative_face": "RodinHappyPro-L"
+          }
+        ],
+        "geometry": [
+          {
+            "key": "shinmaru",
+            "name": "新丸ゴ",
+            "answer": "圆体",
+            "distance": 0.21898073914857885,
+            "font_id": "a604062919104d47",
+            "representative_face": "PShinMGoPr6N-Medium"
+          },
+          {
+            "key": "skip",
+            "name": "Skip",
+            "answer": "润圆/雅士黑",
+            "distance": 0.21960389605426336,
+            "font_id": "078cacc873dad7b0",
+            "representative_face": "SkipStd-M"
+          },
+          {
+            "key": "folk",
+            "name": "Folk",
+            "answer": "方新书",
+            "distance": 0.23057033641383912,
+            "font_id": "4cb3c8980183b975",
+            "representative_face": "FolkPro-Bold"
+          },
+          {
+            "key": "humming",
+            "name": "Humming",
+            "answer": "轻吟体",
+            "distance": 0.2306142190734414,
+            "font_id": "1c6bad4cb7153485",
+            "representative_face": "HummingStd-M"
+          },
+          {
+            "key": "ywheiti",
+            "name": "攸望黑体（日文）",
+            "answer": "黑体",
+            "distance": 0.25425176672632427,
+            "font_id": "474631d57970d95e",
+            "representative_face": "YWHeiTi-Light"
+          },
+          {
+            "key": "RodinHappyPro-B",
+            "name": "RodinHappy B",
+            "answer": "方圆",
+            "distance": 0.3272692059058383,
+            "font_id": "3a72509524abbbd5",
+            "representative_face": "RodinHappyPro-B"
+          },
+          {
+            "key": "take",
+            "name": "Take",
+            "answer": "竹体",
+            "distance": 0.34790830623478414,
+            "font_id": "220c46ed8730f621",
+            "representative_face": "TakeStd-Medium"
+          },
+          {
+            "key": "reggae",
+            "name": "Comic Reggae",
+            "answer": "雷盖/雷鬼体",
+            "distance": 0.3617660659217098,
+            "font_id": "ce810a603122ce39",
+            "representative_face": "ComicReggaeStd-B"
+          },
+          {
+            "key": "RodinHappyPro-L",
+            "name": "RodinHappy L",
+            "answer": "少女",
+            "distance": 0.3711849074709013,
+            "font_id": "cb6428ac09aa7f0d",
+            "representative_face": "RodinHappyPro-L"
+          },
+          {
+            "key": "antique",
+            "name": "Antique AN+",
+            "answer": "黑体",
+            "distance": 0.4095415255387169,
+            "font_id": "3af024455a62616f",
+            "representative_face": "PAntiqueANpProN-Medium"
+          },
+          {
+            "key": "ryumin",
+            "name": "Ryumin",
+            "answer": "宋体",
+            "distance": 0.41439821900141394,
+            "font_id": "fa8128550eb71b48",
+            "representative_face": "PRyuminPr6N-Bold"
+          },
+          {
+            "key": "RodinHappyPro-UB",
+            "name": "RodinHappy UB",
+            "answer": "海报体",
+            "distance": 0.4156875603279002,
+            "font_id": "26438c9cc3aaac8b",
+            "representative_face": "RodinHappyPro-UB"
+          },
+          {
+            "key": "mystery",
+            "name": "Comic Mystery",
+            "answer": "神秘体",
+            "distance": 0.43004284209348626,
+            "font_id": "f0c6602c901c47d7",
+            "representative_face": "ComicMysteryStd-DB"
+          },
+          {
+            "key": "koin",
+            "name": "Manyo Koin Large",
+            "answer": "淡古印",
+            "distance": 0.45775378108330494,
+            "font_id": "c5c4498a3dfb5e6a",
+            "representative_face": "ManyoKoinLargeStd-B"
+          }
+        ]
+      }
+    },
+    {
+      "qid": 132,
+      "expected": "方新书",
+      "selected": [
+        5,
+        0,
+        2,
+        1,
+        7,
+        9,
+        3
+      ],
+      "eligible_seven": true,
+      "ranking": {
+        "baseline": [
+          {
+            "key": "folk",
+            "name": "Folk",
+            "answer": "方新书",
+            "distance": 0.2226788707503446,
+            "font_id": "4cb3c8980183b975",
+            "representative_face": "FolkPro-Bold"
+          },
+          {
+            "key": "skip",
+            "name": "Skip",
+            "answer": "润圆/雅士黑",
+            "distance": 0.24215494366788484,
+            "font_id": "cd6dba1952e1ce54",
+            "representative_face": "SkipStd-B"
+          },
+          {
+            "key": "humming",
+            "name": "Humming",
+            "answer": "轻吟体",
+            "distance": 0.24972687351977482,
+            "font_id": "1c6bad4cb7153485",
+            "representative_face": "HummingStd-M"
+          },
+          {
+            "key": "shinmaru",
+            "name": "新丸ゴ",
+            "answer": "圆体",
+            "distance": 0.2605778550742704,
+            "font_id": "a604062919104d47",
+            "representative_face": "PShinMGoPr6N-Medium"
+          },
+          {
+            "key": "ywheiti",
+            "name": "攸望黑体（日文）",
+            "answer": "黑体",
+            "distance": 0.2840318716564539,
+            "font_id": "d25bc98335d4cf34",
+            "representative_face": "YWHeiTi-Bold"
+          },
+          {
+            "key": "RodinHappyPro-B",
+            "name": "RodinHappy B",
+            "answer": "方圆",
+            "distance": 0.30761386395252904,
+            "font_id": "3a72509524abbbd5",
+            "representative_face": "RodinHappyPro-B"
+          },
+          {
+            "key": "antique",
+            "name": "Antique AN+",
+            "answer": "黑体",
+            "distance": 0.3083605222065973,
+            "font_id": "e11969a03c87772e",
+            "representative_face": "PAntiqueANpProN-Bold"
+          },
+          {
+            "key": "mystery",
+            "name": "Comic Mystery",
+            "answer": "神秘体",
+            "distance": 0.30936571250684264,
+            "font_id": "f0c6602c901c47d7",
+            "representative_face": "ComicMysteryStd-DB"
+          },
+          {
+            "key": "koin",
+            "name": "Manyo Koin Large",
+            "answer": "淡古印",
+            "distance": 0.3229730205169896,
+            "font_id": "c5c4498a3dfb5e6a",
+            "representative_face": "ManyoKoinLargeStd-B"
+          },
+          {
+            "key": "ryumin",
+            "name": "Ryumin",
+            "answer": "宋体",
+            "distance": 0.3315582477164343,
+            "font_id": "fa8128550eb71b48",
+            "representative_face": "PRyuminPr6N-Bold"
+          },
+          {
+            "key": "reggae",
+            "name": "Comic Reggae",
+            "answer": "雷盖/雷鬼体",
+            "distance": 0.3363611652443382,
+            "font_id": "ce810a603122ce39",
+            "representative_face": "ComicReggaeStd-B"
+          },
+          {
+            "key": "RodinHappyPro-UB",
+            "name": "RodinHappy UB",
+            "answer": "海报体",
+            "distance": 0.3490678084039841,
+            "font_id": "26438c9cc3aaac8b",
+            "representative_face": "RodinHappyPro-UB"
+          },
+          {
+            "key": "take",
+            "name": "Take",
+            "answer": "竹体",
+            "distance": 0.35775545341516224,
+            "font_id": "220c46ed8730f621",
+            "representative_face": "TakeStd-Medium"
+          },
+          {
+            "key": "RodinHappyPro-L",
+            "name": "RodinHappy L",
+            "answer": "少女",
+            "distance": 0.42764916252147733,
+            "font_id": "cb6428ac09aa7f0d",
+            "representative_face": "RodinHappyPro-L"
+          }
+        ],
+        "geometry": [
+          {
+            "key": "skip",
+            "name": "Skip",
+            "answer": "润圆/雅士黑",
+            "distance": 0.23952774493575227,
+            "font_id": "cd6dba1952e1ce54",
+            "representative_face": "SkipStd-B"
+          },
+          {
+            "key": "humming",
+            "name": "Humming",
+            "answer": "轻吟体",
+            "distance": 0.24195425929253933,
+            "font_id": "1c6bad4cb7153485",
+            "representative_face": "HummingStd-M"
+          },
+          {
+            "key": "folk",
+            "name": "Folk",
+            "answer": "方新书",
+            "distance": 0.249749763153219,
+            "font_id": "4cb3c8980183b975",
+            "representative_face": "FolkPro-Bold"
+          },
+          {
+            "key": "shinmaru",
+            "name": "新丸ゴ",
+            "answer": "圆体",
+            "distance": 0.2612987272162907,
+            "font_id": "a604062919104d47",
+            "representative_face": "PShinMGoPr6N-Medium"
+          },
+          {
+            "key": "ywheiti",
+            "name": "攸望黑体（日文）",
+            "answer": "黑体",
+            "distance": 0.2806137958282235,
+            "font_id": "474631d57970d95e",
+            "representative_face": "YWHeiTi-Light"
+          },
+          {
+            "key": "mystery",
+            "name": "Comic Mystery",
+            "answer": "神秘体",
+            "distance": 0.33863089812510405,
+            "font_id": "f0c6602c901c47d7",
+            "representative_face": "ComicMysteryStd-DB"
+          },
+          {
+            "key": "koin",
+            "name": "Manyo Koin Large",
+            "answer": "淡古印",
+            "distance": 0.34456615802069096,
+            "font_id": "c5c4498a3dfb5e6a",
+            "representative_face": "ManyoKoinLargeStd-B"
+          },
+          {
+            "key": "ryumin",
+            "name": "Ryumin",
+            "answer": "宋体",
+            "distance": 0.34614024456985865,
+            "font_id": "18a5e5f6ab602421",
+            "representative_face": "PRyuminPr6N-Medium"
+          },
+          {
+            "key": "RodinHappyPro-B",
+            "name": "RodinHappy B",
+            "answer": "方圆",
+            "distance": 0.3515263544946426,
+            "font_id": "3a72509524abbbd5",
+            "representative_face": "RodinHappyPro-B"
+          },
+          {
+            "key": "reggae",
+            "name": "Comic Reggae",
+            "answer": "雷盖/雷鬼体",
+            "distance": 0.3524268024380198,
+            "font_id": "ce810a603122ce39",
+            "representative_face": "ComicReggaeStd-B"
+          },
+          {
+            "key": "antique",
+            "name": "Antique AN+",
+            "answer": "黑体",
+            "distance": 0.35248286202941537,
+            "font_id": "aaf07832a81e6684",
+            "representative_face": "PAntiqueANpProN-Light"
+          },
+          {
+            "key": "take",
+            "name": "Take",
+            "answer": "竹体",
+            "distance": 0.4034314726671273,
+            "font_id": "220c46ed8730f621",
+            "representative_face": "TakeStd-Medium"
+          },
+          {
+            "key": "RodinHappyPro-UB",
+            "name": "RodinHappy UB",
+            "answer": "海报体",
+            "distance": 0.41299957219602923,
+            "font_id": "26438c9cc3aaac8b",
+            "representative_face": "RodinHappyPro-UB"
+          },
+          {
+            "key": "RodinHappyPro-L",
+            "name": "RodinHappy L",
+            "answer": "少女",
+            "distance": 0.4497697618987501,
+            "font_id": "cb6428ac09aa7f0d",
+            "representative_face": "RodinHappyPro-L"
+          }
+        ]
+      }
+    }
+  ]
+}

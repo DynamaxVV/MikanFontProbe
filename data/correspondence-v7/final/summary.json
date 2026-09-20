@@ -1,0 +1,91 @@
+{
+  "status": "all inputs previously exposed; diagnostic vote counts are not probabilities",
+  "per_class": {
+    "圆体": {
+      "n": 6,
+      "previous_correct": 6,
+      "new_correct": 6
+    },
+    "宋体": {
+      "n": 5,
+      "previous_correct": 5,
+      "new_correct": 5
+    },
+    "黑体": {
+      "n": 6,
+      "previous_correct": 5,
+      "new_correct": 5
+    },
+    "少女": {
+      "n": 6,
+      "previous_correct": 5,
+      "new_correct": 5
+    },
+    "方圆": {
+      "n": 5,
+      "previous_correct": 5,
+      "new_correct": 5
+    },
+    "润圆/雅士黑": {
+      "n": 5,
+      "previous_correct": 4,
+      "new_correct": 4
+    },
+    "竹体": {
+      "n": 5,
+      "previous_correct": 5,
+      "new_correct": 5
+    },
+    "轻吟体": {
+      "n": 6,
+      "previous_correct": 3,
+      "new_correct": 3
+    },
+    "方新书": {
+      "n": 3,
+      "previous_correct": 1,
+      "new_correct": 1
+    }
+  },
+  "pair_votes": {
+    "other_font_pairs": {
+      "compared_character_pairs": 877,
+      "previous_votes": 50,
+      "new_votes": 51,
+      "gained_votes": 1,
+      "lost_votes": 0,
+      "flipped_votes": 0,
+      "prior_supports_expected": 24,
+      "prior_opposes_expected": 1,
+      "new_supports_expected": 24,
+      "new_opposes_expected": 1
+    },
+    "humming_pairs": {
+      "compared_character_pairs": 818,
+      "previous_votes": 54,
+      "new_votes": 56,
+      "gained_votes": 2,
+      "lost_votes": 0,
+      "flipped_votes": 0,
+      "prior_supports_expected": 24,
+      "prior_opposes_expected": 0,
+      "new_supports_expected": 25,
+      "new_opposes_expected": 0
+    }
+  },
+  "other_font_changes": [
+    {
+      "qid": 86,
+      "expected": "少女",
+      "pair": [
+        "RodinHappyPro-B",
+        "shinmaru"
+      ],
+      "character": "た",
+      "previous": 0,
+      "new": 1,
+      "selected_in_both": true
+    }
+  ],
+  "top1_changes": []
+}

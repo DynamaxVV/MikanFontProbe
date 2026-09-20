@@ -1,0 +1,1179 @@
+[
+  {
+    "character": "知",
+    "pixels": 68,
+    "source": [
+      {
+        "kind": "terminal",
+        "point": [
+          60,
+          30
+        ],
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "width": 6.0375000000000005,
+        "native_width": 3.947596153846154,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.23580474317944555,
+          "round_residual": 0.09191529782005901,
+          "crown": 0.6376811594202898,
+          "shaft_width": 6.0375000000000005,
+          "shaft_width_variation": 0.025357036674774035,
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "rounded"
+          ]
+        },
+        "reason": "native_shaft_too_thin"
+      },
+      {
+        "kind": "terminal",
+        "point": [
+          18,
+          65
+        ],
+        "direction": [
+          -1.0,
+          0.0
+        ],
+        "width": 6.700000000000001,
+        "native_width": 4.380769230769231,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "flat_residual": 0.20267265749385088,
+          "round_residual": 0.07068857465091491,
+          "crown": 0.5174129353233827,
+          "shaft_width": 6.700000000000001,
+          "shaft_width_variation": 0.008030657618844922,
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "rounded"
+          ]
+        },
+        "reason": "native_shaft_too_thin"
+      },
+      {
+        "kind": "terminal",
+        "point": [
+          63,
+          65
+        ],
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "width": 7.19378662109375,
+        "native_width": 4.7036297137920675,
+        "state": "unknown",
+        "square_score": 0.0,
+        "metrics": {
+          "threshold_states": [
+            "unknown",
+            "unknown",
+            "unknown"
+          ]
+        },
+        "reason": "native_shaft_too_thin"
+      },
+      {
+        "kind": "box_corner",
+        "point": [
+          84.0,
+          26.0
+        ],
+        "role": "tl",
+        "box_center": [
+          93.0,
+          67.45054945054945
+        ],
+        "box_bbox": [
+          84,
+          26,
+          102,
+          108
+        ],
+        "width": 8.0,
+        "state": "unknown",
+        "reason": "threshold_unstable",
+        "metrics": {
+          "apex_gap": 0.45069390943299864,
+          "arc_radius": 5.246125504159249,
+          "arc_residual": 0.23523512058543805,
+          "arc_degrees": 65.14157036760578,
+          "side_residual": 0.0625,
+          "flank_length": 7.0,
+          "thresholds": [
+            129.0,
+            149.0,
+            169.0
+          ],
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "rounded"
+          ],
+          "threshold_width_variation": 0.3125,
+          "threshold_point_shift": 1.0,
+          "native_hole_side": 11.76923076923077,
+          "native_flank_length": 4.576923076923077,
+          "native_arc_radius": 3.43015898348874
+        },
+        "native_width": 5.230769230769231,
+        "square_score": 0.0
+      },
+      {
+        "kind": "box_corner",
+        "point": [
+          102.0,
+          26.0
+        ],
+        "role": "tr",
+        "box_center": [
+          93.0,
+          67.45054945054945
+        ],
+        "box_bbox": [
+          84,
+          26,
+          102,
+          108
+        ],
+        "width": 8.0,
+        "state": "unknown",
+        "reason": "threshold_unstable",
+        "metrics": {
+          "apex_gap": 0.45069390943299864,
+          "arc_radius": 4.903156917970997,
+          "arc_residual": 0.3685639683180116,
+          "arc_degrees": 79.16029883538626,
+          "side_residual": 0.0625,
+          "flank_length": 7.0,
+          "thresholds": [
+            129.0,
+            149.0,
+            169.0
+          ],
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "rounded"
+          ],
+          "threshold_width_variation": 0.3125,
+          "threshold_point_shift": 1.0,
+          "native_hole_side": 11.76923076923077,
+          "native_flank_length": 4.576923076923077,
+          "native_arc_radius": 3.205910292519498
+        },
+        "native_width": 5.230769230769231,
+        "square_score": 0.0
+      },
+      {
+        "kind": "box_corner",
+        "point": [
+          102.0,
+          108.0
+        ],
+        "role": "br",
+        "box_center": [
+          93.0,
+          67.45054945054945
+        ],
+        "box_bbox": [
+          84,
+          26,
+          102,
+          108
+        ],
+        "width": 8.0,
+        "state": "unknown",
+        "reason": "threshold_unstable",
+        "metrics": {
+          "apex_gap": 0.3535533905932738,
+          "arc_radius": null,
+          "arc_residual": null,
+          "arc_degrees": null,
+          "side_residual": 0.05306936992928564,
+          "flank_length": 8.0,
+          "thresholds": [
+            129.0,
+            149.0,
+            169.0
+          ],
+          "threshold_states": [
+            "rounded",
+            "unknown",
+            "unknown"
+          ],
+          "threshold_width_variation": 0.3125,
+          "threshold_point_shift": 1.4142135623730951,
+          "native_hole_side": 11.76923076923077,
+          "native_flank_length": 5.230769230769231,
+          "native_arc_radius": 0.0
+        },
+        "native_width": 5.230769230769231,
+        "square_score": 0.0
+      },
+      {
+        "kind": "box_corner",
+        "point": [
+          84.0,
+          108.0
+        ],
+        "role": "bl",
+        "box_center": [
+          93.0,
+          67.45054945054945
+        ],
+        "box_bbox": [
+          84,
+          26,
+          102,
+          108
+        ],
+        "width": 8.0,
+        "state": "unknown",
+        "reason": "threshold_unstable",
+        "metrics": {
+          "apex_gap": 0.3535533905932738,
+          "arc_radius": 6.515435627610144,
+          "arc_residual": 0.18079945280168908,
+          "arc_degrees": 66.26412466055231,
+          "side_residual": 0.05306936992928564,
+          "flank_length": 8.0,
+          "thresholds": [
+            129.0,
+            149.0,
+            169.0
+          ],
+          "threshold_states": [
+            "rounded",
+            "rounded",
+            "unknown"
+          ],
+          "threshold_width_variation": 0.3125,
+          "threshold_point_shift": 1.4142135623730951,
+          "native_hole_side": 11.76923076923077,
+          "native_flank_length": 5.230769230769231,
+          "native_arc_radius": 4.260092525745095
+        },
+        "native_width": 5.230769230769231,
+        "square_score": 0.0
+      }
+    ],
+    "templates": {
+      "HummingStd-M": [
+        {
+          "kind": "terminal",
+          "point": [
+            61,
+            28
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 6.130030959752322,
+          "native_width": 4.008097165991902,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.16462549403553678,
+            "round_residual": 0.02370308741358206,
+            "crown": 0.43066666666666653,
+            "shaft_width": 6.130030959752322,
+            "shaft_width_variation": 0.0,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            19,
+            59
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 6.253125000000001,
+          "native_width": 4.088581730769231,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.19002073930965732,
+            "round_residual": 0.04545834616775806,
+            "crown": 0.5082948721717571,
+            "shaft_width": 6.253125000000001,
+            "shaft_width_variation": 0.0,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            64,
+            59
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 8.0,
+          "native_width": 5.230769230769231,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "unstable_or_non_cap_geometry"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            63,
+            99
+          ],
+          "direction": [
+            0.5038710255240862,
+            0.8637789008984335
+          ],
+          "width": 9.360108968189785,
+          "native_width": 6.120071248431783,
+          "state": "rounded",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.12483069647901149,
+            "round_residual": 0.02479140035666623,
+            "crown": 0.3404669090052468,
+            "shaft_width": 9.360108968189785,
+            "shaft_width_variation": 0.02858924491131418,
+            "threshold_states": [
+              "rounded",
+              "rounded",
+              "rounded"
+            ]
+          },
+          "reason": "stable_cap_fit"
+        },
+        {
+          "kind": "corner",
+          "point": [
+            110.0,
+            105.2132034355964
+          ],
+          "width": 10.0,
+          "native_width": 6.538461538461538,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "turn_degrees": 89.99998020307147,
+            "line_residual": 1.8671080826550102e-07,
+            "flank_turn_degrees": 6.68999750361615e-05,
+            "turn_concentration": 0.6214349565755012,
+            "intersection_gap": 0.36919992375328564,
+            "center_gap": 0.41986366227244953,
+            "broad_arc_residual": 0.07162528990513002,
+            "circle_residual": 0.01083584300419839,
+            "circle_radius": 0.8354751607062565,
+            "width_variation": 0.1941204071044922,
+            "thresholds": [
+              116.0,
+              136.0,
+              156.0
+            ],
+            "threshold_states": [
+              "unknown",
+              "rounded",
+              "missing"
+            ],
+            "threshold_width_variation": null
+          },
+          "reason": "threshold_unstable"
+        },
+        {
+          "kind": "corner",
+          "point": [
+            80.02943725152288,
+            109.0
+          ],
+          "width": 8.0,
+          "native_width": 5.230769230769231,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "turn_degrees": 77.85284635038896,
+            "line_residual": 0.018422143773604065,
+            "flank_turn_degrees": 2.758024916983936,
+            "turn_concentration": 0.3574070864617178,
+            "intersection_gap": 0.32332806493551125,
+            "center_gap": 0.6707845412911624,
+            "broad_arc_residual": 0.08957018054722989,
+            "circle_residual": 0.00940809221089738,
+            "circle_radius": 1.3091302088044672,
+            "width_variation": 0.1829751580953598,
+            "thresholds": [
+              116.0,
+              136.0,
+              156.0
+            ],
+            "threshold_states": [
+              "missing",
+              "rounded",
+              "missing"
+            ],
+            "threshold_width_variation": null
+          },
+          "reason": "native_stroke_too_thin"
+        },
+        {
+          "kind": "box_corner",
+          "point": [
+            80.0,
+            27.0
+          ],
+          "role": "tl",
+          "box_center": [
+            92.1436170212766,
+            65.51063829787235
+          ],
+          "box_bbox": [
+            80,
+            27,
+            104,
+            104
+          ],
+          "width": 6.5,
+          "state": "unknown",
+          "reason": "threshold_unstable",
+          "metrics": {
+            "apex_gap": 0.43514263457633695,
+            "arc_radius": 3.1117285405198545,
+            "arc_residual": 0.11677889356654315,
+            "arc_degrees": 106.19740210280898,
+            "side_residual": 0.0,
+            "flank_length": 12.0,
+            "thresholds": [
+              116.0,
+              136.0,
+              156.0
+            ],
+            "threshold_states": [
+              "unknown",
+              "rounded",
+              "unknown"
+            ],
+            "threshold_width_variation": 0.07692307692307693,
+            "threshold_point_shift": 1.0,
+            "native_hole_side": 15.692307692307692,
+            "native_flank_length": 7.846153846153846,
+            "native_arc_radius": 2.0345917380322125
+          },
+          "native_width": 4.25,
+          "square_score": 0.0
+        },
+        {
+          "kind": "box_corner",
+          "point": [
+            104.0,
+            27.0
+          ],
+          "role": "tr",
+          "box_center": [
+            92.1436170212766,
+            65.51063829787235
+          ],
+          "box_bbox": [
+            80,
+            27,
+            104,
+            104
+          ],
+          "width": 6.5,
+          "state": "unknown",
+          "reason": "arc_not_supported",
+          "metrics": {
+            "apex_gap": 0.34401045807689073,
+            "arc_radius": null,
+            "arc_residual": null,
+            "arc_degrees": null,
+            "side_residual": 7.255010848046963e-16,
+            "flank_length": 12.0,
+            "thresholds": [
+              116.0,
+              136.0,
+              156.0
+            ],
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "threshold_width_variation": 0.07692307692307693,
+            "threshold_point_shift": 0.0,
+            "native_hole_side": 15.692307692307692,
+            "native_flank_length": 7.846153846153846,
+            "native_arc_radius": 0.0
+          },
+          "native_width": 4.25,
+          "square_score": 0.0
+        },
+        {
+          "kind": "box_corner",
+          "point": [
+            104.0,
+            104.0
+          ],
+          "role": "br",
+          "box_center": [
+            92.1436170212766,
+            65.51063829787235
+          ],
+          "box_bbox": [
+            80,
+            27,
+            104,
+            104
+          ],
+          "width": 6.5,
+          "state": "unknown",
+          "reason": "arc_not_supported",
+          "metrics": {
+            "apex_gap": 0.34401045807689073,
+            "arc_radius": null,
+            "arc_residual": null,
+            "arc_degrees": null,
+            "side_residual": 3.9762107438163535e-15,
+            "flank_length": 12.0,
+            "thresholds": [
+              116.0,
+              136.0,
+              156.0
+            ],
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "threshold_width_variation": 0.07692307692307693,
+            "threshold_point_shift": 0.0,
+            "native_hole_side": 15.692307692307692,
+            "native_flank_length": 7.846153846153846,
+            "native_arc_radius": 0.0
+          },
+          "native_width": 4.25,
+          "square_score": 0.0
+        },
+        {
+          "kind": "box_corner",
+          "point": [
+            80.0,
+            104.0
+          ],
+          "role": "bl",
+          "box_center": [
+            92.1436170212766,
+            65.51063829787235
+          ],
+          "box_bbox": [
+            80,
+            27,
+            104,
+            104
+          ],
+          "width": 6.5,
+          "state": "unknown",
+          "reason": "arc_not_supported",
+          "metrics": {
+            "apex_gap": 0.43514263457633695,
+            "arc_radius": null,
+            "arc_residual": null,
+            "arc_degrees": null,
+            "side_residual": 3.9762107438163535e-15,
+            "flank_length": 12.0,
+            "thresholds": [
+              116.0,
+              136.0,
+              156.0
+            ],
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "threshold_width_variation": 0.07692307692307693,
+            "threshold_point_shift": 1.0,
+            "native_hole_side": 15.692307692307692,
+            "native_flank_length": 7.846153846153846,
+            "native_arc_radius": 0.0
+          },
+          "native_width": 4.25,
+          "square_score": 0.0
+        }
+      ],
+      "SkipStd-B": [
+        {
+          "kind": "terminal",
+          "point": [
+            60,
+            32
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 8.0,
+          "native_width": 5.230769230769231,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "unstable_or_non_cap_geometry"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            20,
+            61
+          ],
+          "direction": [
+            -0.9965457582448796,
+            -0.08304547985373997
+          ],
+          "width": 7.5493749999999995,
+          "native_width": 4.936129807692307,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.020190483484747994,
+            "round_residual": 0.14053361965961692,
+            "crown": 0.017117582997280723,
+            "shaft_width": 7.5493749999999995,
+            "shaft_width_variation": 0.013326440151696095,
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            63,
+            61
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 8.0,
+          "native_width": 5.230769230769231,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "unstable_or_non_cap_geometry"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            58,
+            103
+          ],
+          "direction": [
+            -0.12403473458920847,
+            0.9922778767136677
+          ],
+          "width": 9.9937744140625,
+          "native_width": 6.534390963040865,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "unstable_or_non_cap_geometry"
+        },
+        {
+          "kind": "box_corner",
+          "point": [
+            83.0,
+            29.0
+          ],
+          "role": "tl",
+          "box_center": [
+            91.39375,
+            62.0
+          ],
+          "box_bbox": [
+            83,
+            29,
+            100,
+            95
+          ],
+          "width": 9.0,
+          "state": "square",
+          "reason": "stable_box_apex",
+          "metrics": {
+            "apex_gap": 0.1111111111111111,
+            "arc_radius": null,
+            "arc_residual": null,
+            "arc_degrees": null,
+            "side_residual": 0.0,
+            "flank_length": 9.0,
+            "thresholds": [
+              113.0,
+              133.0,
+              153.0
+            ],
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ],
+            "threshold_width_variation": 0.05555555555555555,
+            "threshold_point_shift": 1.0,
+            "native_hole_side": 11.115384615384615,
+            "native_flank_length": 5.884615384615385,
+            "native_arc_radius": 0.0
+          },
+          "native_width": 5.884615384615385,
+          "square_score": 0.44444444444444453
+        },
+        {
+          "kind": "box_corner",
+          "point": [
+            100.0,
+            29.0
+          ],
+          "role": "tr",
+          "box_center": [
+            91.39375,
+            62.0
+          ],
+          "box_bbox": [
+            83,
+            29,
+            100,
+            95
+          ],
+          "width": 9.0,
+          "state": "square",
+          "reason": "stable_box_apex",
+          "metrics": {
+            "apex_gap": 0.15713484026367724,
+            "arc_radius": null,
+            "arc_residual": null,
+            "arc_degrees": null,
+            "side_residual": 9.43623339928e-17,
+            "flank_length": 9.0,
+            "thresholds": [
+              113.0,
+              133.0,
+              153.0
+            ],
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ],
+            "threshold_width_variation": 0.05555555555555555,
+            "threshold_point_shift": 0.0,
+            "native_hole_side": 11.115384615384615,
+            "native_flank_length": 5.884615384615385,
+            "native_arc_radius": 0.0
+          },
+          "native_width": 5.884615384615385,
+          "square_score": 0.21432579868161383
+        },
+        {
+          "kind": "box_corner",
+          "point": [
+            100.0,
+            95.0
+          ],
+          "role": "br",
+          "box_center": [
+            91.39375,
+            62.0
+          ],
+          "box_bbox": [
+            83,
+            29,
+            100,
+            95
+          ],
+          "width": 9.0,
+          "state": "square",
+          "reason": "stable_box_apex",
+          "metrics": {
+            "apex_gap": 0.15713484026367724,
+            "arc_radius": null,
+            "arc_residual": null,
+            "arc_degrees": null,
+            "side_residual": 1.578983857244667e-15,
+            "flank_length": 9.0,
+            "thresholds": [
+              113.0,
+              133.0,
+              153.0
+            ],
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ],
+            "threshold_width_variation": 0.05555555555555555,
+            "threshold_point_shift": 0.0,
+            "native_hole_side": 11.115384615384615,
+            "native_flank_length": 5.884615384615385,
+            "native_arc_radius": 0.0
+          },
+          "native_width": 5.884615384615385,
+          "square_score": 0.21432579868161383
+        },
+        {
+          "kind": "box_corner",
+          "point": [
+            83.0,
+            95.0
+          ],
+          "role": "bl",
+          "box_center": [
+            91.39375,
+            62.0
+          ],
+          "box_bbox": [
+            83,
+            29,
+            100,
+            95
+          ],
+          "width": 9.0,
+          "state": "square",
+          "reason": "stable_box_apex",
+          "metrics": {
+            "apex_gap": 0.1111111111111111,
+            "arc_radius": null,
+            "arc_residual": null,
+            "arc_degrees": null,
+            "side_residual": 1.578983857244667e-15,
+            "flank_length": 9.0,
+            "thresholds": [
+              113.0,
+              133.0,
+              153.0
+            ],
+            "threshold_states": [
+              "square",
+              "square",
+              "square"
+            ],
+            "threshold_width_variation": 0.05555555555555555,
+            "threshold_point_shift": 1.0,
+            "native_hole_side": 11.115384615384615,
+            "native_flank_length": 5.884615384615385,
+            "native_arc_radius": 0.0
+          },
+          "native_width": 5.884615384615385,
+          "square_score": 0.44444444444444453
+        }
+      ],
+      "FolkPro-Bold": [
+        {
+          "kind": "terminal",
+          "point": [
+            63,
+            32
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 6.0,
+          "native_width": 3.923076923076923,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            18,
+            65
+          ],
+          "direction": [
+            -1.0,
+            0.0
+          ],
+          "width": 6.02284090909091,
+          "native_width": 3.938011363636364,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "flat_residual": 0.0632173535087764,
+            "round_residual": 0.08612997413220802,
+            "crown": 0.16187263947295127,
+            "shaft_width": 6.02284090909091,
+            "shaft_width_variation": 0.0,
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "terminal",
+          "point": [
+            64,
+            65
+          ],
+          "direction": [
+            1.0,
+            0.0
+          ],
+          "width": 6.0,
+          "native_width": 3.923076923076923,
+          "state": "unknown",
+          "square_score": 0.0,
+          "metrics": {
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ]
+          },
+          "reason": "native_shaft_too_thin"
+        },
+        {
+          "kind": "box_corner",
+          "point": [
+            85.0,
+            28.0
+          ],
+          "role": "tl",
+          "box_center": [
+            92.0,
+            65.0
+          ],
+          "box_bbox": [
+            85,
+            28,
+            99,
+            102
+          ],
+          "width": 9.5,
+          "state": "unknown",
+          "reason": "straight_side_insufficient",
+          "metrics": {
+            "apex_gap": null,
+            "arc_radius": null,
+            "arc_residual": null,
+            "arc_degrees": null,
+            "side_residual": null,
+            "flank_length": 0.0,
+            "thresholds": [
+              111.0,
+              131.0,
+              151.0
+            ],
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "threshold_width_variation": 0.0,
+            "threshold_point_shift": 0.0,
+            "native_hole_side": 9.153846153846153,
+            "native_flank_length": 0.0,
+            "native_arc_radius": 0.0
+          },
+          "native_width": 6.211538461538462,
+          "square_score": 0.0
+        },
+        {
+          "kind": "box_corner",
+          "point": [
+            99.0,
+            28.0
+          ],
+          "role": "tr",
+          "box_center": [
+            92.0,
+            65.0
+          ],
+          "box_bbox": [
+            85,
+            28,
+            99,
+            102
+          ],
+          "width": 9.5,
+          "state": "unknown",
+          "reason": "straight_side_insufficient",
+          "metrics": {
+            "apex_gap": null,
+            "arc_radius": null,
+            "arc_residual": null,
+            "arc_degrees": null,
+            "side_residual": null,
+            "flank_length": 0.0,
+            "thresholds": [
+              111.0,
+              131.0,
+              151.0
+            ],
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "threshold_width_variation": 0.0,
+            "threshold_point_shift": 0.0,
+            "native_hole_side": 9.153846153846153,
+            "native_flank_length": 0.0,
+            "native_arc_radius": 0.0
+          },
+          "native_width": 6.211538461538462,
+          "square_score": 0.0
+        },
+        {
+          "kind": "box_corner",
+          "point": [
+            99.0,
+            102.0
+          ],
+          "role": "br",
+          "box_center": [
+            92.0,
+            65.0
+          ],
+          "box_bbox": [
+            85,
+            28,
+            99,
+            102
+          ],
+          "width": 9.5,
+          "state": "unknown",
+          "reason": "straight_side_insufficient",
+          "metrics": {
+            "apex_gap": null,
+            "arc_radius": null,
+            "arc_residual": null,
+            "arc_degrees": null,
+            "side_residual": null,
+            "flank_length": 0.0,
+            "thresholds": [
+              111.0,
+              131.0,
+              151.0
+            ],
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "threshold_width_variation": 0.0,
+            "threshold_point_shift": 0.0,
+            "native_hole_side": 9.153846153846153,
+            "native_flank_length": 0.0,
+            "native_arc_radius": 0.0
+          },
+          "native_width": 6.211538461538462,
+          "square_score": 0.0
+        },
+        {
+          "kind": "box_corner",
+          "point": [
+            85.0,
+            102.0
+          ],
+          "role": "bl",
+          "box_center": [
+            92.0,
+            65.0
+          ],
+          "box_bbox": [
+            85,
+            28,
+            99,
+            102
+          ],
+          "width": 9.5,
+          "state": "unknown",
+          "reason": "straight_side_insufficient",
+          "metrics": {
+            "apex_gap": null,
+            "arc_radius": null,
+            "arc_residual": null,
+            "arc_degrees": null,
+            "side_residual": null,
+            "flank_length": 0.0,
+            "thresholds": [
+              111.0,
+              131.0,
+              151.0
+            ],
+            "threshold_states": [
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "threshold_width_variation": 0.0,
+            "threshold_point_shift": 0.0,
+            "native_hole_side": 9.153846153846153,
+            "native_flank_length": 0.0,
+            "native_arc_radius": 0.0
+          },
+          "native_width": 6.211538461538462,
+          "square_score": 0.0
+        }
+      ]
+    }
+  }
+]

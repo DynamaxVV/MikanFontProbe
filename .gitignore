@@ -1,0 +1,19 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local machine and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Codex/OMX runtime state
+.omx/
+
+# Local scratch output; published reports under output/ remain tracked
+*.log
+*.tmp

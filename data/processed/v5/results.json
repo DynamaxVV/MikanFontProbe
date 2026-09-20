@@ -1,0 +1,182 @@
+[
+  {
+    "question_id": 98,
+    "coarse_label": "中宋",
+    "roi": [
+      0,
+      0,
+      314,
+      648
+    ],
+    "text_box": [
+      62,
+      75,
+      198,
+      521
+    ],
+    "components": 90,
+    "ink_pixels": 12371
+  },
+  {
+    "question_id": 110,
+    "coarse_label": "角明体",
+    "roi": [
+      0,
+      0,
+      310,
+      718
+    ],
+    "text_box": [
+      4,
+      6,
+      298,
+      707
+    ],
+    "components": 57,
+    "ink_pixels": 9447
+  },
+  {
+    "question_id": 139,
+    "coarse_label": "POP1",
+    "roi": [
+      0,
+      0,
+      82,
+      295
+    ],
+    "text_box": [
+      33,
+      44,
+      26,
+      220
+    ],
+    "components": 19,
+    "ink_pixels": 1316
+  },
+  {
+    "question_id": 136,
+    "coarse_label": "雷盖/雷鬼体",
+    "roi": [
+      0,
+      0,
+      112,
+      331
+    ],
+    "text_box": [
+      30,
+      5,
+      73,
+      304
+    ],
+    "components": 27,
+    "ink_pixels": 2490
+  },
+  {
+    "question_id": 129,
+    "coarse_label": "粗黑",
+    "roi": [
+      0,
+      0,
+      271,
+      404
+    ],
+    "text_box": [
+      16,
+      3,
+      245,
+      385
+    ],
+    "components": 72,
+    "ink_pixels": 13567
+  },
+  {
+    "question_id": 31,
+    "coarse_label": "珍珠体",
+    "roi": [
+      0,
+      0,
+      1041,
+      995
+    ],
+    "text_box": [
+      6,
+      28,
+      1030,
+      962
+    ],
+    "components": 165,
+    "ink_pixels": 72046
+  },
+  {
+    "question_id": 100,
+    "coarse_label": "中圆",
+    "roi": [
+      0,
+      0,
+      560,
+      780
+    ],
+    "text_box": [
+      47,
+      27,
+      509,
+      740
+    ],
+    "components": 86,
+    "ink_pixels": 29718
+  },
+  {
+    "question_id": 140,
+    "coarse_label": "粗宋",
+    "roi": [
+      0,
+      0,
+      137,
+      291
+    ],
+    "text_box": [
+      4,
+      11,
+      129,
+      272
+    ],
+    "components": 32,
+    "ink_pixels": 3890
+  },
+  {
+    "question_id": 141,
+    "coarse_label": "少女",
+    "roi": [
+      0,
+      0,
+      130,
+      224
+    ],
+    "text_box": [
+      14,
+      32,
+      85,
+      188
+    ],
+    "components": 36,
+    "ink_pixels": 1622
+  },
+  {
+    "question_id": 25,
+    "coarse_label": "海报体",
+    "roi": [
+      0,
+      0,
+      813,
+      744
+    ],
+    "text_box": [
+      142,
+      13,
+      635,
+      686
+    ],
+    "components": 62,
+    "ink_pixels": 60105
+  }
+]
