@@ -16,6 +16,14 @@ from local_encoder_v11 import LocalShapeEncoder
 from process_regions import ROOT, imread
 from train_local_encoder_v11 import CATALOG_PATH, TEMPLATE_DIR, tight_gray, augment
 
+CATEGORY_ANSWERS = {
+    "少女体": "少女",
+    "方圆体": "方圆",
+    "海报体": "海报",
+    "雅士黑": "润圆/雅士黑",
+    "雷盖体": "雷盖/雷鬼体",
+}
+
 
 def load_model(checkpoint_path: Path, device: torch.device) -> LocalShapeEncoder:
     checkpoint = torch.load(checkpoint_path, map_location="cpu", weights_only=False)
@@ -79,7 +87,9 @@ def rank_glyph(model: LocalShapeEncoder, glyph: dict, fonts: list[dict],
     by_category = defaultdict(list)
     for row in faces:
         by_category[row["category"]].append(row)
-    categories = [{"category": category, "similarity": max(row["similarity"] for row in rows),
+    categories = [{"category": category,
+                   "answer": CATEGORY_ANSWERS.get(category, category),
+                   "similarity": max(row["similarity"] for row in rows),
                    "face": max(rows, key=lambda row: row["similarity"])["face"]}
                   for category, rows in by_category.items()]
     categories.sort(key=lambda row: row["similarity"], reverse=True)
@@ -99,7 +109,9 @@ def rank_question(model: LocalShapeEncoder, sample: dict, fonts: list[dict],
     for glyph in glyph_results:
         for row in glyph["categories"]:
             scores[row["category"]].append(row["similarity"])
-    ranking = [{"category": category, "similarity": float(np.mean(values)),
+    ranking = [{"category": category,
+                "answer": CATEGORY_ANSWERS.get(category, category),
+                "similarity": float(np.mean(values)),
                 "support": len(values)} for category, values in scores.items()]
     ranking.sort(key=lambda row: row["similarity"], reverse=True)
     return {"qid": sample["qid"], "expected": sample["expected"], "state": "evaluated",
@@ -132,15 +144,15 @@ def main() -> None:
     for group, sample in sample_sets:
         result = rank_question(model, sample, fonts, device)
         rows.append({"group": group, **result})
-        top = result["ranking"][0]["category"] if result["ranking"] else None
+        top = result["ranking"][0]["answer"] if result["ranking"] else None
         print(sample["qid"], sample["expected"], top, result["state"], flush=True)
     summary = {}
     for group in {row["group"] for row in rows}:
         group_rows = [row for row in rows if row["group"] == group]
         eligible = [row for row in group_rows if row["state"] == "evaluated"]
         summary[group] = {"questions": len(group_rows), "eligible": len(eligible),
-                          "top1": sum(row["ranking"][0]["category"] == row["expected"] for row in eligible),
-                          "top3": sum(row["expected"] in [x["category"] for x in row["ranking"][:3]] for row in eligible)}
+                          "top1": sum(row["ranking"][0]["answer"] == row["expected"] for row in eligible),
+                          "top3": sum(row["expected"] in [x["answer"] for x in row["ranking"][:3]] for row in eligible)}
         summary[group]["top1_rate"] = summary[group]["top1"] / max(1, len(eligible))
         summary[group]["top3_rate"] = summary[group]["top3"] / max(1, len(eligible))
     provenance = {"checkpoint": hashlib.sha256(args.checkpoint.read_bytes()).hexdigest(),
