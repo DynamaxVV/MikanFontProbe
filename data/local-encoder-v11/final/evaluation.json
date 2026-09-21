@@ -17,14 +17,6 @@
       "top1_rate": 0.875,
       "top3_rate": 1.0
     },
-    "category_expansion": {
-      "questions": 48,
-      "eligible": 47,
-      "top1": 37,
-      "top3": 44,
-      "top1_rate": 0.7872340425531915,
-      "top3_rate": 0.9361702127659575
-    },
     "folk_controls": {
       "questions": 4,
       "eligible": 4,
@@ -32,6 +24,14 @@
       "top3": 4,
       "top1_rate": 0.0,
       "top3_rate": 1.0
+    },
+    "category_expansion": {
+      "questions": 48,
+      "eligible": 47,
+      "top1": 37,
+      "top3": 44,
+      "top1_rate": 0.7872340425531915,
+      "top3_rate": 0.9361702127659575
     }
   },
   "samples": [
@@ -96387,6 +96387,7 @@
   "notes": [
     "Templates and real crops share the encoder; no real crop was used for training.",
     "Category score is mean over selected glyphs of the best face within category.",
+    "Folder categories are mapped to the question-bank answers, while raw categories remain in each row.",
     "The font identity in a manga crop is not independently labeled; expected is the question-bank Chinese mapping."
   ]
 }

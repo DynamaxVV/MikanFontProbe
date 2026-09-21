@@ -17,3 +17,6 @@ __pycache__/
 # Local scratch output; published reports under output/ remain tracked
 *.log
 *.tmp
+
+# Large, reproducible local-only v13 training/evaluation artifacts
+data/local-encoder-v13/

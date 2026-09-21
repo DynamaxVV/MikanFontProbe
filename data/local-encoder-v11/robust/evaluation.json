@@ -96387,6 +96387,7 @@
   "notes": [
     "Templates and real crops share the encoder; no real crop was used for training.",
     "Category score is mean over selected glyphs of the best face within category.",
+    "Folder categories are mapped to the question-bank answers, while raw categories remain in each row.",
     "The font identity in a manga crop is not independently labeled; expected is the question-bank Chinese mapping."
   ]
 }

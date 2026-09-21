@@ -1,10 +1,10 @@
 {
   "input_files": {
     "data/holdout_samples_v1.json": "56e0406df8ea28c015fd88c3b96c181ba45bd0eccedf92bc7e2baf43def6bd8a",
-    "match_font_baseline.py": "1fe82c8ba02c3b978cca746cf436d7ea930c145e5f3568a794efab310684da7d",
-    "structure_font_baseline.py": "910e4572a2fea7281f41f7621876bf5ae5590ced24131d11918728389d922e01",
-    "build_font_templates.py": "eac4fd43a7564b6a71b61e8cff55c0f9095b18334b632f344170c3c405e614d9",
-    "evaluate_holdout.py": "1ab97f40bcdc68dbfe0d793df63b4350f3c49a628d690613188953b56bc2f1d6",
+    "match_font_baseline.py": "5e6f527a92a17a468ac60d5a2e5fa9a08776ffb2f7af42172938376c57d6158b",
+    "structure_font_baseline.py": "b5b1435fa3793eae6dadc881e2bf32038fc4c76d57c8ac0a067102ad9039b008",
+    "build_font_templates.py": "d12f9c6de9d7dccf52240ea432a7420be84f6e1f21ad1eb42f52a9288e3056bc",
+    "evaluate_holdout.py": "77492b17280de8bbc1251652dca262cc478f1eea6e95d1eb2ec8ffbc9fa1bcd0",
     "data/holdout-v1/crops/q104-g0-input.png": "d703b41c59aa333248c181bed4402c1e590bb2688fab1204c30a9ba223124fae",
     "data/holdout-v1/crops/q104-g0-source.png": "d703b41c59aa333248c181bed4402c1e590bb2688fab1204c30a9ba223124fae",
     "data/holdout-v1/crops/q104-g1-input.png": "ec838ae8bc06e8d4e23e80856a90da05f05eeadc707c5c326192aa76afb40780",

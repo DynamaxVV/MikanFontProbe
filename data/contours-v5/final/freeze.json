@@ -19,9 +19,9 @@
     "data/humming-v4/guarded-results.json": "d3ecc3e0dcbdafaf124d792d4a1999cae7724e852dbbcad135054909b6c06add"
   },
   "code": {
-    "local_contour_matcher.py": "52923db461b3aaaf1f80851f599b13461c60dcc53d49b58de044d591155a2fc3",
-    "rank_font_contours.py": "aaab652cd364cd4e360f74a07cc3c544f4a206e400fbca6b2c0ffa8796438387",
-    "evaluate_contours_v5.py": "38aa34efcb6ac281a2a1cf58722b8d90ae8877311b24c0a83beee57dd634ca4d"
+    "local_contour_matcher.py": "401f3c1bd40017e0b43367a408b8397c30badb910a3d880b7d975315985d666f",
+    "rank_font_contours.py": "9c5d1c4788c448af603dd6dee742610e5da41ae3b0fc5396fb966ef965d78985",
+    "evaluate_contours_v5.py": "153f79b397b0d88b0a591bddd6fadc8ea1aa02b5c33f6795fc2ed363b43832aa"
   },
   "rerank": "top two only, both within old .015 appearance band; >=3 votes, >=80% agreement",
   "additional_queries": "at most 2 distinct chars per pair, font-only utility, fixed face per sample"

@@ -1,10 +1,10 @@
 {
   "code": {
-    "stroke_terminal_features.py": "fad927a7c671b94665020f31c198ce66561286b0c3fe5156218131f25023072f",
-    "stroke_corner_features.py": "307e757d37e8cf9ab42f5a022f65467c9af106b20b9bb11d8882f1557fe1a7c0",
-    "stroke_feature_matcher.py": "2c300c3ace54d3d2f18e71c90833a8a529333f85e9e7e89fe75ce3bcdcb6db33",
-    "rank_font_features.py": "9f4ae2b73b3cb8006e3eca63b9d6999fce32a5fa337b5ddf31f31a37911c6121",
-    "evaluate_features_v6.py": "4d4389ac38a67bb55d7f5b026da8f3df9b6ef77187619503d6203984ba697de7"
+    "stroke_terminal_features.py": "09c3a9f12d988fba519ec4d3c5da9f23f24fa3af89a9c4637c4f54877e79f777",
+    "stroke_corner_features.py": "6e320127b59b1b18bff40b6311d33cc3cdaef153ceab272b82f08c2077d948aa",
+    "stroke_feature_matcher.py": "9e815f70ee4a5a19a9501be1bacc24181580769ca35c25e6d4769ffb28f3ae16",
+    "rank_font_features.py": "bdb4fa71f8baca9df816c7327467c925d167cbc90747bc9037d667e53cf1133c",
+    "evaluate_features_v6.py": "7de9775468f3436d20d5466fcfd1150049fc1225ce6acb613190add774c0536e"
   },
   "inputs": {
     "data/category-expansion-v3/pools.json": "2fad7e426c9cccad999463d55d2f32a0a16306e2755aa9994235c12cd1d6cb39",

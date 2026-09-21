@@ -1,6 +1,6 @@
 {
   "data/aligned-holdout-v2/pools.json": "8ace635aa9cbf4a4356d4d534ce021b8959a37ad66375beae7bd8dddb501bdf3",
   "data/aligned-holdout-v2/templates/catalog.json": "ca3b2ddf1b2eafabc937dc13bf6d483d9713d0c2746eaffd4a0781bf646380f5",
-  "match_font_baseline.py": "1fe82c8ba02c3b978cca746cf436d7ea930c145e5f3568a794efab310684da7d",
-  "structure_font_baseline.py": "910e4572a2fea7281f41f7621876bf5ae5590ced24131d11918728389d922e01"
+  "match_font_baseline.py": "5e6f527a92a17a468ac60d5a2e5fa9a08776ffb2f7af42172938376c57d6158b",
+  "structure_font_baseline.py": "b5b1435fa3793eae6dadc881e2bf32038fc4c76d57c8ac0a067102ad9039b008"
 }
