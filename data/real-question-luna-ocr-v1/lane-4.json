@@ -1,0 +1,150 @@
+{
+  "lane": 4,
+  "language": "Japanese",
+  "records": [
+    {
+      "qid": 33,
+      "image_sha256": "f8f6218040ee8b025ce1c44d2100ee608375f78cbfa3a377f2cfe93e8571c31b",
+      "status": "uncertain",
+      "region_bbox": [118, 128, 48, 400],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "選定した吹き出し中央の縦列。細い仮名が複数あり、字形を確実に判別できないため転記を保留。"
+    },
+    {
+      "qid": 40,
+      "image_sha256": "6e8f6f082eb22a263986606533f55b22f7eab66e8a5b7782a8ff16df61539b6e",
+      "status": "uncertain",
+      "region_bbox": [119, 24, 51, 273],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "選定した右端の縦列。吹き出し内の装飾縁と字間が詰まり、列中の漢字を確実に読めない。"
+    },
+    {
+      "qid": 59,
+      "image_sha256": "e0692e2565c05c332d953838076c815e1bae042352dcf3046253499449b4b8b8",
+      "status": "uncertain",
+      "region_bbox": [278, 68, 66, 231],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "選定した右側の縦列。黒い太字と隣列の小書き文字が接しており、逐字の境界を確実に分けられない。"
+    },
+    {
+      "qid": 65,
+      "image_sha256": "b80aca7469fb6656988739e0f772b83b46105d22e3032afe3b6c7a17cc12dd12",
+      "status": "uncertain",
+      "region_bbox": [39, 17, 48, 274],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "選定した中央の縦列。太い装飾書体の画が重なっており、仮名と漢字を確実に見分けられない。"
+    },
+    {
+      "qid": 118,
+      "image_sha256": "4c3c6b5805c34175e6ffb5f8fc00760e5d37b591616dcc01e92dd2f3cf512cdb",
+      "status": "transcribed",
+      "region_bbox": [104, 40, 29, 183],
+      "text": "わたしの実家",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 142,
+      "image_sha256": "4ddd2300fa88a57efc03058f1db714d135faf72edbdb82c2b8b25e346e1ed474",
+      "status": "uncertain",
+      "region_bbox": [12, 14, 29, 163],
+      "text": "あっだわな",
+      "orientation": "vertical",
+      "notes": "選定した左列。先頭の仮名は読めるが、中ほどの小さい字と末尾の記号を判別できず、全列の転記として確定できない。"
+    },
+    {
+      "qid": 148,
+      "image_sha256": "91ffd7e6cc5eb213173532f266d8c8c6852057a6f8dab030b58c62c1f72f3c99",
+      "status": "uncertain",
+      "region_bbox": [45, 48, 28, 299],
+      "text": "おなみでいい",
+      "orientation": "vertical",
+      "notes": "選定した中央の縦列。淡い細線で「み／ん」などの区別が不確実。"
+    },
+    {
+      "qid": 172,
+      "image_sha256": "ee0a98339c27efcbed2ef74f6ea4a25b102843fef49616d5fc9729ee0a9f4817",
+      "status": "uncertain",
+      "region_bbox": [34, 30, 26, 210],
+      "text": "必要",
+      "orientation": "vertical",
+      "notes": "選定した中央右の縦列。『必要』は判読できるが、上下の小さな仮名と英字が不鮮明。"
+    },
+    {
+      "qid": 178,
+      "image_sha256": "dfb21761c9546d59a05d07da92c06edacf2a80a0ca2957d1c3bf5fcd059d2333",
+      "status": "transcribed",
+      "region_bbox": [12, 10, 26, 127],
+      "text": "お手洗い！",
+      "orientation": "vertical",
+      "notes": "主代理复核原图左列，补正漏读的开头「お」。"
+    },
+    {
+      "qid": 184,
+      "image_sha256": "a91952fc93b85dae05df0015e8d7624db5b499a2cb6714affa3339111b90eedb",
+      "status": "transcribed",
+      "region_bbox": [9, 19, 25, 155],
+      "text": "しようっ!!",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 190,
+      "image_sha256": "7e3d5e37ee4ca315511265cc8f0ad934a8e0e61a3712ac52e8426a461c9667f5",
+      "status": "uncertain",
+      "region_bbox": [35, 18, 28, 207],
+      "text": "目指すべき姿",
+      "orientation": "vertical",
+      "notes": "選定した左列。末尾に続く字が隣の線画に接しているため判別できず、列全体は未確定。"
+    },
+    {
+      "qid": 196,
+      "image_sha256": "6492532a65b8c541e441a1ae8c49fef3c41c94a8913b122cf1c5c0da182139e0",
+      "status": "transcribed",
+      "region_bbox": [69, 20, 32, 225],
+      "text": "いや立ってんじゃん！",
+      "orientation": "vertical",
+      "notes": "Luna 初稿与原图右列不符；主代理逐字复核右列后修正。"
+    },
+    {
+      "qid": 202,
+      "image_sha256": "7d864a0d8525018b1c2c9e50c2bd25210ec086c4830c4e35756797ff24a5d035",
+      "status": "uncertain",
+      "region_bbox": [50, 28, 26, 286],
+      "text": "まとめて言う",
+      "orientation": "vertical",
+      "notes": "選定した右列。『め／ま』と見える字が続く箇所があり、列頭の読みを確定できない。"
+    },
+    {
+      "qid": 238,
+      "image_sha256": "3346a5fe4c36b963b5025635a27b7e93d527e20de46e7994b2b8a9daf620ab5f",
+      "status": "uncertain",
+      "region_bbox": [61, 26, 33, 213],
+      "text": "はじめまして",
+      "orientation": "vertical",
+      "notes": "選定した中央列。先頭文字が上端の線と重なって見え、完全な列かどうかを確実に判断できない。"
+    },
+    {
+      "qid": 256,
+      "image_sha256": "b99e8d30cc0c20e79d709061293c08b5956b2c078def9511e7985843a16c0ab2",
+      "status": "uncertain",
+      "region_bbox": [107, 12, 33, 192],
+      "text": "いったい",
+      "orientation": "vertical",
+      "notes": "選定した右端の縦列。後続の仮名が薄く、濁点の有無を確定できない。"
+    },
+    {
+      "qid": 262,
+      "image_sha256": "7454db70ac7f9396e1cc9b329b1150c027d331ca3fa5337f09b38d0997ebe254",
+      "status": "uncertain",
+      "region_bbox": [83, 14, 26, 218],
+      "text": "実は",
+      "orientation": "vertical",
+      "notes": "選定した右端の縦列。上方の二字は読めるが、下方の字が隣列に接しており確定できない。"
+    }
+  ]
+}

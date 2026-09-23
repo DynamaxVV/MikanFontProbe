@@ -1,0 +1,928 @@
+{
+  "state": "matched",
+  "source": "data/real-question-luna-validation-v3/q185/region.png",
+  "source_sha256": "16a35eb45e4e82c80481d355535c721b861f5a9865ae0bacec73b571f11b6f62",
+  "layout": "vertical",
+  "original_polarity": "dark",
+  "text": "協力プレイ…",
+  "text_character_count": 6,
+  "candidate_count": 6,
+  "active_candidate_count": 6,
+  "excluded_candidates": [],
+  "candidates": [
+    {
+      "index": 0,
+      "bbox": [
+        14,
+        28,
+        4,
+        5
+      ],
+      "excluded": false,
+      "character": "協"
+    },
+    {
+      "index": 1,
+      "bbox": [
+        6,
+        33,
+        12,
+        18
+      ],
+      "excluded": false,
+      "character": "力"
+    },
+    {
+      "index": 2,
+      "bbox": [
+        7,
+        59,
+        13,
+        4
+      ],
+      "excluded": false,
+      "character": "プ"
+    },
+    {
+      "index": 3,
+      "bbox": [
+        7,
+        108,
+        16,
+        16
+      ],
+      "excluded": false,
+      "character": "レ"
+    },
+    {
+      "index": 4,
+      "bbox": [
+        15,
+        124,
+        4,
+        15
+      ],
+      "excluded": false,
+      "character": "イ"
+    },
+    {
+      "index": 5,
+      "bbox": [
+        15,
+        144,
+        3,
+        3
+      ],
+      "excluded": false,
+      "character": "…"
+    }
+  ],
+  "mask": {
+    "roi": [
+      0,
+      0,
+      27,
+      155
+    ],
+    "text_box": [
+      6,
+      28,
+      17,
+      119
+    ],
+    "components": 6,
+    "ink_pixels": 196
+  },
+  "artifacts": {
+    "source": "source.png",
+    "mask": "mask.png",
+    "segments": "segments.png",
+    "comparison": "comparison.png"
+  },
+  "scope": "known_or_user_corrected_text; local_font_library_only",
+  "unsupported_characters": [
+    {
+      "candidate_index": 0,
+      "character": "協"
+    },
+    {
+      "candidate_index": 1,
+      "character": "力"
+    },
+    {
+      "candidate_index": 2,
+      "character": "プ"
+    },
+    {
+      "candidate_index": 3,
+      "character": "レ"
+    },
+    {
+      "candidate_index": 5,
+      "character": "…"
+    }
+  ],
+  "glyphs": [
+    {
+      "id": "candidate-04",
+      "candidate_index": 4,
+      "character": "イ",
+      "bbox": [
+        13,
+        122,
+        8,
+        19
+      ],
+      "source_path": "data/real-question-luna-validation-v3/q185/analysis/crops/candidate-04-source.png",
+      "path": "data/real-question-luna-validation-v3/q185/analysis/crops/candidate-04-input.png",
+      "sha256": "32382cfe3082db7df7305be9504ca2a82d0bbd40c6d4d8ea7a8bc68a4beeb4b8",
+      "quality": {
+        "score": 0.4131,
+        "resolution": 0.2,
+        "contrast": 0.9168627450980392,
+        "edge_ink_fraction": 0.07407407407407407,
+        "flags": [
+          "墨迹触边，可能截断",
+          "分辨率偏低"
+        ],
+        "usable": true
+      },
+      "resolution": 16,
+      "script": "kana",
+      "polarity": "dark",
+      "input_transform": "none"
+    }
+  ],
+  "match": {
+    "ranking": [
+      {
+        "rank": 1,
+        "key": "antique",
+        "name": "Antique AN+",
+        "answer": "黑体",
+        "appearance_distance": 0.4293813238243894,
+        "geometry_distance": null,
+        "representative_face": "PAntiqueANpProN-Ultra",
+        "appearance_representative_face": "PAntiqueANpProN-Ultra",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 2,
+        "key": "ryumin",
+        "name": "Ryumin",
+        "answer": "宋体",
+        "appearance_distance": 0.5132018795705997,
+        "geometry_distance": null,
+        "representative_face": "PRyuminPr6N-Medium",
+        "appearance_representative_face": "PRyuminPr6N-Medium",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 3,
+        "key": "reggae",
+        "name": "Comic Reggae",
+        "answer": "雷盖/雷鬼体",
+        "appearance_distance": 0.5277976037072057,
+        "geometry_distance": null,
+        "representative_face": "ComicReggaeStd-B",
+        "appearance_representative_face": "ComicReggaeStd-B",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 4,
+        "key": "skip",
+        "name": "Skip",
+        "answer": "润圆/雅士黑",
+        "appearance_distance": 0.5331007020595229,
+        "geometry_distance": null,
+        "representative_face": "SkipStd-B",
+        "appearance_representative_face": "SkipStd-B",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 5,
+        "key": "take",
+        "name": "Take",
+        "answer": "竹体",
+        "appearance_distance": 0.5346953568709113,
+        "geometry_distance": null,
+        "representative_face": "TakeStd-Medium",
+        "appearance_representative_face": "TakeStd-Medium",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 6,
+        "key": "folk",
+        "name": "Folk",
+        "answer": "方新书",
+        "appearance_distance": 0.5408656236531325,
+        "geometry_distance": null,
+        "representative_face": "FolkPro-Bold",
+        "appearance_representative_face": "FolkPro-Bold",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 7,
+        "key": "RodinHappyPro-B",
+        "name": "RodinHappy B",
+        "answer": "方圆",
+        "appearance_distance": 0.5420189611950574,
+        "geometry_distance": null,
+        "representative_face": "RodinHappyPro-B",
+        "appearance_representative_face": "RodinHappyPro-B",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 8,
+        "key": "RodinHappyPro-UB",
+        "name": "RodinHappy UB",
+        "answer": "海报体",
+        "appearance_distance": 0.5603853607584747,
+        "geometry_distance": null,
+        "representative_face": "RodinHappyPro-UB",
+        "appearance_representative_face": "RodinHappyPro-UB",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 9,
+        "key": "yw_jiangyuan",
+        "name": "攸望降圆体",
+        "answer": "降圆体",
+        "appearance_distance": 0.5655654490544446,
+        "geometry_distance": null,
+        "representative_face": "YWJiangYuanTi-Bold",
+        "appearance_representative_face": "YWJiangYuanTi-Bold",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 10,
+        "key": "mystery",
+        "name": "Comic Mystery",
+        "answer": "神秘体",
+        "appearance_distance": 0.5723268915449042,
+        "geometry_distance": null,
+        "representative_face": "ComicMysteryStd-DB",
+        "appearance_representative_face": "ComicMysteryStd-DB",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 11,
+        "key": "yw_jiaoming",
+        "name": "攸望角明体",
+        "answer": "角明体",
+        "appearance_distance": 0.5747490678797019,
+        "geometry_distance": null,
+        "representative_face": "YWJiaoMinTi-Regular",
+        "appearance_representative_face": "YWJiaoMinTi-Regular",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 12,
+        "key": "shinmaru",
+        "name": "新丸ゴ",
+        "answer": "圆体",
+        "appearance_distance": 0.5806163934245145,
+        "geometry_distance": null,
+        "representative_face": "PShinMGoPr6N-Bold",
+        "appearance_representative_face": "PShinMGoPr6N-Bold",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 13,
+        "key": "ywheiti",
+        "name": "攸望黑体（日文）",
+        "answer": "黑体",
+        "appearance_distance": 0.5835022588339258,
+        "geometry_distance": null,
+        "representative_face": "YWHeiTi-Bold",
+        "appearance_representative_face": "YWHeiTi-Bold",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 14,
+        "key": "RodinHappyPro-L",
+        "name": "RodinHappy L",
+        "answer": "少女",
+        "appearance_distance": 0.5836650642882688,
+        "geometry_distance": null,
+        "representative_face": "RodinHappyPro-L",
+        "appearance_representative_face": "RodinHappyPro-L",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 15,
+        "key": "seurat",
+        "name": "Seurat",
+        "answer": "Seurat",
+        "appearance_distance": 0.5901273843803934,
+        "geometry_distance": null,
+        "representative_face": "SeuratProN-M",
+        "appearance_representative_face": "SeuratProN-M",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 16,
+        "key": "humming",
+        "name": "Humming",
+        "answer": "轻吟体",
+        "appearance_distance": 0.5984396132093369,
+        "geometry_distance": null,
+        "representative_face": "HummingStd-M",
+        "appearance_representative_face": "HummingStd-M",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 17,
+        "key": "koin",
+        "name": "Manyo Koin Large",
+        "answer": "淡古印",
+        "appearance_distance": 0.6386786437059611,
+        "geometry_distance": null,
+        "representative_face": "ManyoKoinLargeStd-B",
+        "appearance_representative_face": "ManyoKoinLargeStd-B",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      }
+    ],
+    "state": "insufficient_distinct_characters",
+    "changed": false,
+    "appearance_gap": 0.08382055574621028,
+    "ambiguity_band": 0.015,
+    "confidence_kind": "uncalibrated_evidence_only",
+    "auto_accept": false,
+    "selected_indices": [
+      0
+    ],
+    "characters": "イ",
+    "resolutions": [
+      {
+        "native": 16,
+        "repeat_scale": 1,
+        "effective": 16
+      }
+    ],
+    "top3": [
+      {
+        "rank": 1,
+        "key": "antique",
+        "name": "Antique AN+",
+        "answer": "黑体",
+        "appearance_distance": 0.4293813238243894,
+        "geometry_distance": null,
+        "representative_face": "PAntiqueANpProN-Ultra",
+        "appearance_representative_face": "PAntiqueANpProN-Ultra",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 2,
+        "key": "ryumin",
+        "name": "Ryumin",
+        "answer": "宋体",
+        "appearance_distance": 0.5132018795705997,
+        "geometry_distance": null,
+        "representative_face": "PRyuminPr6N-Medium",
+        "appearance_representative_face": "PRyuminPr6N-Medium",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 3,
+        "key": "reggae",
+        "name": "Comic Reggae",
+        "answer": "雷盖/雷鬼体",
+        "appearance_distance": 0.5277976037072057,
+        "geometry_distance": null,
+        "representative_face": "ComicReggaeStd-B",
+        "appearance_representative_face": "ComicReggaeStd-B",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      }
+    ],
+    "display_top3": [
+      {
+        "rank": 1,
+        "key": "antique",
+        "name": "Antique AN+",
+        "answer": "黑体",
+        "appearance_distance": 0.4293813238243894,
+        "geometry_distance": null,
+        "representative_face": "PAntiqueANpProN-Ultra",
+        "appearance_representative_face": "PAntiqueANpProN-Ultra",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 2,
+        "key": "ryumin",
+        "name": "Ryumin",
+        "answer": "宋体",
+        "appearance_distance": 0.5132018795705997,
+        "geometry_distance": null,
+        "representative_face": "PRyuminPr6N-Medium",
+        "appearance_representative_face": "PRyuminPr6N-Medium",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      },
+      {
+        "rank": 3,
+        "key": "reggae",
+        "name": "Comic Reggae",
+        "answer": "雷盖/雷鬼体",
+        "appearance_distance": 0.5277976037072057,
+        "geometry_distance": null,
+        "representative_face": "ComicReggaeStd-B",
+        "appearance_representative_face": "ComicReggaeStd-B",
+        "geometry_representative_face": null,
+        "representative_face_basis": "appearance"
+      }
+    ],
+    "source_family_evidence": {
+      "state": "kana_only",
+      "decision_family": "antique",
+      "ranking": [
+        {
+          "key": "antique",
+          "name": "Antique AN+",
+          "distance": 0.4293813238243894,
+          "representative_face": "PAntiqueANpProN-Ultra",
+          "legacy_key": "antique",
+          "rank": 1
+        },
+        {
+          "key": "ryumin",
+          "name": "Ryumin",
+          "distance": 0.5132018795705997,
+          "representative_face": "PRyuminPr6N-Medium",
+          "legacy_key": "ryumin",
+          "rank": 2
+        },
+        {
+          "key": "reggae",
+          "name": "Comic Reggae",
+          "distance": 0.5277976037072057,
+          "representative_face": "ComicReggaeStd-B",
+          "legacy_key": "reggae",
+          "rank": 3
+        },
+        {
+          "key": "folk_skip",
+          "name": "Skip / Folk",
+          "distance": 0.5331007020595229,
+          "representative_face": "SkipStd-B",
+          "legacy_key": "skip",
+          "rank": 4
+        },
+        {
+          "key": "take",
+          "name": "Take",
+          "distance": 0.5346953568709113,
+          "representative_face": "TakeStd-Medium",
+          "legacy_key": "take",
+          "rank": 5
+        },
+        {
+          "key": "rodin_happy",
+          "name": "RodinHappy",
+          "distance": 0.5420189611950574,
+          "representative_face": "RodinHappyPro-B",
+          "legacy_key": "RodinHappyPro-B",
+          "rank": 6
+        },
+        {
+          "key": "yw_jiangyuan",
+          "name": "攸望降圆体",
+          "distance": 0.5655654490544446,
+          "representative_face": "YWJiangYuanTi-Bold",
+          "legacy_key": "yw_jiangyuan",
+          "rank": 7
+        },
+        {
+          "key": "mystery",
+          "name": "Comic Mystery",
+          "distance": 0.5723268915449042,
+          "representative_face": "ComicMysteryStd-DB",
+          "legacy_key": "mystery",
+          "rank": 8
+        },
+        {
+          "key": "yw_jiaoming",
+          "name": "攸望角明体",
+          "distance": 0.5747490678797019,
+          "representative_face": "YWJiaoMinTi-Regular",
+          "legacy_key": "yw_jiaoming",
+          "rank": 9
+        },
+        {
+          "key": "shinmaru",
+          "name": "新丸ゴ",
+          "distance": 0.5806163934245145,
+          "representative_face": "PShinMGoPr6N-Bold",
+          "legacy_key": "shinmaru",
+          "rank": 10
+        },
+        {
+          "key": "ywheiti",
+          "name": "攸望黑体（日文）",
+          "distance": 0.5835022588339258,
+          "representative_face": "YWHeiTi-Bold",
+          "legacy_key": "ywheiti",
+          "rank": 11
+        },
+        {
+          "key": "seurat",
+          "name": "Seurat",
+          "distance": 0.5901273843803934,
+          "representative_face": "SeuratProN-M",
+          "legacy_key": "seurat",
+          "rank": 12
+        },
+        {
+          "key": "humming",
+          "name": "Humming",
+          "distance": 0.5984396132093369,
+          "representative_face": "HummingStd-M",
+          "legacy_key": "humming",
+          "rank": 13
+        },
+        {
+          "key": "koin",
+          "name": "Manyo Koin Large",
+          "distance": 0.6386786437059611,
+          "representative_face": "ManyoKoinLargeStd-B",
+          "legacy_key": "koin",
+          "rank": 14
+        }
+      ],
+      "mixed_ranking": [
+        {
+          "key": "antique",
+          "name": "Antique AN+",
+          "distance": 0.4293813238243894,
+          "representative_face": "PAntiqueANpProN-Ultra",
+          "legacy_key": "antique",
+          "rank": 1
+        },
+        {
+          "key": "ryumin",
+          "name": "Ryumin",
+          "distance": 0.5132018795705997,
+          "representative_face": "PRyuminPr6N-Medium",
+          "legacy_key": "ryumin",
+          "rank": 2
+        },
+        {
+          "key": "reggae",
+          "name": "Comic Reggae",
+          "distance": 0.5277976037072057,
+          "representative_face": "ComicReggaeStd-B",
+          "legacy_key": "reggae",
+          "rank": 3
+        },
+        {
+          "key": "folk_skip",
+          "name": "Skip / Folk",
+          "distance": 0.5331007020595229,
+          "representative_face": "SkipStd-B",
+          "legacy_key": "skip",
+          "rank": 4
+        },
+        {
+          "key": "take",
+          "name": "Take",
+          "distance": 0.5346953568709113,
+          "representative_face": "TakeStd-Medium",
+          "legacy_key": "take",
+          "rank": 5
+        },
+        {
+          "key": "rodin_happy",
+          "name": "RodinHappy",
+          "distance": 0.5420189611950574,
+          "representative_face": "RodinHappyPro-B",
+          "legacy_key": "RodinHappyPro-B",
+          "rank": 6
+        },
+        {
+          "key": "yw_jiangyuan",
+          "name": "攸望降圆体",
+          "distance": 0.5655654490544446,
+          "representative_face": "YWJiangYuanTi-Bold",
+          "legacy_key": "yw_jiangyuan",
+          "rank": 7
+        },
+        {
+          "key": "mystery",
+          "name": "Comic Mystery",
+          "distance": 0.5723268915449042,
+          "representative_face": "ComicMysteryStd-DB",
+          "legacy_key": "mystery",
+          "rank": 8
+        },
+        {
+          "key": "yw_jiaoming",
+          "name": "攸望角明体",
+          "distance": 0.5747490678797019,
+          "representative_face": "YWJiaoMinTi-Regular",
+          "legacy_key": "yw_jiaoming",
+          "rank": 9
+        },
+        {
+          "key": "shinmaru",
+          "name": "新丸ゴ",
+          "distance": 0.5806163934245145,
+          "representative_face": "PShinMGoPr6N-Bold",
+          "legacy_key": "shinmaru",
+          "rank": 10
+        },
+        {
+          "key": "ywheiti",
+          "name": "攸望黑体（日文）",
+          "distance": 0.5835022588339258,
+          "representative_face": "YWHeiTi-Bold",
+          "legacy_key": "ywheiti",
+          "rank": 11
+        },
+        {
+          "key": "seurat",
+          "name": "Seurat",
+          "distance": 0.5901273843803934,
+          "representative_face": "SeuratProN-M",
+          "legacy_key": "seurat",
+          "rank": 12
+        },
+        {
+          "key": "humming",
+          "name": "Humming",
+          "distance": 0.5984396132093369,
+          "representative_face": "HummingStd-M",
+          "legacy_key": "humming",
+          "rank": 13
+        },
+        {
+          "key": "koin",
+          "name": "Manyo Koin Large",
+          "distance": 0.6386786437059611,
+          "representative_face": "ManyoKoinLargeStd-B",
+          "legacy_key": "koin",
+          "rank": 14
+        }
+      ],
+      "kana_ranking": [
+        {
+          "key": "antique",
+          "name": "Antique AN+",
+          "distance": 0.4293813238243894,
+          "representative_face": "PAntiqueANpProN-Ultra",
+          "legacy_key": "antique",
+          "rank": 1
+        },
+        {
+          "key": "ryumin",
+          "name": "Ryumin",
+          "distance": 0.5132018795705997,
+          "representative_face": "PRyuminPr6N-Medium",
+          "legacy_key": "ryumin",
+          "rank": 2
+        },
+        {
+          "key": "reggae",
+          "name": "Comic Reggae",
+          "distance": 0.5277976037072057,
+          "representative_face": "ComicReggaeStd-B",
+          "legacy_key": "reggae",
+          "rank": 3
+        },
+        {
+          "key": "folk_skip",
+          "name": "Skip / Folk",
+          "distance": 0.5331007020595229,
+          "representative_face": "SkipStd-B",
+          "legacy_key": "skip",
+          "rank": 4
+        },
+        {
+          "key": "take",
+          "name": "Take",
+          "distance": 0.5346953568709113,
+          "representative_face": "TakeStd-Medium",
+          "legacy_key": "take",
+          "rank": 5
+        },
+        {
+          "key": "rodin_happy",
+          "name": "RodinHappy",
+          "distance": 0.5420189611950574,
+          "representative_face": "RodinHappyPro-B",
+          "legacy_key": "RodinHappyPro-B",
+          "rank": 6
+        },
+        {
+          "key": "yw_jiangyuan",
+          "name": "攸望降圆体",
+          "distance": 0.5655654490544446,
+          "representative_face": "YWJiangYuanTi-Bold",
+          "legacy_key": "yw_jiangyuan",
+          "rank": 7
+        },
+        {
+          "key": "mystery",
+          "name": "Comic Mystery",
+          "distance": 0.5723268915449042,
+          "representative_face": "ComicMysteryStd-DB",
+          "legacy_key": "mystery",
+          "rank": 8
+        },
+        {
+          "key": "yw_jiaoming",
+          "name": "攸望角明体",
+          "distance": 0.5747490678797019,
+          "representative_face": "YWJiaoMinTi-Regular",
+          "legacy_key": "yw_jiaoming",
+          "rank": 9
+        },
+        {
+          "key": "shinmaru",
+          "name": "新丸ゴ",
+          "distance": 0.5806163934245145,
+          "representative_face": "PShinMGoPr6N-Bold",
+          "legacy_key": "shinmaru",
+          "rank": 10
+        },
+        {
+          "key": "ywheiti",
+          "name": "攸望黑体（日文）",
+          "distance": 0.5835022588339258,
+          "representative_face": "YWHeiTi-Bold",
+          "legacy_key": "ywheiti",
+          "rank": 11
+        },
+        {
+          "key": "seurat",
+          "name": "Seurat",
+          "distance": 0.5901273843803934,
+          "representative_face": "SeuratProN-M",
+          "legacy_key": "seurat",
+          "rank": 12
+        },
+        {
+          "key": "humming",
+          "name": "Humming",
+          "distance": 0.5984396132093369,
+          "representative_face": "HummingStd-M",
+          "legacy_key": "humming",
+          "rank": 13
+        },
+        {
+          "key": "koin",
+          "name": "Manyo Koin Large",
+          "distance": 0.6386786437059611,
+          "representative_face": "ManyoKoinLargeStd-B",
+          "legacy_key": "koin",
+          "rank": 14
+        }
+      ],
+      "kanji_ranking": [],
+      "mixed_winner": "antique",
+      "kana_winner": "antique",
+      "kanji_winner": null,
+      "kana_margin": 0.08382055574621028,
+      "kana_glyph_count": 1,
+      "minimum_kana_margin": 0.015,
+      "distance_unit": "hybrid_distance_lower_is_better",
+      "auto_accept": false,
+      "glyph_counts": {
+        "kana": 1,
+        "kanji": 0
+      },
+      "kana_subscript_glyph_counts": {
+        "hiragana": 0,
+        "katakana": 1,
+        "kana_mark": 0
+      },
+      "kana_subscript_rankings": {
+        "hiragana": [],
+        "katakana": [
+          {
+            "key": "antique",
+            "name": "Antique AN+",
+            "distance": 0.4293813238243894,
+            "representative_face": "PAntiqueANpProN-Ultra",
+            "legacy_key": "antique"
+          },
+          {
+            "key": "ryumin",
+            "name": "Ryumin",
+            "distance": 0.5132018795705997,
+            "representative_face": "PRyuminPr6N-Medium",
+            "legacy_key": "ryumin"
+          },
+          {
+            "key": "reggae",
+            "name": "Comic Reggae",
+            "distance": 0.5277976037072057,
+            "representative_face": "ComicReggaeStd-B",
+            "legacy_key": "reggae"
+          },
+          {
+            "key": "folk_skip",
+            "name": "Skip / Folk",
+            "distance": 0.5331007020595229,
+            "representative_face": "SkipStd-B",
+            "legacy_key": "skip"
+          },
+          {
+            "key": "take",
+            "name": "Take",
+            "distance": 0.5346953568709113,
+            "representative_face": "TakeStd-Medium",
+            "legacy_key": "take"
+          },
+          {
+            "key": "rodin_happy",
+            "name": "RodinHappy",
+            "distance": 0.5420189611950574,
+            "representative_face": "RodinHappyPro-B",
+            "legacy_key": "RodinHappyPro-B"
+          },
+          {
+            "key": "yw_jiangyuan",
+            "name": "攸望降圆体",
+            "distance": 0.5655654490544446,
+            "representative_face": "YWJiangYuanTi-Bold",
+            "legacy_key": "yw_jiangyuan"
+          },
+          {
+            "key": "mystery",
+            "name": "Comic Mystery",
+            "distance": 0.5723268915449042,
+            "representative_face": "ComicMysteryStd-DB",
+            "legacy_key": "mystery"
+          },
+          {
+            "key": "yw_jiaoming",
+            "name": "攸望角明体",
+            "distance": 0.5747490678797019,
+            "representative_face": "YWJiaoMinTi-Regular",
+            "legacy_key": "yw_jiaoming"
+          },
+          {
+            "key": "shinmaru",
+            "name": "新丸ゴ",
+            "distance": 0.5806163934245145,
+            "representative_face": "PShinMGoPr6N-Bold",
+            "legacy_key": "shinmaru"
+          },
+          {
+            "key": "ywheiti",
+            "name": "攸望黑体（日文）",
+            "distance": 0.5835022588339258,
+            "representative_face": "YWHeiTi-Bold",
+            "legacy_key": "ywheiti"
+          },
+          {
+            "key": "seurat",
+            "name": "Seurat",
+            "distance": 0.5901273843803934,
+            "representative_face": "SeuratProN-M",
+            "legacy_key": "seurat"
+          },
+          {
+            "key": "humming",
+            "name": "Humming",
+            "distance": 0.5984396132093369,
+            "representative_face": "HummingStd-M",
+            "legacy_key": "humming"
+          },
+          {
+            "key": "koin",
+            "name": "Manyo Koin Large",
+            "distance": 0.6386786437059611,
+            "representative_face": "ManyoKoinLargeStd-B",
+            "legacy_key": "koin"
+          }
+        ],
+        "kana_mark": []
+      }
+    }
+  },
+  "selected_candidate_indices": [
+    4
+  ]
+}

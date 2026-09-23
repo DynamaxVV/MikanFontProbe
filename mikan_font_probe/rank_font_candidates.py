@@ -6,6 +6,7 @@ import json
 import cv2
 import numpy as np
 
+from mikan_font_probe.display_font_candidates import display_candidates
 from mikan_font_probe.match_font_baseline import normalize
 from mikan_font_probe.process_regions import ROOT, imread, imwrite
 from mikan_font_probe.structure_font_baseline import score_pair
@@ -132,6 +133,7 @@ def main():
             modes[mode] = {"weighted":family_ranking(subset,distances[indices],weights),
                            "unweighted":family_ranking(subset,distances[indices],np.ones(len(weights)))}
         record = {**sample,"glyphs":glyphs,"input_qualities":qualities,"top3":top,
+                  "display_top3":display_candidates(ranking),
                   "warnings":list(dict.fromkeys(warnings)),"status":"待复核" if warnings else "候选较一致，仍需复核",
                   "scope":"local_library_only","average_quality":quality,"comparisons":modes,
                   "excluded_fonts":[f["postscript"] for f in fonts if f not in available]}

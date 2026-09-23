@@ -1,0 +1,168 @@
+{
+  "lane": 1,
+  "language": "Japanese",
+  "records": [
+    {
+      "qid": 37,
+      "image_sha256": "b13c709747564a62eb476f2a155c3bf43e31af2710fccf49b6e7bb7b496ac641",
+      "status": "transcribed",
+      "region_bbox": [39, 57, 112, 32],
+      "text": "だって",
+      "orientation": "horizontal",
+      "notes": "原图中的横排正文清晰。"
+    },
+    {
+      "qid": 48,
+      "image_sha256": "673ce9e24dd49871a35e913620be0e62437ef97ce3f97869cff6275360245773",
+      "status": "uncertain",
+      "region_bbox": [88, 64, 30, 112],
+      "text": "何かわからないなって",
+      "orientation": "vertical",
+      "notes": "原图右列大体可辨，但当前 bbox 只覆盖列中段，首尾在框外；不能将整列文字与本框逐字对应。"
+    },
+    {
+      "qid": 62,
+      "image_sha256": "ab5f77c5b964bae4a00719d85eac3e73997d8314dc3c55f9cf8f059619ceda5e",
+      "status": "uncertain",
+      "region_bbox": [78, 57, 22, 144],
+      "text": "そういえば",
+      "orientation": "vertical",
+      "notes": "原图右列可读为「そういえば」；当前 bbox 从列中部开始，未覆盖首字，故保留存疑状态。"
+    },
+    {
+      "qid": 145,
+      "image_sha256": "818b38ea08f47655d632c274a365b89c24912379db76e645e03ebb799bc9a2d4",
+      "status": "transcribed",
+      "region_bbox": [67, 15, 32, 190],
+      "text": "見惚れて",
+      "orientation": "vertical",
+      "notes": "选取右侧竖列，字形可辨。"
+    },
+    {
+      "qid": 151,
+      "image_sha256": "561855edd08bac89849a4374f3ba17937b804f89fc01fd6e0e1440bda87739e5",
+      "status": "transcribed",
+      "region_bbox": [56, 27, 34, 192],
+      "text": "変えられたら",
+      "orientation": "vertical",
+      "notes": "放大复核原图右侧整列；灰色网点穿过字形，但「変えられたら」各字仍可辨。"
+    },
+    {
+      "qid": 157,
+      "image_sha256": "4b2c800c33e08cc54ffa69ea05f7716339455558100e8655df0cbeabf0cedf67",
+      "status": "transcribed",
+      "region_bbox": [45, 16, 39, 260],
+      "text": "大丈夫だったから!?",
+      "orientation": "vertical",
+      "notes": "选取右侧竖列，正文和标点清晰。"
+    },
+    {
+      "qid": 163,
+      "image_sha256": "5cfc2769cc2ebd7ae01f45fece270c9eefd5d16b8eb0de4002e46f2362ecc168",
+      "status": "transcribed",
+      "region_bbox": [85, 10, 35, 120],
+      "text": "そして",
+      "orientation": "vertical",
+      "notes": "改选原图最右侧完整竖列；该列为「そして」，「プロ」位于其左侧另一列，不并入本条。"
+    },
+    {
+      "qid": 169,
+      "image_sha256": "e2f3a5c5d39e2ab875cd641c5439891629a32bfde048a0a3004af87c66b680a1",
+      "status": "transcribed",
+      "region_bbox": [50, 10, 36, 276],
+      "text": "プロはスマートに",
+      "orientation": "vertical",
+      "notes": "选取右侧竖列，片假名及长音符号清晰。"
+    },
+    {
+      "qid": 175,
+      "image_sha256": "161777caa24392cb4b72d61db22a606b246af7cdb8f2b7501354bc6346a6c749",
+      "status": "transcribed",
+      "region_bbox": [68, 32, 32, 202],
+      "text": "効率化しよう",
+      "orientation": "vertical",
+      "notes": "选取右侧竖列，字形清晰。"
+    },
+    {
+      "qid": 181,
+      "image_sha256": "02d0d9682d7ce0a8178349b6ec5f8f971e842f5dfc6947f96f118b4262fd423c",
+      "status": "transcribed",
+      "region_bbox": [15, 24, 40, 220],
+      "text": "音緒ちゃん!!",
+      "orientation": "vertical",
+      "notes": "原图裁列旋转放大后可逐字确认「音緒ちゃん!!」，末尾为两个感叹号。"
+    },
+    {
+      "qid": 187,
+      "image_sha256": "09d37620595a2ec2eaf88e35c5233be474fd39307d81481d1cd8434a577b87ac",
+      "status": "transcribed",
+      "region_bbox": [12, 212, 40, 190],
+      "text": "助かります!!",
+      "orientation": "vertical",
+      "notes": "选取左下方单独竖列，字形清晰。"
+    },
+    {
+      "qid": 199,
+      "image_sha256": "06dc445e40ab47908b79c62fbfbbaae944ee73f76a59ea46bbaf10a8a5d0667a",
+      "status": "uncertain",
+      "region_bbox": [36, 52, 30, 288],
+      "text": "百合の更なる活性化を［不明］",
+      "orientation": "vertical",
+      "notes": "原图三列紧排；当前 bbox 横跨左列与中列边界，无法保证框内字符属于同一整列，保留存疑。"
+    },
+    {
+      "qid": 205,
+      "image_sha256": "70b41115ba04491f476a79693ec7ca0f4dc1670e72a43fb124676506848a2f4a",
+      "status": "transcribed",
+      "region_bbox": [76, 25, 28, 140],
+      "text": "今は誰にも",
+      "orientation": "vertical",
+      "notes": "选取右侧竖列，五字清晰。"
+    },
+    {
+      "qid": 211,
+      "image_sha256": "af7d799ab4e6626c5fcc75380235eac2015abb9668b5af899eefdefa9e04cff4",
+      "status": "transcribed",
+      "region_bbox": [43, 15, 27, 165],
+      "text": "プラカップとか",
+      "orientation": "vertical",
+      "notes": "选取右侧竖列，片假名和后续假名清晰。"
+    },
+    {
+      "qid": 217,
+      "image_sha256": "0fb635b581bb217e09daa51bceeff8ecdbade3d45c0e235cc7d26a18782740ad",
+      "status": "uncertain",
+      "region_bbox": [15, 29, 25, 242],
+      "text": "毎年の体育祭の目玉",
+      "orientation": "vertical",
+      "notes": "选取左侧竖列；主字可辨，末尾与截图下缘相邻，列尾完整性不确定。"
+    },
+    {
+      "qid": 223,
+      "image_sha256": "16c9ae52a46db3e2f63455fe6ff7fabf601573eb2c80925f3c77fa3c1cb964e4",
+      "status": "transcribed",
+      "region_bbox": [70, 35, 50, 200],
+      "text": "おめでとう",
+      "orientation": "vertical",
+      "notes": "选取中央竖列，五个假名清晰。"
+    },
+    {
+      "qid": 247,
+      "image_sha256": "013988d1b55fd125b9cb5cab1ed2699ea6892907130b8d730a9bc9268d2a919c",
+      "status": "transcribed",
+      "region_bbox": [125, 10, 40, 325],
+      "text": "双見のことを",
+      "orientation": "vertical",
+      "notes": "选取右侧竖列；振假名不作为正文录入。"
+    },
+    {
+      "qid": 265,
+      "image_sha256": "c7d467bae26efce028b86c0c3518233b8f14e1a959eec2fb77285801bdd6c860",
+      "status": "illegible",
+      "region_bbox": [20, 33, 91, 165],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "所选区域文字与气泡叠字、振假名和浅色背景纹理交叠，无法确定列界并可靠读完整列。"
+    }
+  ]
+}

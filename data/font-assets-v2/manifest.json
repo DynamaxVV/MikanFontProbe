@@ -1,0 +1,1217 @@
+{
+  "schema": "mikan-font-assets/v1",
+  "status": "current_inventory",
+  "font_root": "font_sample",
+  "identity_contract": {
+    "source_font_id": "sha256 of the exact TTF/OTF bytes",
+    "container_folder": "collection hint only; never a family label by itself",
+    "family_mapping": "explicit project policy derived from SFNT identity",
+    "existing_screenshots": "not source-proven by this manifest"
+  },
+  "summary": {
+    "font_files": 26,
+    "unique_file_hashes": 26,
+    "confirmed_faces": 26,
+    "pending_faces": 0,
+    "confirmed_families": 14
+  },
+  "inventory_sha256": "3669bb79e40886bbc83a27eb2aed842f9dabb09de66ca724f798d72c468c8ed8",
+  "assets": [
+    {
+      "source_font_id": "c5c4498a3dfb5e6a021bdb6cfb77e98052baa5651763e48fdd88a62cae6d493d",
+      "face_id": "c5c4498a3dfb5e6a",
+      "path": "font_sample/古印体/FOT-ManyoKoinLargeStd-B-2_副本.otf",
+      "container_folder": "古印体",
+      "sha256": "c5c4498a3dfb5e6a021bdb6cfb77e98052baa5651763e48fdd88a62cae6d493d",
+      "sfnt": {
+        "family": "FOT-ManyoKoinLarge Std",
+        "style": "B",
+        "typographic_family": "FOT-ManyoKoinLarge Std",
+        "typographic_style": "B",
+        "legacy_family": "FOT-ManyoKoinLarge Std B",
+        "legacy_style": "Regular",
+        "full_name": "ManyoKoinLargeStd-B",
+        "postscript": "ManyoKoinLargeStd-B",
+        "os2_weight": 700
+      },
+      "coverage": {
+        "total_codepoints": 8251,
+        "hiragana": 90,
+        "katakana": 94,
+        "cjk_unified": 6715,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "koin",
+        "family_name": "Manyo Koin Large",
+        "weight_class": "bold",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "e680ba3d98a188a463de8e8b66e41c80cc40955a85542b462ff2079c52a6f993",
+      "face_id": "e680ba3d98a188a4",
+      "path": "font_sample/圆体/A P-OTF 新丸ゴ Pr6N B_副本.otf",
+      "container_folder": "圆体",
+      "sha256": "e680ba3d98a188a463de8e8b66e41c80cc40955a85542b462ff2079c52a6f993",
+      "sfnt": {
+        "family": "A P-OTF Shin Maru Go Pr6N",
+        "style": "B",
+        "typographic_family": "A P-OTF Shin Maru Go Pr6N",
+        "typographic_style": "B",
+        "legacy_family": "A P-OTF Shin Maru Go Pr6N B",
+        "legacy_style": "Bold",
+        "full_name": "A P-OTF Shin Maru Go Pr6N B",
+        "postscript": "PShinMGoPr6N-Bold",
+        "os2_weight": 700
+      },
+      "coverage": {
+        "total_codepoints": 15914,
+        "hiragana": 93,
+        "katakana": 112,
+        "cjk_unified": 12922,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "shinmaru",
+        "family_name": "新丸ゴ",
+        "weight_class": "bold",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "b8146ac3455aceade70bebc5a48984c9ae4c2bc7cde8b15ad90c0256d9d7ee37",
+      "face_id": "b8146ac3455acead",
+      "path": "font_sample/圆体/A P-OTF 新丸ゴ Pr6N L_副本.otf",
+      "container_folder": "圆体",
+      "sha256": "b8146ac3455aceade70bebc5a48984c9ae4c2bc7cde8b15ad90c0256d9d7ee37",
+      "sfnt": {
+        "family": "A P-OTF Shin Maru Go Pr6N",
+        "style": "L",
+        "typographic_family": "A P-OTF Shin Maru Go Pr6N",
+        "typographic_style": "L",
+        "legacy_family": "A P-OTF Shin Maru Go Pr6N L",
+        "legacy_style": "Regular",
+        "full_name": "A P-OTF Shin Maru Go Pr6N L",
+        "postscript": "PShinMGoPr6N-Light",
+        "os2_weight": 300
+      },
+      "coverage": {
+        "total_codepoints": 15914,
+        "hiragana": 93,
+        "katakana": 112,
+        "cjk_unified": 12922,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "shinmaru",
+        "family_name": "新丸ゴ",
+        "weight_class": "light",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "a604062919104d47a829e457540b4e964f72a833adc590f09ff53ab3b0a6ad11",
+      "face_id": "a604062919104d47",
+      "path": "font_sample/圆体/A P-OTF 新丸ゴ Pr6N M_副本.otf",
+      "container_folder": "圆体",
+      "sha256": "a604062919104d47a829e457540b4e964f72a833adc590f09ff53ab3b0a6ad11",
+      "sfnt": {
+        "family": "A P-OTF Shin Maru Go Pr6N",
+        "style": "M",
+        "typographic_family": "A P-OTF Shin Maru Go Pr6N",
+        "typographic_style": "M",
+        "legacy_family": "A P-OTF Shin Maru Go Pr6N M",
+        "legacy_style": "Regular",
+        "full_name": "A P-OTF Shin Maru Go Pr6N M",
+        "postscript": "PShinMGoPr6N-Medium",
+        "os2_weight": 500
+      },
+      "coverage": {
+        "total_codepoints": 15914,
+        "hiragana": 93,
+        "katakana": 112,
+        "cjk_unified": 12922,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "shinmaru",
+        "family_name": "新丸ゴ",
+        "weight_class": "regular",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "fa8128550eb71b485970366410f252fcef7dc4c2ebac787bf401a92a60f96fd2",
+      "face_id": "fa8128550eb71b48",
+      "path": "font_sample/宋体/A P-OTF リュウミン Pr6N B-KL_副本.otf",
+      "container_folder": "宋体",
+      "sha256": "fa8128550eb71b485970366410f252fcef7dc4c2ebac787bf401a92a60f96fd2",
+      "sfnt": {
+        "family": "A P-OTF Ryumin Pr6N",
+        "style": "B-KL",
+        "typographic_family": "A P-OTF Ryumin Pr6N",
+        "typographic_style": "B-KL",
+        "legacy_family": "A P-OTF Ryumin Pr6N B-KL",
+        "legacy_style": "Bold",
+        "full_name": "A P-OTF Ryumin Pr6N B-KL",
+        "postscript": "PRyuminPr6N-Bold",
+        "os2_weight": 550
+      },
+      "coverage": {
+        "total_codepoints": 15914,
+        "hiragana": 93,
+        "katakana": 112,
+        "cjk_unified": 12922,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "ryumin",
+        "family_name": "Ryumin",
+        "weight_class": "bold",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "618ab66c2b7394369cb107cdbd0816f0306b793d28683d2057526f078384d3fb",
+      "face_id": "618ab66c2b739436",
+      "path": "font_sample/宋体/A P-OTF リュウミン Pr6N L-KL_副本.otf",
+      "container_folder": "宋体",
+      "sha256": "618ab66c2b7394369cb107cdbd0816f0306b793d28683d2057526f078384d3fb",
+      "sfnt": {
+        "family": "A P-OTF Ryumin Pr6N",
+        "style": "L-KL",
+        "typographic_family": "A P-OTF Ryumin Pr6N",
+        "typographic_style": "L-KL",
+        "legacy_family": "A P-OTF Ryumin Pr6N L-KL",
+        "legacy_style": "Regular",
+        "full_name": "A P-OTF Ryumin Pr6N L-KL",
+        "postscript": "PRyuminPr6N-Light",
+        "os2_weight": 300
+      },
+      "coverage": {
+        "total_codepoints": 15914,
+        "hiragana": 93,
+        "katakana": 112,
+        "cjk_unified": 12922,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "ryumin",
+        "family_name": "Ryumin",
+        "weight_class": "light",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "18a5e5f6ab602421bde685ea5b4163a7493c6d7678dc4613f12ab6afcf7b7d70",
+      "face_id": "18a5e5f6ab602421",
+      "path": "font_sample/宋体/A P-OTF リュウミン Pr6N M-KL_副本.otf",
+      "container_folder": "宋体",
+      "sha256": "18a5e5f6ab602421bde685ea5b4163a7493c6d7678dc4613f12ab6afcf7b7d70",
+      "sfnt": {
+        "family": "A P-OTF Ryumin Pr6N",
+        "style": "M-KL",
+        "typographic_family": "A P-OTF Ryumin Pr6N",
+        "typographic_style": "M-KL",
+        "legacy_family": "A P-OTF Ryumin Pr6N M-KL",
+        "legacy_style": "Regular",
+        "full_name": "A P-OTF Ryumin Pr6N M-KL",
+        "postscript": "PRyuminPr6N-Medium",
+        "os2_weight": 450
+      },
+      "coverage": {
+        "total_codepoints": 15914,
+        "hiragana": 93,
+        "katakana": 112,
+        "cjk_unified": 12922,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "ryumin",
+        "family_name": "Ryumin",
+        "weight_class": "regular",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "cb6428ac09aa7f0d5e823a2e6954e1e6c3d09bba38dfe231af8d223f77a9ceed",
+      "face_id": "cb6428ac09aa7f0d",
+      "path": "font_sample/少女体/FOT-RodinHappy Pro L.otf",
+      "container_folder": "少女体",
+      "sha256": "cb6428ac09aa7f0d5e823a2e6954e1e6c3d09bba38dfe231af8d223f77a9ceed",
+      "sfnt": {
+        "family": "FOT-RodinHappy Pro",
+        "style": "L",
+        "typographic_family": "FOT-RodinHappy Pro",
+        "typographic_style": "L",
+        "legacy_family": "FOT-RodinHappy Pro L",
+        "legacy_style": "Regular",
+        "full_name": "RodinHappyPro-L",
+        "postscript": "RodinHappyPro-L",
+        "os2_weight": 300
+      },
+      "coverage": {
+        "total_codepoints": 9804,
+        "hiragana": 88,
+        "katakana": 94,
+        "cjk_unified": 7944,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "rodin_happy",
+        "family_name": "RodinHappy",
+        "weight_class": "light",
+        "weight_source": "postscript_suffix"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "dffce4bd4489b0d309f30cb560a647fc59b640a319fe765e59d47c55d76ffd49",
+      "face_id": "dffce4bd4489b0d3",
+      "path": "font_sample/少女体/FOT-SeuratProN-M_副本.otf",
+      "container_folder": "少女体",
+      "sha256": "dffce4bd4489b0d309f30cb560a647fc59b640a319fe765e59d47c55d76ffd49",
+      "sfnt": {
+        "family": "FOT-Seurat ProN",
+        "style": "M",
+        "typographic_family": "FOT-Seurat ProN",
+        "typographic_style": "M",
+        "legacy_family": "FOT-Seurat ProN M",
+        "legacy_style": "Regular",
+        "full_name": "SeuratProN-M",
+        "postscript": "SeuratProN-M",
+        "os2_weight": 500
+      },
+      "coverage": {
+        "total_codepoints": 10074,
+        "hiragana": 91,
+        "katakana": 94,
+        "cjk_unified": 7969,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "seurat",
+        "family_name": "Seurat",
+        "weight_class": "regular",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "3a72509524abbbd53edff8980740298a798bf1c591add798cf1617cddfb26346",
+      "face_id": "3a72509524abbbd5",
+      "path": "font_sample/方圆体/精选日文字体日文字体FOT-RodinHappyPro-B_副本.otf",
+      "container_folder": "方圆体",
+      "sha256": "3a72509524abbbd53edff8980740298a798bf1c591add798cf1617cddfb26346",
+      "sfnt": {
+        "family": "FOT-RodinHappy Pro",
+        "style": "B",
+        "typographic_family": "FOT-RodinHappy Pro",
+        "typographic_style": "B",
+        "legacy_family": "FOT-RodinHappy Pro B",
+        "legacy_style": "Regular",
+        "full_name": "RodinHappyPro-B",
+        "postscript": "RodinHappyPro-B",
+        "os2_weight": 700
+      },
+      "coverage": {
+        "total_codepoints": 9804,
+        "hiragana": 88,
+        "katakana": 94,
+        "cjk_unified": 7944,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "rodin_happy",
+        "family_name": "RodinHappy",
+        "weight_class": "bold",
+        "weight_source": "postscript_suffix"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "26438c9cc3aaac8bd94df1c5c6eb4970617586f03e72b5af39b32207d94e5adf",
+      "face_id": "26438c9cc3aaac8b",
+      "path": "font_sample/海报体/FOT-RodinHappy Pro UB_副本.otf",
+      "container_folder": "海报体",
+      "sha256": "26438c9cc3aaac8bd94df1c5c6eb4970617586f03e72b5af39b32207d94e5adf",
+      "sfnt": {
+        "family": "FOT-RodinHappy Pro",
+        "style": "UB",
+        "typographic_family": "FOT-RodinHappy Pro",
+        "typographic_style": "UB",
+        "legacy_family": "FOT-RodinHappy Pro UB",
+        "legacy_style": "Regular",
+        "full_name": "RodinHappyPro-UB",
+        "postscript": "RodinHappyPro-UB",
+        "os2_weight": 900
+      },
+      "coverage": {
+        "total_codepoints": 9804,
+        "hiragana": 88,
+        "katakana": 94,
+        "cjk_unified": 7944,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "rodin_happy",
+        "family_name": "RodinHappy",
+        "weight_class": "ultrabold",
+        "weight_source": "postscript_suffix"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "f0c6602c901c47d7853c09a05eb1cd3a2eebba67211a46323a1503fd5b3caba2",
+      "face_id": "f0c6602c901c47d7",
+      "path": "font_sample/神秘体/FOT-ComicMysteryStd-DB-2_副本.otf.otf",
+      "container_folder": "神秘体",
+      "sha256": "f0c6602c901c47d7853c09a05eb1cd3a2eebba67211a46323a1503fd5b3caba2",
+      "sfnt": {
+        "family": "FOT-ComicMystery Std",
+        "style": "DB",
+        "typographic_family": "FOT-ComicMystery Std",
+        "typographic_style": "DB",
+        "legacy_family": "FOT-ComicMystery Std DB",
+        "legacy_style": "Regular",
+        "full_name": "ComicMysteryStd-DB",
+        "postscript": "ComicMysteryStd-DB",
+        "os2_weight": 600
+      },
+      "coverage": {
+        "total_codepoints": 8251,
+        "hiragana": 90,
+        "katakana": 94,
+        "cjk_unified": 6715,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "mystery",
+        "family_name": "Comic Mystery",
+        "weight_class": "bold",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "220c46ed8730f621b2a791cbe837894131b5ec39e7b637878fc2a5fffecf7897",
+      "face_id": "220c46ed8730f621",
+      "path": "font_sample/竹体/A-OTF-TakeStd-Medium_副本.otf",
+      "container_folder": "竹体",
+      "sha256": "220c46ed8730f621b2a791cbe837894131b5ec39e7b637878fc2a5fffecf7897",
+      "sfnt": {
+        "family": "A-OTF Take Std",
+        "style": "M",
+        "typographic_family": "A-OTF Take Std",
+        "typographic_style": "M",
+        "legacy_family": "A-OTF Take Std M",
+        "legacy_style": "Regular",
+        "full_name": "TakeStd-Medium",
+        "postscript": "TakeStd-Medium",
+        "os2_weight": 500
+      },
+      "coverage": {
+        "total_codepoints": 8207,
+        "hiragana": 88,
+        "katakana": 94,
+        "cjk_unified": 6720,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "take",
+        "family_name": "Take",
+        "weight_class": "regular",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "e3c83120a5c1c488ae6f8a867a97fbc24489002a183643d0f6f1d273ae1ec57c",
+      "face_id": "e3c83120a5c1c488",
+      "path": "font_sample/角明体/攸望角明体-准（简繁-AI）V3.0.ttf",
+      "container_folder": "角明体",
+      "sha256": "e3c83120a5c1c488ae6f8a867a97fbc24489002a183643d0f6f1d273ae1ec57c",
+      "sfnt": {
+        "family": "YW-JiaoMinTi",
+        "style": "Regular",
+        "typographic_family": "YW-JiaoMinTi",
+        "typographic_style": "Regular",
+        "legacy_family": "YW JiaoMinTi Regular",
+        "legacy_style": "Regular",
+        "full_name": "YW-JiaoMinTi Regular",
+        "postscript": "YWJiaoMinTi-Regular",
+        "os2_weight": 400
+      },
+      "coverage": {
+        "total_codepoints": 22787,
+        "hiragana": 88,
+        "katakana": 94,
+        "cjk_unified": 20927,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "yw_jiaoming",
+        "family_name": "攸望角明体",
+        "weight_class": "regular",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "1c6bad4cb7153485b71212ba32e6a60b5dd22e636435b98a644b031df718ceaa",
+      "face_id": "1c6bad4cb7153485",
+      "path": "font_sample/轻吟体/FOT-HummingStd-M_副本.otf",
+      "container_folder": "轻吟体",
+      "sha256": "1c6bad4cb7153485b71212ba32e6a60b5dd22e636435b98a644b031df718ceaa",
+      "sfnt": {
+        "family": "FOT-Humming Std",
+        "style": "M",
+        "typographic_family": "FOT-Humming Std",
+        "typographic_style": "M",
+        "legacy_family": "FOT-Humming Std M",
+        "legacy_style": "Regular",
+        "full_name": "HummingStd-M",
+        "postscript": "HummingStd-M",
+        "os2_weight": 500
+      },
+      "coverage": {
+        "total_codepoints": 8251,
+        "hiragana": 90,
+        "katakana": 94,
+        "cjk_unified": 6715,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "humming",
+        "family_name": "Humming",
+        "weight_class": "regular",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "5d9f1f3e5d79573cc4dba6219cd13ed1b1d006d1f55773583a8157098100e97f",
+      "face_id": "5d9f1f3e5d79573c",
+      "path": "font_sample/降圆体/攸望降圆体-粗（简繁-AI）V3.2_副本.ttf",
+      "container_folder": "降圆体",
+      "sha256": "5d9f1f3e5d79573cc4dba6219cd13ed1b1d006d1f55773583a8157098100e97f",
+      "sfnt": {
+        "family": "YW JiangYuanTi",
+        "style": "Bold",
+        "typographic_family": "YW JiangYuanTi",
+        "typographic_style": "Bold",
+        "legacy_family": "YW JiangYuanTi Bold",
+        "legacy_style": "Bold",
+        "full_name": "YW JiangYuanTi Bold",
+        "postscript": "YWJiangYuanTi-Bold",
+        "os2_weight": 700
+      },
+      "coverage": {
+        "total_codepoints": 22389,
+        "hiragana": 88,
+        "katakana": 94,
+        "cjk_unified": 20902,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "yw_jiangyuan",
+        "family_name": "攸望降圆体",
+        "weight_class": "bold",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "4cb3c8980183b975c8ef20b3150b60b17ac2f715496e996a3cfb23b0ea396709",
+      "face_id": "4cb3c8980183b975",
+      "path": "font_sample/雅士黑or方新书/A-OTF Folk Pro B_副本.otf",
+      "container_folder": "雅士黑or方新书",
+      "sha256": "4cb3c8980183b975c8ef20b3150b60b17ac2f715496e996a3cfb23b0ea396709",
+      "sfnt": {
+        "family": "A-OTF Folk Pro",
+        "style": "B",
+        "typographic_family": "A-OTF Folk Pro",
+        "typographic_style": "B",
+        "legacy_family": "A-OTF Folk Pro B",
+        "legacy_style": "Bold",
+        "full_name": "FolkPro-Bold",
+        "postscript": "FolkPro-Bold",
+        "os2_weight": 700
+      },
+      "coverage": {
+        "total_codepoints": 9804,
+        "hiragana": 88,
+        "katakana": 94,
+        "cjk_unified": 7944,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "folk_skip",
+        "family_name": "Skip / Folk",
+        "weight_class": "bold",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "cd6dba1952e1ce5457a36ef4ccd30db8a5f6fc65027ba2f59386c8766520f22c",
+      "face_id": "cd6dba1952e1ce54",
+      "path": "font_sample/雅士黑or方新书/FOT-SkipStd-B_副本.otf",
+      "container_folder": "雅士黑or方新书",
+      "sha256": "cd6dba1952e1ce5457a36ef4ccd30db8a5f6fc65027ba2f59386c8766520f22c",
+      "sfnt": {
+        "family": "FOT-Skip Std",
+        "style": "B",
+        "typographic_family": "FOT-Skip Std",
+        "typographic_style": "B",
+        "legacy_family": "FOT-Skip Std B",
+        "legacy_style": "Regular",
+        "full_name": "SkipStd-B",
+        "postscript": "SkipStd-B",
+        "os2_weight": 700
+      },
+      "coverage": {
+        "total_codepoints": 8237,
+        "hiragana": 90,
+        "katakana": 94,
+        "cjk_unified": 6715,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "folk_skip",
+        "family_name": "Skip / Folk",
+        "weight_class": "bold",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "078cacc873dad7b0cc10d796b618c4d4c1a7d8514ca158eb2ccf85c88c745bdd",
+      "face_id": "078cacc873dad7b0",
+      "path": "font_sample/雅士黑or方新书/FOT-SkipStd-M_副本.otf",
+      "container_folder": "雅士黑or方新书",
+      "sha256": "078cacc873dad7b0cc10d796b618c4d4c1a7d8514ca158eb2ccf85c88c745bdd",
+      "sfnt": {
+        "family": "FOT-Skip Std",
+        "style": "M",
+        "typographic_family": "FOT-Skip Std",
+        "typographic_style": "M",
+        "legacy_family": "FOT-Skip Std M",
+        "legacy_style": "Regular",
+        "full_name": "SkipStd-M",
+        "postscript": "SkipStd-M",
+        "os2_weight": 500
+      },
+      "coverage": {
+        "total_codepoints": 8251,
+        "hiragana": 90,
+        "katakana": 94,
+        "cjk_unified": 6715,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "folk_skip",
+        "family_name": "Skip / Folk",
+        "weight_class": "regular",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "ce810a603122ce396eef5670285cf6aa149f346642a4debcd4e43ba347744e60",
+      "face_id": "ce810a603122ce39",
+      "path": "font_sample/雷盖体/FOT-ComicReggaeStd-B-2_副本.otf",
+      "container_folder": "雷盖体",
+      "sha256": "ce810a603122ce396eef5670285cf6aa149f346642a4debcd4e43ba347744e60",
+      "sfnt": {
+        "family": "FOT-ComicReggae Std",
+        "style": "B",
+        "typographic_family": "FOT-ComicReggae Std",
+        "typographic_style": "B",
+        "legacy_family": "FOT-ComicReggae Std B",
+        "legacy_style": "Regular",
+        "full_name": "ComicReggaeStd-B",
+        "postscript": "ComicReggaeStd-B",
+        "os2_weight": 700
+      },
+      "coverage": {
+        "total_codepoints": 8251,
+        "hiragana": 90,
+        "katakana": 94,
+        "cjk_unified": 6715,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "reggae",
+        "family_name": "Comic Reggae",
+        "weight_class": "bold",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "e11969a03c87772e4e6c1b263c63422e6cec3e64fc9a94e3520bcd72018b5666",
+      "face_id": "e11969a03c87772e",
+      "path": "font_sample/黑体/A P-OTF アンチックAN+ ProN B_副本.otf",
+      "container_folder": "黑体",
+      "sha256": "e11969a03c87772e4e6c1b263c63422e6cec3e64fc9a94e3520bcd72018b5666",
+      "sfnt": {
+        "family": "A P-OTF Antique AN+ ProN",
+        "style": "B",
+        "typographic_family": "A P-OTF Antique AN+ ProN",
+        "typographic_style": "B",
+        "legacy_family": "A P-OTF Antique AN+ ProN B",
+        "legacy_style": "Bold",
+        "full_name": "A P-OTF Antique AN+ ProN B",
+        "postscript": "PAntiqueANpProN-Bold",
+        "os2_weight": 700
+      },
+      "coverage": {
+        "total_codepoints": 10231,
+        "hiragana": 91,
+        "katakana": 94,
+        "cjk_unified": 7971,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "antique",
+        "family_name": "Antique AN+",
+        "weight_class": "bold",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "aaf07832a81e668412c0453e52fd7aecad2184f899b6f6c69480a6bf71b3ed03",
+      "face_id": "aaf07832a81e6684",
+      "path": "font_sample/黑体/A P-OTF アンチックAN+ ProN L_副本.otf",
+      "container_folder": "黑体",
+      "sha256": "aaf07832a81e668412c0453e52fd7aecad2184f899b6f6c69480a6bf71b3ed03",
+      "sfnt": {
+        "family": "A P-OTF Antique AN+ ProN",
+        "style": "L",
+        "typographic_family": "A P-OTF Antique AN+ ProN",
+        "typographic_style": "L",
+        "legacy_family": "A P-OTF Antique AN+ ProN L",
+        "legacy_style": "Regular",
+        "full_name": "A P-OTF Antique AN+ ProN L",
+        "postscript": "PAntiqueANpProN-Light",
+        "os2_weight": 300
+      },
+      "coverage": {
+        "total_codepoints": 10231,
+        "hiragana": 91,
+        "katakana": 94,
+        "cjk_unified": 7971,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "antique",
+        "family_name": "Antique AN+",
+        "weight_class": "light",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "3af024455a62616fff0a3bf190e39716dec1bbd5d0599f1b15f1e54ad826c39b",
+      "face_id": "3af024455a62616f",
+      "path": "font_sample/黑体/A P-OTF アンチックAN+ ProN M_副本.otf",
+      "container_folder": "黑体",
+      "sha256": "3af024455a62616fff0a3bf190e39716dec1bbd5d0599f1b15f1e54ad826c39b",
+      "sfnt": {
+        "family": "A P-OTF Antique AN+ ProN",
+        "style": "M",
+        "typographic_family": "A P-OTF Antique AN+ ProN",
+        "typographic_style": "M",
+        "legacy_family": "A P-OTF Antique AN+ ProN M",
+        "legacy_style": "Regular",
+        "full_name": "A P-OTF Antique AN+ ProN M",
+        "postscript": "PAntiqueANpProN-Medium",
+        "os2_weight": 500
+      },
+      "coverage": {
+        "total_codepoints": 10231,
+        "hiragana": 91,
+        "katakana": 94,
+        "cjk_unified": 7971,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "antique",
+        "family_name": "Antique AN+",
+        "weight_class": "regular",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "c887a03d85afcce96855f6274afe086de2f78c5490d217748e3d6f06f422559e",
+      "face_id": "c887a03d85afcce9",
+      "path": "font_sample/黑体/A P-OTF アンチックAN+ ProN U_副本.otf",
+      "container_folder": "黑体",
+      "sha256": "c887a03d85afcce96855f6274afe086de2f78c5490d217748e3d6f06f422559e",
+      "sfnt": {
+        "family": "A P-OTF Antique AN+ ProN",
+        "style": "U",
+        "typographic_family": "A P-OTF Antique AN+ ProN",
+        "typographic_style": "U",
+        "legacy_family": "A P-OTF Antique AN+ ProN U",
+        "legacy_style": "Bold",
+        "full_name": "A P-OTF Antique AN+ ProN U",
+        "postscript": "PAntiqueANpProN-Ultra",
+        "os2_weight": 900
+      },
+      "coverage": {
+        "total_codepoints": 10231,
+        "hiragana": 91,
+        "katakana": 94,
+        "cjk_unified": 7971,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "antique",
+        "family_name": "Antique AN+",
+        "weight_class": "ultrabold",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "d25bc98335d4cf34ea08073d5f90d8fc3311ee501a73d50fd834aeccc8037880",
+      "face_id": "d25bc98335d4cf34",
+      "path": "font_sample/黑体/攸望黑体-粗（简繁）V3.2_副本.ttf",
+      "container_folder": "黑体",
+      "sha256": "d25bc98335d4cf34ea08073d5f90d8fc3311ee501a73d50fd834aeccc8037880",
+      "sfnt": {
+        "family": "YW HeiTi",
+        "style": "Bold",
+        "typographic_family": "YW HeiTi",
+        "typographic_style": "Bold",
+        "legacy_family": "YW HeiTi Bold",
+        "legacy_style": "Bold",
+        "full_name": "YW HeiTi Bold",
+        "postscript": "YWHeiTi-Bold",
+        "os2_weight": 700
+      },
+      "coverage": {
+        "total_codepoints": 22007,
+        "hiragana": 87,
+        "katakana": 89,
+        "cjk_unified": 20902,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "ywheiti",
+        "family_name": "攸望黑体（日文）",
+        "weight_class": "bold",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    },
+    {
+      "source_font_id": "474631d57970d95e15769bd847f068dc01f2c4d7b6f2f89f9de05a5c48c19e0a",
+      "face_id": "474631d57970d95e",
+      "path": "font_sample/黑体/攸望黑体-细（简繁）V3.2.ttf",
+      "container_folder": "黑体",
+      "sha256": "474631d57970d95e15769bd847f068dc01f2c4d7b6f2f89f9de05a5c48c19e0a",
+      "sfnt": {
+        "family": "YW HeiTi",
+        "style": "Light",
+        "typographic_family": "YW HeiTi",
+        "typographic_style": "Light",
+        "legacy_family": "YW HeiTi Light",
+        "legacy_style": "Light",
+        "full_name": "YW HeiTi Light",
+        "postscript": "YWHeiTi-Light",
+        "os2_weight": 300
+      },
+      "coverage": {
+        "total_codepoints": 22007,
+        "hiragana": 87,
+        "katakana": 89,
+        "cjk_unified": 20902,
+        "vertical_tables": [
+          "vhea",
+          "vmtx",
+          "GSUB"
+        ]
+      },
+      "family_mapping": {
+        "status": "confirmed_policy",
+        "basis": [
+          "sfnt.postscript",
+          "explicit_project_policy"
+        ],
+        "family_id": "ywheiti",
+        "family_name": "攸望黑体（日文）",
+        "weight_class": "light",
+        "weight_source": "sfnt_style_name"
+      },
+      "truth": {
+        "file_identity": "verified_sha256",
+        "source_for_self_rendered_samples": true,
+        "family_identity": "confirmed_policy",
+        "proves_existing_screenshot_source": false
+      }
+    }
+  ]
+}

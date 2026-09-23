@@ -1,0 +1,210 @@
+{
+  "status": "assigned_for_japanese_ocr",
+  "lane": 1,
+  "questions": [
+    {
+      "qid": 16,
+      "image_path": "data/images/q16.png",
+      "image_sha256": "b799165d5d252ace4372bfc3b3d21b1f003c312358a95618985c2117fadc8ff1",
+      "coarse_label": "神秘体"
+    },
+    {
+      "qid": 23,
+      "image_path": "data/images/q23.jpg",
+      "image_sha256": "04e24e4d089c0b668961cf29310f97a209082dac69d53daac4280a079921b73d",
+      "coarse_label": "竹带体"
+    },
+    {
+      "qid": 37,
+      "image_path": "data/images/q37.png",
+      "image_sha256": "b13c709747564a62eb476f2a155c3bf43e31af2710fccf49b6e7bb7b496ac641",
+      "coarse_label": "粗黑"
+    },
+    {
+      "qid": 48,
+      "image_path": "data/images/q48.png",
+      "image_sha256": "673ce9e24dd49871a35e913620be0e62437ef97ce3f97869cff6275360245773",
+      "coarse_label": "中圆"
+    },
+    {
+      "qid": 62,
+      "image_path": "data/images/q62.png",
+      "image_sha256": "ab5f77c5b964bae4a00719d85eac3e73997d8314dc3c55f9cf8f059619ceda5e",
+      "coarse_label": "中黑"
+    },
+    {
+      "qid": 68,
+      "image_path": "data/images/q68.png",
+      "image_sha256": "4245656bd22177eec8d540d0db80e35e47f58a291d1e7999caffcf1627b40171",
+      "coarse_label": "竹带体"
+    },
+    {
+      "qid": 78,
+      "image_path": "data/images/q78.png",
+      "image_sha256": "ebd891d42da65e47dc3e9d4f1219bbcdebd577a32cece6363cc01afdf6b7f3c5",
+      "coarse_label": "神秘体"
+    },
+    {
+      "qid": 101,
+      "image_path": "data/images/q101.png",
+      "image_sha256": "b3b4c76a0c3deef4767e6e39b2e80d9c170693c97639a40dca86cda03c0aee02",
+      "coarse_label": "竹带体"
+    },
+    {
+      "qid": 113,
+      "image_path": "data/images/q113.png",
+      "image_sha256": "c872a39a3afa60afeea110a28a1dc37df379f8d3b203e61c4ea4fed5123f7fda",
+      "coarse_label": "竹带体"
+    },
+    {
+      "qid": 121,
+      "image_path": "data/images/q121.png",
+      "image_sha256": "9506dae04662cd288620454ccc1a7ddca6484414557de406a833c23f63e19b79",
+      "coarse_label": "毛刷体"
+    },
+    {
+      "qid": 133,
+      "image_path": "data/images/q133.png",
+      "image_sha256": "7fccede190898d393d48bef4d5c2254647b117d648a9b7837ee46e5c48c6491b",
+      "coarse_label": "POP1"
+    },
+    {
+      "qid": 139,
+      "image_path": "data/images/q139.png",
+      "image_sha256": "a0c1ea0aad41c3106bd2138c829fa58917869fe5c15f14e7258df06c0f8e2ab0",
+      "coarse_label": "POP1"
+    },
+    {
+      "qid": 145,
+      "image_path": "data/images/q145.png",
+      "image_sha256": "818b38ea08f47655d632c274a365b89c24912379db76e645e03ebb799bc9a2d4",
+      "coarse_label": "细圆"
+    },
+    {
+      "qid": 151,
+      "image_path": "data/images/q151.png",
+      "image_sha256": "561855edd08bac89849a4374f3ba17937b804f89fc01fd6e0e1440bda87739e5",
+      "coarse_label": "润圆/雅士黑"
+    },
+    {
+      "qid": 157,
+      "image_path": "data/images/q157.png",
+      "image_sha256": "4b2c800c33e08cc54ffa69ea05f7716339455558100e8655df0cbeabf0cedf67",
+      "coarse_label": "粗黑"
+    },
+    {
+      "qid": 163,
+      "image_path": "data/images/q163.png",
+      "image_sha256": "5cfc2769cc2ebd7ae01f45fece270c9eefd5d16b8eb0de4002e46f2362ecc168",
+      "coarse_label": "方圆"
+    },
+    {
+      "qid": 169,
+      "image_path": "data/images/q169.png",
+      "image_sha256": "e2f3a5c5d39e2ab875cd641c5439891629a32bfde048a0a3004af87c66b680a1",
+      "coarse_label": "细宋"
+    },
+    {
+      "qid": 175,
+      "image_path": "data/images/q175.png",
+      "image_sha256": "161777caa24392cb4b72d61db22a606b246af7cdb8f2b7501354bc6346a6c749",
+      "coarse_label": "细圆"
+    },
+    {
+      "qid": 181,
+      "image_path": "data/images/q181.png",
+      "image_sha256": "02d0d9682d7ce0a8178349b6ec5f8f971e842f5dfc6947f96f118b4262fd423c",
+      "coarse_label": "粗宋"
+    },
+    {
+      "qid": 187,
+      "image_path": "data/images/q187.png",
+      "image_sha256": "09d37620595a2ec2eaf88e35c5233be474fd39307d81481d1cd8434a577b87ac",
+      "coarse_label": "方新书"
+    },
+    {
+      "qid": 193,
+      "image_path": "data/images/q193.png",
+      "image_sha256": "07005b777c37b5ad094dbccbc17719c09fad0c782ff34bb49760fc9701cb29d1",
+      "coarse_label": "毛刷体"
+    },
+    {
+      "qid": 199,
+      "image_path": "data/images/q199.png",
+      "image_sha256": "06dc445e40ab47908b79c62fbfbbaae944ee73f76a59ea46bbaf10a8a5d0667a",
+      "coarse_label": "中宋"
+    },
+    {
+      "qid": 205,
+      "image_path": "data/images/q205.png",
+      "image_sha256": "70b41115ba04491f476a79693ec7ca0f4dc1670e72a43fb124676506848a2f4a",
+      "coarse_label": "细圆"
+    },
+    {
+      "qid": 211,
+      "image_path": "data/images/q211.png",
+      "image_sha256": "af7d799ab4e6626c5fcc75380235eac2015abb9668b5af899eefdefa9e04cff4",
+      "coarse_label": "方圆"
+    },
+    {
+      "qid": 217,
+      "image_path": "data/images/q217.png",
+      "image_sha256": "0fb635b581bb217e09daa51bceeff8ecdbade3d45c0e235cc7d26a18782740ad",
+      "coarse_label": "中黑"
+    },
+    {
+      "qid": 223,
+      "image_path": "data/images/q223.png",
+      "image_sha256": "16c9ae52a46db3e2f63455fe6ff7fabf601573eb2c80925f3c77fa3c1cb964e4",
+      "coarse_label": "润圆/雅士黑"
+    },
+    {
+      "qid": 229,
+      "image_path": "data/images/q229.png",
+      "image_sha256": "4a340bfd42d2a993031190d25ea7330a527ec0e3faa2c95e7bf738c5d810ba29",
+      "coarse_label": "神秘体"
+    },
+    {
+      "qid": 235,
+      "image_path": "data/images/q235.png",
+      "image_sha256": "39dcadd5bad270902a0e9492b45c5e4b1f2ca3418fc680f72c783fa153be75a3",
+      "coarse_label": "雷盖/雷鬼体"
+    },
+    {
+      "qid": 241,
+      "image_path": "data/images/q241.png",
+      "image_sha256": "624d18e0e307f718559a571965966712f3c45ea5f14df7c07cc96334d1822045",
+      "coarse_label": "雷盖/雷鬼体"
+    },
+    {
+      "qid": 247,
+      "image_path": "data/images/q247.png",
+      "image_sha256": "013988d1b55fd125b9cb5cab1ed2699ea6892907130b8d730a9bc9268d2a919c",
+      "coarse_label": "润圆/雅士黑"
+    },
+    {
+      "qid": 253,
+      "image_path": "data/images/q253.png",
+      "image_sha256": "350d0cbd21689f249884d499c6e7be370028e5e526fce91feef0f6fdefb4028e",
+      "coarse_label": "雷盖/雷鬼体"
+    },
+    {
+      "qid": 259,
+      "image_path": "data/images/q259.png",
+      "image_sha256": "565b997c35465ba690a45d7effe862834e0cf9edd3d4d35e213836bd73375a3a",
+      "coarse_label": "淡古印"
+    },
+    {
+      "qid": 265,
+      "image_path": "data/images/q265.png",
+      "image_sha256": "c7d467bae26efce028b86c0c3518233b8f14e1a959eec2fb77285801bdd6c860",
+      "coarse_label": "少女"
+    },
+    {
+      "qid": 271,
+      "image_path": "data/images/q271.png",
+      "image_sha256": "1dee01ee559f1f72bbccb5e9477f897090061ba7947c22a448de360dc28e40f9",
+      "coarse_label": "春田工艺"
+    }
+  ]
+}

@@ -26,10 +26,19 @@ def resolve(appearance, geometry, distinct_characters):
             state = "ambiguous_candidates_geometry_reranked"
     rows = []
     for rank, item in enumerate(order, 1):
+        geometry_row = geometries.get(item["key"], {})
+        appearance_face = item.get("representative_face")
+        geometry_face = geometry_row.get("representative_face")
+        use_geometry_face = state == "ambiguous_candidates_geometry_reranked" and geometry_face is not None
+        representative_face = geometry_face if use_geometry_face else appearance_face
         rows.append({"rank": rank, "key": item["key"], "name": item["name"],
                      "answer": item["answer"], "appearance_distance": item["distance"],
-                     "geometry_distance": geometries.get(item["key"], {}).get("distance"),
-                     "representative_face": item.get("representative_face")})
+                     "geometry_distance": geometry_row.get("distance"),
+                     "representative_face": representative_face,
+                     "appearance_representative_face": appearance_face,
+                     "geometry_representative_face": geometry_face,
+                     "representative_face_basis": ("geometry" if use_geometry_face else
+                                                   "appearance" if appearance_face is not None else None)})
     return {"ranking": rows, "state": state, "changed": rows[0]["key"] != appearance[0]["key"],
             "appearance_gap": appearance[1]["distance"]-appearance[0]["distance"] if len(appearance)>1 else None,
             "ambiguity_band": OBSERVED_MARGIN, "confidence_kind": "uncalibrated_evidence_only",

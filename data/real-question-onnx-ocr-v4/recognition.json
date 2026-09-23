@@ -1,0 +1,2735 @@
+{
+  "protocol": {
+    "language": "Japanese",
+    "model": {
+      "model_name": "PP-OCRv6_small_rec",
+      "engine": "onnxruntime",
+      "device": "cpu",
+      "language": "Japanese",
+      "source_documentation": "https://www.paddleocr.ai/main/en/version3.x/module_usage/text_recognition.html",
+      "model_directory": "data/ocr-models/PP-OCRv6_small_rec_onnx",
+      "files_sha256": {
+        "inference.onnx": "5435fd747c9e0efe15a96d0b378d5bd157e9492ed8fd80edf08f30d02fa24634",
+        "inference.json": "f0bf53c853937a917affdd74467472167727f8ab0f0f7bded01c4a16c27e46e6",
+        "inference.yml": "ab078671bb49f06228eadccd34f1bb501e157f7a047095ffb943ba81512c77d1"
+      },
+      "runtime_versions": {
+        "onnxruntime": "1.30.0"
+      }
+    },
+    "scope": "selected known regions, recognition only; no text detection",
+    "raw_score_calibrated": false
+  },
+  "rows": [
+    {
+      "qid": 25,
+      "coarse_label": "海报体",
+      "image_path": "data/images/q25.png",
+      "image_sha256": "b60fd2175742e9bbba427bc80c68a950fdcb564412e640c9e4182579e08b8be0",
+      "region_bbox": [
+        450,
+        185,
+        80,
+        470
+      ],
+      "ocr_bbox": [
+        450,
+        185,
+        80,
+        470
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "文学こそ",
+      "rec_score": 0.663886308670044
+    },
+    {
+      "qid": 27,
+      "coarse_label": "粗宋",
+      "image_path": "data/images/q27.jpg",
+      "image_sha256": "39639092e6a8640774074e208c0700d35da90413548298bd8ceea017b0da9135",
+      "region_bbox": [
+        130,
+        98,
+        476,
+        1190
+      ],
+      "ocr_bbox": [
+        130,
+        98,
+        476,
+        1190
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 33,
+      "coarse_label": "细圆",
+      "image_path": "data/images/q33.png",
+      "image_sha256": "f8f6218040ee8b025ce1c44d2100ee608375f78cbfa3a377f2cfe93e8571c31b",
+      "region_bbox": [
+        188,
+        128,
+        43,
+        249
+      ],
+      "ocr_bbox": [
+        188,
+        128,
+        43,
+        249
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "とか",
+      "rec_score": 0.988445520401001
+    },
+    {
+      "qid": 34,
+      "coarse_label": "粗圆",
+      "image_path": "data/images/q34.png",
+      "image_sha256": "36e1c9763411a3f11c8ec41cd2f0a331b41ba44f7139991f9426d971dcf84c95",
+      "region_bbox": [
+        55,
+        65,
+        195,
+        280
+      ],
+      "ocr_bbox": [
+        55,
+        65,
+        195,
+        280
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 37,
+      "coarse_label": "粗黑",
+      "image_path": "data/images/q37.png",
+      "image_sha256": "b13c709747564a62eb476f2a155c3bf43e31af2710fccf49b6e7bb7b496ac641",
+      "region_bbox": [
+        39,
+        57,
+        112,
+        32
+      ],
+      "ocr_bbox": [
+        39,
+        57,
+        112,
+        32
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 39,
+      "coarse_label": "中黑",
+      "image_path": "data/images/q39.png",
+      "image_sha256": "6302934a82b6016b78c97f7b6cffb7158629afd7062807b99d4a19aa6fea5d4a",
+      "region_bbox": [
+        14,
+        211,
+        34,
+        197
+      ],
+      "ocr_bbox": [
+        14,
+        211,
+        34,
+        197
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "きないわね",
+      "rec_score": 0.9998638033866882
+    },
+    {
+      "qid": 40,
+      "coarse_label": "雅宋",
+      "image_path": "data/images/q40.png",
+      "image_sha256": "6e8f6f082eb22a263986606533f55b22f7eab66e8a5b7782a8ff16df61539b6e",
+      "region_bbox": [
+        117,
+        43,
+        45,
+        244
+      ],
+      "ocr_bbox": [
+        117,
+        43,
+        45,
+        244
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "前に",
+      "rec_score": 0.9992637038230896
+    },
+    {
+      "qid": 41,
+      "coarse_label": "中黑",
+      "image_path": "data/images/q41.png",
+      "image_sha256": "52d1ca5eecfa700c0a0373b0114c1f75ddeed9142e9a1be7c97c7bd9a2c493af",
+      "region_bbox": [
+        42,
+        62,
+        125,
+        226
+      ],
+      "ocr_bbox": [
+        42,
+        62,
+        125,
+        226
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "今かてない",
+      "rec_score": 0.6070154905319214
+    },
+    {
+      "qid": 43,
+      "coarse_label": "粗黑",
+      "image_path": "data/images/q43.png",
+      "image_sha256": "b795d3e646902c87a6c1d5d7f0f6389458cfc170a5f684421b22b38290aceb66",
+      "region_bbox": [
+        51,
+        57,
+        164,
+        92
+      ],
+      "ocr_bbox": [
+        51,
+        57,
+        164,
+        92
+      ],
+      "orientation": "horizontal",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 48,
+      "coarse_label": "中圆",
+      "image_path": "data/images/q48.png",
+      "image_sha256": "673ce9e24dd49871a35e913620be0e62437ef97ce3f97869cff6275360245773",
+      "region_bbox": [
+        55,
+        64,
+        83,
+        112
+      ],
+      "ocr_bbox": [
+        55,
+        64,
+        83,
+        112
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "らな",
+      "rec_score": 0.3419885039329529
+    },
+    {
+      "qid": 54,
+      "coarse_label": "中黑",
+      "image_path": "data/images/q54.png",
+      "image_sha256": "2b3df47553e21dc9f454230568b5b0263fc8e67cb93742e572eabcab79b6b165",
+      "region_bbox": [
+        40,
+        43,
+        47,
+        596
+      ],
+      "ocr_bbox": [
+        40,
+        43,
+        47,
+        596
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "わたくしにも敵意を…",
+      "rec_score": 0.9993985295295715
+    },
+    {
+      "qid": 59,
+      "coarse_label": "粗黑",
+      "image_path": "data/images/q59.png",
+      "image_sha256": "e0692e2565c05c332d953838076c815e1bae042352dcf3046253499449b4b8b8",
+      "region_bbox": [
+        72,
+        68,
+        262,
+        438
+      ],
+      "ocr_bbox": [
+        72,
+        68,
+        262,
+        438
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 60,
+      "coarse_label": "中圆",
+      "image_path": "data/images/q60.png",
+      "image_sha256": "adcae320c5d448eb0ab851775c2da6c4cee1235f2a62f249818f1e08ee5a9927",
+      "region_bbox": [
+        30,
+        140,
+        238,
+        252
+      ],
+      "ocr_bbox": [
+        30,
+        140,
+        238,
+        252
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "SS",
+      "rec_score": 0.4932684600353241
+    },
+    {
+      "qid": 61,
+      "coarse_label": "细圆",
+      "image_path": "data/images/q61.png",
+      "image_sha256": "8143c250395e8d550ccdfb32245fcccb8128fa5405e8cd895a520bd56448e96a",
+      "region_bbox": [
+        131,
+        59,
+        63,
+        270
+      ],
+      "ocr_bbox": [
+        131,
+        59,
+        63,
+        270
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "持ってきたしちゃ",
+      "rec_score": 0.9942449331283569
+    },
+    {
+      "qid": 62,
+      "coarse_label": "中黑",
+      "image_path": "data/images/q62.png",
+      "image_sha256": "ab5f77c5b964bae4a00719d85eac3e73997d8314dc3c55f9cf8f059619ceda5e",
+      "region_bbox": [
+        32,
+        57,
+        87,
+        144
+      ],
+      "ocr_bbox": [
+        32,
+        57,
+        87,
+        144
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "うっ？",
+      "rec_score": 0.4636887013912201
+    },
+    {
+      "qid": 63,
+      "coarse_label": "雅宋",
+      "image_path": "data/images/q63.png",
+      "image_sha256": "c6f1dd5982828837b6b330407db73d694a4191ef493eac250568c9520df6eb7e",
+      "region_bbox": [
+        18,
+        110,
+        24,
+        124
+      ],
+      "ocr_bbox": [
+        18,
+        110,
+        24,
+        124
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "é!!1",
+      "rec_score": 0.3240884840488434
+    },
+    {
+      "qid": 64,
+      "coarse_label": "中圆",
+      "image_path": "data/images/q64.png",
+      "image_sha256": "2b2edacf4c8d69c7ba0206191d75794fbfd9cc5ffabfb5de81191f803ea3da83",
+      "region_bbox": null,
+      "ocr_bbox": [
+        170,
+        70,
+        45,
+        230
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "可愛かったら",
+      "rec_score": 0.9702107310295105
+    },
+    {
+      "qid": 65,
+      "coarse_label": "粗黑",
+      "image_path": "data/images/q65.png",
+      "image_sha256": "b80aca7469fb6656988739e0f772b83b46105d22e3032afe3b6c7a17cc12dd12",
+      "region_bbox": [
+        27,
+        28,
+        42,
+        323
+      ],
+      "ocr_bbox": [
+        27,
+        28,
+        42,
+        323
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "DP",
+      "rec_score": 0.5731807351112366
+    },
+    {
+      "qid": 66,
+      "coarse_label": "中圆",
+      "image_path": "data/images/q66.png",
+      "image_sha256": "d609376ecd23d449a27a50bef4f6dea327f8a4141864011a63eff7c0dfd79bbf",
+      "region_bbox": [
+        18,
+        8,
+        185,
+        172
+      ],
+      "ocr_bbox": [
+        18,
+        8,
+        185,
+        172
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 67,
+      "coarse_label": "中圆",
+      "image_path": "data/images/q67.png",
+      "image_sha256": "284fe99e3fa411b3856a9e88d0ed555e29f7b681ba0f2440506335ce8d485083",
+      "region_bbox": [
+        89,
+        9,
+        31,
+        151
+      ],
+      "ocr_bbox": [
+        89,
+        9,
+        31,
+        151
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "渡すチャ",
+      "rec_score": 0.8804663419723511
+    },
+    {
+      "qid": 70,
+      "coarse_label": "细宋",
+      "image_path": "data/images/q70.png",
+      "image_sha256": "3867ce76fab0a5e17b8d1ad7c6e6898fe60372610ae2b8719fb3d0b7d00db336",
+      "region_bbox": [
+        101,
+        116,
+        348,
+        516
+      ],
+      "ocr_bbox": [
+        101,
+        116,
+        348,
+        516
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 76,
+      "coarse_label": "中黑",
+      "image_path": "data/images/q76.png",
+      "image_sha256": "431ce30bdc7f1600eccb722f13e133307d9fb408472ad2274b0adfd6c7072aa3",
+      "region_bbox": [
+        65,
+        45,
+        510,
+        500
+      ],
+      "ocr_bbox": [
+        65,
+        45,
+        510,
+        500
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "一",
+      "rec_score": 0.2763438820838928
+    },
+    {
+      "qid": 94,
+      "coarse_label": "雅宋",
+      "image_path": "data/images/q94.png",
+      "image_sha256": "fa6d2f00fb284ba855e47ab2ad4bd0acae5edb694761848088905971aeaf5ba4",
+      "region_bbox": [
+        25,
+        75,
+        125,
+        250
+      ],
+      "ocr_bbox": [
+        25,
+        75,
+        125,
+        250
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "そっ",
+      "rec_score": 0.4711074233055115
+    },
+    {
+      "qid": 102,
+      "coarse_label": "粗黑",
+      "image_path": "data/images/q102.png",
+      "image_sha256": "a15292dad5648f1e64e6a42e1feaff3b74348583345bded734ba2dcb5d6d78d7",
+      "region_bbox": [
+        12,
+        44,
+        81,
+        232
+      ],
+      "ocr_bbox": [
+        12,
+        44,
+        81,
+        232
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "なんな",
+      "rec_score": 0.9943838715553284
+    },
+    {
+      "qid": 103,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q103.png",
+      "image_sha256": "717e7ace5ce7a04579326b2039eabea4e0a83a1478d95f0ce7040c0f27459537",
+      "region_bbox": null,
+      "ocr_bbox": [
+        145,
+        45,
+        85,
+        480
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "覚えが全くない",
+      "rec_score": 0.9976641535758972
+    },
+    {
+      "qid": 116,
+      "coarse_label": "少女",
+      "image_path": "data/images/q116.png",
+      "image_sha256": "65e9f22726cb247fcd1affc431d748e864ed507ddbf042f5da0e2d69e0e03c36",
+      "region_bbox": [
+        29,
+        94,
+        20,
+        82
+      ],
+      "ocr_bbox": [
+        29,
+        94,
+        20,
+        82
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 117,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q117.png",
+      "image_sha256": "d77b360f8f1295565cb50b673ae09b9632244ff3f25ba0f9dbc20aaf5f9cef32",
+      "region_bbox": null,
+      "ocr_bbox": [
+        102,
+        18,
+        48,
+        220
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "お義母さんに",
+      "rec_score": 0.9985311031341553
+    },
+    {
+      "qid": 118,
+      "coarse_label": "中圆",
+      "image_path": "data/images/q118.png",
+      "image_sha256": "4c3c6b5805c34175e6ffb5f8fc00760e5d37b591616dcc01e92dd2f3cf512cdb",
+      "region_bbox": [
+        104,
+        44,
+        33,
+        216
+      ],
+      "ocr_bbox": [
+        104,
+        44,
+        33,
+        216
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "わたしの実家",
+      "rec_score": 0.9998034834861755
+    },
+    {
+      "qid": 120,
+      "coarse_label": "少女",
+      "image_path": "data/images/q120.png",
+      "image_sha256": "fdf5b61c52ddff90e865667e9b72f529672ae10c5662327a784a8958c5cfdf03",
+      "region_bbox": [
+        104,
+        48,
+        35,
+        306
+      ],
+      "ocr_bbox": [
+        104,
+        48,
+        35,
+        306
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "周り散歩しようよ！",
+      "rec_score": 0.951650083065033
+    },
+    {
+      "qid": 122,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q122.png",
+      "image_sha256": "62f19e66a28c5950cb7144cb92ee303f8358869a46581cdbb632f6e868a9d78b",
+      "region_bbox": [
+        19,
+        52,
+        47,
+        95
+      ],
+      "ocr_bbox": [
+        19,
+        52,
+        47,
+        95
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "てか",
+      "rec_score": 0.17022018134593964
+    },
+    {
+      "qid": 123,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q123.png",
+      "image_sha256": "d8777f6d1ce6a051bb1399cebb93b8be972ca3b995d499e60ac448fba240278e",
+      "region_bbox": [
+        83,
+        89,
+        75,
+        249
+      ],
+      "ocr_bbox": [
+        83,
+        89,
+        75,
+        249
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "てるのかなっ？",
+      "rec_score": 0.7633203864097595
+    },
+    {
+      "qid": 130,
+      "coarse_label": "少女",
+      "image_path": "data/images/q130.png",
+      "image_sha256": "b69eb825d086f4e749e75a846489b876663f2d3b7ce5e71f462ee40a9d765081",
+      "region_bbox": [
+        69,
+        29,
+        41,
+        169
+      ],
+      "ocr_bbox": [
+        69,
+        29,
+        41,
+        169
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "なんだ3",
+      "rec_score": 0.6801184415817261
+    },
+    {
+      "qid": 134,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q134.png",
+      "image_sha256": "f9c8cc5578dffb30afc12d706032da778cf07624db78dc3782ad2afa7a8c23e8",
+      "region_bbox": [
+        20,
+        123,
+        30,
+        71
+      ],
+      "ocr_bbox": [
+        20,
+        123,
+        30,
+        71
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "いたか",
+      "rec_score": 0.9793508052825928
+    },
+    {
+      "qid": 137,
+      "coarse_label": "少女",
+      "image_path": "data/images/q137.png",
+      "image_sha256": "68037aab680d2bd8a72396cd0d786c8c9cfaf0935d26c9e54a37b0ccc2888f5e",
+      "region_bbox": [
+        25,
+        35,
+        35,
+        145
+      ],
+      "ocr_bbox": [
+        25,
+        35,
+        35,
+        145
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "日本史？",
+      "rec_score": 0.9140904545783997
+    },
+    {
+      "qid": 138,
+      "coarse_label": "雅宋",
+      "image_path": "data/images/q138.png",
+      "image_sha256": "5727392a5f3cf9ca288e7bb142d90a0105849e91c9fd86e045c829518e548435",
+      "region_bbox": [
+        179,
+        66,
+        120,
+        385
+      ],
+      "ocr_bbox": [
+        179,
+        66,
+        120,
+        385
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "はっさくかっていた",
+      "rec_score": 0.679324209690094
+    },
+    {
+      "qid": 140,
+      "coarse_label": "粗宋",
+      "image_path": "data/images/q140.png",
+      "image_sha256": "adacba01ad45d80262ec93b48df5f6bae446e571c77b29113073d4630498e0e6",
+      "region_bbox": [
+        33,
+        6,
+        30,
+        60
+      ],
+      "ocr_bbox": [
+        33,
+        6,
+        30,
+        60
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 141,
+      "coarse_label": "少女",
+      "image_path": "data/images/q141.png",
+      "image_sha256": "c73cada96e89d546387c88b7158902bfd02bcb894a881d6eb70003481bab3986",
+      "region_bbox": null,
+      "ocr_bbox": [
+        60,
+        5,
+        48,
+        150
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "あはは",
+      "rec_score": 0.7662113308906555
+    },
+    {
+      "qid": 142,
+      "coarse_label": "粗宋",
+      "image_path": "data/images/q142.png",
+      "image_sha256": "4ddd2300fa88a57efc03058f1db714d135faf72edbdb82c2b8b25e346e1ed474",
+      "region_bbox": [
+        12,
+        16,
+        62,
+        163
+      ],
+      "ocr_bbox": [
+        12,
+        16,
+        62,
+        163
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "ある",
+      "rec_score": 0.5971331000328064
+    },
+    {
+      "qid": 143,
+      "coarse_label": "粗圆",
+      "image_path": "data/images/q143.png",
+      "image_sha256": "ae3d2bacf9d79043310346b410c022fbbaa93fdc4fb70dd327fac0961ebdfae5",
+      "region_bbox": [
+        5,
+        8,
+        90,
+        215
+      ],
+      "ocr_bbox": [
+        5,
+        8,
+        90,
+        215
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "受け入れてたけど",
+      "rec_score": 0.7864209413528442
+    },
+    {
+      "qid": 145,
+      "coarse_label": "细圆",
+      "image_path": "data/images/q145.png",
+      "image_sha256": "818b38ea08f47655d632c274a365b89c24912379db76e645e03ebb799bc9a2d4",
+      "region_bbox": [
+        32,
+        35,
+        55,
+        170
+      ],
+      "ocr_bbox": [
+        32,
+        35,
+        55,
+        170
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "ーっとして",
+      "rec_score": 0.8037163019180298
+    },
+    {
+      "qid": 146,
+      "coarse_label": "细圆",
+      "image_path": "data/images/q146.png",
+      "image_sha256": "06d8f110c60715150663cd10d7799406ef655124e5cf8af207a4dfcc98f04046",
+      "region_bbox": [
+        8,
+        10,
+        15,
+        44
+      ],
+      "ocr_bbox": [
+        8,
+        10,
+        15,
+        44
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "木言",
+      "rec_score": 0.526883065700531
+    },
+    {
+      "qid": 147,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q147.png",
+      "image_sha256": "bfe0bbaae847e3411069b9f46761493abed5a05fc304571b25db5e8f05fc0f6c",
+      "region_bbox": null,
+      "ocr_bbox": [
+        66,
+        4,
+        50,
+        240
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "一番になるっもりで",
+      "rec_score": 0.9389113187789917
+    },
+    {
+      "qid": 148,
+      "coarse_label": "细圆",
+      "image_path": "data/images/q148.png",
+      "image_sha256": "91ffd7e6cc5eb213173532f266d8c8c6852057a6f8dab030b58c62c1f72f3c99",
+      "region_bbox": [
+        15,
+        53,
+        82,
+        291
+      ],
+      "ocr_bbox": [
+        15,
+        53,
+        82,
+        291
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "なんともしいいい",
+      "rec_score": 0.7597174644470215
+    },
+    {
+      "qid": 149,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q149.png",
+      "image_sha256": "e8d1fe7cb3be9b21e5a37f8f59ca6bd81b6b4115a4f106c620ed1369a3fb33cd",
+      "region_bbox": [
+        8,
+        28,
+        115,
+        218
+      ],
+      "ocr_bbox": [
+        8,
+        28,
+        115,
+        218
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "かいい",
+      "rec_score": 0.33912524580955505
+    },
+    {
+      "qid": 150,
+      "coarse_label": "细圆",
+      "image_path": "data/images/q150.png",
+      "image_sha256": "cc7edccfadb75a21868b97d76c62b03745df6a00c5baaf31d85acaa5b11c2ca9",
+      "region_bbox": [
+        54,
+        28,
+        43,
+        174
+      ],
+      "ocr_bbox": [
+        54,
+        28,
+        43,
+        174
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "ちよっとと…",
+      "rec_score": 0.636318027973175
+    },
+    {
+      "qid": 151,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q151.png",
+      "image_sha256": "561855edd08bac89849a4374f3ba17937b804f89fc01fd6e0e1440bda87739e5",
+      "region_bbox": [
+        24,
+        27,
+        73,
+        192
+      ],
+      "ocr_bbox": [
+        24,
+        27,
+        73,
+        192
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "たら",
+      "rec_score": 0.9444479942321777
+    },
+    {
+      "qid": 152,
+      "coarse_label": "细圆",
+      "image_path": "data/images/q152.png",
+      "image_sha256": "25cd33e89c68d34941c19a92daa56d538f2a18ddcfcd7f35fa2d01d078046398",
+      "region_bbox": [
+        18,
+        3,
+        13,
+        28
+      ],
+      "ocr_bbox": [
+        18,
+        3,
+        13,
+        28
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "世",
+      "rec_score": 0.48705896735191345
+    },
+    {
+      "qid": 153,
+      "coarse_label": "细圆",
+      "image_path": "data/images/q153.png",
+      "image_sha256": "d32745567a592c7d2f24bf2e425e516cb027507f2a9b936894506931abaae2b0",
+      "region_bbox": [
+        48,
+        2,
+        60,
+        155
+      ],
+      "ocr_bbox": [
+        48,
+        2,
+        60,
+        155
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "あいみいさん",
+      "rec_score": 0.9398248791694641
+    },
+    {
+      "qid": 156,
+      "coarse_label": "粗圆",
+      "image_path": "data/images/q156.png",
+      "image_sha256": "aaa12b7d2831fae14bf3e5633693996d736a8fb595d4c472d5c0b8e4db63345d",
+      "region_bbox": [
+        20,
+        24,
+        43,
+        282
+      ],
+      "ocr_bbox": [
+        20,
+        24,
+        43,
+        282
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "わ…わだすの思考力",
+      "rec_score": 0.9405440092086792
+    },
+    {
+      "qid": 157,
+      "coarse_label": "粗黑",
+      "image_path": "data/images/q157.png",
+      "image_sha256": "4b2c800c33e08cc54ffa69ea05f7716339455558100e8655df0cbeabf0cedf67",
+      "region_bbox": [
+        15,
+        30,
+        65,
+        240
+      ],
+      "ocr_bbox": [
+        15,
+        30,
+        65,
+        240
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "女だてな?？",
+      "rec_score": 0.46002545952796936
+    },
+    {
+      "qid": 158,
+      "coarse_label": "粗黑",
+      "image_path": "data/images/q158.png",
+      "image_sha256": "c5cf9abbff30ce49daf0d070014e89e948676d90cb6ebac1c107d1cd0d77bee9",
+      "region_bbox": [
+        5,
+        12,
+        18,
+        50
+      ],
+      "ocr_bbox": [
+        5,
+        12,
+        18,
+        50
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "11",
+      "rec_score": 0.22748126089572906
+    },
+    {
+      "qid": 159,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q159.png",
+      "image_sha256": "e30c085f8588dc8f3abdc95638a0113b17d04bdf599f37f97b40002d190e60f5",
+      "region_bbox": null,
+      "ocr_bbox": [
+        60,
+        8,
+        52,
+        280
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "あいみいは",
+      "rec_score": 0.9966332316398621
+    },
+    {
+      "qid": 162,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q162.png",
+      "image_sha256": "2d1a03facdc85b9375a5128596265cd1fd18f740383535ccd6f19afa4808a126",
+      "region_bbox": [
+        32,
+        24,
+        28,
+        182
+      ],
+      "ocr_bbox": [
+        32,
+        24,
+        28,
+        182
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "ねーおちやん！",
+      "rec_score": 0.8364034295082092
+    },
+    {
+      "qid": 163,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q163.png",
+      "image_sha256": "5cfc2769cc2ebd7ae01f45fece270c9eefd5d16b8eb0de4002e46f2362ecc168",
+      "region_bbox": [
+        20,
+        30,
+        79,
+        242
+      ],
+      "ocr_bbox": [
+        20,
+        30,
+        79,
+        242
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "流のプログーマー",
+      "rec_score": 0.6331959962844849
+    },
+    {
+      "qid": 164,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q164.png",
+      "image_sha256": "61cad9b7acecd92cc812a30e06a19d67595519c8075c578c1cfc22646f47c7ba",
+      "region_bbox": null,
+      "ocr_bbox": [
+        62,
+        3,
+        45,
+        230
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "たくさん練習して",
+      "rec_score": 0.9940506219863892
+    },
+    {
+      "qid": 165,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q165.png",
+      "image_sha256": "29442c83a1fd88c06c64693360a1d6201ac29bcd7adffd74f5f417b82aa7d1c2",
+      "region_bbox": null,
+      "ocr_bbox": [
+        0,
+        28,
+        39,
+        110
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "っかぁ！",
+      "rec_score": 0.9175796508789062
+    },
+    {
+      "qid": 169,
+      "coarse_label": "细宋",
+      "image_path": "data/images/q169.png",
+      "image_sha256": "e2f3a5c5d39e2ab875cd641c5439891629a32bfde048a0a3004af87c66b680a1",
+      "region_bbox": [
+        18,
+        10,
+        68,
+        276
+      ],
+      "ocr_bbox": [
+        18,
+        10,
+        68,
+        276
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "プロはスマートなのですー",
+      "rec_score": 0.8016090989112854
+    },
+    {
+      "qid": 170,
+      "coarse_label": "细宋",
+      "image_path": "data/images/q170.png",
+      "image_sha256": "48426e2d89d831cdec37d9b04f2f34bf875cfca3cb1a32285ee660e51ee733a7",
+      "region_bbox": [
+        0,
+        0,
+        46,
+        62
+      ],
+      "ocr_bbox": [
+        0,
+        0,
+        46,
+        62
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "結構",
+      "rec_score": 0.9960716366767883
+    },
+    {
+      "qid": 171,
+      "coarse_label": "细宋",
+      "image_path": "data/images/q171.png",
+      "image_sha256": "e55cf7978753fc714ad55fe407850e702563233f8e71dbdcb82aa8fc092bf51a",
+      "region_bbox": null,
+      "ocr_bbox": [
+        65,
+        4,
+        34,
+        200
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "大丈夫です！",
+      "rec_score": 0.9964086413383484
+    },
+    {
+      "qid": 172,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q172.png",
+      "image_sha256": "ee0a98339c27efcbed2ef74f6ea4a25b102843fef49616d5fc9729ee0a9f4817",
+      "region_bbox": [
+        15,
+        27,
+        67,
+        202
+      ],
+      "ocr_bbox": [
+        15,
+        27,
+        67,
+        202
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "ンテが必要なPC",
+      "rec_score": 0.8206319212913513
+    },
+    {
+      "qid": 173,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q173.png",
+      "image_sha256": "d8e212f05dc03f5e53cac5ee6f9aa2e3e5f1f6b295cddccb651e8488f49bcf7a",
+      "region_bbox": [
+        10,
+        8,
+        24,
+        72
+      ],
+      "ocr_bbox": [
+        10,
+        8,
+        24,
+        72
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "わぁー",
+      "rec_score": 0.8970475196838379
+    },
+    {
+      "qid": 174,
+      "coarse_label": "中黑",
+      "image_path": "data/images/q174.png",
+      "image_sha256": "cf46d0b2c8a862baf2745bfad5e050e5de52eb4389e468fbe86d6eea7b302dda",
+      "region_bbox": [
+        13,
+        28,
+        45,
+        155
+      ],
+      "ocr_bbox": [
+        13,
+        28,
+        45,
+        155
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "緒ちゃんね",
+      "rec_score": 0.784286379814148
+    },
+    {
+      "qid": 175,
+      "coarse_label": "细圆",
+      "image_path": "data/images/q175.png",
+      "image_sha256": "161777caa24392cb4b72d61db22a606b246af7cdb8f2b7501354bc6346a6c749",
+      "region_bbox": [
+        28,
+        13,
+        56,
+        265
+      ],
+      "ocr_bbox": [
+        28,
+        13,
+        56,
+        252
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "bbox_adjustment": "clipped_to_original_image_bounds",
+      "status": "recognized_clipped",
+      "rec_text": "メンテしても",
+      "rec_score": 0.8746798038482666
+    },
+    {
+      "qid": 176,
+      "coarse_label": "细圆",
+      "image_path": "data/images/q176.png",
+      "image_sha256": "9081d1f69452e242b0b147b2bb75e69512e0c57db5dfe30b5334621875c1b353",
+      "region_bbox": [
+        10,
+        14,
+        18,
+        83
+      ],
+      "ocr_bbox": [
+        10,
+        14,
+        18,
+        83
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "おっし",
+      "rec_score": 0.852975606918335
+    },
+    {
+      "qid": 177,
+      "coarse_label": "雅宋",
+      "image_path": "data/images/q177.png",
+      "image_sha256": "4c8d782e85727734dd0e84bd6dc6582a8caa67d72b4e3458a3cf5a18a3a4c7c1",
+      "region_bbox": null,
+      "ocr_bbox": [
+        42,
+        0,
+        38,
+        218
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "メンテの神が",
+      "rec_score": 0.9848112463951111
+    },
+    {
+      "qid": 178,
+      "coarse_label": "中圆",
+      "image_path": "data/images/q178.png",
+      "image_sha256": "dfb21761c9546d59a05d07da92c06edacf2a80a0ca2957d1c3bf5fcd059d2333",
+      "region_bbox": [
+        46,
+        17,
+        26,
+        102
+      ],
+      "ocr_bbox": [
+        46,
+        17,
+        26,
+        102
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "合間に",
+      "rec_score": 0.9974794983863831
+    },
+    {
+      "qid": 179,
+      "coarse_label": "中圆",
+      "image_path": "data/images/q179.png",
+      "image_sha256": "93317a85e51308cab153f3a498fe63c1e4adf73b1f7c8af4df6c9a7a91d79931",
+      "region_bbox": [
+        38,
+        16,
+        30,
+        90
+      ],
+      "ocr_bbox": [
+        38,
+        16,
+        30,
+        90
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "目標達",
+      "rec_score": 0.9995861649513245
+    },
+    {
+      "qid": 181,
+      "coarse_label": "粗宋",
+      "image_path": "data/images/q181.png",
+      "image_sha256": "02d0d9682d7ce0a8178349b6ec5f8f971e842f5dfc6947f96f118b4262fd423c",
+      "region_bbox": [
+        20,
+        24,
+        50,
+        203
+      ],
+      "ocr_bbox": [
+        20,
+        24,
+        49,
+        203
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "bbox_adjustment": "clipped_to_original_image_bounds",
+      "status": "recognized_clipped",
+      "rec_text": "音緒ちゃん！",
+      "rec_score": 0.8835487961769104
+    },
+    {
+      "qid": 183,
+      "coarse_label": "雅宋",
+      "image_path": "data/images/q183.png",
+      "image_sha256": "fcd5733fce6e6294538ea4522895525585bcc919208b87606a61455e61cae9c9",
+      "region_bbox": [
+        55,
+        18,
+        42,
+        171
+      ],
+      "ocr_bbox": [
+        55,
+        18,
+        42,
+        171
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "牙衣子さんの",
+      "rec_score": 0.9773926734924316
+    },
+    {
+      "qid": 184,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q184.png",
+      "image_sha256": "a91952fc93b85dae05df0015e8d7624db5b499a2cb6714affa3339111b90eedb",
+      "region_bbox": [
+        49,
+        25,
+        27,
+        154
+      ],
+      "ocr_bbox": [
+        49,
+        25,
+        27,
+        154
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "協力プレイ",
+      "rec_score": 0.9441859126091003
+    },
+    {
+      "qid": 185,
+      "coarse_label": "细宋",
+      "image_path": "data/images/q185.png",
+      "image_sha256": "526db3dcc2f1832d65f23d25a02e2ca89111c3f50e9497311c6f9629f377fc6d",
+      "region_bbox": [
+        36,
+        5,
+        29,
+        158
+      ],
+      "ocr_bbox": [
+        36,
+        5,
+        29,
+        158
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "協力プレイ…",
+      "rec_score": 0.9856071472167969
+    },
+    {
+      "qid": 186,
+      "coarse_label": "方新书",
+      "image_path": "data/images/q186.png",
+      "image_sha256": "50f9871f9a06abeb7fc451e2420ddb3905f66c2696148a4a26c9a44dc64f077f",
+      "region_bbox": [
+        13,
+        52,
+        55,
+        278
+      ],
+      "ocr_bbox": [
+        13,
+        52,
+        55,
+        278
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "左もいいですが？",
+      "rec_score": 0.9325032830238342
+    },
+    {
+      "qid": 187,
+      "coarse_label": "方新书",
+      "image_path": "data/images/q187.png",
+      "image_sha256": "09d37620595a2ec2eaf88e35c5233be474fd39307d81481d1cd8434a577b87ac",
+      "region_bbox": [
+        66,
+        18,
+        146,
+        362
+      ],
+      "ocr_bbox": [
+        66,
+        18,
+        146,
+        362
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 188,
+      "coarse_label": "方新书",
+      "image_path": "data/images/q188.png",
+      "image_sha256": "442f41f52b50451c11178fc76769dc0453585c93bdd46839597d3609990d6314",
+      "region_bbox": [
+        17,
+        26,
+        20,
+        72
+      ],
+      "ocr_bbox": [
+        17,
+        26,
+        20,
+        72
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "L",
+      "rec_score": 0.384508341550827
+    },
+    {
+      "qid": 189,
+      "coarse_label": "雅宋",
+      "image_path": "data/images/q189.png",
+      "image_sha256": "b2afc0182fb6fc3e084cfa4a83eae32eae2ef9076968d798bc31199bc51308bd",
+      "region_bbox": null,
+      "ocr_bbox": [
+        62,
+        2,
+        35,
+        140
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "あの天宮",
+      "rec_score": 0.9916132688522339
+    },
+    {
+      "qid": 190,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q190.png",
+      "image_sha256": "7e3d5e37ee4ca315511265cc8f0ad934a8e0e61a3712ac52e8426a461c9667f5",
+      "region_bbox": [
+        29,
+        21,
+        90,
+        193
+      ],
+      "ocr_bbox": [
+        29,
+        21,
+        90,
+        193
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "そやーのに",
+      "rec_score": 0.5372859239578247
+    },
+    {
+      "qid": 191,
+      "coarse_label": "雅宋",
+      "image_path": "data/images/q191.png",
+      "image_sha256": "df2081608edff621597d5e83a2dcbc0e092c9c5a1ef64fab68623381cbf4540c",
+      "region_bbox": [
+        7,
+        25,
+        103,
+        190
+      ],
+      "ocr_bbox": [
+        7,
+        25,
+        103,
+        190
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 196,
+      "coarse_label": "粗宋",
+      "image_path": "data/images/q196.png",
+      "image_sha256": "6492532a65b8c541e441a1ae8c49fef3c41c94a8913b122cf1c5c0da182139e0",
+      "region_bbox": [
+        29,
+        26,
+        75,
+        206
+      ],
+      "ocr_bbox": [
+        29,
+        26,
+        75,
+        206
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "ってんじゃん",
+      "rec_score": 0.9853660464286804
+    },
+    {
+      "qid": 198,
+      "coarse_label": "粗黑",
+      "image_path": "data/images/q198.png",
+      "image_sha256": "0152a8eefa3a94e8c419452078903a114208ef641df0e6205b305d9f39f1579a",
+      "region_bbox": [
+        75,
+        19,
+        47,
+        271
+      ],
+      "ocr_bbox": [
+        75,
+        19,
+        47,
+        271
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "そんな風に",
+      "rec_score": 0.9884796142578125
+    },
+    {
+      "qid": 199,
+      "coarse_label": "中宋",
+      "image_path": "data/images/q199.png",
+      "image_sha256": "06dc445e40ab47908b79c62fbfbbaae944ee73f76a59ea46bbaf10a8a5d0667a",
+      "region_bbox": [
+        36,
+        52,
+        98,
+        288
+      ],
+      "ocr_bbox": [
+        36,
+        52,
+        98,
+        288
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "天の間するとてるし",
+      "rec_score": 0.7994689345359802
+    },
+    {
+      "qid": 200,
+      "coarse_label": "中宋",
+      "image_path": "data/images/q200.png",
+      "image_sha256": "5e657a52a99b16480e660543302323575ee0080983c449ba3cdfbedb3145c647",
+      "region_bbox": [
+        4,
+        12,
+        33,
+        39
+      ],
+      "ocr_bbox": [
+        4,
+        12,
+        33,
+        39
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "户",
+      "rec_score": 0.2739001214504242
+    },
+    {
+      "qid": 201,
+      "coarse_label": "雅宋",
+      "image_path": "data/images/q201.png",
+      "image_sha256": "400143c6e080ea2efd9bd2014e3fe51b9cd9a4ab89ee49e084eb81db0779e2eb",
+      "region_bbox": null,
+      "ocr_bbox": [
+        40,
+        0,
+        36,
+        162
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "ええやん",
+      "rec_score": 0.9959025382995605
+    },
+    {
+      "qid": 202,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q202.png",
+      "image_sha256": "7d864a0d8525018b1c2c9e50c2bd25210ec086c4830c4e35756797ff24a5d035",
+      "region_bbox": [
+        18,
+        29,
+        29,
+        262
+      ],
+      "ocr_bbox": [
+        18,
+        29,
+        29,
+        262
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "ともなこと言うー",
+      "rec_score": 0.8638504147529602
+    },
+    {
+      "qid": 203,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q203.png",
+      "image_sha256": "572e8f92e48d3b703435550be776ddd7b4064b2e2348b1560b55ca190ec4e41c",
+      "region_bbox": [
+        8,
+        9,
+        95,
+        145
+      ],
+      "ocr_bbox": [
+        8,
+        9,
+        95,
+        145
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "をる",
+      "rec_score": 0.41324687004089355
+    },
+    {
+      "qid": 204,
+      "coarse_label": "雅宋",
+      "image_path": "data/images/q204.png",
+      "image_sha256": "4077550f4a9b5eb3ee97b72c8fc187174e5f7e933f937acdd16b4c3db3fdfbe9",
+      "region_bbox": [
+        54,
+        19,
+        43,
+        176
+      ],
+      "ocr_bbox": [
+        54,
+        19,
+        43,
+        176
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "ふへへ見たか！",
+      "rec_score": 0.8239037394523621
+    },
+    {
+      "qid": 205,
+      "coarse_label": "细圆",
+      "image_path": "data/images/q205.png",
+      "image_sha256": "70b41115ba04491f476a79693ec7ca0f4dc1670e72a43fb124676506848a2f4a",
+      "region_bbox": [
+        14,
+        36,
+        52,
+        253
+      ],
+      "ocr_bbox": [
+        14,
+        36,
+        52,
+        238
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "bbox_adjustment": "clipped_to_original_image_bounds",
+      "status": "recognized_clipped",
+      "rec_text": "父なのは分がる…",
+      "rec_score": 0.6311550140380859
+    },
+    {
+      "qid": 207,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q207.png",
+      "image_sha256": "121cec2d7ed88a8f2f9b7a7dd19ba52fe4387aec0eaa1eeb767f370ee1d3c8c2",
+      "region_bbox": null,
+      "ocr_bbox": [
+        82,
+        0,
+        42,
+        375
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "私が昔",
+      "rec_score": 0.9986131191253662
+    },
+    {
+      "qid": 211,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q211.png",
+      "image_sha256": "af7d799ab4e6626c5fcc75380235eac2015abb9668b5af899eefdefa9e04cff4",
+      "region_bbox": [
+        24,
+        59,
+        53,
+        173
+      ],
+      "ocr_bbox": [
+        24,
+        59,
+        49,
+        127
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "bbox_adjustment": "clipped_to_original_image_bounds",
+      "status": "recognized_clipped",
+      "rec_text": "カップとか",
+      "rec_score": 0.8592475652694702
+    },
+    {
+      "qid": 212,
+      "coarse_label": "方新书",
+      "image_path": "data/images/q212.png",
+      "image_sha256": "2bef97d7b8d1df02666842717447c6d90ffb67ef0674e82be9975df5068479e7",
+      "region_bbox": [
+        97,
+        39,
+        24,
+        131
+      ],
+      "ocr_bbox": [
+        97,
+        39,
+        24,
+        131
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "即正",
+      "rec_score": 0.5770536661148071
+    },
+    {
+      "qid": 213,
+      "coarse_label": "中宋",
+      "image_path": "data/images/q213.png",
+      "image_sha256": "20abdd54bff88b4a015f0b79b100db8cfa20c44bb04d2d0e33ab279879abe8bb",
+      "region_bbox": [
+        88,
+        12,
+        67,
+        249
+      ],
+      "ocr_bbox": [
+        88,
+        12,
+        67,
+        249
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "メイ、正",
+      "rec_score": 0.624026894569397
+    },
+    {
+      "qid": 216,
+      "coarse_label": "粗宋",
+      "image_path": "data/images/q216.png",
+      "image_sha256": "227e7d1f43de8e60ca30a20b895b7db7af4d607bf8856f28973d0ec20b449801",
+      "region_bbox": [
+        17,
+        26,
+        70,
+        325
+      ],
+      "ocr_bbox": [
+        17,
+        26,
+        70,
+        325
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "ヤンキー時代の魂",
+      "rec_score": 0.9073857069015503
+    },
+    {
+      "qid": 217,
+      "coarse_label": "中黑",
+      "image_path": "data/images/q217.png",
+      "image_sha256": "0fb635b581bb217e09daa51bceeff8ecdbade3d45c0e235cc7d26a18782740ad",
+      "region_bbox": [
+        15,
+        29,
+        42,
+        242
+      ],
+      "ocr_bbox": [
+        15,
+        29,
+        42,
+        242
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "毎年の体育祭の日",
+      "rec_score": 0.9331141710281372
+    },
+    {
+      "qid": 223,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q223.png",
+      "image_sha256": "16c9ae52a46db3e2f63455fe6ff7fabf601573eb2c80925f3c77fa3c1cb964e4",
+      "region_bbox": [
+        22,
+        25,
+        65,
+        329
+      ],
+      "ocr_bbox": [
+        22,
+        25,
+        65,
+        233
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "bbox_adjustment": "clipped_to_original_image_bounds",
+      "status": "recognized_clipped",
+      "rec_text": "ございます",
+      "rec_score": 0.9229723215103149
+    },
+    {
+      "qid": 238,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q238.png",
+      "image_sha256": "3346a5fe4c36b963b5025635a27b7e93d527e20de46e7994b2b8a9daf620ab5f",
+      "region_bbox": [
+        18,
+        36,
+        36,
+        176
+      ],
+      "ocr_bbox": [
+        18,
+        36,
+        36,
+        176
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "じす",
+      "rec_score": 0.764884889125824
+    },
+    {
+      "qid": 239,
+      "coarse_label": "粗宋",
+      "image_path": "data/images/q239.png",
+      "image_sha256": "16b7ddfb48558bc783e4d095226f035afa552d424389cba0d0ae34395b911289",
+      "region_bbox": [
+        130,
+        320,
+        46,
+        250
+      ],
+      "ocr_bbox": [
+        130,
+        320,
+        46,
+        250
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "きるか",
+      "rec_score": 0.9946095943450928
+    },
+    {
+      "qid": 240,
+      "coarse_label": "细黑",
+      "image_path": "data/images/q240.png",
+      "image_sha256": "399be06f31bc836905c630bc1f787a72929421a7daa86973a28951823b1ec5e9",
+      "region_bbox": [
+        18,
+        30,
+        39,
+        321
+      ],
+      "ocr_bbox": [
+        18,
+        30,
+        39,
+        321
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "生まれてしまったの…",
+      "rec_score": 0.9695526957511902
+    },
+    {
+      "qid": 247,
+      "coarse_label": "润圆/雅士黑",
+      "image_path": "data/images/q247.png",
+      "image_sha256": "013988d1b55fd125b9cb5cab1ed2699ea6892907130b8d730a9bc9268d2a919c",
+      "region_bbox": [
+        14,
+        15,
+        82,
+        326
+      ],
+      "ocr_bbox": [
+        14,
+        15,
+        82,
+        326
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "かパてたんだよ",
+      "rec_score": 0.7657647728919983
+    },
+    {
+      "qid": 248,
+      "coarse_label": "中圆",
+      "image_path": "data/images/q248.png",
+      "image_sha256": "bea742d4e84a6ca5b70bb88b2f1d1a215be6e8793aa8519891f07c3402c878be",
+      "region_bbox": [
+        4,
+        11,
+        20,
+        65
+      ],
+      "ocr_bbox": [
+        4,
+        11,
+        20,
+        65
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 254,
+      "coarse_label": "中圆",
+      "image_path": "data/images/q254.png",
+      "image_sha256": "39e5583f59125e8f2678838ae449d47f2418fce25b87e6e7b4f9382e32d1f3aa",
+      "region_bbox": [
+        0,
+        0,
+        161,
+        232
+      ],
+      "ocr_bbox": [
+        0,
+        0,
+        161,
+        232
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "る",
+      "rec_score": 0.8777313828468323
+    },
+    {
+      "qid": 255,
+      "coarse_label": "少女",
+      "image_path": "data/images/q255.png",
+      "image_sha256": "fbfc5625bec899a89674a190ec53bc779a1e3e7967d61529ea0b18d17d11a01f",
+      "region_bbox": [
+        51,
+        16,
+        34,
+        156
+      ],
+      "ocr_bbox": [
+        51,
+        16,
+        34,
+        156
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "に、ニコさん",
+      "rec_score": 0.8530594706535339
+    },
+    {
+      "qid": 256,
+      "coarse_label": "少女",
+      "image_path": "data/images/q256.png",
+      "image_sha256": "b99e8d30cc0c20e79d709061293c08b5956b2c078def9511e7985843a16c0ab2",
+      "region_bbox": null,
+      "ocr_bbox": [
+        90,
+        0,
+        55,
+        205
+      ],
+      "orientation": "vertical",
+      "region_source": "visual column selection for this ONNX run",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized_manual_box",
+      "rec_text": "ルカ…はっ",
+      "rec_score": 0.6323294639587402
+    },
+    {
+      "qid": 258,
+      "coarse_label": "细宋",
+      "image_path": "data/images/q258.png",
+      "image_sha256": "60c11f32fea606ee833d4fdf7f02f739b6ad541ce9311697a87b26b0ff442f99",
+      "region_bbox": [
+        14,
+        50,
+        32,
+        132
+      ],
+      "ocr_bbox": [
+        14,
+        50,
+        32,
+        132
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "で入りま",
+      "rec_score": 0.9998983144760132
+    },
+    {
+      "qid": 260,
+      "coarse_label": "细圆",
+      "image_path": "data/images/q260.png",
+      "image_sha256": "eea56639d1500e08273100838134b0745a92af35c72415946c28d84cf3ad7f31",
+      "region_bbox": [
+        3,
+        12,
+        22,
+        99
+      ],
+      "ocr_bbox": [
+        3,
+        12,
+        22,
+        99
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "な気も",
+      "rec_score": 0.894906222820282
+    },
+    {
+      "qid": 261,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q261.png",
+      "image_sha256": "03805781965b4f426d2ed21f6d6f1fae8d0a1d50502a4ceaa45461518889d12e",
+      "region_bbox": [
+        8,
+        15,
+        43,
+        194
+      ],
+      "ocr_bbox": [
+        8,
+        15,
+        43,
+        194
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "私は寂しいかも",
+      "rec_score": 0.9725179076194763
+    },
+    {
+      "qid": 262,
+      "coarse_label": "方圆",
+      "image_path": "data/images/q262.png",
+      "image_sha256": "7454db70ac7f9396e1cc9b329b1150c027d331ca3fa5337f09b38d0997ebe254",
+      "region_bbox": [
+        90,
+        18,
+        30,
+        201
+      ],
+      "ocr_bbox": [
+        90,
+        18,
+        30,
+        201
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "次谢30としたう",
+      "rec_score": 0.6291344165802002
+    },
+    {
+      "qid": 264,
+      "coarse_label": "少女",
+      "image_path": "data/images/q264.png",
+      "image_sha256": "13f9f4c71f6da6992f5af99ca67932434cc945b5c013237af8da23a6b4f16150",
+      "region_bbox": [
+        14,
+        37,
+        52,
+        234
+      ],
+      "ocr_bbox": [
+        14,
+        37,
+        52,
+        234
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "取るんでしよ？",
+      "rec_score": 0.9312644004821777
+    },
+    {
+      "qid": 265,
+      "coarse_label": "少女",
+      "image_path": "data/images/q265.png",
+      "image_sha256": "c7d467bae26efce028b86c0c3518233b8f14e1a959eec2fb77285801bdd6c860",
+      "region_bbox": [
+        20,
+        33,
+        91,
+        165
+      ],
+      "ocr_bbox": [
+        20,
+        33,
+        91,
+        165
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "者さんの",
+      "rec_score": 0.6405593156814575
+    },
+    {
+      "qid": 266,
+      "coarse_label": "中圆",
+      "image_path": "data/images/q266.png",
+      "image_sha256": "8f7e8842e5119a8e367a8417c467532eaf401fb796977018720f286d2aafc2a7",
+      "region_bbox": [
+        0,
+        22,
+        77,
+        88
+      ],
+      "ocr_bbox": [
+        0,
+        22,
+        77,
+        88
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "",
+      "rec_score": 0.0
+    },
+    {
+      "qid": 267,
+      "coarse_label": "细宋",
+      "image_path": "data/images/q267.png",
+      "image_sha256": "c99fd8398644345cc9f0bf3d68e835e69b17bec3a8b3c2de22cb346ce5c660fa",
+      "region_bbox": [
+        9,
+        8,
+        43,
+        237
+      ],
+      "ocr_bbox": [
+        9,
+        8,
+        43,
+        237
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "抱えているんだな",
+      "rec_score": 0.9993480443954468
+    },
+    {
+      "qid": 275,
+      "coarse_label": "中圆",
+      "image_path": "data/images/q275.png",
+      "image_sha256": "a1b985d5ad172c94363e5a3dbd14b475689431cface75e413d53c381ef6c4062",
+      "region_bbox": [
+        80,
+        25,
+        42,
+        200
+      ],
+      "ocr_bbox": [
+        80,
+        25,
+        42,
+        200
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "現実って",
+      "rec_score": 0.991943359375
+    },
+    {
+      "qid": 276,
+      "coarse_label": "海报体",
+      "image_path": "data/images/q276.png",
+      "image_sha256": "3cfc869d6377db806f48fa000b7d8fbfd1c814b82694fb7df5a6e313d7a285c7",
+      "region_bbox": [
+        31,
+        28,
+        53,
+        267
+      ],
+      "ocr_bbox": [
+        31,
+        28,
+        53,
+        267
+      ],
+      "orientation": "vertical",
+      "region_source": "real-question-ocr-v1 manually selected box",
+      "text_source": "direct PP-OCRv6_small_rec ONNX Runtime",
+      "manually_verified": false,
+      "status": "recognized",
+      "rec_text": "ひどすぎー！",
+      "rec_score": 0.8436098694801331
+    }
+  ]
+}

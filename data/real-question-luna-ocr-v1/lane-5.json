@@ -1,0 +1,150 @@
+{
+  "lane": 5,
+  "language": "Japanese",
+  "records": [
+    {
+      "qid": 34,
+      "image_sha256": "36e1c9763411a3f11c8ec41cd2f0a331b41ba44f7139991f9426d971dcf84c95",
+      "status": "uncertain",
+      "region_bbox": [112, 75, 40, 220],
+      "text": "だってもらっ",
+      "orientation": "vertical-rtl",
+      "notes": "中间一列有若干假名可辨，但起始字与列尾都不够确定；保留早先读出的片段仅作待核字符，不补猜全文。"
+    },
+    {
+      "qid": 41,
+      "image_sha256": "52d1ca5eecfa700c0a0373b0114c1f75ddeed9142e9a1be7c97c7bd9a2c493af",
+      "status": "transcribed",
+      "region_bbox": [140, 70, 38, 195],
+      "text": "そういえば…",
+      "orientation": "vertical-rtl",
+      "notes": "复核右侧整列为「そういえば…」，小字号注音未抄录。"
+    },
+    {
+      "qid": 60,
+      "image_sha256": "adcae320c5d448eb0ab851775c2da6c4cee1235f2a62f249818f1e08ee5a9927",
+      "status": "uncertain",
+      "region_bbox": [118, 150, 52, 235],
+      "text": "",
+      "orientation": "vertical-rtl",
+      "notes": "重看原图后，无法确认先前记录的片段；字形和注音叠在一起，保留空文本。"
+    },
+    {
+      "qid": 66,
+      "image_sha256": "d609376ecd23d449a27a50bef4f6dea327f8a4141864011a63eff7c0dfd79bbf",
+      "status": "uncertain",
+      "region_bbox": [95, 45, 44, 125],
+      "text": "",
+      "orientation": "vertical-rtl",
+      "notes": "气泡字形与注音挤在一起，无法确定所选列的逐字原文。"
+    },
+    {
+      "qid": 76,
+      "image_sha256": "431ce30bdc7f1600eccb722f13e133307d9fb408472ad2274b0adfd6c7072aa3",
+      "status": "uncertain",
+      "region_bbox": [220, 205, 38, 285],
+      "text": "いくの",
+      "orientation": "vertical-rtl",
+      "notes": "左侧正文列开头可辨为「いくの」，列中其余字与相邻栏难以可靠区分。"
+    },
+    {
+      "qid": 94,
+      "image_sha256": "fa6d2f00fb284ba855e47ab2ad4bd0acae5edb694761848088905971aeaf5ba4",
+      "status": "transcribed",
+      "region_bbox": [30, 115, 55, 255],
+      "text": "そこおおっ",
+      "orientation": "vertical-rtl",
+      "notes": "Luna 初稿与原图左列不符且 bbox 截断；主代理放大原图后逐字修正，右列「そこ！」不并入。"
+    },
+    {
+      "qid": 137,
+      "image_sha256": "68037aab680d2bd8a72396cd0d786c8c9cfaf0935d26c9e54a37b0ccc2888f5e",
+      "status": "transcribed",
+      "region_bbox": [25, 35, 35, 145],
+      "text": "日本史？",
+      "orientation": "vertical-rtl",
+      "notes": "按指定框复核这一列，字符依次为「日・本・史・？」；邻列正文未纳入。"
+    },
+    {
+      "qid": 143,
+      "image_sha256": "ae3d2bacf9d79043310346b410c022fbbaa93fdc4fb70dd327fac0961ebdfae5",
+      "status": "transcribed",
+      "region_bbox": [6, 10, 32, 205],
+      "text": "受け入れてたけど",
+      "orientation": "vertical-rtl",
+      "notes": "放大复核该列，逐字可读为「受・け・入・れ・て・た・け・ど」。"
+    },
+    {
+      "qid": 149,
+      "image_sha256": "e8d1fe7cb3be9b21e5a37f8f59ca6bd81b6b4115a4f106c620ed1369a3fb33cd",
+      "status": "transcribed",
+      "region_bbox": [93, 45, 30, 190],
+      "text": "全然わかんない",
+      "orientation": "vertical-rtl",
+      "notes": "复核右侧竖列，逐字为「全・然・わ・か・ん・な・い」。"
+    },
+    {
+      "qid": 173,
+      "image_sha256": "d8e212f05dc03f5e53cac5ee6f9aa2e3e5f1f6b295cddccb651e8488f49bcf7a",
+      "status": "transcribed",
+      "region_bbox": [5, 7, 40, 175],
+      "text": "わぁー助かる！",
+      "orientation": "vertical-rtl",
+      "notes": "Luna 初稿只圈选列首；主代理按原图扩为完整单列并逐字复核。"
+    },
+    {
+      "qid": 179,
+      "image_sha256": "93317a85e51308cab153f3a498fe63c1e4adf73b1f7c8af4df6c9a7a91d79931",
+      "status": "transcribed",
+      "region_bbox": [44, 19, 30, 137],
+      "text": "目標達成",
+      "orientation": "vertical-rtl",
+      "notes": "选取右侧完整竖列；放大后可辨「目・標・達・成」。"
+    },
+    {
+      "qid": 185,
+      "image_sha256": "526db3dcc2f1832d65f23d25a02e2ca89111c3f50e9497311c6f9629f377fc6d",
+      "status": "transcribed",
+      "region_bbox": [37, 8, 27, 155],
+      "text": "協力プレイ…",
+      "orientation": "vertical-rtl",
+      "notes": "复核该列为「協力プレイ」，列末是省略号而非两个感叹号。"
+    },
+    {
+      "qid": 191,
+      "image_sha256": "df2081608edff621597d5e83a2dcbc0e092c9c5a1ef64fab68623381cbf4540c",
+      "status": "uncertain",
+      "region_bbox": [74, 30, 30, 175],
+      "text": "手…繋いだら!!",
+      "orientation": "vertical-rtl",
+      "notes": "末段「繋いだら!!」可辨；列首中间一字与旁边小字重叠，记作省略号，不推断该字。"
+    },
+    {
+      "qid": 203,
+      "image_sha256": "572e8f92e48d3b703435550be776ddd7b4064b2e2348b1560b55ca190ec4e41c",
+      "status": "transcribed",
+      "region_bbox": [70, 8, 33, 152],
+      "text": "ワイも力になるぜい",
+      "orientation": "vertical-rtl",
+      "notes": "复核选取的一列为「ワイも力になるぜい」；相邻列「茅衣子!!」不在本框内。"
+    },
+    {
+      "qid": 239,
+      "image_sha256": "16b7ddfb48558bc783e4d095226f035afa552d424389cba0d0ae34395b911289",
+      "status": "transcribed",
+      "region_bbox": [132, 321, 43, 246],
+      "text": "生きるか",
+      "orientation": "vertical-rtl",
+      "notes": "Luna 初稿漏列首「生」；主代理按原图下半右列逐字复核。"
+    },
+    {
+      "qid": 275,
+      "image_sha256": "a1b985d5ad172c94363e5a3dbd14b475689431cface75e413d53c381ef6c4062",
+      "status": "transcribed",
+      "region_bbox": [99, 32, 28, 182],
+      "text": "現実って",
+      "orientation": "vertical-rtl",
+      "notes": "放大原图逐字复核为「現・実・っ・て」，邻列未并入。"
+    }
+  ]
+}

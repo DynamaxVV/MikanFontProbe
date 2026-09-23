@@ -1,0 +1,204 @@
+{
+  "lane": 3,
+  "language": "Japanese",
+  "records": [
+    {
+      "qid": 27,
+      "image_sha256": "39639092e6a8640774074e208c0700d35da90413548298bd8ceea017b0da9135",
+      "status": "uncertain",
+      "region_bbox": [130, 98, 476, 1190],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "原图字列被大面积纵向黑色扫描伪影切断，无法可靠辨认所选正文列。"
+    },
+    {
+      "qid": 39,
+      "image_sha256": "6302934a82b6016b78c97f7b6cffb7158629afd7062807b99d4a19aa6fea5d4a",
+      "status": "uncertain",
+      "region_bbox": [14, 211, 34, 197],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "所选左侧竖列被红框覆盖且字形过小，首字与中间假名不能可靠区分。"
+    },
+    {
+      "qid": 54,
+      "image_sha256": "2b3df47553e21dc9f454230568b5b0263fc8e67cb93742e572eabcab79b6b165",
+      "status": "transcribed",
+      "region_bbox": [40, 43, 47, 596],
+      "text": "わたくしにも敵意を…",
+      "orientation": "vertical",
+      "notes": "Luna 高推理初稿误读「敵意」；主代理对照原图左列逐字复核修正，句末为省略号。"
+    },
+    {
+      "qid": 64,
+      "image_sha256": "2b2edacf4c8d69c7ba0206191d75794fbfd9cc5ffabfb5de81191f803ea3da83",
+      "status": "transcribed",
+      "region_bbox": [198, 72, 66, 111],
+      "text": "こんだけ",
+      "orientation": "vertical",
+      "notes": "Luna 初稿跨多列存疑；主代理改选原图右端单列并逐字复核。"
+    },
+    {
+      "qid": 103,
+      "image_sha256": "717e7ace5ce7a04579326b2039eabea4e0a83a1478d95f0ce7040c0f27459537",
+      "status": "transcribed",
+      "region_bbox": [130, 90, 90, 405],
+      "text": "覚えが全くない",
+      "orientation": "vertical",
+      "notes": "Luna 初稿存疑；主代理按原图右列逐字复核正文，小号注音不计入。"
+    },
+    {
+      "qid": 117,
+      "image_sha256": "d77b360f8f1295565cb50b673ae09b9632244ff3f25ba0f9dbc20aaf5f9cef32",
+      "status": "transcribed",
+      "region_bbox": [98, 14, 45, 226],
+      "text": "お義母さんに",
+      "orientation": "vertical",
+      "notes": "Luna 初稿选左列且存疑；主代理改选原图右列并逐字复核正文。"
+    },
+    {
+      "qid": 123,
+      "image_sha256": "d8777f6d1ce6a051bb1399cebb93b8be972ca3b995d499e60ac448fba240278e",
+      "status": "uncertain",
+      "region_bbox": [83, 89, 75, 249],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "所选中部字列与左侧大型漫画线条相交，首尾字符无法可靠确认。"
+    },
+    {
+      "qid": 141,
+      "image_sha256": "c73cada96e89d546387c88b7158902bfd02bcb894a881d6eb70003481bab3986",
+      "status": "uncertain",
+      "region_bbox": [36, 25, 47, 171],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "题图只保留窄幅文字区域，数个字与装饰/边框相接，无法可靠转写整列。"
+    },
+    {
+      "qid": 147,
+      "image_sha256": "bfe0bbaae847e3411069b9f46761493abed5a05fc304571b25db5e8f05fc0f6c",
+      "status": "uncertain",
+      "region_bbox": [17, 17, 39, 216],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "字符笔画可见，但两列间距不足且部分字形相连，无法可靠确认选定整列。"
+    },
+    {
+      "qid": 153,
+      "image_sha256": "d32745567a592c7d2f24bf2e425e516cb027507f2a9b936894506931abaae2b0",
+      "status": "uncertain",
+      "region_bbox": [48, 2, 60, 155],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "字列极小且有淡色小字覆盖，假名与标点均不能可靠辨认。"
+    },
+    {
+      "qid": 159,
+      "image_sha256": "e30c085f8588dc8f3abdc95638a0113b17d04bdf599f37f97b40002d190e60f5",
+      "status": "transcribed",
+      "region_bbox": [65, 35, 53, 198],
+      "text": "あいみいは",
+      "orientation": "vertical",
+      "notes": "Luna 初稿选左列存疑；主代理改选原图右列逐字复核。"
+    },
+    {
+      "qid": 165,
+      "image_sha256": "29442c83a1fd88c06c64693360a1d6201ac29bcd7adffd74f5f417b82aa7d1c2",
+      "status": "transcribed",
+      "region_bbox": [8, 8, 23, 130],
+      "text": "そっかぁ！",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 171,
+      "image_sha256": "e55cf7978753fc714ad55fe407850e702563233f8e71dbdcb82aa8fc092bf51a",
+      "status": "transcribed",
+      "region_bbox": [9, 15, 25, 190],
+      "text": "両立できてこそ！",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 177,
+      "image_sha256": "4c8d782e85727734dd0e84bd6dc6582a8caa67d72b4e3458a3cf5a18a3a4c7c1",
+      "status": "uncertain",
+      "region_bbox": [53, 10, 27, 192],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "放大后确认所选列含有多个字形，但首部汉字/假名组合及与相邻列的分界仍不可靠，故不猜补。"
+    },
+    {
+      "qid": 183,
+      "image_sha256": "fcd5733fce6e6294538ea4522895525585bcc919208b87606a61455e61cae9c9",
+      "status": "uncertain",
+      "region_bbox": [58, 18, 35, 171],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "放大复核发现右列包含此前漏掉的后续字，且首字字形不确定；无法可靠转写完整列。"
+    },
+    {
+      "qid": 189,
+      "image_sha256": "b2afc0182fb6fc3e084cfa4a83eae32eae2ef9076968d798bc31199bc51308bd",
+      "status": "uncertain",
+      "region_bbox": [58, 19, 27, 112],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "选定右侧竖列上端被气泡边缘遮挡，汉字组合不能可靠确认。"
+    },
+    {
+      "qid": 201,
+      "image_sha256": "400143c6e080ea2efd9bd2014e3fe51b9cd9a4ab89ee49e084eb81db0779e2eb",
+      "status": "transcribed",
+      "region_bbox": [8, 12, 32, 145],
+      "text": "えええやん！",
+      "orientation": "vertical",
+      "notes": "主代理按 bbox 左列复核，左列比右列多一个开头「え」。"
+    },
+    {
+      "qid": 207,
+      "image_sha256": "121cec2d7ed88a8f2f9b7a7dd19ba52fe4387aec0eaa1eeb767f370ee1d3c8c2",
+      "status": "uncertain",
+      "region_bbox": [91, 14, 24, 350],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "长列中文字与小字注音贴合，数处行间关系不清，不能猜补无法辨认部分。"
+    },
+    {
+      "qid": 213,
+      "image_sha256": "20abdd54bff88b4a015f0b79b100db8cfa20c44bb04d2d0e33ab279879abe8bb",
+      "status": "uncertain",
+      "region_bbox": [88, 12, 67, 249],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "所选竖列叠有小字注音，且裁片边缘切掉部分字形，无法可靠转写全列。"
+    },
+    {
+      "qid": 255,
+      "image_sha256": "fbfc5625bec899a89674a190ec53bc779a1e3e7967d61529ea0b18d17d11a01f",
+      "status": "uncertain",
+      "region_bbox": [15, 28, 27, 155],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "正文短列部分假名过淡，首字及中间字无法可靠区别。"
+    },
+    {
+      "qid": 261,
+      "image_sha256": "03805781965b4f426d2ed21f6d6f1fae8d0a1d50502a4ceaa45461518889d12e",
+      "status": "uncertain",
+      "region_bbox": [8, 15, 43, 194],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "多个正文列横向紧贴，字形边界与纵向阅读次序均不够确定。"
+    },
+    {
+      "qid": 267,
+      "image_sha256": "c99fd8398644345cc9f0bf3d68e835e69b17bec3a8b3c2de22cb346ce5c660fa",
+      "status": "transcribed",
+      "region_bbox": [9, 8, 43, 237],
+      "text": "抱えているんだな",
+      "orientation": "vertical",
+      "notes": "Luna 初稿存疑；主代理按原图左列逐字复核正文，右侧注音不计入。"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "status": "assigned_for_japanese_ocr",
+  "lane": 0,
+  "questions": [
+    {
+      "qid": 15,
+      "image_path": "data/images/q15.png",
+      "image_sha256": "a469e5ac6079dda917191384b83d01126e8a07c1f4b3deadb1d43ade3ec72f89",
+      "coarse_label": "竹带体"
+    },
+    {
+      "qid": 22,
+      "image_path": "data/images/q22.jpg",
+      "image_sha256": "b4bbc678e37be4806f37b993426431e0bc6fa9eb3e1f581827f4bdc0edf8d36b",
+      "coarse_label": "降圆体"
+    },
+    {
+      "qid": 36,
+      "image_path": "data/images/q36.png",
+      "image_sha256": "314934c73439bd15612844c757ca643aa6d4fa72ba7d57474474b63608270c92",
+      "coarse_label": "毛刷体"
+    },
+    {
+      "qid": 43,
+      "image_path": "data/images/q43.png",
+      "image_sha256": "b795d3e646902c87a6c1d5d7f0f6389458cfc170a5f684421b22b38290aceb66",
+      "coarse_label": "粗黑"
+    },
+    {
+      "qid": 61,
+      "image_path": "data/images/q61.png",
+      "image_sha256": "8143c250395e8d550ccdfb32245fcccb8128fa5405e8cd895a520bd56448e96a",
+      "coarse_label": "细圆"
+    },
+    {
+      "qid": 67,
+      "image_path": "data/images/q67.png",
+      "image_sha256": "284fe99e3fa411b3856a9e88d0ed555e29f7b681ba0f2440506335ce8d485083",
+      "coarse_label": "中圆"
+    },
+    {
+      "qid": 77,
+      "image_path": "data/images/q77.png",
+      "image_sha256": "1bd2b1aed7a295477a2f31b5bfad297e494f46e693bc683fbc2bb051adbf7ecd",
+      "coarse_label": "降圆体"
+    },
+    {
+      "qid": 97,
+      "image_path": "data/images/q97.png",
+      "image_sha256": "27440abb54fd01e2dfdff477ffe76aff93bcb2a0233cf081aed58f6fdec4fddb",
+      "coarse_label": "竹带体"
+    },
+    {
+      "qid": 112,
+      "image_path": "data/images/q112.png",
+      "image_sha256": "a6de8a8952fda4cb5595cc0867ba747398212563e01819ebaf4c6d0a916edf38",
+      "coarse_label": "竹体"
+    },
+    {
+      "qid": 120,
+      "image_path": "data/images/q120.png",
+      "image_sha256": "fdf5b61c52ddff90e865667e9b72f529672ae10c5662327a784a8958c5cfdf03",
+      "coarse_label": "少女"
+    },
+    {
+      "qid": 130,
+      "image_path": "data/images/q130.png",
+      "image_sha256": "b69eb825d086f4e749e75a846489b876663f2d3b7ce5e71f462ee40a9d765081",
+      "coarse_label": "少女"
+    },
+    {
+      "qid": 138,
+      "image_path": "data/images/q138.png",
+      "image_sha256": "5727392a5f3cf9ca288e7bb142d90a0105849e91c9fd86e045c829518e548435",
+      "coarse_label": "雅宋"
+    },
+    {
+      "qid": 144,
+      "image_path": "data/images/q144.png",
+      "image_sha256": "8c3205859778396aa080481f73675b958d07740e278e271ecec84d9e8ec2cb50",
+      "coarse_label": "竹体"
+    },
+    {
+      "qid": 150,
+      "image_path": "data/images/q150.png",
+      "image_sha256": "cc7edccfadb75a21868b97d76c62b03745df6a00c5baaf31d85acaa5b11c2ca9",
+      "coarse_label": "细圆"
+    },
+    {
+      "qid": 156,
+      "image_path": "data/images/q156.png",
+      "image_sha256": "aaa12b7d2831fae14bf3e5633693996d736a8fb595d4c472d5c0b8e4db63345d",
+      "coarse_label": "粗圆"
+    },
+    {
+      "qid": 162,
+      "image_path": "data/images/q162.png",
+      "image_sha256": "2d1a03facdc85b9375a5128596265cd1fd18f740383535ccd6f19afa4808a126",
+      "coarse_label": "方圆"
+    },
+    {
+      "qid": 168,
+      "image_path": "data/images/q168.png",
+      "image_sha256": "360bffc18a7a14679b90d2e3afc5920d98cb09fecb3982a5ca022598d0b975c4",
+      "coarse_label": "竹体"
+    },
+    {
+      "qid": 174,
+      "image_path": "data/images/q174.png",
+      "image_sha256": "cf46d0b2c8a862baf2745bfad5e050e5de52eb4389e468fbe86d6eea7b302dda",
+      "coarse_label": "中黑"
+    },
+    {
+      "qid": 180,
+      "image_path": "data/images/q180.png",
+      "image_sha256": "e19d4adceba3e0fb0876e827fb78dbe8d04427e70b42c50c8fe259132049898b",
+      "coarse_label": "降圆体"
+    },
+    {
+      "qid": 186,
+      "image_path": "data/images/q186.png",
+      "image_sha256": "50f9871f9a06abeb7fc451e2420ddb3905f66c2696148a4a26c9a44dc64f077f",
+      "coarse_label": "方新书"
+    },
+    {
+      "qid": 192,
+      "image_path": "data/images/q192.png",
+      "image_sha256": "9d00cb64d39c807b4b39ef5bc9f9b9fc0b11d972d3d86c20467883ab66d9031f",
+      "coarse_label": "竹体"
+    },
+    {
+      "qid": 198,
+      "image_path": "data/images/q198.png",
+      "image_sha256": "0152a8eefa3a94e8c419452078903a114208ef641df0e6205b305d9f39f1579a",
+      "coarse_label": "粗黑"
+    },
+    {
+      "qid": 204,
+      "image_path": "data/images/q204.png",
+      "image_sha256": "4077550f4a9b5eb3ee97b72c8fc187174e5f7e933f937acdd16b4c3db3fdfbe9",
+      "coarse_label": "雅宋"
+    },
+    {
+      "qid": 210,
+      "image_path": "data/images/q210.png",
+      "image_sha256": "b6dc6d934f15ddba3cfbabd4a6d5bcd8843cfe9d381e5b7bf7dc315a7dcce77b",
+      "coarse_label": "角明体"
+    },
+    {
+      "qid": 216,
+      "image_path": "data/images/q216.png",
+      "image_sha256": "227e7d1f43de8e60ca30a20b895b7db7af4d607bf8856f28973d0ec20b449801",
+      "coarse_label": "粗宋"
+    },
+    {
+      "qid": 222,
+      "image_path": "data/images/q222.png",
+      "image_sha256": "5f496d24e051d76ee0c55a08fd54a279527e60c300bc28b5b1296966a14c5f51",
+      "coarse_label": "神秘体"
+    },
+    {
+      "qid": 228,
+      "image_path": "data/images/q228.png",
+      "image_sha256": "8cb809885d5eb32bcf8ddf081d87aa4a786d60b0989f14248b8616a465e3bd39",
+      "coarse_label": "淡古印"
+    },
+    {
+      "qid": 234,
+      "image_path": "data/images/q234.png",
+      "image_sha256": "12f917749ec0a2416a7fba5278a99f6611a5b5879140a728a0cc162ae3a691fa",
+      "coarse_label": "竹体"
+    },
+    {
+      "qid": 240,
+      "image_path": "data/images/q240.png",
+      "image_sha256": "399be06f31bc836905c630bc1f787a72929421a7daa86973a28951823b1ec5e9",
+      "coarse_label": "细黑"
+    },
+    {
+      "qid": 246,
+      "image_path": "data/images/q246.png",
+      "image_sha256": "c754256438f6fd3f9dc316852f5122289e9f9b31b654520c61905576d156a633",
+      "coarse_label": "POP1"
+    },
+    {
+      "qid": 252,
+      "image_path": "data/images/q252.png",
+      "image_sha256": "09406176e4cd71dbfd5ce83793c3fe635893fe8a97ddfd808e2b58c085fa4bb6",
+      "coarse_label": "POP1"
+    },
+    {
+      "qid": 258,
+      "image_path": "data/images/q258.png",
+      "image_sha256": "60c11f32fea606ee833d4fdf7f02f739b6ad541ce9311697a87b26b0ff442f99",
+      "coarse_label": "细宋"
+    },
+    {
+      "qid": 264,
+      "image_path": "data/images/q264.png",
+      "image_sha256": "13f9f4c71f6da6992f5af99ca67932434cc945b5c013237af8da23a6b4f16150",
+      "coarse_label": "少女"
+    },
+    {
+      "qid": 270,
+      "image_path": "data/images/q270.png",
+      "image_sha256": "dc05ae46eb1fb6ee4de65a41574c7bebcabe093643b66e30f5005bc95dab299b",
+      "coarse_label": "甜妞体"
+    },
+    {
+      "qid": 276,
+      "image_path": "data/images/q276.png",
+      "image_sha256": "3cfc869d6377db806f48fa000b7d8fbfd1c814b82694fb7df5a6e313d7a285c7",
+      "coarse_label": "海报体"
+    }
+  ]
+}

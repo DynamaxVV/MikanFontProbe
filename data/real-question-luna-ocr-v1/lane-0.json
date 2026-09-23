@@ -1,0 +1,168 @@
+{
+  "lane": 0,
+  "language": "Japanese",
+  "records": [
+    {
+      "qid": 43,
+      "image_sha256": "b795d3e646902c87a6c1d5d7f0f6389458cfc170a5f684421b22b38290aceb66",
+      "status": "transcribed",
+      "region_bbox": [178, 56, 48, 145],
+      "text": "野菜パワーで",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 61,
+      "image_sha256": "8143c250395e8d550ccdfb32245fcccb8128fa5405e8cd895a520bd56448e96a",
+      "status": "transcribed",
+      "region_bbox": [203, 61, 39, 146],
+      "text": "プレゼント",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 67,
+      "image_sha256": "284fe99e3fa411b3856a9e88d0ed555e29f7b681ba0f2440506335ce8d485083",
+      "status": "transcribed",
+      "region_bbox": [28, 45, 31, 144],
+      "text": "あったのに",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 120,
+      "image_sha256": "fdf5b61c52ddff90e865667e9b72f529672ae10c5662327a784a8958c5cfdf03",
+      "status": "transcribed",
+      "region_bbox": [104, 48, 35, 306],
+      "text": "周り散歩しようよー！",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 130,
+      "image_sha256": "b69eb825d086f4e749e75a846489b876663f2d3b7ce5e71f462ee40a9d765081",
+      "status": "uncertain",
+      "region_bbox": [118, 55, 30, 140],
+      "text": "え…？",
+      "orientation": "vertical",
+      "notes": "右側の列は「え」と疑問符らしき記号に見えるが、間の点の数と末尾記号が不鮮明。"
+    },
+    {
+      "qid": 138,
+      "image_sha256": "5727392a5f3cf9ca288e7bb142d90a0105849e91c9fd86e045c829518e548435",
+      "status": "uncertain",
+      "region_bbox": [246, 66, 46, 385],
+      "text": "はっさくかっていた",
+      "orientation": "vertical",
+      "notes": "候補は「はっさくかっていた」だが、先頭の大字と中段の促音・仮名の字形を原図で確定できない。"
+    },
+    {
+      "qid": 150,
+      "image_sha256": "cc7edccfadb75a21868b97d76c62b03745df6a00c5baaf31d85acaa5b11c2ca9",
+      "status": "transcribed",
+      "region_bbox": [47, 25, 32, 180],
+      "text": "かわいいけど…",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 156,
+      "image_sha256": "aaa12b7d2831fae14bf3e5633693996d736a8fb595d4c472d5c0b8e4db63345d",
+      "status": "transcribed",
+      "region_bbox": [15, 21, 51, 282],
+      "text": "わ…わだすの思考力",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 162,
+      "image_sha256": "2d1a03facdc85b9375a5128596265cd1fd18f740383535ccd6f19afa4808a126",
+      "status": "transcribed",
+      "region_bbox": [32, 24, 28, 182],
+      "text": "ねーおちゃん！",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 174,
+      "image_sha256": "cf46d0b2c8a862baf2745bfad5e050e5de52eb4389e468fbe86d6eea7b302dda",
+      "status": "transcribed",
+      "region_bbox": [12, 28, 28, 155],
+      "text": "音緒ちゃんね！",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 186,
+      "image_sha256": "50f9871f9a06abeb7fc451e2420ddb3905f66c2696148a4a26c9a44dc64f077f",
+      "status": "transcribed",
+      "region_bbox": [104, 54, 49, 294],
+      "text": "ありがとうございます！",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 198,
+      "image_sha256": "0152a8eefa3a94e8c419452078903a114208ef641df0e6205b305d9f39f1579a",
+      "status": "transcribed",
+      "region_bbox": [11, 18, 54, 273],
+      "text": "頼りきりじゃだめ！",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 204,
+      "image_sha256": "4077550f4a9b5eb3ee97b72c8fc187174e5f7e933f937acdd16b4c3db3fdfbe9",
+      "status": "transcribed",
+      "region_bbox": [72, 18, 28, 92],
+      "text": "ふへへ",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 216,
+      "image_sha256": "227e7d1f43de8e60ca30a20b895b7db7af4d607bf8856f28973d0ec20b449801",
+      "status": "transcribed",
+      "region_bbox": [14, 25, 56, 330],
+      "text": "ヤンキー時代の魂!!",
+      "orientation": "vertical",
+      "notes": "本文を記録。小さなルビは本文と分けて数えていない。"
+    },
+    {
+      "qid": 240,
+      "image_sha256": "399be06f31bc836905c630bc1f787a72929421a7daa86973a28951823b1ec5e9",
+      "region_bbox": [18, 30, 39, 321],
+      "status": "transcribed",
+      "text": "生まれてしまったの…",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 258,
+      "image_sha256": "60c11f32fea606ee833d4fdf7f02f739b6ad541ce9311697a87b26b0ff442f99",
+      "status": "transcribed",
+      "region_bbox": [11, 36, 35, 161],
+      "text": "後で入りまーす…",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 264,
+      "image_sha256": "13f9f4c71f6da6992f5af99ca67932434cc945b5c013237af8da23a6b4f16150",
+      "status": "transcribed",
+      "region_bbox": [14, 37, 52, 234],
+      "text": "取るんでしょ？",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 276,
+      "image_sha256": "3cfc869d6377db806f48fa000b7d8fbfd1c814b82694fb7df5a6e313d7a285c7",
+      "status": "transcribed",
+      "region_bbox": [10, 24, 73, 273],
+      "text": "ひどすぎー!!",
+      "orientation": "vertical",
+      "notes": ""
+    }
+  ]
+}

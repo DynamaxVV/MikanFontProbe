@@ -1,0 +1,195 @@
+{
+  "lane": 2,
+  "language": "Japanese",
+  "records": [
+    {
+      "qid": 25,
+      "image_sha256": "b60fd2175742e9bbba427bc80c68a950fdcb564412e640c9e4182579e08b8be0",
+      "status": "uncertain",
+      "region_bbox": [548, 126, 78, 440],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "选择对话框中部一列；文字与旁边假名注音重叠，无法逐字可靠识读，未猜补。"
+    },
+    {
+      "qid": 63,
+      "image_sha256": "c6f1dd5982828837b6b330407db73d694a4191ef493eac250568c9520df6eb7e",
+      "status": "uncertain",
+      "region_bbox": [91, 139, 113, 210],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "气泡内所选正文列被遮挡且字形相互粘连，无法可靠逐字转写。"
+    },
+    {
+      "qid": 70,
+      "image_sha256": "3867ce76fab0a5e17b8d1ad7c6e6898fe60372610ae2b8719fb3d0b7d00db336",
+      "status": "uncertain",
+      "region_bbox": [425, 111, 83, 330],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "所选正文列字号较小且包含注音，无法稳定区分正文汉字与注音，未猜补。"
+    },
+    {
+      "qid": 102,
+      "image_sha256": "a15292dad5648f1e64e6a42e1feaff3b74348583345bded734ba2dcb5d6d78d7",
+      "status": "uncertain",
+      "region_bbox": [30, 114, 101, 506],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "所选粗体列部分字形变形并被裁切，无法逐字可靠识读。"
+    },
+    {
+      "qid": 116,
+      "image_sha256": "65e9f22726cb247fcd1affc431d748e864ed507ddbf042f5da0e2d69e0e03c36",
+      "status": "uncertain",
+      "region_bbox": [48, 91, 70, 157],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "气泡中的假名可见，但末尾假名和感叹号前字符无法确认，故不猜写整列。"
+    },
+    {
+      "qid": 122,
+      "image_sha256": "62f19e66a28c5950cb7144cb92ee303f8358869a46581cdbb632f6e868a9d78b",
+      "status": "uncertain",
+      "region_bbox": [38, 48, 54, 311],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "左侧气泡正文列虽较清晰，但数个相似假名难以区分，无法保证逐字准确。"
+    },
+    {
+      "qid": 134,
+      "image_sha256": "f9c8cc5578dffb30afc12d706032da778cf07624db78dc3782ad2afa7a8c23e8",
+      "status": "transcribed",
+      "region_bbox": [111, 40, 43, 247],
+      "text": "二日ぶりだね……！",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 140,
+      "image_sha256": "adacba01ad45d80262ec93b48df5f6bae446e571c77b29113073d4630498e0e6",
+      "status": "uncertain",
+      "region_bbox": [65, 37, 48, 239],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "气泡中的所选列字形存在连笔和裁切，部分汉字无法确认。"
+    },
+    {
+      "qid": 146,
+      "image_sha256": "06d8f110c60715150663cd10d7799406ef655124e5cf8af207a4dfcc98f04046",
+      "status": "uncertain",
+      "region_bbox": [43, 14, 29, 231],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "字列较细且尺寸很小，多个假名和汉字无法辨清，未猜补。"
+    },
+    {
+      "qid": 152,
+      "image_sha256": "25cd33e89c68d34941c19a92daa56d538f2a18ddcfcd7f35fa2d01d078046398",
+      "status": "uncertain",
+      "region_bbox": [38, 12, 38, 221],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "所选列分辨率低，假名笔画粘连，无法可靠逐字转写。"
+    },
+    {
+      "qid": 158,
+      "image_sha256": "c5cf9abbff30ce49daf0d070014e89e948676d90cb6ebac1c107d1cd0d77bee9",
+      "status": "uncertain",
+      "region_bbox": [10, 0, 42, 226],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "图像上缘疑似截断了字列开头；可见字串整体语义不确定，未猜补。"
+    },
+    {
+      "qid": 164,
+      "image_sha256": "61cad9b7acecd92cc812a30e06a19d67595519c8075c578c1cfc22646f47c7ba",
+      "status": "uncertain",
+      "region_bbox": [71, 7, 39, 224],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "右侧列的假名和汉字大小混杂，开头字重复与否无法确认。"
+    },
+    {
+      "qid": 170,
+      "image_sha256": "48426e2d89d831cdec37d9b04f2f34bf875cfca3cb1a32285ee660e51ee733a7",
+      "status": "transcribed",
+      "region_bbox": [3, 16, 24, 246],
+      "text": "結構時間使うよね……？",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 176,
+      "image_sha256": "9081d1f69452e242b0b147b2bb75e69512e0c57db5dfe30b5334621875c1b353",
+      "status": "transcribed",
+      "region_bbox": [70, 12, 24, 151],
+      "text": "たしかに",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 188,
+      "image_sha256": "442f41f52b50451c11178fc76769dc0453585c93bdd46839597d3609990d6314",
+      "status": "transcribed",
+      "region_bbox": [49, 127, 39, 112],
+      "text": "どうですか？",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 200,
+      "image_sha256": "5e657a52a99b16480e660543302323575ee0080983c449ba3cdfbedb3145c647",
+      "status": "uncertain",
+      "region_bbox": [4, 22, 35, 211],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "所选列中若干汉字笔画模糊，无法逐字确认。"
+    },
+    {
+      "qid": 212,
+      "image_sha256": "2bef97d7b8d1df02666842717447c6d90ffb67ef0674e82be9975df5068479e7",
+      "status": "transcribed",
+      "region_bbox": [38, 145, 47, 247],
+      "text": "競技することを……",
+      "orientation": "vertical",
+      "notes": ""
+    },
+    {
+      "qid": 248,
+      "image_sha256": "bea742d4e84a6ca5b70bb88b2f1d1a215be6e8793aa8519891f07c3402c878be",
+      "status": "uncertain",
+      "region_bbox": [2, 10, 56, 269],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "所选大字列与周围被截断的版面相连，开头和末尾字符不完整，不能可靠转写。"
+    },
+    {
+      "qid": 254,
+      "image_sha256": "39e5583f59125e8f2678838ae449d47f2418fce25b87e6e7b4f9382e32d1f3aa",
+      "status": "uncertain",
+      "region_bbox": [7, 32, 58, 218],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "左列有几个清晰假名，但整列中的汉字和假名连接关系无法确认。"
+    },
+    {
+      "qid": 260,
+      "image_sha256": "eea56639d1500e08273100838134b0745a92af35c72415946c28d84cf3ad7f31",
+      "status": "uncertain",
+      "region_bbox": [59, 20, 46, 167],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "细小文字笔画粘连并受图像边缘裁切，无法逐字读全。"
+    },
+    {
+      "qid": 266,
+      "image_sha256": "8f7e8842e5119a8e367a8417c467532eaf401fb796977018720f286d2aafc2a7",
+      "status": "uncertain",
+      "region_bbox": [14, 0, 55, 326],
+      "text": "",
+      "orientation": "vertical",
+      "notes": "所选长列中的若干字被上缘裁切且笔画较密，无法完整可靠转写。"
+    }
+  ]
+}
